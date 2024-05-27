@@ -1,0 +1,578 @@
+
+table{
+	
+	font-size:10px;
+	font-family: "Times New Roman", Times, serif;
+}
+.bg-white {
+	background-color: white;
+}
+.bg-gray {
+	background-color: #D3D3D3;
+}
+.bg-yellow {
+	background-color: #FFFF99;
+}
+.bg-lightgreen {
+	background-color: #CCFFCC;
+}
+.bg-dark-gray{
+	background-color: #BFBFBF
+}
+.font-size-sm
+{
+	font-size: 9px;
+}	
+.table-max
+{
+	width: 100%;
+}
+.center-1 {
+    margin: auto;
+    width: 70%;
+}
+.center-85{
+	margin: auto;
+    width: 85%;
+}
+.center-notice{
+	margin: auto;
+    width: 90%;
+}
+.center-50{
+	margin: auto;
+    width: 50%;
+}
+.center-30{
+	margin: auto;
+    width: 30%;
+}
+.td-left-bottom{
+	text-align: left;
+	vertical-align: bottom;
+}
+.td-left-top{
+	text-align: left;
+	vertical-align: top;
+}
+.td-right-bottom{
+	text-align: right;
+	vertical-align: bottom;
+}
+.td-center-middle{
+	text-align: center;
+	vertical-align: middle;
+}
+.td-left-middle{
+	text-align: left;
+	vertical-align: middle;
+}
+.td-right-middle{
+	text-align: right;
+	vertical-align: middle;
+}
+.td-right-center{
+	text-align: right;
+	vertical-align: center;
+}
+.td-right-top{
+	text-align: right;
+	vertical-align: top;
+}
+.td-center-top{
+	text-align: center;
+	vertical-align: top;
+}
+.td-center-bottom{
+	text-align: center;
+	vertical-align: bottom;
+}
+.td-border-tb{
+	border-top: 1px solid #000000; 
+	border-bottom: 1px solid #000000; 
+}
+.td-border-2{
+	border-top: 1px solid #000000; 
+	border-bottom: 1px solid #000000; 
+	border-right: 1px solid #000000;
+}
+.td-border-3{
+	border-top: 1px solid #000000; 
+	border-bottom: 1px solid #000000; 
+	border-left: 1px solid #000000;
+}
+.td-border-4{
+	border-top: 1px solid #000000; 
+	border-bottom: 1px solid #000000; 
+	border-left: 1px solid #000000; 
+	border-right: 1px solid #000000
+}
+.td-border-left{
+	border-left: 1px solid #000000; 
+}
+.td-border-light-left{
+	border-left: .5px solid #000000; 
+}
+.td-border-thick-left{
+	border-left: 2px solid #000000; 
+}
+.td-border-right{
+	border-right: 1px solid #000000; 
+}
+.td-border-light-right{
+	border-right: .5px solid #000000; 
+}
+.td-border-thick-right{
+	border-right: 2px solid #000000; 
+}
+.td-border-top{
+	border-top: 1px solid #000000; 
+}
+.td-border-light-top{
+	border-top: .5px solid #000000; 
+}
+.td-border-thick-top{
+	border-top: 2px solid #000000; 
+}
+.td-border-bottom{
+	border-bottom: 1px solid #000000; 
+}
+.td-border-right{
+	border-right: 1px solid #000000; 
+}
+.td-border-light-bottom{
+	border-bottom: .5px solid #000000; 
+}
+.td-border-thick-bottom{
+	border-bottom: 2px solid #000000; 
+}
+.border-kss {
+	border: 5px solid #000000;
+}
+.border-thick {
+	border: 2px solid #000000;
+}
+.border-thick2 {
+	border: 1px solid #000000;
+}
+.border-light {
+	border: .5px solid #000000;
+}
+.border-light-left {
+	border-top: .5px solid #000000; 
+	border-bottom: .5px solid #000000; 
+	border-right: .5px solid #000000;
+}
+.border-light-top {
+	border-left: .5px solid #000000; 
+	border-bottom: .5px solid #000000; 
+	border-right: .5px solid #000000;
+}
+.border-light-top-left {
+	border-bottom: .5px solid #000000; 
+	border-right: .5px solid #000000;
+}
+.border-hide {
+	border-style: hidden !important;
+}
+.border-hide-l {
+	border-left-style: hidden !important;
+}
+.border-hide-r {
+	border-right-style: hidden !important;
+}
+.align-c{
+	text-align: center;
+}
+.align-l{
+	text-align: left;
+}
+.align-r{
+	text-align: right;
+}
+.align-j{
+	text-align: justify;
+}
+.valign-top{
+	vertical-align: top;
+}
+.valign-bot{
+	vertical-align: bottom;
+}
+.valign-mid{
+	vertical-align: middle;
+}
+.bold{
+	font-weight: bold;
+}
+/* ===================== jendaigo : start : th padding ============= */
+.cont-5 th,
+/* ===================== jendaigo : start : th padding ============= */
+.cont-5 td{
+	padding: 3px;
+}
+.cont-2 td{
+	padding: 2px;
+}
+
+.fl-left{
+	float: left;
+}.fl-right{
+	float: right;
+}
+.f-size-7-5{
+	font-size: 7.5px !important;
+}
+.f-size-7{
+	font-size: 7px !important;
+}
+.f-size-8{
+	font-size: 8px !important;
+}
+.f-size-9{
+	font-size: 9px !important;
+}
+.f-size-10{
+	font-size: 10px !important;
+}
+.f-size-11{
+	font-size: 11px !important;
+}
+.f-size-12{
+	font-size: 12px !important;
+}
+.f-size-13{
+	font-size: 13px !important;
+}
+.f-size-14{
+	font-size: 14px !important;
+}
+.f-size-60{
+	font-size: 60px !important;
+}
+.f-size-18{
+	font-size: 18px !important;
+}
+.f-size-16{
+	font-size: 16px !important;
+}
+.f-size-20{
+	font-size: 20px !important;
+}
+.f-size-22{
+	font-size: 22px !important;
+}
+.f-size-24{
+	font-size: 22px !important;
+}
+.f-size-30{
+	font-size: 30px !important;
+}
+.f-size-40{
+	font-size: 40px !important;
+}
+.f-size-notice{
+	font-size: 11pt !important;
+}
+.f-size-14-notice{
+	font-size: 14pt !important;
+}
+.f-size-13pt{
+	font-size: 13pt !important;
+}
+.t-indent{
+	text-indent: 50px;
+}
+.pad-bot-100{
+	padding-bottom: 100px;
+}
+.pad-bot-10{
+	padding-bottom: 10px;
+}
+.pad-bot-50{
+	padding-bottom: 50px;
+}
+.pad-bot-250{
+	padding-bottom: 250px;
+}
+.pad-bot-30{
+	padding-bottom: 30px;
+}
+.pad-left-340{
+	padding-left: 340px;
+}
+.pad-left-100{
+	padding-left: 100px;
+}
+.pad-left-50{
+	padding-left: 50px;
+}
+.pad-left-20{
+	padding-left: 20px;
+}
+.pad-top-100{
+	padding-top: 100px;
+}
+.pad-top-50{
+	padding-top: 50px;
+}
+.pad-top-30{
+	padding-top: 30px;
+}
+.pad-top-10{
+	padding-top: 10px;
+}
+.pad-20{
+	padding: 20px;
+}
+.pad-2{
+	padding: 2px;
+}
+
+.padl-5{
+	padding-left: 5px;
+}
+.padl-30{
+	padding-left: 30px;
+}
+.font-family-tnr{
+	font-family: "Times New Roman", Times, serif;	
+}
+.height-20{
+	height: 20px;
+}
+.text-rotate-90{
+	text-rotate:90;
+}
+
+/* GENERAL_PAYROLL_COVER_SHEET_2*/
+#general-payroll{
+	width: 100%;
+	margin: auto;
+	font-family: Arial, "Calibri", Serif;
+}
+#head-general-payroll p{
+	text-align: center;
+	font-size: 45px;
+	font-weight: bold;
+	padding-top: 15px;
+	font-family: "Times New Roman"!important;
+}
+#main-general-payroll{
+	width: 100%;
+    height: 300px;
+    padding: 30px 26px 0px 51px;
+    border-style: solid; 
+    border-width: 5px;
+    font-weight: bold;
+
+}
+#sub-main-general-payroll-left{
+	width: 52%;
+    float: left;
+    margin-right: 55px;
+}
+#sub-main-general-payroll-right{
+	width: 40%;
+	height: 233px;
+	float: right;
+}
+#pages-general-payroll{
+	font-weight: bold;
+	padding-top: 10px;
+	font-size: 12px;
+}
+#pages-right{
+	padding-right: 320px;
+    padding-left: 51px;
+}
+#certified-general-payroll p{
+	font-weight: bold;
+	font-size: 16px;
+	padding-top: 22px;
+
+}
+#certified-general-payroll li{
+	font-size: 11px;
+	line-height: 17px;
+}
+#certified-general-payroll{
+	width: 53%;
+	float: right;
+	padding-top: 10px;
+}
+#sign-general-payroll{
+	padding-top: 175px;
+	padding-bottom: 20px;
+    text-align: center;
+    width: 40%;
+    font-size: 14px;
+    font-weight: bold;
+    float: left;
+}
+#mid-main{
+	text-align: center;
+	padding: 40px 0px 10px 0px;
+}
+#bot-main{
+	text-align: center;
+	padding-top: 65px;
+}
+#sub-main-mid{
+	text-align: center;
+	padding: 30px 0px 12px 0px;
+}
+#sub-main2-mid{
+	padding-top: 27px;
+}
+#sub-main-bot{
+	text-align: center;
+	padding: 26px 0px 12px 0px;
+}
+#legends-general-payroll{
+	width: 5%;
+	padding-left: 10px;
+	font-size: 11px;
+ 
+}
+#sign-bot{
+    width: 80%;
+    font-size: 11px;
+    padding-left: 67px;
+    padding-bottom: 10px;
+}
+.pad-right-50 {
+	padding-right: 50px;
+}
+.pad-right-100 {
+	padding-right: 100px;
+}
+.undeline{
+	text-decoration: underline;
+}
+.overline{
+	text-decoration: overline;
+}
+
+@media screen {
+  div.divFooter {
+    display: none;
+  }
+}
+@media print {
+  div.divFooter {
+    position: fixed;
+    bottom: 0;
+  }
+}
+@media screen {
+  div.divHeader {
+    display: none;
+  }
+}
+@media print {
+  div.divHeader {
+    position: fixed;
+    top: 0;
+  }
+}
+
+
+/*----- NEW PDS CSS START -----*/
+.bg-header {
+	background-color: #7e7e7e;
+}
+.bg-sub {
+	background-color: #e6e6e6;
+}
+.text-white {
+	color: white;
+}
+.w{
+	width: 200px !important;
+}
+.mid {
+ 	text-align: center;
+ 	vertical-align: middle;
+}
+.v-top {
+ 	vertical-align: top;
+}
+.italic {
+    font-style: italic;
+}
+.border-solid {
+	border: 1px solid #000000;
+}
+.b-t-t {
+	border-top: 2px solid #000000;
+}
+.b-t-b {
+	border-bottom: 2px solid #000000;
+}
+.b-t-l {
+	border-left: 2px solid #000000;
+}
+.b-t-r {
+	border-right: 2px solid #000000;
+}
+.b-s-t {
+	border-top: 1px solid #000000;
+}
+.b-s-b {
+	border-bottom: 1px solid #000000;
+}
+.b-s-l {
+	border-left: 1px solid #000000;
+}
+.b-s-r {
+	border-right: 1px solid #000000;
+}
+.b-t-n-b {
+	border-top: 2px solid #000000; 
+	border-left: 2px solid #000000; 
+	border-right: 2px solid #000000;
+}
+.b-t-lr {
+	border-left: 2px solid #000000; 
+	border-right: 2px solid #000000;
+}
+.b-l-n-l {
+	border-top: .5px solid #000000; 
+	border-bottom: .5px solid #000000; 
+	border-right: .5px solid #000000;
+}
+.b-l-n-t {
+	border-left: .5px solid #000000; 
+	border-bottom: .5px solid #000000; 
+	border-right: .5px solid #000000;
+}
+.b-l-br {
+	border-bottom: .5px solid #000000; 
+	border-right: .5px solid #000000;
+}
+/*----- NEW PDS CSS END -----*/
+/*DIV */
+/*.header {
+    width: 100%;
+    margin: auto;
+    padding: 3px;
+    display: inline-block;
+}
+
+.header-logo {
+
+	float: left;
+	width: 20%;
+	margin: auto;
+	padding: 10px;
+}
+
+.header-title {
+	 float:right;
+	width: 80%;
+	margin: auto;
+	padding: 10px;
+}*/
+
+/* END OF GENERAL_PAYROLL_COVER_SHEET_2*/

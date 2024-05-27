@@ -1,0 +1,263 @@
+@charset "utf-8";
+
+/* CALENDAR (START)  ---------------------------------------------------- */
+.fullcalendar h2{
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: 3px;
+	color: #779BA2;
+}
+.fc-event, .fc-event:hover, .ui-widget .fc-event{
+	color: #fff !important;
+	text-decoration: none !important;
+}
+
+.fc-event{
+	background-color: #2e9f9e;
+	padding: 2px 5px !important;
+}
+
+.fc th {
+    color: #575757;
+    text-transform: uppercase;
+    padding: 5px !important;
+    font-weight: 600;
+    background-color: #E9EAEE;
+}
+
+/* CALENDAR (END)  ---------------------------------------------------- */
+
+
+/* DATATABLE for prototype (START)  ---------------------------------------------------- */
+.dataTables_wrapper{
+	box-shadow: none !important;
+	text-align: left !important;
+}
+.dataTables_wrapper .dataTables_info {
+    clear: both;
+    float: left;
+    padding: 20px 0;
+    font-size: 12px;
+    text-shadow: 0 1px 1px #fff;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    text-shadow: 0 1px 1px #fff;
+    font-size: 12px;
+    box-sizing: border-box;
+    display: inline-block;
+    min-width: 1.5em;
+    padding: 0.5em 1em;
+    margin-left: 2px;
+    text-align: center;
+    text-decoration: none !important;
+    cursor: pointer;
+    *cursor: hand;
+    color: #333333 !important;
+    border: 1px solid transparent;
+}
+/* DATATABLE for prototype (END)  ---------------------------------------------------- */
+
+span.badge.msg{
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 300;
+    border-radius: 2px;
+}
+div.legend{
+        position: absolute;
+        background-color: #F9FCFE;
+        padding: 10px;
+        border: 1px solid #E6E6E6;
+        border-radius: 5px;
+        top: 5px;    
+}
+div.left{
+        left: 90%;
+}
+div.left-bar{
+        left: 78%;
+}
+.line-legend >li >span{
+     display: inline-block;
+     width: 12px;
+     height: 12px;
+     margin-right: 3px;
+}
+.bar-legend >li >span{
+     display: inline-block;
+     width: 12px;
+     height: 12px;
+     margin-right: 3px;
+}
+.disabled_link{
+    cursor:not-allowed;
+}
+.avatar_th{
+    padding-left:55px!important;
+}
+.btn-filter{
+    letter-spacing: -0.5px;
+}
+.form-float-label .select-icon label{
+    margin-left: 0!important;
+}
+.form-float-label .select-icon .material-icons{
+    font-size:27px;
+}
+.form-float-label .select-icon .selectize-control{
+    padding-left: 35px;
+}
+.btn-medium{
+    height: 45px !important;
+}
+[class^="white-text flaticon-"]:before, [class*="white-text flaticon-"]:before,
+[class^="white-text flaticon-"]:after, [class*="white-text flaticon-"]:after {   
+    font-family: Flaticon;
+    font-size: 100px !important;
+    font-style: normal;
+    margin-left: 20px;
+}
+
+.card .card-action 
+{
+    border-top: 0px solid rgba(160, 160, 160, 0.2) !important;
+    padding: 1px !important;
+}
+.card .card-action > p{
+    text-align: center;
+    font-size: 20px!important
+}
+
+/* DATA TABLES */
+.dataTables_wrapper > table.table-advanced > thead > tr.table-filters > td {
+    border-bottom: none !important;
+    padding: 2px 15px 0px 15px !important;
+}
+
+tr.table-filters {
+    background-color: #999898 !important;
+    height: 10px !important;
+    color: white;
+}
+table, td, tr, th {
+    border: 1px solid #EEEEEE !important;
+}
+
+.table-actions a i:before {
+    color: #f5f5f5;
+    font-size: 18px;
+    margin: 0;
+}
+.table-links a i:before {
+    color: #555555;
+    font-size: 18px;
+    margin: 0;
+    margin-right: 10px;
+    padding: 0;
+}
+.dataTables_wrapper > table.table-advanced > thead > tr.table-filters > td > input.form-filter {
+    border-color: #d5d5d5 !important;
+    height: 32px !important;
+}
+
+
+.z-input{
+    z-index: 100! important;
+}
+
+.dataTables_wrapper .dataTables_length {
+    float: left;
+    width:200px;
+    padding-top: 10px;
+}
+.m-b-n-l-lg {
+    margin-bottom: -40px !important;
+}
+
+.m-t-n-xxs{
+    margin-top: -8px !important;
+}
+
+/* DATETIMEPICKER */
+.xdsoft_datetimepicker  .xdsoft_label{
+    text-decoration: underline !important;
+    color: #00796B !important;
+}
+
+@media only screen and (max-width: 1299px) {
+  #container {
+    padding-top: 0px !important;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  #container {
+    padding-top: 50px !important;
+  }
+}
+.fixed-action-btn.dtr-action-btn {
+    right: auto !important;
+    bottom: auto !important;
+    padding-top: 15px;
+    position: absolute !important;
+    z-index: 997;
+}
+.fixed-action-btn.dtr-action-btn.horizontal{
+    padding: 0px !important;
+}
+.fixed-action-btn.dtr-action-btn.horizontal ul{
+    top: 0 !important;
+    right: 40px;
+}
+.fixed-action-btn.horizontal ul li 
+{
+    isplay: inline-block;
+    margin: 19px 5px 0 0 !important;
+}
+.fixed-action-btn.dtr-action-btn.horizontal i::before{
+  margin-left: 0px
+}
+.form-float-label > .row > .col > .input-field > label{
+      color:black !important;
+      
+      &.active{
+        color:black !important;
+      }
+}
+.table.dataTable tbody td {
+  color:black;
+}
+.table.dataTable thead th{
+	color:black!important;
+}
+.switch{
+	color: black;
+}
+.switch.p-md label{
+    color: black !important;
+}
+.unhide-select {
+    display: block !important;
+}
+
+/*NCOCAMPO:ADDED CUSTOM CSS FOR LOGIN:START*/
+body #wrapper .panel .left-panel #welcome-text-custom,
+html #wrapper .panel .left-panel #welcome-text-custom {
+    font-size: 11.5px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    color: #27aa9e;
+    font-weight: 500
+
+}
+body #wrapper .panel .left-panel-custom,
+html #wrapper .panel .left-panel-custom {
+    height: 110%;
+}
+body #wrapper .panel .right-panel-custom,
+html #wrapper .panel .right-panel-custom {
+    height: 110%;
+}
+/*NCOCAMPO:ADDED CUSTOM CSS FOR LOGIN:END*/

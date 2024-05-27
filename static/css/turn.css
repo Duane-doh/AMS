@@ -1,0 +1,153 @@
+/* Basic sample */
+.flipbook .cover{
+	background: url(../images/lep.jpg) no-repeat bottom center!important;
+	background-size: 100% auto!important;
+	width:1100px;
+}
+
+.flipbook-viewport{
+	overflow:hidden;
+	width:100%;
+}
+
+.flipbook-viewport .flip-container{
+	position:relative;
+	top:0;
+	left:50%;
+	margin:auto;
+	z-index:1;
+}
+
+.flipbook-viewport .flipbook{
+	width:1100px;
+	height:calc(100%);
+	left:-550px;
+	top:calc(-50%);
+}
+
+.flipbook-viewport .page{
+	width:550px;
+	height:auto;
+	background-color:white;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+
+.flipbook .page{
+	-webkit-box-shadow:0 0 20px rgba(0,0,0,0.2);
+	-moz-box-shadow:0 0 20px rgba(0,0,0,0.2);
+	-ms-box-shadow:0 0 20px rgba(0,0,0,0.2);
+	-o-box-shadow:0 0 20px rgba(0,0,0,0.2);
+	box-shadow:0 0 20px rgba(0,0,0,0.2);
+}
+
+.flipbook-viewport .page img{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	margin:0;
+}
+
+.flipbook-viewport .shadow{
+	-webkit-transition: -webkit-box-shadow 0.5s;
+	-moz-transition: -moz-box-shadow 0.5s;
+	-o-transition: -webkit-box-shadow 0.5s;
+	-ms-transition: -ms-box-shadow 0.5s;
+
+	-webkit-box-shadow:0 0 20px #ccc;
+	-moz-box-shadow:0 0 20px #ccc;
+	-o-box-shadow:0 0 20px #ccc;
+	-ms-box-shadow:0 0 20px #ccc;
+	box-shadow:0 0 20px #ccc;
+}
+
+.flipbook-viewport .double{
+	width:1100px;
+	/*background: #EDEFE6 url(../images/noise.png) repeat;*/
+	background: #fff;
+}
+
+.turn-page-wrapper .table-advanced tbody{
+	box-shadow:none!important;
+}
+
+.stickercontainer {
+	position: relative;
+	top: 50px;
+	width: 80px;
+	height: 80px;
+	font-size: 100px;
+	-moz-transform: rotate(35deg);
+	-webkit-transform: rotate(35deg);
+	-o-transform: rotate(35deg);
+	transform: rotate(35deg);
+}
+
+.sticker {
+	position: absolute;
+	width: 95%;
+	height: 95%;
+	top: -10%;
+	left: 2.5%;
+	background:#17151a;
+	border-radius: 50%;
+}
+
+.stickercrop {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.foldshadow {
+	position: absolute;
+	width: 80%;
+	height: 85%;
+	top: -85.5%;
+	left: 10%;
+	background-color: #000;
+	box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5);
+	border-radius: 50%;
+}
+
+.foldshadowcrop {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.fold {
+	position: absolute;
+	width: 95%;
+	height: 95%;
+	top: -85%;
+	left: 2.5%;
+	background: #545456;
+	border-radius: 50%;
+}
+
+.foldcrop {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.text {
+	position: absolute;
+	width: 100%;
+	/*height: 100%;*/
+	top: 20%;
+	overflow: hidden;
+	text-align: center;
+	font-size: 28%;
+	color: #fff;
+	transform:rotate(-35deg);
+	/*left:23px;*/
+	left:2px;
+}

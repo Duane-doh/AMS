@@ -1,0 +1,172 @@
+#main,footer {
+  padding-left: 0px;
+}
+header .brand-logo {
+  margin: 1px 0px;
+  padding: 0 10px;
+}
+header .brand-logo img{ 
+  width: 172px;
+}
+#horizontal-nav{
+    margin-top: 64px;
+    z-index: -1;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 0px 0px 0 rgba(0, 0, 0, 0.12) !important;
+}
+@media only screen and (min-width: 993px) {
+  #content{
+  margin-top: 65px;
+  }
+}
+
+
+.doughnut-chart-status{
+  top: -85px;
+}
+/*----------------------------------------
+    Horizontal Menu
+------------------------------------------*/
+#horizontal-nav ul li{
+  text-align: center;
+  border-right:1px solid #D7D6D4;
+  ;
+}
+
+#horizontal-nav ul li:last-child {
+    border-right: none !important;
+}
+
+#horizontal-nav ul li a i{
+  height: 0px;
+  /*line-height: 45px;*/
+  font-size: 1.4rem;
+}
+#horizontal-nav ul li a span i{
+  position: relative;
+  top: 12px;
+}
+
+#horizontal-nav .dropdown-menu span i{
+  line-height: 65px;
+  display: block !important;
+}
+
+
+.dropdown-horizontal-list li a{
+  min-width: 150px;
+  text-align: left;
+  font-size: 1.0rem;
+  font-weight: 400;
+  line-height: 45px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-horizontal-list-user li a{
+  min-width: 250px;
+  text-align: left;
+  font-size: 1.0rem;
+  padding: 10px;
+  font-weight: 400;
+}
+
+/*IE Specific CSS */
+@media screen and (min-width:0\0) and (min-resolution: +72dpi) {
+  #horizontal-nav ul li{
+    min-width: 110px;
+  }
+  #horizontal-nav .dropdown-menu span i{    
+    line-height: 0px;
+    position: absolute;
+    top: 10px;
+    right: -20px;
+  }
+}
+
+
+/*------------------------------------*\
+    NAV
+\*------------------------------------*/
+.nav{
+    list-style:none;
+    margin-bottom:10px;
+    float:left; /* Clear floats */
+    width:100%;
+    /* Bring the nav above everything else--uncomment if needed.
+    position:relative;
+    z-index:5;
+    */
+    background-color: white;
+}
+.nav li{
+    float:left;
+    position:relative;
+}
+.nav a {
+    display: block;
+    padding: -15px;
+    color: #00796B;
+    background: #FFF;
+    text-decoration: none;
+}
+
+
+/*--- DROPDOWN NAV MENU HORIZONTAL---*/
+.nav ul{
+    background:#fff; /* Adding a background makes the dropdown work properly in IE7+. Make this as close to your page's background as possible (i.e. white page == white background). */
+     /* But! Let's make the background fully transparent where we can, we don't actually want to see it if we can help it... */
+    list-style:none;
+    position:absolute;
+    left:-9999px; /* Hide off-screen when not needed (this is more accessible than display:none;) */
+}
+.nav ul li{
+    float:none;
+    border-right:0px !important;
+}
+.nav ul a{
+    white-space:nowrap; /* Stop text wrapping and creating multi-line dropdown items */
+}
+.nav li:hover ul{ /* Display the dropdown on hover */
+    left:0; /* Bring back on-screen when needed */
+}
+.nav li:hover  a:first-child a{ /* These create persistent hover states, meaning the top-most link stays 'hovered' even when your cursor has moved down the list. */
+   background:rgba(0,0,0,0.2);
+}
+.nav li:hover ul a{ /* The persistent hover state does however create a global style for links even before they're hovered. Here we undo these effects. */
+    text-decoration:none;
+}
+.nav li:hover ul li a:hover{ /* Here we define the most explicit hover states--what happens when you hover each individual link. */
+    background:rgba(0,0,0,0.2);
+}
+
+
+
+/*--- DROPDOWN NAV MENU HEADER---*/
+.nav-header ul{
+    background:#fff; /* Adding a background makes the dropdown work properly in IE7+. Make this as close to your page's background as possible (i.e. white page == white background). */
+     /* But! Let's make the background fully transparent where we can, we don't actually want to see it if we can help it... */
+    list-style:none;
+    position:relative;
+    left:-9999px; /* Hide off-screen when not needed (this is more accessible than display:none;) */
+}
+.nav-header ul li{
+    float:none;
+    border-right:0px !important;
+}
+.nav-header ul a{
+    white-space:nowrap; /* Stop text wrapping and creating multi-line dropdown items */
+}
+.nav-header li:hover ul{ /* Display the dropdown on hover */
+    left:0; /* Bring back on-screen when needed */
+}
+.nav-header li:hover  a:first-child a{ /* These create persistent hover states, meaning the top-most link stays 'hovered' even when your cursor has moved down the list. */
+   background:rgba(0,0,0,0.2);
+}
+.nav-header li:hover ul a{ /* The persistent hover state does however create a global style for links even before they're hovered. Here we undo these effects. */
+    text-decoration:none;
+}
+.nav-header li:hover ul li a:hover{ /* Here we define the most explicit hover states--what happens when you hover each individual link. */
+    background:rgba(0,0,0,0.2);
+}
+.pad29 .p-l-md{
+  padding-left: 19px !important;
+}

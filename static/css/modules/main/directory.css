@@ -1,0 +1,24 @@
+input[type="checkbox"]:not(.labelauty) + .label-box{
+  position: static !important;
+  color:black;
+  background: #f5f5f5;
+}
+input[type="checkbox"]:checked + .label-box {
+    background: #212121;
+    color: white;
+}
+
+.label-box {
+    width:173px!important;
+    height:153px!important;
+    float: left!important;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12);
+}
+.img-circle{
+  border-radius: 50%;
+  height: 55px;
+}
+
+.group-desc{
+	line-height: 70%;
+}
