@@ -31,7 +31,7 @@
 			<div class="section panel p-lg p-t-n">
 				<div class="col l6 m6 s6 right-align m-b-n-lg">
 					<div class="input-field inline p-l-md">
-						<a href="javascript:;" class='btn btn-success md-trigger' data-modal='modal_pds_upload_ptis_format' data-position='bottom' data-delay='50' onclick='modal_pds_upload_ptis_format_init()'><i class="flaticon-upload109"></i> Upload PDS (PTIS Format)</a>
+						<a href="javascript:;" class='btn btn-success md-trigger' data-modal='modal_pds_upload_ptis_format' data-position='bottom' data-delay='50' onclick='modal_pds_upload_ptis_format_init()'><i class="flaticon-upload109"></i> Upload PDS (AMS Format)</a>
 					</div>
 					<div class="input-field inline p-l-md">
 						<a href="javascript:;" class='btn btn-success md-trigger' data-modal='modal_upload_pds' data-position='bottom' data-delay='50' onclick='modal_upload_pds_init()'><i class="flaticon-upload109"></i> Upload PDS</a>

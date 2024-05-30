@@ -100,7 +100,7 @@ $pass_data['initial']   = TRUE;
                             <!--<img src="<?php //echo base_url().PATH_IMAGES ?>template_doh_images/header_flag.png" class="flag"/>-->
                             <h6 id="header-text1">Republic of the Philippines</h6>
                             <h6 id="header-text2">DEPARTMENT OF HEALTH</h6>
-                            <h6 id="header-text3">PERSONNEL TRANSACTION INFORMATION SYSTEM</h6>
+                            <h6 id="header-text3">ATTENDANCE MANAGEMENT SYSTEM</h6>
                           </a>
                         </li>
                       </ul>

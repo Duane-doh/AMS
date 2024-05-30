@@ -1,6 +1,6 @@
 <html>
 <head>
-  <title>Department of Health, PTIS</title>
+  <title>Department of Health, AMS</title>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <link rel="stylesheet" href="<?php echo base_url().PATH_CSS ?>login.css">
 <!-- NCOCAMPO::START -->
@@ -70,12 +70,12 @@
 	  <div class="right-panel right-panel-custom center-align">
     <!-- NCOCAMPO: added custom css :END -->
 	    <img src="<?php echo base_url().PATH_IMAGES ?>logo_login.png" class="logo"/>
-		<div class="title">PTIS</div>
+		<div class="title">AMS</div>
 		<div class="sub-title">Department of Health</div>
 	    
 		<div id="panel-slider" class="owl-carousel" style="width:290px;">
 		  <div class="item"><p>A Project of Department of Health</p></div>
-		  <div class="item">For inquiries, please email <br> PTIS Helpdesk at <br> <a href="mailto:ptishelpdesk@doh.gov.ph">ptishelpdesk@doh.gov.ph	</a></div>
+		  <!-- <div class="item">For inquiries, please email <br> PTIS Helpdesk at <br> <a href="mailto:ptishelpdesk@doh.gov.ph">ptishelpdesk@doh.gov.ph	</a></div> -->
 	    </div>
 	  </div>
     </div><br><br>

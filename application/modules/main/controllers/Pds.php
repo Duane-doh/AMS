@@ -55,7 +55,7 @@ class Pds extends Main_Controller {
 					'multiple'					=> true,
 					'height'					=> '350px',
 					'size'						=> 'sm',
-					'title'						=> "Upload PDS (PTIS Format)"
+					'title'						=> "Upload PDS (AMS Format)"
 				)
 			);
 
