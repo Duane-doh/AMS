@@ -1,0 +1,176 @@
+[Mon Mar 15 07:37:09 2021] [ERROR] [Compensation->employee_tabs] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Mon Mar 15 07:37:09 2021] [ERROR] [] -> Uncaught exception: [0] Sorry, you don't have permission to access the page. Please contact the system's administrator.
+#0 [internal function]: Compensation->employee_tabs('3', '76f9aebae55921f...', '7e620c7e3b9c871', 'images', 'calendar.png')
+#1 C:\Apache24\htdocs\system\core\CodeIgniter.php(514): call_user_func_array(Array, Array)
+#2 C:\Apache24\htdocs\index.php(293): require_once('C:\\Apache24\\htd...')
+#3 {main}, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Compensation.php, LINE: 1162
+[Mon Mar 15 09:15:25 2021] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon Mar 15 09:21:18 2021] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon Mar 15 09:21:20 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Mon Mar 15 09:21:20 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\Apache24\htdocs\application\modules\main\models\Daily_time_record_model.php, LINE: 575
+[Mon Mar 15 09:26:06 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[40001]: Serialization failure: 1213 Deadlock found when trying to get lock; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Mon Mar 15 09:26:06 2021] [ERROR] [Pds_model->update_pds_date_accomplished] -> SQLSTATE[40001]: Serialization failure: 1213 Deadlock found when trying to get lock; try restarting transaction, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Pds_work_experience_info.php, LINE: 1956
+[Mon Mar 15 09:31:00 2021] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon Mar 15 09:40:01 2021] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon Mar 15 09:46:22 2021] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon Mar 15 09:47:50 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Mon Mar 15 09:47:50 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\Apache24\htdocs\application\modules\main\models\Daily_time_record_model.php, LINE: 575
+[Mon Mar 15 10:08:54 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Mar 15 10:08:54 2021] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Mar 15 10:09:10 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Mar 15 10:09:10 2021] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Mar 15 10:09:14 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Mar 15 10:09:14 2021] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Mar 15 10:09:29 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Mar 15 10:09:29 2021] [ERROR] [Requests->get_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Mar 15 10:09:45 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Mar 15 10:09:45 2021] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Mar 15 10:10:03 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[40001]: Serialization failure: 1213 Deadlock found when trying to get lock; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Mar 15 10:10:03 2021] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[40001]: Serialization failure: 1213 Deadlock found when trying to get lock; try restarting transaction, FILE: , LINE: 0
+[Mon Mar 15 10:25:03 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Mar 15 10:25:03 2021] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Mar 15 10:25:17 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Mar 15 10:25:17 2021] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Mar 15 10:26:08 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Mar 15 10:26:08 2021] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Mar 15 10:26:23 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Mar 15 10:26:23 2021] [ERROR] [Requests->get_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Mar 15 10:26:23 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Mon Mar 15 10:26:23 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Mon Mar 15 10:26:23 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Mon Mar 15 10:26:27 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Mon Mar 15 10:26:27 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Mon Mar 15 10:26:27 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Mon Mar 15 10:26:28 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Mon Mar 15 10:26:28 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Mon Mar 15 10:26:28 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Mon Mar 15 10:26:29 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Mar 15 10:26:29 2021] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Mar 15 10:31:24 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness_hr' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Mar 15 10:34:30 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Mar 15 10:34:30 2021] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Mar 15 10:35:21 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Mar 15 10:35:21 2021] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Mar 15 10:35:21 2021] [ERROR] [Requests->get_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Mar 15 10:40:34 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Mar 15 10:40:34 2021] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Mar 15 10:41:44 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Mar 15 10:41:44 2021] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Mar 15 10:42:00 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[40001]: Serialization failure: 1213 Deadlock found when trying to get lock; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Mar 15 10:42:00 2021] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[40001]: Serialization failure: 1213 Deadlock found when trying to get lock; try restarting transaction, FILE: , LINE: 0
+[Mon Mar 15 10:56:15 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Mon Mar 15 10:56:15 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\Apache24\htdocs\application\modules\main\models\Daily_time_record_model.php, LINE: 575
+[Mon Mar 15 11:13:11 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 0, 10' at line 12, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Mon Mar 15 11:13:11 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 0, 10' at line 12, FILE: C:\Apache24\htdocs\application\modules\main\models\Daily_time_record_model.php, LINE: 134
+[Mon Mar 15 11:13:11 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 0, 10' at line 12, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Mon Mar 15 11:13:11 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 0, 10' at line 12, FILE: C:\Apache24\htdocs\application\modules\main\models\Daily_time_record_model.php, LINE: 134
+[Mon Mar 15 11:36:18 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Mon Mar 15 11:36:18 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Mon Mar 15 11:36:18 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Mon Mar 15 11:38:52 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Mon Mar 15 11:38:52 2021] [ERROR] [Requests->get_request_tasks] -> SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens, FILE: , LINE: 0
+[Mon Mar 15 11:38:52 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Mon Mar 15 11:38:52 2021] [ERROR] [Requests->get_request_tasks] -> SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens, FILE: , LINE: 0
+[Mon Mar 15 11:38:54 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Mon Mar 15 11:38:54 2021] [ERROR] [Requests->get_request_tasks] -> SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens, FILE: , LINE: 0
+[Mon Mar 15 11:38:54 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Mon Mar 15 11:38:54 2021] [ERROR] [Requests->get_request_tasks] -> SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens, FILE: , LINE: 0
+[Mon Mar 15 11:47:50 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Mon Mar 15 11:47:50 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\Apache24\htdocs\application\modules\main\models\Daily_time_record_model.php, LINE: 575
+[Mon Mar 15 11:52:48 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Mon Mar 15 11:52:48 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\Apache24\htdocs\application\modules\main\models\Daily_time_record_model.php, LINE: 575
+[Mon Mar 15 12:42:07 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Mon Mar 15 12:42:07 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Mon Mar 15 12:42:07 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Mon Mar 15 12:42:09 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Mon Mar 15 12:42:09 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Mon Mar 15 12:42:09 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Mon Mar 15 13:38:40 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Mon Mar 15 13:38:40 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\Apache24\htdocs\application\modules\main\models\Daily_time_record_model.php, LINE: 575
+[Mon Mar 15 14:24:49 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Mon Mar 15 14:24:49 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Mon Mar 15 14:24:49 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Mon Mar 15 14:45:28 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Mon Mar 15 14:45:28 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Mon Mar 15 14:45:28 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Mon Mar 15 14:45:31 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Mon Mar 15 14:45:31 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Mon Mar 15 14:45:31 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Mon Mar 15 14:45:32 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Mon Mar 15 14:45:32 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Mon Mar 15 14:45:32 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Mon Mar 15 14:55:42 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Mon Mar 15 14:55:42 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\Apache24\htdocs\application\modules\main\models\Daily_time_record_model.php, LINE: 575
+[Mon Mar 15 15:28:55 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Mon Mar 15 15:28:55 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\Apache24\htdocs\application\modules\main\models\Daily_time_record_model.php, LINE: 575
+[Mon Mar 15 15:49:59 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Mon Mar 15 15:49:59 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\Apache24\htdocs\application\modules\main\models\Daily_time_record_model.php, LINE: 575
+[Mon Mar 15 16:28:50 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Mon Mar 15 16:28:50 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Mon Mar 15 16:28:50 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547

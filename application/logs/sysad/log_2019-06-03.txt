@@ -1,0 +1,79 @@
+[Mon Jun 03 10:10:15 2019] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'doh_ptis_core.user_roles' doesn't exist, FILE: C:\xampp\htdocs\ptis\application\core\Base_Model.php, LINE: 436
+[Mon Jun 03 10:10:15 2019] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'doh_ptis_core.user_roles' doesn't exist, FILE: C:\xampp\htdocs\ptis\application\core\Base_Model.php, LINE: 206
+[Mon Jun 03 10:10:15 2019] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'doh_ptis_core.user_roles' doesn't exist, FILE: C:\xampp\htdocs\ptis\application\modules\sysad\models\Roles_model.php, LINE: 111
+[Mon Jun 03 10:10:15 2019] [ERROR] [] -> Uncaught exception: [42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'doh_ptis_core.user_roles' doesn't exist
+#0 C:\xampp\htdocs\ptis\application\core\Base_Model.php(413): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\ptis\application\core\Base_Model.php(202): Base_Model->_select_data(Array, 'user_roles', Array, Array, Array, '', true, NULL, true)
+#2 C:\xampp\htdocs\ptis\application\modules\sysad\models\Roles_model.php(107): Base_Model->select_all(Array, 'user_roles', Array, Array)
+#3 C:\xampp\htdocs\ptis\application\core\Base_Controller.php(110): Roles_model->get_user_roles('1583ee91e240832...')
+#4 C:\xampp\htdocs\ptis\application\core\Base_Controller.php(37): Base_Controller->_get_log_user_roles()
+#5 C:\xampp\htdocs\ptis\application\controllers\Auth.php(7): Base_Controller->__construct()
+#6 C:\xampp\htdocs\ptis\system\core\CodeIgniter.php(500): Auth->__construct()
+#7 C:\xampp\htdocs\ptis\index.php(293): require_once('C:\\xampp\\htdocs...')
+#8 {main}, FILE: C:\xampp\htdocs\ptis\application\core\Base_Model.php, LINE: 413
+[Mon Jun 03 11:09:39 2019] [ERROR] [Base_Model::rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\xampp\htdocs\ptis\application\core\Base_Model.php, LINE: 782
+[Mon Jun 03 11:09:39 2019] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\xampp\htdocs\ptis\application\core\Base_Model.php, LINE: 523
+[Mon Jun 03 11:09:39 2019] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\xampp\htdocs\ptis\application\core\Base_Model.php, LINE: 442
+[Mon Jun 03 11:09:39 2019] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\xampp\htdocs\ptis\application\core\Base_Model.php, LINE: 231
+[Mon Jun 03 11:09:39 2019] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\xampp\htdocs\ptis\application\modules\sysad\models\Users_model.php, LINE: 135
+[Mon Jun 03 11:09:41 2019] [ERROR] [Base_Model::rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\xampp\htdocs\ptis\application\core\Base_Model.php, LINE: 782
+[Mon Jun 03 11:09:41 2019] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\xampp\htdocs\ptis\application\core\Base_Model.php, LINE: 523
+[Mon Jun 03 11:09:41 2019] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\xampp\htdocs\ptis\application\core\Base_Model.php, LINE: 442
+[Mon Jun 03 11:09:41 2019] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\xampp\htdocs\ptis\application\core\Base_Model.php, LINE: 231
+[Mon Jun 03 11:09:41 2019] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\xampp\htdocs\ptis\application\modules\sysad\models\Users_model.php, LINE: 135
+[Mon Jun 03 11:10:55 2019] [ERROR] [Base_Model::rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\xampp\htdocs\ptis\application\core\Base_Model.php, LINE: 782
+[Mon Jun 03 11:10:55 2019] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\xampp\htdocs\ptis\application\core\Base_Model.php, LINE: 523
+[Mon Jun 03 11:10:55 2019] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\xampp\htdocs\ptis\application\core\Base_Model.php, LINE: 442
+[Mon Jun 03 11:10:55 2019] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\xampp\htdocs\ptis\application\core\Base_Model.php, LINE: 231
+[Mon Jun 03 11:10:55 2019] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\xampp\htdocs\ptis\application\modules\sysad\models\Users_model.php, LINE: 135
+[Mon Jun 03 11:10:57 2019] [ERROR] [Base_Model::rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\xampp\htdocs\ptis\application\core\Base_Model.php, LINE: 782
+[Mon Jun 03 11:10:57 2019] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\xampp\htdocs\ptis\application\core\Base_Model.php, LINE: 523
+[Mon Jun 03 11:10:57 2019] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\xampp\htdocs\ptis\application\core\Base_Model.php, LINE: 442
+[Mon Jun 03 11:10:57 2019] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\xampp\htdocs\ptis\application\core\Base_Model.php, LINE: 231
+[Mon Jun 03 11:10:57 2019] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\xampp\htdocs\ptis\application\modules\sysad\models\Users_model.php, LINE: 135
+[Mon Jun 03 11:11:15 2019] [ERROR] [Base_Model::rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\xampp\htdocs\ptis\application\core\Base_Model.php, LINE: 782
+[Mon Jun 03 11:11:15 2019] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\xampp\htdocs\ptis\application\core\Base_Model.php, LINE: 523
+[Mon Jun 03 11:11:15 2019] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\xampp\htdocs\ptis\application\core\Base_Model.php, LINE: 442
+[Mon Jun 03 11:11:15 2019] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\xampp\htdocs\ptis\application\core\Base_Model.php, LINE: 231
+[Mon Jun 03 11:11:15 2019] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\xampp\htdocs\ptis\application\modules\sysad\models\Users_model.php, LINE: 135
+[Mon Jun 03 11:11:24 2019] [ERROR] [Base_Model::rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\xampp\htdocs\ptis\application\core\Base_Model.php, LINE: 782
+[Mon Jun 03 11:11:24 2019] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\xampp\htdocs\ptis\application\core\Base_Model.php, LINE: 523
+[Mon Jun 03 11:11:24 2019] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\xampp\htdocs\ptis\application\core\Base_Model.php, LINE: 442
+[Mon Jun 03 11:11:24 2019] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\xampp\htdocs\ptis\application\core\Base_Model.php, LINE: 231
+[Mon Jun 03 11:11:24 2019] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\xampp\htdocs\ptis\application\modules\sysad\models\Users_model.php, LINE: 135
+[Mon Jun 03 11:11:52 2019] [ERROR] [Base_Model::rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\xampp\htdocs\ptis\application\core\Base_Model.php, LINE: 782
+[Mon Jun 03 11:11:52 2019] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\xampp\htdocs\ptis\application\core\Base_Model.php, LINE: 523
+[Mon Jun 03 11:11:52 2019] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\xampp\htdocs\ptis\application\core\Base_Model.php, LINE: 442
+[Mon Jun 03 11:11:52 2019] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\xampp\htdocs\ptis\application\core\Base_Model.php, LINE: 231
+[Mon Jun 03 11:11:52 2019] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\xampp\htdocs\ptis\application\modules\sysad\models\Users_model.php, LINE: 135
+[Mon Jun 03 11:11:55 2019] [ERROR] [Base_Model::rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\xampp\htdocs\ptis\application\core\Base_Model.php, LINE: 782
+[Mon Jun 03 11:11:55 2019] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\xampp\htdocs\ptis\application\core\Base_Model.php, LINE: 523
+[Mon Jun 03 11:11:55 2019] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\xampp\htdocs\ptis\application\core\Base_Model.php, LINE: 442
+[Mon Jun 03 11:11:55 2019] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\xampp\htdocs\ptis\application\core\Base_Model.php, LINE: 231
+[Mon Jun 03 11:11:55 2019] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\xampp\htdocs\ptis\application\modules\sysad\models\Users_model.php, LINE: 135
+[Mon Jun 03 11:11:59 2019] [ERROR] [Base_Model::rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\xampp\htdocs\ptis\application\core\Base_Model.php, LINE: 782
+[Mon Jun 03 11:11:59 2019] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\xampp\htdocs\ptis\application\core\Base_Model.php, LINE: 523
+[Mon Jun 03 11:11:59 2019] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\xampp\htdocs\ptis\application\core\Base_Model.php, LINE: 442
+[Mon Jun 03 11:11:59 2019] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\xampp\htdocs\ptis\application\core\Base_Model.php, LINE: 231
+[Mon Jun 03 11:11:59 2019] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\xampp\htdocs\ptis\application\modules\sysad\models\Users_model.php, LINE: 135
+[Mon Jun 03 11:13:11 2019] [EMERGENCY] [] -> Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini., FILE: Unknown, LINE: 0
+[Mon Jun 03 11:13:11 2019] [EMERGENCY] [] -> Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini., FILE: Unknown, LINE: 0
+[Mon Jun 03 11:13:11 2019] [EMERGENCY] [] -> Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini., FILE: Unknown, LINE: 0
+[Mon Jun 03 11:13:11 2019] [EMERGENCY] [] -> Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini., FILE: Unknown, LINE: 0
+[Mon Jun 03 11:13:11 2019] [EMERGENCY] [] -> Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini., FILE: Unknown, LINE: 0
+[Mon Jun 03 11:13:11 2019] [EMERGENCY] [] -> Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini., FILE: Unknown, LINE: 0
+[Mon Jun 03 11:13:11 2019] [EMERGENCY] [] -> Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini., FILE: Unknown, LINE: 0
+[Mon Jun 03 11:13:11 2019] [EMERGENCY] [] -> Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini., FILE: Unknown, LINE: 0
+[Mon Jun 03 11:13:11 2019] [EMERGENCY] [] -> Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini., FILE: Unknown, LINE: 0
+[Mon Jun 03 11:13:11 2019] [EMERGENCY] [] -> Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini., FILE: Unknown, LINE: 0
+[Mon Jun 03 11:13:11 2019] [EMERGENCY] [] -> Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini., FILE: Unknown, LINE: 0
+[Mon Jun 03 11:18:37 2019] [ERROR] [Base_Model::rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\xampp\htdocs\ptis\application\core\Base_Model.php, LINE: 782
+[Mon Jun 03 11:18:37 2019] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\xampp\htdocs\ptis\application\core\Base_Model.php, LINE: 523
+[Mon Jun 03 11:18:37 2019] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\xampp\htdocs\ptis\application\core\Base_Model.php, LINE: 442
+[Mon Jun 03 11:18:37 2019] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\xampp\htdocs\ptis\application\core\Base_Model.php, LINE: 231
+[Mon Jun 03 11:18:37 2019] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\xampp\htdocs\ptis\application\modules\sysad\models\Users_model.php, LINE: 135
+[Mon Jun 03 11:18:40 2019] [ERROR] [Base_Model::rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\xampp\htdocs\ptis\application\core\Base_Model.php, LINE: 782
+[Mon Jun 03 11:18:40 2019] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\xampp\htdocs\ptis\application\core\Base_Model.php, LINE: 523
+[Mon Jun 03 11:18:40 2019] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\xampp\htdocs\ptis\application\core\Base_Model.php, LINE: 442
+[Mon Jun 03 11:18:40 2019] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\xampp\htdocs\ptis\application\core\Base_Model.php, LINE: 231
+[Mon Jun 03 11:18:40 2019] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\xampp\htdocs\ptis\application\modules\sysad\models\Users_model.php, LINE: 135

@@ -1,0 +1,17 @@
+[Thu Jun 10 07:28:39 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Thu Jun 10 07:28:39 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Thu Jun 10 07:28:39 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Thu Jun 10 07:28:41 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Thu Jun 10 07:28:41 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Thu Jun 10 07:28:41 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Thu Jun 10 15:00:29 2021] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Thu Jun 10 15:12:06 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id, fullname, office_name, D.em' at line 9, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Thu Jun 10 15:12:06 2021] [ERROR] [Compensation->get_employee_list] -> SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id, fullname, office_name, D.em' at line 9 --Line 324., FILE: , LINE: 0
+[Thu Jun 10 15:12:06 2021] [ERROR] [] -> Uncaught exception: [0] 
+#0 [internal function]: Compensation->get_employee_list()
+#1 C:\Apache24\htdocs\system\core\CodeIgniter.php(514): call_user_func_array(Array, Array)
+#2 C:\Apache24\htdocs\index.php(293): require_once('C:\\Apache24\\htd...')
+#3 {main}, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Compensation.php, LINE: 396
+[Thu Jun 10 17:06:13 2021] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0

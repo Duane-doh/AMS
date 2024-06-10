@@ -1,0 +1,205 @@
+[Tue Dec 27 07:55:17 2022] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to approve the leave application. Only the assigned <b>Immediate Supervisor</b> is allowed. Please contact the System's Administrator., FILE: , LINE: 0
+[Tue Dec 27 08:36:41 2022] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Dec 27 08:36:41 2022] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Tue Dec 27 08:36:58 2022] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Dec 27 08:36:58 2022] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Tue Dec 27 08:37:08 2022] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Dec 27 08:37:08 2022] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Tue Dec 27 08:37:13 2022] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Dec 27 08:37:13 2022] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Tue Dec 27 08:37:49 2022] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Dec 27 08:37:49 2022] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Tue Dec 27 08:38:06 2022] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Dec 27 08:38:06 2022] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Tue Dec 27 08:38:14 2022] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Dec 27 08:38:14 2022] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Tue Dec 27 08:38:49 2022] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Dec 27 08:38:49 2022] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Tue Dec 27 08:39:36 2022] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to approve the leave application. Only the assigned <b>Immediate Supervisor</b> is allowed. Please contact the System's Administrator., FILE: , LINE: 0
+[Tue Dec 27 09:06:29 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'doh_ptis_module.employee_uacs_codes' doesn't exist, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Dec 27 09:06:29 2022] [ERROR] [Compensation_model->get_uacs_code_list] -> SQLSTATE[42S02]: Base table or view not found: 1146 Table 'doh_ptis_module.employee_uacs_codes' doesn't exist, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Compensation.php, LINE: 1901
+[Tue Dec 27 09:06:50 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Tue Dec 27 09:06:50 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Tue Dec 27 09:06:50 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 565
+[Tue Dec 27 09:06:51 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Tue Dec 27 09:06:51 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Tue Dec 27 09:06:51 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 565
+[Tue Dec 27 10:04:12 2022] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Tue Dec 27 10:08:19 2022] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Tue Dec 27 10:32:30 2022] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Tue Dec 27 10:41:06 2022] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Dec 27 10:41:06 2022] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Tue Dec 27 10:41:22 2022] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Dec 27 10:41:22 2022] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Tue Dec 27 10:42:00 2022] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Dec 27 10:42:00 2022] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Tue Dec 27 10:42:51 2022] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Tue Dec 27 10:47:39 2022] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Tue Dec 27 10:49:56 2022] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Tue Dec 27 10:58:24 2022] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Tue Dec 27 11:22:28 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc' at line 27, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Dec 27 11:22:28 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc' at line 27, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 302
+[Tue Dec 27 11:35:38 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc' at line 27, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Dec 27 11:35:38 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc' at line 27, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 302
+[Tue Dec 27 11:43:22 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Dec 27 11:43:22 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\Apache24\htdocs\application\modules\main\models\Daily_time_record_model.php, LINE: 575
+[Tue Dec 27 11:56:46 2022] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Dec 27 11:56:46 2022] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Tue Dec 27 11:57:28 2022] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Dec 27 11:57:28 2022] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Tue Dec 27 12:03:51 2022] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Dec 27 12:03:51 2022] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Tue Dec 27 12:03:59 2022] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Dec 27 12:03:59 2022] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Tue Dec 27 12:05:35 2022] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Dec 27 12:05:35 2022] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Tue Dec 27 12:48:15 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Dec 27 12:48:15 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 302
+[Tue Dec 27 13:18:07 2022] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Dec 27 13:18:14 2022] [ERROR] [Requests->get_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Tue Dec 27 13:18:14 2022] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Dec 27 13:18:14 2022] [ERROR] [Requests->get_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Tue Dec 27 13:34:16 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Dec 27 13:34:16 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 302
+[Tue Dec 27 13:35:16 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Dec 27 13:35:16 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 302
+[Tue Dec 27 13:39:21 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Tue Dec 27 13:39:21 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Tue Dec 27 13:39:21 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 565
+[Tue Dec 27 13:39:30 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Tue Dec 27 13:39:30 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Tue Dec 27 13:39:30 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 565
+[Tue Dec 27 14:39:51 2022] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Dec 27 14:39:51 2022] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Tue Dec 27 14:42:01 2022] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Dec 27 14:42:01 2022] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Tue Dec 27 14:42:44 2022] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Dec 27 14:42:44 2022] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Tue Dec 27 14:54:35 2022] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Dec 27 14:54:35 2022] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Tue Dec 27 14:55:44 2022] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Dec 27 14:55:44 2022] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Tue Dec 27 14:56:01 2022] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Dec 27 14:56:01 2022] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Tue Dec 27 14:56:09 2022] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Dec 27 14:56:09 2022] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Tue Dec 27 14:56:37 2022] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Dec 27 14:56:37 2022] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Tue Dec 27 14:59:02 2022] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Dec 27 14:59:02 2022] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Tue Dec 27 15:00:17 2022] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Dec 27 15:00:17 2022] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Tue Dec 27 15:01:19 2022] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Dec 27 15:01:19 2022] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Tue Dec 27 15:01:57 2022] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Dec 27 15:01:57 2022] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Tue Dec 27 15:02:03 2022] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Dec 27 15:02:03 2022] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Tue Dec 27 15:02:11 2022] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Dec 27 15:02:11 2022] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Tue Dec 27 15:02:22 2022] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Dec 27 15:02:22 2022] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Tue Dec 27 15:05:48 2022] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Dec 27 15:05:48 2022] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Tue Dec 27 15:08:44 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Dec 27 15:08:44 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\modules\main\models\Performance_evaluation_model.php, LINE: 204
+[Tue Dec 27 15:08:44 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Dec 27 15:08:44 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\modules\main\models\Performance_evaluation_model.php, LINE: 204
+[Tue Dec 27 15:14:51 2022] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Dec 27 15:14:51 2022] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Tue Dec 27 15:14:57 2022] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Dec 27 15:14:57 2022] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Tue Dec 27 15:15:02 2022] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Dec 27 15:15:02 2022] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Tue Dec 27 15:15:12 2022] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Dec 27 15:15:12 2022] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Tue Dec 27 15:15:50 2022] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Dec 27 15:15:50 2022] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Tue Dec 27 15:16:02 2022] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Dec 27 15:16:02 2022] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Tue Dec 27 15:30:47 2022] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to approve the leave application. Only the assigned <b>Immediate Supervisor</b> is allowed. Please contact the System's Administrator., FILE: , LINE: 0
+[Tue Dec 27 15:31:02 2022] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to approve the leave application. Only the assigned <b>Immediate Supervisor</b> is allowed. Please contact the System's Administrator., FILE: , LINE: 0
+[Tue Dec 27 15:46:14 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'doh_ptis_module.employee_uacs_codes' doesn't exist, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Dec 27 15:46:14 2022] [ERROR] [Compensation_model->get_uacs_code_list] -> SQLSTATE[42S02]: Base table or view not found: 1146 Table 'doh_ptis_module.employee_uacs_codes' doesn't exist, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Compensation.php, LINE: 1901
+[Tue Dec 27 15:46:31 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Tue Dec 27 15:46:31 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Tue Dec 27 15:46:31 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 565
+[Tue Dec 27 15:46:34 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Tue Dec 27 15:46:34 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Tue Dec 27 15:46:34 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 565
+[Tue Dec 27 16:00:00 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Dec 27 16:00:00 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 302
+[Tue Dec 27 17:18:26 2022] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Tue Dec 27 17:20:44 2022] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Tue Dec 27 17:49:04 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Dec 27 17:49:04 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\modules\main\models\Performance_evaluation_model.php, LINE: 204
+[Tue Dec 27 17:49:04 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Dec 27 17:49:04 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\modules\main\models\Performance_evaluation_model.php, LINE: 204
+[Tue Dec 27 18:14:16 2022] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Dec 27 18:14:16 2022] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: , LINE: 0
+[Tue Dec 27 18:14:28 2022] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Dec 27 18:14:28 2022] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: , LINE: 0
+[Tue Dec 27 18:15:34 2022] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Dec 27 18:15:34 2022] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: , LINE: 0

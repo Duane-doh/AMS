@@ -1,0 +1,79 @@
+[Thu Sep 09 07:19:03 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Thu Sep 09 07:19:03 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Thu Sep 09 07:19:03 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Thu Sep 09 07:19:12 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Thu Sep 09 07:19:12 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Thu Sep 09 07:19:12 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Thu Sep 09 10:24:02 2021] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Thu Sep 09 10:35:17 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Thu Sep 09 10:35:17 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Thu Sep 09 10:35:17 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Thu Sep 09 10:35:19 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Thu Sep 09 10:35:19 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Thu Sep 09 10:35:19 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Thu Sep 09 10:50:43 2021] [ERROR] [Compensation->employee_tabs] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Thu Sep 09 10:50:43 2021] [ERROR] [] -> Uncaught exception: [0] Sorry, you don't have permission to access the page. Please contact the system's administrator.
+#0 [internal function]: Compensation->employee_tabs('3', 'ac14613ca411966...', '959ec0c57eaaec9', 'images', 'calendar.png')
+#1 C:\Apache24\htdocs\system\core\CodeIgniter.php(514): call_user_func_array(Array, Array)
+#2 C:\Apache24\htdocs\index.php(293): require_once('C:\\Apache24\\htd...')
+#3 {main}, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Compensation.php, LINE: 1168
+[Thu Sep 09 10:50:57 2021] [ERROR] [Compensation->employee_tabs] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Thu Sep 09 10:50:57 2021] [ERROR] [] -> Uncaught exception: [0] Sorry, you don't have permission to access the page. Please contact the system's administrator.
+#0 [internal function]: Compensation->employee_tabs('3', 'ac14613ca411966...', '959ec0c57eaaec9', 'images', 'sort_both.png')
+#1 C:\Apache24\htdocs\system\core\CodeIgniter.php(514): call_user_func_array(Array, Array)
+#2 C:\Apache24\htdocs\index.php(293): require_once('C:\\Apache24\\htd...')
+#3 {main}, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Compensation.php, LINE: 1168
+[Thu Sep 09 10:51:00 2021] [ERROR] [Compensation->employee_tabs] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Thu Sep 09 10:51:00 2021] [ERROR] [] -> Uncaught exception: [0] Sorry, you don't have permission to access the page. Please contact the system's administrator.
+#0 [internal function]: Compensation->employee_tabs('3', 'ac14613ca411966...', '959ec0c57eaaec9', 'images', 'sort_both.png')
+#1 C:\Apache24\htdocs\system\core\CodeIgniter.php(514): call_user_func_array(Array, Array)
+#2 C:\Apache24\htdocs\index.php(293): require_once('C:\\Apache24\\htd...')
+#3 {main}, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Compensation.php, LINE: 1168
+[Thu Sep 09 10:51:05 2021] [ERROR] [Deductions->get_statutory_info] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Thu Sep 09 10:51:06 2021] [ERROR] [Deductions->get_statutory_info] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Thu Sep 09 10:51:08 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Thu Sep 09 10:51:08 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Thu Sep 09 10:51:08 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Thu Sep 09 10:51:08 2021] [ERROR] [Deductions->get_statutory_info] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Thu Sep 09 14:38:39 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 0, 10' at line 12, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Thu Sep 09 14:38:39 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 0, 10' at line 12, FILE: C:\Apache24\htdocs\application\modules\main\models\Daily_time_record_model.php, LINE: 134
+[Thu Sep 09 14:38:39 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 0, 10' at line 12, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Thu Sep 09 14:38:39 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 0, 10' at line 12, FILE: C:\Apache24\htdocs\application\modules\main\models\Daily_time_record_model.php, LINE: 134
+[Thu Sep 09 14:46:27 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Thu Sep 09 14:46:27 2021] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Thu Sep 09 14:47:45 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Thu Sep 09 14:47:45 2021] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Thu Sep 09 15:20:20 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness_hr' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Thu Sep 09 15:23:44 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Thu Sep 09 15:23:44 2021] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Thu Sep 09 15:27:55 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Thu Sep 09 15:27:55 2021] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Thu Sep 09 15:30:48 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness_hr' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Thu Sep 09 15:33:08 2021] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Thu Sep 09 15:33:08 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Thu Sep 09 15:33:08 2021] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Thu Sep 09 15:33:08 2021] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Thu Sep 09 15:47:07 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Thu Sep 09 15:47:07 2021] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Thu Sep 09 15:48:09 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Thu Sep 09 15:48:09 2021] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Thu Sep 09 15:49:36 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Thu Sep 09 15:49:36 2021] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Thu Sep 09 16:51:03 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Thu Sep 09 16:51:03 2021] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Thu Sep 09 16:52:11 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Thu Sep 09 16:52:11 2021] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Thu Sep 09 16:53:31 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Thu Sep 09 16:53:31 2021] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0

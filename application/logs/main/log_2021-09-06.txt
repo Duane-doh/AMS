@@ -1,0 +1,196 @@
+[Mon Sep 06 09:05:35 2021] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Mon Sep 06 09:05:37 2021] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Mon Sep 06 09:05:37 2021] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Mon Sep 06 09:11:13 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Sep 06 09:11:13 2021] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Sep 06 09:12:04 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Sep 06 09:12:04 2021] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Sep 06 09:13:48 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Sep 06 09:13:48 2021] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Sep 06 09:36:24 2021] [ERROR] [Compensation->process_employee_benefit] -> VALID_DATA :{"compensation_id":"165","start_date":"2021-01-01 00:00:00","end_date":""}, FILE: , LINE: 0
+[Mon Sep 06 09:36:24 2021] [ERROR] [Compensation->process_employee_benefit] -> VALID_DATA :{"compensation_id":"105","start_date":"2021-01-01 00:00:00","end_date":""}, FILE: , LINE: 0
+[Mon Sep 06 09:36:24 2021] [ERROR] [Compensation->process_employee_benefit] -> VALID_DATA :{"compensation_id":"164","start_date":"2021-11-01 00:00:00","end_date":""}, FILE: , LINE: 0
+[Mon Sep 06 09:36:24 2021] [ERROR] [Compensation->process_employee_benefit] -> VALID_DATA :{"compensation_id":"162","start_date":"2021-01-01 00:00:00","end_date":""}, FILE: , LINE: 0
+[Mon Sep 06 09:36:24 2021] [ERROR] [Compensation->process_employee_benefit] -> VALID_DATA :{"compensation_id":"125","start_date":"2021-01-01 00:00:00","end_date":""}, FILE: , LINE: 0
+[Mon Sep 06 09:36:24 2021] [ERROR] [Compensation->process_employee_benefit] -> VALID_DATA :{"compensation_id":"1","start_date":"2019-01-01 00:00:00","end_date":""}, FILE: , LINE: 0
+[Mon Sep 06 09:36:24 2021] [ERROR] [Compensation->process_employee_benefit] -> VALID_DATA :{"compensation_id":"2","start_date":"2019-01-01 00:00:00","end_date":""}, FILE: , LINE: 0
+[Mon Sep 06 09:36:24 2021] [ERROR] [Compensation->process_employee_benefit] -> FIELDS :[{"end_date":null,"compensation_id":"165","employee_id":"853","start_date":"2021-01-01 00:00:00"},{"end_date":null,"compensation_id":"105","employee_id":"853","start_date":"2021-01-01 00:00:00"},{"end_date":null,"compensation_id":"164","employee_id":"853","start_date":"2021-11-01 00:00:00"},{"end_date":null,"compensation_id":"162","employee_id":"853","start_date":"2021-01-01 00:00:00"},{"end_date":null,"compensation_id":"125","employee_id":"853","start_date":"2021-01-01 00:00:00"},{"end_date":null,"compensation_id":"1","employee_id":"853","start_date":"2019-01-01 00:00:00"},{"end_date":null,"compensation_id":"2","employee_id":"853","start_date":"2019-01-01 00:00:00"}], FILE: , LINE: 0
+[Mon Sep 06 09:38:27 2021] [ERROR] [Compensation->process_employee_benefit] -> VALID_DATA :{"compensation_id":"110","start_date":"2021-01-01 00:00:00","end_date":""}, FILE: , LINE: 0
+[Mon Sep 06 09:38:27 2021] [ERROR] [Compensation->process_employee_benefit] -> VALID_DATA :{"compensation_id":"165","start_date":"2021-01-01 00:00:00","end_date":""}, FILE: , LINE: 0
+[Mon Sep 06 09:38:27 2021] [ERROR] [Compensation->process_employee_benefit] -> VALID_DATA :{"compensation_id":"105","start_date":"2021-01-01 00:00:00","end_date":""}, FILE: , LINE: 0
+[Mon Sep 06 09:38:27 2021] [ERROR] [Compensation->process_employee_benefit] -> VALID_DATA :{"compensation_id":"164","start_date":"2021-11-01 00:00:00","end_date":""}, FILE: , LINE: 0
+[Mon Sep 06 09:38:27 2021] [ERROR] [Compensation->process_employee_benefit] -> VALID_DATA :{"compensation_id":"162","start_date":"2021-01-01 00:00:00","end_date":""}, FILE: , LINE: 0
+[Mon Sep 06 09:38:27 2021] [ERROR] [Compensation->process_employee_benefit] -> VALID_DATA :{"compensation_id":"125","start_date":"2021-01-01 00:00:00","end_date":""}, FILE: , LINE: 0
+[Mon Sep 06 09:38:27 2021] [ERROR] [Compensation->process_employee_benefit] -> VALID_DATA :{"compensation_id":"1","start_date":"2019-01-01 00:00:00","end_date":""}, FILE: , LINE: 0
+[Mon Sep 06 09:38:27 2021] [ERROR] [Compensation->process_employee_benefit] -> VALID_DATA :{"compensation_id":"2","start_date":"2019-01-01 00:00:00","end_date":""}, FILE: , LINE: 0
+[Mon Sep 06 09:38:27 2021] [ERROR] [Compensation->process_employee_benefit] -> FIELDS :[{"end_date":null,"compensation_id":"110","employee_id":"853","start_date":"2021-01-01 00:00:00"},{"end_date":null,"compensation_id":"165","employee_id":"853","start_date":"2021-01-01 00:00:00"},{"end_date":null,"compensation_id":"105","employee_id":"853","start_date":"2021-01-01 00:00:00"},{"end_date":null,"compensation_id":"164","employee_id":"853","start_date":"2021-11-01 00:00:00"},{"end_date":null,"compensation_id":"162","employee_id":"853","start_date":"2021-01-01 00:00:00"},{"end_date":null,"compensation_id":"125","employee_id":"853","start_date":"2021-01-01 00:00:00"},{"end_date":null,"compensation_id":"1","employee_id":"853","start_date":"2019-01-01 00:00:00"},{"end_date":null,"compensation_id":"2","employee_id":"853","start_date":"2019-01-01 00:00:00"}], FILE: , LINE: 0
+[Mon Sep 06 09:39:31 2021] [ERROR] [Compensation->process_employee_benefit] -> VALID_DATA :{"compensation_id":"101","start_date":"2021-01-01 00:00:00","end_date":""}, FILE: , LINE: 0
+[Mon Sep 06 09:39:31 2021] [ERROR] [Compensation->process_employee_benefit] -> VALID_DATA :{"compensation_id":"110","start_date":"2021-01-01 00:00:00","end_date":""}, FILE: , LINE: 0
+[Mon Sep 06 09:39:31 2021] [ERROR] [Compensation->process_employee_benefit] -> VALID_DATA :{"compensation_id":"165","start_date":"2021-01-01 00:00:00","end_date":""}, FILE: , LINE: 0
+[Mon Sep 06 09:39:31 2021] [ERROR] [Compensation->process_employee_benefit] -> VALID_DATA :{"compensation_id":"105","start_date":"2021-01-01 00:00:00","end_date":""}, FILE: , LINE: 0
+[Mon Sep 06 09:39:31 2021] [ERROR] [Compensation->process_employee_benefit] -> VALID_DATA :{"compensation_id":"164","start_date":"2021-11-01 00:00:00","end_date":""}, FILE: , LINE: 0
+[Mon Sep 06 09:39:31 2021] [ERROR] [Compensation->process_employee_benefit] -> VALID_DATA :{"compensation_id":"162","start_date":"2021-01-01 00:00:00","end_date":""}, FILE: , LINE: 0
+[Mon Sep 06 09:39:31 2021] [ERROR] [Compensation->process_employee_benefit] -> VALID_DATA :{"compensation_id":"125","start_date":"2021-01-01 00:00:00","end_date":""}, FILE: , LINE: 0
+[Mon Sep 06 09:39:31 2021] [ERROR] [Compensation->process_employee_benefit] -> VALID_DATA :{"compensation_id":"1","start_date":"2019-01-01 00:00:00","end_date":""}, FILE: , LINE: 0
+[Mon Sep 06 09:39:31 2021] [ERROR] [Compensation->process_employee_benefit] -> VALID_DATA :{"compensation_id":"2","start_date":"2019-01-01 00:00:00","end_date":""}, FILE: , LINE: 0
+[Mon Sep 06 09:39:31 2021] [ERROR] [Compensation->process_employee_benefit] -> FIELDS :[{"end_date":null,"compensation_id":"101","employee_id":"853","start_date":"2021-01-01 00:00:00"},{"end_date":null,"compensation_id":"110","employee_id":"853","start_date":"2021-01-01 00:00:00"},{"end_date":null,"compensation_id":"165","employee_id":"853","start_date":"2021-01-01 00:00:00"},{"end_date":null,"compensation_id":"105","employee_id":"853","start_date":"2021-01-01 00:00:00"},{"end_date":null,"compensation_id":"164","employee_id":"853","start_date":"2021-11-01 00:00:00"},{"end_date":null,"compensation_id":"162","employee_id":"853","start_date":"2021-01-01 00:00:00"},{"end_date":null,"compensation_id":"125","employee_id":"853","start_date":"2021-01-01 00:00:00"},{"end_date":null,"compensation_id":"1","employee_id":"853","start_date":"2019-01-01 00:00:00"},{"end_date":null,"compensation_id":"2","employee_id":"853","start_date":"2019-01-01 00:00:00"}], FILE: , LINE: 0
+[Mon Sep 06 09:40:43 2021] [ERROR] [Compensation->process_employee_benefit] -> VALID_DATA :{"compensation_id":"164","start_date":"2021-08-12 00:00:00","end_date":""}, FILE: , LINE: 0
+[Mon Sep 06 09:40:43 2021] [ERROR] [Compensation->process_employee_benefit] -> VALID_DATA :{"compensation_id":"162","start_date":"2021-08-12 00:00:00","end_date":""}, FILE: , LINE: 0
+[Mon Sep 06 09:40:43 2021] [ERROR] [Compensation->process_employee_benefit] -> VALID_DATA :{"compensation_id":"125","start_date":"2021-08-12 00:00:00","end_date":""}, FILE: , LINE: 0
+[Mon Sep 06 09:40:43 2021] [ERROR] [Compensation->process_employee_benefit] -> VALID_DATA :{"compensation_id":"1","start_date":"2020-08-12 00:00:00","end_date":""}, FILE: , LINE: 0
+[Mon Sep 06 09:40:43 2021] [ERROR] [Compensation->process_employee_benefit] -> VALID_DATA :{"compensation_id":"2","start_date":"2020-08-12 00:00:00","end_date":""}, FILE: , LINE: 0
+[Mon Sep 06 09:40:43 2021] [ERROR] [Compensation->process_employee_benefit] -> FIELDS :[{"end_date":null,"compensation_id":"164","employee_id":"2029","start_date":"2021-08-12 00:00:00"},{"end_date":null,"compensation_id":"162","employee_id":"2029","start_date":"2021-08-12 00:00:00"},{"end_date":null,"compensation_id":"125","employee_id":"2029","start_date":"2021-08-12 00:00:00"},{"end_date":null,"compensation_id":"1","employee_id":"2029","start_date":"2020-08-12 00:00:00"},{"end_date":null,"compensation_id":"2","employee_id":"2029","start_date":"2020-08-12 00:00:00"}], FILE: , LINE: 0
+[Mon Sep 06 09:42:54 2021] [ERROR] [Compensation->process_employee_benefit] -> VALID_DATA :{"compensation_id":"130","start_date":"2021-01-01 00:00:00","end_date":""}, FILE: , LINE: 0
+[Mon Sep 06 09:42:54 2021] [ERROR] [Compensation->process_employee_benefit] -> VALID_DATA :{"compensation_id":"101","start_date":"2021-01-01 00:00:00","end_date":""}, FILE: , LINE: 0
+[Mon Sep 06 09:42:54 2021] [ERROR] [Compensation->process_employee_benefit] -> VALID_DATA :{"compensation_id":"110","start_date":"2021-01-01 00:00:00","end_date":""}, FILE: , LINE: 0
+[Mon Sep 06 09:42:54 2021] [ERROR] [Compensation->process_employee_benefit] -> VALID_DATA :{"compensation_id":"165","start_date":"2021-01-01 00:00:00","end_date":""}, FILE: , LINE: 0
+[Mon Sep 06 09:42:54 2021] [ERROR] [Compensation->process_employee_benefit] -> VALID_DATA :{"compensation_id":"105","start_date":"2021-01-01 00:00:00","end_date":""}, FILE: , LINE: 0
+[Mon Sep 06 09:42:54 2021] [ERROR] [Compensation->process_employee_benefit] -> VALID_DATA :{"compensation_id":"164","start_date":"2021-11-01 00:00:00","end_date":""}, FILE: , LINE: 0
+[Mon Sep 06 09:42:54 2021] [ERROR] [Compensation->process_employee_benefit] -> VALID_DATA :{"compensation_id":"162","start_date":"2021-01-01 00:00:00","end_date":""}, FILE: , LINE: 0
+[Mon Sep 06 09:42:54 2021] [ERROR] [Compensation->process_employee_benefit] -> VALID_DATA :{"compensation_id":"125","start_date":"2021-01-01 00:00:00","end_date":""}, FILE: , LINE: 0
+[Mon Sep 06 09:42:54 2021] [ERROR] [Compensation->process_employee_benefit] -> VALID_DATA :{"compensation_id":"1","start_date":"2019-01-01 00:00:00","end_date":""}, FILE: , LINE: 0
+[Mon Sep 06 09:42:54 2021] [ERROR] [Compensation->process_employee_benefit] -> VALID_DATA :{"compensation_id":"2","start_date":"2019-01-01 00:00:00","end_date":""}, FILE: , LINE: 0
+[Mon Sep 06 09:42:54 2021] [ERROR] [Compensation->process_employee_benefit] -> FIELDS :[{"end_date":null,"compensation_id":"130","employee_id":"853","start_date":"2021-01-01 00:00:00"},{"end_date":null,"compensation_id":"101","employee_id":"853","start_date":"2021-01-01 00:00:00"},{"end_date":null,"compensation_id":"110","employee_id":"853","start_date":"2021-01-01 00:00:00"},{"end_date":null,"compensation_id":"165","employee_id":"853","start_date":"2021-01-01 00:00:00"},{"end_date":null,"compensation_id":"105","employee_id":"853","start_date":"2021-01-01 00:00:00"},{"end_date":null,"compensation_id":"164","employee_id":"853","start_date":"2021-11-01 00:00:00"},{"end_date":null,"compensation_id":"162","employee_id":"853","start_date":"2021-01-01 00:00:00"},{"end_date":null,"compensation_id":"125","employee_id":"853","start_date":"2021-01-01 00:00:00"},{"end_date":null,"compensation_id":"1","employee_id":"853","start_date":"2019-01-01 00:00:00"},{"end_date":null,"compensation_id":"2","employee_id":"853","start_date":"2019-01-01 00:00:00"}], FILE: , LINE: 0
+[Mon Sep 06 10:04:06 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_personnel_movement_id' at row 17815, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Sep 06 10:04:06 2021] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_personnel_movement_id' at row 17815, FILE: , LINE: 0
+[Mon Sep 06 10:04:14 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_personnel_movement_id' at row 17815, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Sep 06 10:04:14 2021] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_personnel_movement_id' at row 17815, FILE: , LINE: 0
+[Mon Sep 06 13:07:00 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Sep 06 13:07:00 2021] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Sep 06 13:08:06 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Sep 06 13:08:06 2021] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Sep 06 13:08:57 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Sep 06 13:08:57 2021] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Sep 06 13:36:14 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Mon Sep 06 13:36:14 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Mon Sep 06 13:36:14 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Mon Sep 06 13:36:16 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Mon Sep 06 13:36:16 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Mon Sep 06 13:36:16 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Mon Sep 06 14:03:10 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Sep 06 14:03:10 2021] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Sep 06 14:04:21 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Sep 06 14:04:21 2021] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Sep 06 14:04:49 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Sep 06 14:04:49 2021] [ERROR] [Requests->get_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Sep 06 14:05:12 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Sep 06 14:05:12 2021] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Sep 06 14:05:40 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Sep 06 14:05:40 2021] [ERROR] [Requests->get_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Sep 06 14:06:03 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Sep 06 14:06:03 2021] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Sep 06 14:06:56 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc' at line 27, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Mon Sep 06 14:06:56 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc' at line 27, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 286
+[Mon Sep 06 14:06:56 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc' at line 27, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Mon Sep 06 14:06:56 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc' at line 27, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 286
+[Mon Sep 06 14:27:19 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Mon Sep 06 14:27:19 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\Apache24\htdocs\application\modules\main\models\Daily_time_record_model.php, LINE: 575
+[Mon Sep 06 14:30:03 2021] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Mon Sep 06 15:42:45 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  C.request_type_name
+					desc
+		' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Mon Sep 06 15:42:45 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  C.request_type_name
+					desc
+		' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 286
+[Mon Sep 06 15:42:45 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  C.request_type_name
+					desc
+		' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Mon Sep 06 15:42:45 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  C.request_type_name
+					desc
+		' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 286
+[Mon Sep 06 15:49:59 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Sep 06 15:49:59 2021] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Sep 06 15:50:31 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Sep 06 15:50:31 2021] [ERROR] [Requests->get_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Sep 06 15:50:51 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Sep 06 15:50:51 2021] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Sep 06 15:51:39 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Sep 06 15:51:39 2021] [ERROR] [Requests->get_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Sep 06 15:51:43 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Sep 06 15:51:43 2021] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Sep 06 15:53:00 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Sep 06 15:53:00 2021] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Sep 06 15:54:10 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Sep 06 15:54:10 2021] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Sep 06 15:55:01 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Sep 06 15:55:01 2021] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Sep 06 15:55:53 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Sep 06 15:55:53 2021] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Sep 06 15:56:44 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Sep 06 15:56:44 2021] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Sep 06 15:58:06 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Sep 06 15:58:06 2021] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Sep 06 16:31:08 2021] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon Sep 06 16:39:59 2021] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon Sep 06 17:07:38 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Sep 06 17:07:38 2021] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Sep 06 17:08:42 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Sep 06 17:08:42 2021] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Sep 06 17:18:24 2021] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon Sep 06 17:24:56 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')  AND  C.attendance_period_hdr_id = '1041'
+				
+				ORDER BY B.compensation_i' at line 4, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Mon Sep 06 17:24:56 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')  AND  C.attendance_period_hdr_id = '1041'
+				
+				ORDER BY B.compensation_i' at line 4, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Mon Sep 06 17:24:56 2021] [ERROR] [General_payroll_alpha_list_for_jo->generate_report_data] -> SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')  AND  C.attendance_period_hdr_id = '1041'
+				
+				ORDER BY B.compensation_i' at line 4, FILE: C:\Apache24\htdocs\application\modules\main\controllers\reports_payroll\Reports_payroll.php, LINE: 737
+[Mon Sep 06 17:26:55 2021] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon Sep 06 17:35:42 2021] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon Sep 06 17:43:35 2021] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon Sep 06 17:51:39 2021] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon Sep 06 17:57:51 2021] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Mon Sep 06 17:57:52 2021] [ERROR] [Biometric_logs->process_csv_upload] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Sep 06 17:58:05 2021] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon Sep 06 17:58:47 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Sep 06 17:58:47 2021] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Sep 06 17:59:44 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Sep 06 17:59:44 2021] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Sep 06 18:03:49 2021] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon Sep 06 21:32:29 2021] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Sep 06 21:32:29 2021] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '210878',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '1137.00000',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Sep 06 21:32:29 2021] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Sep 06 21:32:29 2021] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Sep 06 21:32:29 2021] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '210879',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '1466.61905',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Sep 06 21:32:29 2021] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69

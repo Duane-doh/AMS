@@ -1,0 +1,253 @@
+[Mon Jun 19 00:13:38 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id, fullname, office_name, D.em' at line 9, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Mon Jun 19 00:13:38 2023] [ERROR] [Compensation->get_employee_list] -> SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id, fullname, office_name, D.em' at line 9 --Line 324., FILE: , LINE: 0
+[Mon Jun 19 00:13:38 2023] [ERROR] [] -> Uncaught exception: [0] 
+#0 [internal function]: Compensation->get_employee_list()
+#1 C:\Apache24\htdocs\system\core\CodeIgniter.php(514): call_user_func_array(Array, Array)
+#2 C:\Apache24\htdocs\index.php(293): require_once('C:\\Apache24\\htd...')
+#3 {main}, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Compensation.php, LINE: 462
+[Mon Jun 19 07:23:43 2023] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon Jun 19 07:50:03 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 07:50:03 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 07:51:02 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 07:51:02 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 07:51:38 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness_hr' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 08:42:57 2023] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon Jun 19 08:45:13 2023] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon Jun 19 08:52:06 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 08:52:06 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 08:53:11 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 08:53:11 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 08:54:17 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 08:54:17 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 08:54:35 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness_hr' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 09:01:54 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 09:01:54 2023] [ERROR] [Requests->get_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 09:04:37 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 09:04:37 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 09:04:37 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 09:04:37 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 09:04:58 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 09:04:58 2023] [ERROR] [Requests->get_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 09:05:22 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 09:05:22 2023] [ERROR] [Requests->get_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 09:05:25 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 09:05:25 2023] [ERROR] [Requests->get_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 09:05:33 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 09:05:33 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 09:06:07 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 09:06:07 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 09:06:11 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 09:06:11 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 09:06:17 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 09:06:17 2023] [ERROR] [Requests->get_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 09:06:27 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 09:06:27 2023] [ERROR] [Requests->get_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 09:06:29 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 09:06:29 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 09:07:05 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 09:07:05 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 09:07:16 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 09:07:16 2023] [ERROR] [Requests->get_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 09:07:24 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 09:07:24 2023] [ERROR] [Requests->get_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 09:07:26 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 09:07:26 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 09:08:28 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 09:08:28 2023] [ERROR] [Requests->get_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 09:08:32 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 09:08:32 2023] [ERROR] [Requests->get_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 09:08:37 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 09:08:37 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 09:08:38 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 09:08:38 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 09:09:08 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 09:09:08 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 09:09:20 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 09:09:20 2023] [ERROR] [Requests->get_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 09:09:31 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 09:09:31 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 09:09:45 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 09:09:45 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 09:10:07 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 09:10:07 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 09:10:11 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 09:10:11 2023] [ERROR] [Requests->get_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 09:10:24 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 09:10:24 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 09:11:02 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 09:11:02 2023] [ERROR] [Requests->get_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 09:11:04 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 09:11:04 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 09:11:15 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 09:11:15 2023] [ERROR] [Requests->get_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 09:11:17 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 09:11:18 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 09:11:22 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 09:11:22 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 09:11:53 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 09:11:53 2023] [ERROR] [Requests->get_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 09:12:01 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 09:12:01 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 09:12:10 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 09:12:10 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 09:12:11 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 09:12:11 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 09:12:29 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 09:12:29 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 09:12:40 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 09:12:40 2023] [ERROR] [Requests->get_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 09:12:44 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 09:12:44 2023] [ERROR] [Requests->get_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 09:12:58 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 09:12:58 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 09:13:04 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 09:13:05 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 09:13:31 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 09:13:31 2023] [ERROR] [Requests->get_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 09:13:35 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 09:13:35 2023] [ERROR] [Requests->get_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 09:13:38 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 09:13:38 2023] [ERROR] [Requests->get_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 09:13:41 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 09:13:41 2023] [ERROR] [Requests->get_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 09:13:51 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 09:13:51 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 09:13:56 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 09:13:56 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 09:13:59 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 09:13:59 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 09:14:22 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 09:14:22 2023] [ERROR] [Requests->get_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 09:14:25 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 09:14:25 2023] [ERROR] [Requests->get_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 09:14:32 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 09:14:32 2023] [ERROR] [Requests->get_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 09:14:52 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 09:14:52 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 09:15:12 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 09:15:12 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 09:15:13 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 09:15:13 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 09:15:13 2023] [ERROR] [Requests->get_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 09:15:13 2023] [ERROR] [Requests->get_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 09:15:16 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 09:15:16 2023] [ERROR] [Requests->get_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 09:15:23 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 09:15:23 2023] [ERROR] [Requests->get_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 09:15:43 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 09:15:43 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 13:26:35 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Mon Jun 19 13:26:35 2023] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 13:27:36 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Mon Jun 19 13:27:36 2023] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 14:30:10 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Mon Jun 19 14:30:10 2023] [ERROR] [Requests->get_task] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: , LINE: 0
+[Mon Jun 19 14:31:17 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Mon Jun 19 14:31:17 2023] [ERROR] [Requests->get_task] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: , LINE: 0
+[Mon Jun 19 14:35:19 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 14:35:19 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 14:35:42 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 14:35:42 2023] [ERROR] [Requests->get_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 14:35:44 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 14:35:44 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 14:36:17 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 14:36:17 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 14:36:37 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 14:36:37 2023] [ERROR] [Requests->get_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 14:37:05 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 14:37:05 2023] [ERROR] [Requests->get_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 14:37:10 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 14:37:10 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 14:38:12 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 14:38:12 2023] [ERROR] [Requests->get_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 14:38:13 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 14:38:13 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 14:38:34 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 14:38:34 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 14:38:46 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 14:38:46 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 14:38:48 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 14:38:48 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 14:38:49 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 14:38:49 2023] [ERROR] [Requests->get_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 14:39:03 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 14:39:03 2023] [ERROR] [Requests->get_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 14:39:06 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 14:39:06 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 14:40:06 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 14:40:06 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 14:40:22 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 14:40:22 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 14:40:50 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 14:40:50 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 14:41:00 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 14:41:00 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 14:41:08 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 14:41:08 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 14:41:13 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 14:41:13 2023] [ERROR] [Requests->get_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 14:41:29 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 14:41:29 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 14:41:32 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 14:41:32 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 14:41:40 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 14:41:40 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 14:41:53 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 14:41:53 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 14:41:53 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Mon Jun 19 14:41:53 2023] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Mon Jun 19 14:42:33 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 14:42:33 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 14:42:33 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 14:42:33 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 14:42:55 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 14:42:55 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 14:43:27 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 14:43:27 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 14:43:31 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 14:43:31 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 14:43:34 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jun 19 14:43:34 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jun 19 14:48:51 2023] [ERROR] [Attendance_period->delete_attendance_period] -> Parameters were not set in the audit trail., FILE: , LINE: 0
+[Mon Jun 19 14:49:30 2023] [ERROR] [Attendance_period->delete_attendance_period] -> Parameters were not set in the audit trail., FILE: , LINE: 0
+[Mon Jun 19 15:24:26 2023] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Mon Jun 19 15:24:26 2023] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Mon Jun 19 15:24:26 2023] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 565
+[Mon Jun 19 15:24:28 2023] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Mon Jun 19 15:24:28 2023] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Mon Jun 19 15:24:28 2023] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 565
+[Mon Jun 19 16:02:32 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Mon Jun 19 16:02:32 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\modules\main\models\Performance_evaluation_model.php, LINE: 204
+[Mon Jun 19 16:02:32 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Mon Jun 19 16:02:32 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\modules\main\models\Performance_evaluation_model.php, LINE: 204
+[Mon Jun 19 16:12:57 2023] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Mon Jun 19 16:12:57 2023] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Mon Jun 19 16:12:58 2023] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 565
+[Mon Jun 19 16:31:22 2023] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon Jun 19 16:32:16 2023] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon Jun 19 16:32:42 2023] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon Jun 19 16:33:03 2023] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon Jun 19 16:33:21 2023] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon Jun 19 16:33:39 2023] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon Jun 19 16:34:09 2023] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon Jun 19 16:34:25 2023] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon Jun 19 16:34:40 2023] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon Jun 19 16:38:27 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Mon Jun 19 16:38:27 2023] [ERROR] [Employee_dtr->process_leave_request] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Mon Jun 19 16:38:42 2023] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon Jun 19 16:41:41 2023] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon Jun 19 17:09:11 2023] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon Jun 19 17:10:38 2023] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon Jun 19 17:13:51 2023] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon Jun 19 17:15:28 2023] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon Jun 19 17:17:08 2023] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon Jun 19 17:18:39 2023] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon Jun 19 17:20:14 2023] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon Jun 19 17:21:44 2023] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon Jun 19 17:23:12 2023] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0

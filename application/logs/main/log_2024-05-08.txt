@@ -1,0 +1,42 @@
+[Wed May 08 08:25:06 2024] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Wed May 08 08:30:16 2024] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Wed May 08 08:34:17 2024] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Wed May 08 08:35:57 2024] [ERROR] [Pds_personal_info->process] -> <b>Residential Subdivision/ Village</b> is required.<br><b>Permanent Subdivision/ Village</b> is required.<br>, FILE: , LINE: 0
+[Wed May 08 13:26:46 2024] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'doh_ptis_module.employee_returned_leaves' doesn't exist, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed May 08 13:26:46 2024] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'doh_ptis_module.employee_returned_leaves' doesn't exist, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 206
+[Wed May 08 13:26:46 2024] [ERROR] [Employee_dtr->process_leave_request] -> SQLSTATE[42S02]: Base table or view not found: 1146 Table 'doh_ptis_module.employee_returned_leaves' doesn't exist, FILE: , LINE: 0
+[Wed May 08 13:27:02 2024] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'doh_ptis_module.employee_returned_leaves' doesn't exist, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed May 08 13:27:02 2024] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'doh_ptis_module.employee_returned_leaves' doesn't exist, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 206
+[Wed May 08 13:27:02 2024] [ERROR] [Employee_dtr->process_leave_request] -> SQLSTATE[42S02]: Base table or view not found: 1146 Table 'doh_ptis_module.employee_returned_leaves' doesn't exist, FILE: , LINE: 0
+[Wed May 08 13:53:21 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Wed May 08 13:53:21 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 311
+[Wed May 08 13:58:09 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Wed May 08 13:58:09 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 311
+[Wed May 08 14:59:14 2024] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Wed May 08 14:59:14 2024] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Wed May 08 15:00:40 2024] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Wed May 08 15:00:40 2024] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Wed May 08 15:01:38 2024] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Wed May 08 15:01:38 2024] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Wed May 08 15:06:04 2024] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Wed May 08 15:06:04 2024] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Wed May 08 15:12:31 2024] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Wed May 08 15:12:31 2024] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Wed May 08 15:15:18 2024] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Wed May 08 15:15:18 2024] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0

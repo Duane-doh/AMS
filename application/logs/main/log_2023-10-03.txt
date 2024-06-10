@@ -1,0 +1,179 @@
+[Tue Oct 03 02:10:59 2023] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Tue Oct 03 02:10:59 2023] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Tue Oct 03 09:54:11 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Oct 03 09:54:11 2023] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: , LINE: 0
+[Tue Oct 03 09:55:16 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Oct 03 09:55:16 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\Apache24\htdocs\application\modules\main\models\Daily_time_record_model.php, LINE: 575
+[Tue Oct 03 10:53:35 2023] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to approve the leave application. Only the assigned <b>Immediate Supervisor</b> is allowed. Please contact the System's Administrator., FILE: , LINE: 0
+[Tue Oct 03 10:55:58 2023] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to approve the leave application. Only the assigned <b>Immediate Supervisor</b> is allowed. Please contact the System's Administrator., FILE: , LINE: 0
+[Tue Oct 03 11:12:52 2023] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Tue Oct 03 11:16:28 2023] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to approve the leave application. Only the assigned <b>Immediate Supervisor</b> is allowed. Please contact the System's Administrator., FILE: , LINE: 0
+[Tue Oct 03 11:20:52 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Oct 03 11:20:52 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 311
+[Tue Oct 03 11:30:08 2023] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to approve the leave application. Only the assigned <b>Immediate Supervisor</b> is allowed. Please contact the System's Administrator., FILE: , LINE: 0
+[Tue Oct 03 12:00:08 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'leave_balance' cannot be null, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Oct 03 12:00:08 2023] [ERROR] [Requests->process_task] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'leave_balance' cannot be null, FILE: , LINE: 0
+[Tue Oct 03 12:00:25 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'leave_balance' cannot be null, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Oct 03 12:00:25 2023] [ERROR] [Requests->process_task] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'leave_balance' cannot be null, FILE: , LINE: 0
+[Tue Oct 03 12:00:38 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'leave_balance' cannot be null, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Oct 03 12:00:38 2023] [ERROR] [Requests->process_task] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'leave_balance' cannot be null, FILE: , LINE: 0
+[Tue Oct 03 12:01:10 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'leave_balance' cannot be null, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Oct 03 12:01:10 2023] [ERROR] [Requests->process_task] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'leave_balance' cannot be null, FILE: , LINE: 0
+[Tue Oct 03 12:01:20 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'leave_balance' cannot be null, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Oct 03 12:01:20 2023] [ERROR] [Requests->process_task] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'leave_balance' cannot be null, FILE: , LINE: 0
+[Tue Oct 03 12:02:06 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'leave_balance' cannot be null, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Oct 03 12:02:06 2023] [ERROR] [Requests->process_task] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'leave_balance' cannot be null, FILE: , LINE: 0
+[Tue Oct 03 12:52:18 2023] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to approve the leave application. Only the assigned <b>Immediate Supervisor</b> is allowed. Please contact the System's Administrator., FILE: , LINE: 0
+[Tue Oct 03 13:23:40 2023] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to approve the leave application. Only the assigned <b>Immediate Supervisor</b> is allowed. Please contact the System's Administrator., FILE: , LINE: 0
+[Tue Oct 03 13:43:23 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Oct 03 13:43:23 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\Apache24\htdocs\application\modules\main\models\Daily_time_record_model.php, LINE: 575
+[Tue Oct 03 13:58:12 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Oct 03 13:58:12 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\Apache24\htdocs\application\modules\main\models\Daily_time_record_model.php, LINE: 575
+[Tue Oct 03 14:01:22 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Oct 03 14:01:22 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\Apache24\htdocs\application\modules\main\models\Daily_time_record_model.php, LINE: 575
+[Tue Oct 03 14:03:19 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '4308169' , '4308170'  ))
+				        
+				GRO' at line 13, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Oct 03 14:03:19 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '4308169' , '4308170'  ))
+				        
+				GRO' at line 13, FILE: C:\Apache24\htdocs\application\modules\main\models\Daily_time_record_model.php, LINE: 575
+[Tue Oct 03 15:01:51 2023] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Tue Oct 03 15:02:03 2023] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Tue Oct 03 15:02:14 2023] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Tue Oct 03 15:03:03 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Oct 03 15:03:03 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 311
+[Tue Oct 03 15:03:09 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Oct 03 15:03:09 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 311
+[Tue Oct 03 15:03:09 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Oct 03 15:03:09 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 311
+[Tue Oct 03 15:30:56 2023] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Tue Oct 03 15:32:42 2023] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Tue Oct 03 15:35:44 2023] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Tue Oct 03 16:18:51 2023] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Tue Oct 03 16:19:52 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Oct 03 16:19:52 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Tue Oct 03 16:19:53 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Oct 03 16:19:53 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Tue Oct 03 16:20:48 2023] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Tue Oct 03 16:22:25 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Oct 03 16:22:25 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Tue Oct 03 16:22:52 2023] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Tue Oct 03 16:25:39 2023] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Tue Oct 03 16:27:30 2023] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Tue Oct 03 16:29:15 2023] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Tue Oct 03 16:36:24 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					
+					 AND A.date_requested BETWEEN "2023-09-03 00:00:00" AND "2023-10-' at line 27, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Oct 03 16:36:24 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					
+					 AND A.date_requested BETWEEN "2023-09-03 00:00:00" AND "2023-10-' at line 27, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 311
+[Tue Oct 03 16:39:57 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Oct 03 16:39:57 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\Apache24\htdocs\application\modules\main\models\Daily_time_record_model.php, LINE: 575
+[Tue Oct 03 16:40:57 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Oct 03 16:40:57 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\Apache24\htdocs\application\modules\main\models\Daily_time_record_model.php, LINE: 575
+[Tue Oct 03 16:42:35 2023] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Tue Oct 03 16:44:19 2023] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Tue Oct 03 16:45:57 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Oct 03 16:45:57 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Tue Oct 03 17:22:37 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Oct 03 17:22:37 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Tue Oct 03 17:24:38 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Oct 03 17:24:38 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Tue Oct 03 17:26:58 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness_hr' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Oct 03 17:31:35 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Oct 03 17:31:35 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Tue Oct 03 17:33:44 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Oct 03 17:33:44 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Tue Oct 03 17:35:31 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Oct 03 17:35:31 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Tue Oct 03 17:36:14 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness_hr' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Oct 03 17:41:08 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Oct 03 17:41:08 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Tue Oct 03 17:42:13 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Oct 03 17:42:13 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Tue Oct 03 17:43:06 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Oct 03 17:43:06 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Tue Oct 03 17:45:31 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Oct 03 17:45:31 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Tue Oct 03 17:47:01 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Oct 03 17:47:01 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Tue Oct 03 17:48:25 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Oct 03 17:48:25 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Tue Oct 03 17:54:01 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Oct 03 17:54:01 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 311

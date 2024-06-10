@@ -1,0 +1,41 @@
+[Wed Feb 14 08:33:54 2024] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Wed Feb 14 09:07:36 2024] [ERROR] [Pds_personal_info->process] -> 12 character/s for Philhealth Number, FILE: , LINE: 0
+[Wed Feb 14 09:07:55 2024] [ERROR] [Pds_personal_info->process] -> 12 character/s for Philhealth Number, FILE: , LINE: 0
+[Wed Feb 14 09:08:47 2024] [ERROR] [Pds_personal_info->process] -> 12 character/s for Philhealth Number, FILE: , LINE: 0
+[Wed Feb 14 09:42:36 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Wed Feb 14 09:42:36 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 311
+[Wed Feb 14 09:42:41 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Wed Feb 14 09:42:41 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 311
+[Wed Feb 14 09:42:58 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Wed Feb 14 09:42:58 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 311
+[Wed Feb 14 11:41:29 2024] [ERROR] [Attendance_period->delete_attendance_period] -> Parameters were not set in the audit trail., FILE: , LINE: 0
+[Wed Feb 14 13:55:06 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					
+					 AND A.date_requested BETWEEN "2024-01-14 00:00:00" AND "2024-02-' at line 27, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Wed Feb 14 13:55:06 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					
+					 AND A.date_requested BETWEEN "2024-01-14 00:00:00" AND "2024-02-' at line 27, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 311

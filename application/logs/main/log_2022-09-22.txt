@@ -1,0 +1,42 @@
+[Thu Sep 22 10:00:41 2022] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Thu Sep 22 10:01:49 2022] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Thu Sep 22 12:19:20 2022] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Thu Sep 22 12:19:20 2022] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Thu Sep 22 12:21:30 2022] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Thu Sep 22 12:21:30 2022] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Thu Sep 22 13:48:02 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Thu Sep 22 13:48:02 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 302
+[Thu Sep 22 14:06:44 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Thu Sep 22 14:06:44 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\modules\main\models\Performance_evaluation_model.php, LINE: 204
+[Thu Sep 22 14:06:44 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Thu Sep 22 14:06:44 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\modules\main\models\Performance_evaluation_model.php, LINE: 204
+[Thu Sep 22 14:49:02 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 0, 10' at line 12, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Thu Sep 22 14:49:02 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 0, 10' at line 12, FILE: C:\Apache24\htdocs\application\modules\main\models\Daily_time_record_model.php, LINE: 134
+[Thu Sep 22 14:49:02 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 0, 10' at line 12, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Thu Sep 22 14:49:02 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 0, 10' at line 12, FILE: C:\Apache24\htdocs\application\modules\main\models\Daily_time_record_model.php, LINE: 134
+[Thu Sep 22 16:08:32 2022] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Thu Sep 22 16:08:32 2022] [ERROR] [Requests->get_task] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: , LINE: 0

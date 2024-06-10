@@ -1,0 +1,200 @@
+[Tue Apr 11 07:29:12 2023] [ERROR] [Compensation->process_certificate_request] -> Purpose is required., FILE: , LINE: 0
+[Tue Apr 11 08:34:49 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Apr 11 08:34:49 2023] [ERROR] [Requests->get_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Tue Apr 11 10:31:36 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Apr 11 10:31:36 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 311
+[Tue Apr 11 10:31:36 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Apr 11 10:31:36 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 311
+[Tue Apr 11 10:31:36 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Apr 11 10:31:36 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 311
+[Tue Apr 11 10:31:43 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Apr 11 10:31:43 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 311
+[Tue Apr 11 10:58:13 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Apr 11 10:58:13 2023] [ERROR] [Requests->get_task] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Tue Apr 11 10:58:26 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Apr 11 10:58:26 2023] [ERROR] [Requests->get_task] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Tue Apr 11 10:58:47 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Apr 11 10:58:47 2023] [ERROR] [Requests->get_task] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Tue Apr 11 10:59:44 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Apr 11 10:59:44 2023] [ERROR] [Requests->get_task] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Tue Apr 11 10:59:53 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Apr 11 10:59:53 2023] [ERROR] [Requests->get_task] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Tue Apr 11 11:00:11 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Apr 11 11:00:11 2023] [ERROR] [Requests->get_task] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Tue Apr 11 11:00:51 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Apr 11 11:00:51 2023] [ERROR] [Requests->get_task] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Tue Apr 11 11:01:36 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Apr 11 11:01:36 2023] [ERROR] [Requests->get_task] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Tue Apr 11 11:02:46 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Apr 11 11:02:46 2023] [ERROR] [Requests->get_task] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Tue Apr 11 11:04:29 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Apr 11 11:04:29 2023] [ERROR] [Requests->get_task] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Tue Apr 11 11:16:27 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'leave_balance' cannot be null, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Apr 11 11:16:27 2023] [ERROR] [Requests->process_task] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'leave_balance' cannot be null, FILE: , LINE: 0
+[Tue Apr 11 11:51:52 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Apr 11 11:51:52 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\modules\main\models\Performance_evaluation_model.php, LINE: 204
+[Tue Apr 11 11:51:52 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Apr 11 11:51:52 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\modules\main\models\Performance_evaluation_model.php, LINE: 204
+[Tue Apr 11 13:06:25 2023] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Tue Apr 11 13:06:25 2023] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Tue Apr 11 13:06:25 2023] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 565
+[Tue Apr 11 13:06:29 2023] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Tue Apr 11 13:06:29 2023] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Tue Apr 11 13:06:29 2023] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 565
+[Tue Apr 11 13:06:29 2023] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Tue Apr 11 13:06:29 2023] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Tue Apr 11 13:06:29 2023] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 565
+[Tue Apr 11 13:06:31 2023] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Tue Apr 11 13:06:31 2023] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Tue Apr 11 13:06:31 2023] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 565
+[Tue Apr 11 13:06:34 2023] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Tue Apr 11 13:06:34 2023] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Tue Apr 11 13:06:34 2023] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 565
+[Tue Apr 11 14:42:40 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Apr 11 14:42:40 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Tue Apr 11 14:43:56 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Apr 11 14:43:56 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Tue Apr 11 14:46:08 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Apr 11 14:46:08 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Tue Apr 11 14:46:08 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Tue Apr 11 14:47:17 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Apr 11 14:47:17 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Tue Apr 11 14:47:45 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Apr 11 14:47:45 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Tue Apr 11 14:48:10 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Apr 11 14:48:10 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Tue Apr 11 14:49:03 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Apr 11 14:49:03 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Tue Apr 11 14:50:09 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Apr 11 14:50:10 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Tue Apr 11 14:51:02 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Apr 11 14:51:02 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Tue Apr 11 14:51:37 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Apr 11 14:51:37 2023] [ERROR] [Requests->get_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Tue Apr 11 14:51:55 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Apr 11 14:51:55 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Tue Apr 11 15:08:00 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Apr 11 15:08:00 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Tue Apr 11 15:09:01 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Apr 11 15:09:01 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Tue Apr 11 15:10:25 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Apr 11 15:10:25 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Tue Apr 11 15:10:52 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Apr 11 15:10:52 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Tue Apr 11 15:11:18 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Apr 11 15:11:18 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Tue Apr 11 15:11:34 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Apr 11 15:11:34 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Tue Apr 11 15:12:03 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Apr 11 15:12:03 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Tue Apr 11 15:12:11 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Apr 11 15:12:11 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Tue Apr 11 15:13:03 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Apr 11 15:13:03 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Tue Apr 11 15:13:20 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Apr 11 15:13:20 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Tue Apr 11 15:13:56 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Apr 11 15:13:56 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Tue Apr 11 15:15:14 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Apr 11 15:15:14 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Tue Apr 11 15:16:37 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Apr 11 15:16:37 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Tue Apr 11 15:19:26 2023] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Tue Apr 11 15:21:01 2023] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Tue Apr 11 15:22:34 2023] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Tue Apr 11 15:23:46 2023] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Tue Apr 11 15:24:58 2023] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Tue Apr 11 15:26:10 2023] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Tue Apr 11 15:27:24 2023] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Tue Apr 11 15:46:47 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Apr 11 15:46:47 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\modules\main\models\Performance_evaluation_model.php, LINE: 204
+[Tue Apr 11 15:46:47 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Apr 11 15:46:47 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\modules\main\models\Performance_evaluation_model.php, LINE: 204
+[Tue Apr 11 15:57:21 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Apr 11 15:57:21 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Tue Apr 11 15:58:16 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Apr 11 15:58:16 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\modules\main\models\Attendance_period_model.php, LINE: 663
+[Tue Apr 11 15:58:16 2023] [ERROR] [Attendance_period->process_attendance_period] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Tue Apr 11 15:58:56 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Apr 11 15:58:56 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Tue Apr 11 16:00:40 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Apr 11 16:00:40 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Tue Apr 11 16:01:54 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Apr 11 16:01:54 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Tue Apr 11 16:02:14 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Apr 11 16:02:14 2023] [ERROR] [Employee_attendance->process_time_logs] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Tue Apr 11 16:03:09 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Apr 11 16:03:09 2023] [ERROR] [Employee_attendance->process_time_logs] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Tue Apr 11 16:03:29 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Apr 11 16:03:29 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Tue Apr 11 16:04:22 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Apr 11 16:04:22 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Tue Apr 11 16:06:08 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Apr 11 16:06:08 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Tue Apr 11 16:06:09 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Apr 11 16:06:09 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Tue Apr 11 16:07:02 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Apr 11 16:07:02 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Tue Apr 11 16:13:01 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Apr 11 16:13:01 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Tue Apr 11 16:14:03 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Apr 11 16:14:03 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Tue Apr 11 16:14:56 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Apr 11 16:14:56 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Tue Apr 11 16:21:42 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Apr 11 16:21:42 2023] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Tue Apr 11 17:19:16 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id, fullname, office_name, D.em' at line 9, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Apr 11 17:19:16 2023] [ERROR] [Compensation->get_employee_list] -> SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id, fullname, office_name, D.em' at line 9 --Line 324., FILE: , LINE: 0
+[Tue Apr 11 17:19:16 2023] [ERROR] [] -> Uncaught exception: [0] 
+#0 [internal function]: Compensation->get_employee_list()
+#1 C:\Apache24\htdocs\system\core\CodeIgniter.php(514): call_user_func_array(Array, Array)
+#2 C:\Apache24\htdocs\index.php(293): require_once('C:\\Apache24\\htd...')
+#3 {main}, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Compensation.php, LINE: 462
+[Tue Apr 11 17:41:04 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					
+					 AND A.date_requested BETWEEN "2023-03-11 00:00:00" AND "2023-04-' at line 27, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Apr 11 17:41:04 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					
+					 AND A.date_requested BETWEEN "2023-03-11 00:00:00" AND "2023-04-' at line 27, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 311

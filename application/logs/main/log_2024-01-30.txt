@@ -1,0 +1,84 @@
+[Tue Jan 30 07:17:49 2024] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'leave_balance' cannot be null, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Jan 30 07:17:49 2024] [ERROR] [Requests->process_task] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'leave_balance' cannot be null, FILE: , LINE: 0
+[Tue Jan 30 07:20:34 2024] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'leave_balance' cannot be null, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Jan 30 07:20:34 2024] [ERROR] [Requests->process_task] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'leave_balance' cannot be null, FILE: , LINE: 0
+[Tue Jan 30 09:10:57 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 30 09:10:57 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\modules\main\models\Performance_evaluation_model.php, LINE: 204
+[Tue Jan 30 09:10:57 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 30 09:10:57 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\modules\main\models\Performance_evaluation_model.php, LINE: 204
+[Tue Jan 30 09:11:04 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 30 09:11:04 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\modules\main\models\Performance_evaluation_model.php, LINE: 204
+[Tue Jan 30 09:11:04 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 30 09:11:04 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\modules\main\models\Performance_evaluation_model.php, LINE: 204
+[Tue Jan 30 09:29:15 2024] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Jan 30 09:29:15 2024] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: , LINE: 0
+[Tue Jan 30 09:29:32 2024] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Jan 30 09:29:32 2024] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: , LINE: 0
+[Tue Jan 30 09:34:42 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 30 09:34:42 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\modules\main\models\Performance_evaluation_model.php, LINE: 204
+[Tue Jan 30 09:34:42 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 30 09:34:42 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\modules\main\models\Performance_evaluation_model.php, LINE: 204
+[Tue Jan 30 09:40:27 2024] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Tue Jan 30 12:36:51 2024] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to approve the leave application. Only the assigned <b>Immediate Supervisor</b> is allowed. Please contact the System's Administrator., FILE: , LINE: 0
+[Tue Jan 30 12:42:19 2024] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to approve the leave application. Only the assigned <b>Immediate Supervisor</b> is allowed. Please contact the System's Administrator., FILE: , LINE: 0
+[Tue Jan 30 14:45:25 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 30 14:45:25 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\modules\main\models\Performance_evaluation_model.php, LINE: 204
+[Tue Jan 30 14:45:25 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 30 14:45:25 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\modules\main\models\Performance_evaluation_model.php, LINE: 204
+[Tue Jan 30 15:56:19 2024] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')  AND  C.attendance_period_hdr_id = '4615'
+				
+				ORDER BY B.compensation_i' at line 4, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Tue Jan 30 15:56:19 2024] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')  AND  C.attendance_period_hdr_id = '4615'
+				
+				ORDER BY B.compensation_i' at line 4, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Tue Jan 30 15:56:19 2024] [ERROR] [General_payroll_alpha_list_for_jo->generate_report_data] -> SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')  AND  C.attendance_period_hdr_id = '4615'
+				
+				ORDER BY B.compensation_i' at line 4, FILE: C:\Apache24\htdocs\application\modules\main\controllers\reports_payroll\Reports_payroll.php, LINE: 748
+[Tue Jan 30 15:59:06 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc
+	        	LIMIT 0, 10' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 30 15:59:06 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc
+	        	LIMIT 0, 10' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Employee_requests_model.php, LINE: 64
+[Tue Jan 30 15:59:06 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc
+	        	LIMIT 0, 10' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 30 15:59:06 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc
+	        	LIMIT 0, 10' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Employee_requests_model.php, LINE: 64
+[Tue Jan 30 15:59:08 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc
+	        	LIMIT 0, 10' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 30 15:59:08 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc
+	        	LIMIT 0, 10' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Employee_requests_model.php, LINE: 64
+[Tue Jan 30 15:59:08 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc
+	        	LIMIT 0, 10' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 30 15:59:08 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc
+	        	LIMIT 0, 10' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Employee_requests_model.php, LINE: 64
+[Tue Jan 30 15:59:15 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc
+	        	LIMIT 0, 10' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 30 15:59:15 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc
+	        	LIMIT 0, 10' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Employee_requests_model.php, LINE: 64
+[Tue Jan 30 15:59:15 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc
+	        	LIMIT 0, 10' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 30 15:59:15 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc
+	        	LIMIT 0, 10' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Employee_requests_model.php, LINE: 64
+[Tue Jan 30 17:11:53 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 30 17:11:53 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\modules\main\models\Performance_evaluation_model.php, LINE: 204
+[Tue Jan 30 17:11:53 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 30 17:11:53 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\modules\main\models\Performance_evaluation_model.php, LINE: 204

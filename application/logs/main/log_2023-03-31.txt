@@ -1,0 +1,135 @@
+[Fri Mar 31 07:40:50 2023] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to approve the leave application. Only the assigned <b>Immediate Supervisor</b> is allowed. Please contact the System's Administrator., FILE: , LINE: 0
+[Fri Mar 31 07:46:15 2023] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Fri Mar 31 09:36:51 2023] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Fri Mar 31 09:36:51 2023] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Fri Mar 31 09:36:51 2023] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 565
+[Fri Mar 31 09:37:32 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Fri Mar 31 09:37:32 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\Apache24\htdocs\application\modules\main\models\Daily_time_record_model.php, LINE: 575
+[Fri Mar 31 09:47:16 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Fri Mar 31 09:47:16 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\Apache24\htdocs\application\modules\main\models\Daily_time_record_model.php, LINE: 575
+[Fri Mar 31 10:45:47 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id, fullname, office_name, D.em' at line 9, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Fri Mar 31 10:45:47 2023] [ERROR] [Compensation->get_employee_list] -> SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id, fullname, office_name, D.em' at line 9 --Line 324., FILE: , LINE: 0
+[Fri Mar 31 10:45:47 2023] [ERROR] [] -> Uncaught exception: [0] 
+#0 [internal function]: Compensation->get_employee_list()
+#1 C:\Apache24\htdocs\system\core\CodeIgniter.php(514): call_user_func_array(Array, Array)
+#2 C:\Apache24\htdocs\index.php(293): require_once('C:\\Apache24\\htd...')
+#3 {main}, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Compensation.php, LINE: 462
+[Fri Mar 31 10:46:10 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id, fullname, office_name, D.em' at line 9, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Fri Mar 31 10:46:10 2023] [ERROR] [Compensation->get_employee_list] -> SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id, fullname, office_name, D.em' at line 9 --Line 324., FILE: , LINE: 0
+[Fri Mar 31 10:46:10 2023] [ERROR] [] -> Uncaught exception: [0] 
+#0 [internal function]: Compensation->get_employee_list()
+#1 C:\Apache24\htdocs\system\core\CodeIgniter.php(514): call_user_func_array(Array, Array)
+#2 C:\Apache24\htdocs\index.php(293): require_once('C:\\Apache24\\htd...')
+#3 {main}, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Compensation.php, LINE: 462
+[Fri Mar 31 11:38:53 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Fri Mar 31 11:38:53 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\Apache24\htdocs\application\modules\main\models\Daily_time_record_model.php, LINE: 575
+[Fri Mar 31 12:38:19 2023] [ERROR] [Pds_record_changes_requests->delete_family] -> Requested action is prohibited. Previous request for this record is still unprocessed., FILE: , LINE: 0
+[Fri Mar 31 13:35:42 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 0, 10' at line 12, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Fri Mar 31 13:35:42 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 0, 10' at line 12, FILE: C:\Apache24\htdocs\application\modules\main\models\Daily_time_record_model.php, LINE: 134
+[Fri Mar 31 13:35:42 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 0, 10' at line 12, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Fri Mar 31 13:35:42 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 0, 10' at line 12, FILE: C:\Apache24\htdocs\application\modules\main\models\Daily_time_record_model.php, LINE: 134
+[Fri Mar 31 13:36:54 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Fri Mar 31 13:36:54 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 311
+[Fri Mar 31 13:40:33 2023] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Fri Mar 31 13:40:33 2023] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Fri Mar 31 13:40:33 2023] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 565
+[Fri Mar 31 13:40:36 2023] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Fri Mar 31 13:40:36 2023] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Fri Mar 31 13:40:36 2023] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 565
+[Fri Mar 31 13:49:31 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Fri Mar 31 13:49:31 2023] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: , LINE: 0
+[Fri Mar 31 13:49:34 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Fri Mar 31 13:49:34 2023] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: , LINE: 0
+[Fri Mar 31 13:49:44 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Fri Mar 31 13:49:44 2023] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: , LINE: 0
+[Fri Mar 31 14:35:51 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					
+					 AND A.date_requested BETWEEN "2023-03-03 00:00:00" AND "2023-03-' at line 27, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Fri Mar 31 14:35:51 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					
+					 AND A.date_requested BETWEEN "2023-03-03 00:00:00" AND "2023-03-' at line 27, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 311
+[Fri Mar 31 14:56:44 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Fri Mar 31 14:56:44 2023] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Fri Mar 31 15:03:23 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Fri Mar 31 15:03:23 2023] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Fri Mar 31 15:04:29 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Fri Mar 31 15:04:30 2023] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Fri Mar 31 15:04:49 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Fri Mar 31 15:04:49 2023] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Fri Mar 31 15:05:30 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Fri Mar 31 15:05:30 2023] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Fri Mar 31 15:07:03 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Fri Mar 31 15:07:03 2023] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Fri Mar 31 15:30:38 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Fri Mar 31 15:30:38 2023] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Fri Mar 31 15:31:12 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Fri Mar 31 15:31:12 2023] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Fri Mar 31 15:48:30 2023] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to approve the leave application. Only the assigned <b>Immediate Supervisor</b> is allowed. Please contact the System's Administrator., FILE: , LINE: 0
+[Fri Mar 31 15:51:57 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 697, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Fri Mar 31 15:51:57 2023] [ERROR] [Requests->process_task] -> SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 697, FILE: , LINE: 0
+[Fri Mar 31 15:53:01 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 697, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Fri Mar 31 15:53:01 2023] [ERROR] [Requests->process_task] -> SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 697, FILE: , LINE: 0
+[Fri Mar 31 15:53:35 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 697, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Fri Mar 31 15:53:35 2023] [ERROR] [Requests->process_task] -> SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 697, FILE: , LINE: 0
+[Fri Mar 31 15:54:26 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 697, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Fri Mar 31 15:54:26 2023] [ERROR] [Requests->process_task] -> SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 697, FILE: , LINE: 0
+[Fri Mar 31 16:33:59 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1172 Result consisted of more than one row, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Fri Mar 31 16:33:59 2023] [ERROR] [Payroll_process_model->insert_payroll_header] -> SQLSTATE[42000]: Syntax error or access violation: 1172 Result consisted of more than one row, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_process.php, LINE: 273
+[Fri Mar 31 16:33:59 2023] [ERROR] [Payroll_process->process_payroll] -> SQLSTATE[42000]: Syntax error or access violation: 1172 Result consisted of more than one row, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll.php, LINE: 250
+[Fri Mar 31 16:34:26 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1172 Result consisted of more than one row, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Fri Mar 31 16:34:26 2023] [ERROR] [Payroll_process_model->insert_payroll_header] -> SQLSTATE[42000]: Syntax error or access violation: 1172 Result consisted of more than one row, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_process.php, LINE: 273
+[Fri Mar 31 16:34:26 2023] [ERROR] [Payroll_process->process_payroll] -> SQLSTATE[42000]: Syntax error or access violation: 1172 Result consisted of more than one row, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll.php, LINE: 250
+[Fri Mar 31 17:03:20 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Fri Mar 31 17:03:20 2023] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: , LINE: 0
+[Fri Mar 31 17:23:34 2023] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Fri Mar 31 17:30:27 2023] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Fri Mar 31 17:30:27 2023] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Fri Mar 31 17:30:27 2023] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 565
+[Fri Mar 31 17:30:33 2023] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Fri Mar 31 17:30:33 2023] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Fri Mar 31 17:30:33 2023] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 565
+[Fri Mar 31 19:07:28 2023] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Fri Mar 31 19:07:28 2023] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Fri Mar 31 19:07:28 2023] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 565

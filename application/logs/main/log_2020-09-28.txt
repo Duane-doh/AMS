@@ -1,0 +1,119 @@
+[Mon Sep 28 07:59:48 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc' at line 27, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Sep 28 07:59:48 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc' at line 27, FILE: C:\www\application\modules\main\models\Requests_model.php, LINE: 286
+[Mon Sep 28 07:59:48 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc' at line 27, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Sep 28 07:59:48 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc' at line 27, FILE: C:\www\application\modules\main\models\Requests_model.php, LINE: 286
+[Mon Sep 28 08:14:00 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'contact_value' cannot be null, FILE: C:\www\application\core\Base_Model.php, LINE: 968
+[Mon Sep 28 08:14:00 2020] [ERROR] [Requests->process_task] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'contact_value' cannot be null, FILE: , LINE: 0
+[Mon Sep 28 08:14:41 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'contact_value' cannot be null, FILE: C:\www\application\core\Base_Model.php, LINE: 968
+[Mon Sep 28 08:14:41 2020] [ERROR] [Requests->process_task] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'contact_value' cannot be null, FILE: , LINE: 0
+[Mon Sep 28 08:17:16 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Sep 28 08:17:16 2020] [ERROR] [Pds_model->get_employee_monthly_salary] -> SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row, FILE: C:\www\application\modules\main\controllers\Pds_work_experience_info.php, LINE: 306
+[Mon Sep 28 08:17:16 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Sep 28 08:17:16 2020] [ERROR] [Pds_model->get_employee_monthly_salary] -> SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row, FILE: C:\www\application\modules\main\controllers\Pds_work_experience_info.php, LINE: 306
+[Mon Sep 28 08:17:20 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Sep 28 08:17:20 2020] [ERROR] [Pds_model->get_employee_monthly_salary] -> SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row, FILE: C:\www\application\modules\main\controllers\Pds_work_experience_info.php, LINE: 306
+[Mon Sep 28 08:17:21 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Sep 28 08:17:21 2020] [ERROR] [Pds_model->get_employee_monthly_salary] -> SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row, FILE: C:\www\application\modules\main\controllers\Pds_work_experience_info.php, LINE: 306
+[Mon Sep 28 08:17:29 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[HY000]: General error: 1366 Incorrect decimal value: '' for column 'employ_monthly_salary' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Mon Sep 28 08:17:29 2020] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1366 Incorrect decimal value: '' for column 'employ_monthly_salary' at row 1, FILE: , LINE: 0
+[Mon Sep 28 08:18:32 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Sep 28 08:18:32 2020] [ERROR] [Pds_model->get_employee_monthly_salary] -> SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row, FILE: C:\www\application\modules\main\controllers\Pds_work_experience_info.php, LINE: 306
+[Mon Sep 28 08:18:32 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Sep 28 08:18:32 2020] [ERROR] [Pds_model->get_employee_monthly_salary] -> SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row, FILE: C:\www\application\modules\main\controllers\Pds_work_experience_info.php, LINE: 306
+[Mon Sep 28 08:18:37 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Sep 28 08:18:37 2020] [ERROR] [Pds_model->get_employee_monthly_salary] -> SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row, FILE: C:\www\application\modules\main\controllers\Pds_work_experience_info.php, LINE: 306
+[Mon Sep 28 08:18:37 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Sep 28 08:18:37 2020] [ERROR] [Pds_model->get_employee_monthly_salary] -> SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row, FILE: C:\www\application\modules\main\controllers\Pds_work_experience_info.php, LINE: 306
+[Mon Sep 28 08:19:01 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Sep 28 08:19:01 2020] [ERROR] [Pds_model->get_employee_monthly_salary] -> SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row, FILE: C:\www\application\modules\main\controllers\Pds_work_experience_info.php, LINE: 306
+[Mon Sep 28 08:19:01 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Sep 28 08:19:01 2020] [ERROR] [Pds_model->get_employee_monthly_salary] -> SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row, FILE: C:\www\application\modules\main\controllers\Pds_work_experience_info.php, LINE: 306
+[Mon Sep 28 08:19:05 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Sep 28 08:19:05 2020] [ERROR] [Pds_model->get_employee_monthly_salary] -> SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row, FILE: C:\www\application\modules\main\controllers\Pds_work_experience_info.php, LINE: 306
+[Mon Sep 28 08:19:05 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Sep 28 08:19:05 2020] [ERROR] [Pds_model->get_employee_monthly_salary] -> SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row, FILE: C:\www\application\modules\main\controllers\Pds_work_experience_info.php, LINE: 306
+[Mon Sep 28 08:19:49 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Sep 28 08:19:49 2020] [ERROR] [Pds_model->get_employee_monthly_salary] -> SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row, FILE: C:\www\application\modules\main\controllers\Pds_work_experience_info.php, LINE: 306
+[Mon Sep 28 08:19:49 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Sep 28 08:19:49 2020] [ERROR] [Pds_model->get_employee_monthly_salary] -> SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row, FILE: C:\www\application\modules\main\controllers\Pds_work_experience_info.php, LINE: 306
+[Mon Sep 28 08:20:00 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Sep 28 08:20:00 2020] [ERROR] [Pds_model->get_employee_monthly_salary] -> SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row, FILE: C:\www\application\modules\main\controllers\Pds_work_experience_info.php, LINE: 306
+[Mon Sep 28 08:20:00 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Sep 28 08:20:00 2020] [ERROR] [Pds_model->get_employee_monthly_salary] -> SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row, FILE: C:\www\application\modules\main\controllers\Pds_work_experience_info.php, LINE: 306
+[Mon Sep 28 08:23:31 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Sep 28 08:23:31 2020] [ERROR] [Pds_model->get_employee_monthly_salary] -> SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row, FILE: C:\www\application\modules\main\controllers\Pds_work_experience_info.php, LINE: 306
+[Mon Sep 28 08:23:31 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Sep 28 08:23:31 2020] [ERROR] [Pds_model->get_employee_monthly_salary] -> SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row, FILE: C:\www\application\modules\main\controllers\Pds_work_experience_info.php, LINE: 306
+[Mon Sep 28 08:23:33 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Sep 28 08:23:33 2020] [ERROR] [Pds_model->get_employee_monthly_salary] -> SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row, FILE: C:\www\application\modules\main\controllers\Pds_work_experience_info.php, LINE: 306
+[Mon Sep 28 08:23:33 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Sep 28 08:23:33 2020] [ERROR] [Pds_model->get_employee_monthly_salary] -> SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row, FILE: C:\www\application\modules\main\controllers\Pds_work_experience_info.php, LINE: 306
+[Mon Sep 28 08:23:39 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[HY000]: General error: 1366 Incorrect decimal value: '' for column 'employ_monthly_salary' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Mon Sep 28 08:23:39 2020] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1366 Incorrect decimal value: '' for column 'employ_monthly_salary' at row 1, FILE: , LINE: 0
+[Mon Sep 28 08:23:55 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Sep 28 08:23:55 2020] [ERROR] [Pds_model->get_employee_monthly_salary] -> SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row, FILE: C:\www\application\modules\main\controllers\Pds_work_experience_info.php, LINE: 306
+[Mon Sep 28 08:23:55 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Sep 28 08:23:55 2020] [ERROR] [Pds_model->get_employee_monthly_salary] -> SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row, FILE: C:\www\application\modules\main\controllers\Pds_work_experience_info.php, LINE: 306
+[Mon Sep 28 08:23:56 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Sep 28 08:23:56 2020] [ERROR] [Pds_model->get_employee_monthly_salary] -> SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row, FILE: C:\www\application\modules\main\controllers\Pds_work_experience_info.php, LINE: 306
+[Mon Sep 28 08:23:56 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Sep 28 08:23:56 2020] [ERROR] [Pds_model->get_employee_monthly_salary] -> SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row, FILE: C:\www\application\modules\main\controllers\Pds_work_experience_info.php, LINE: 306
+[Mon Sep 28 09:20:54 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Sep 28 09:20:54 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\www\application\modules\main\models\Requests_model.php, LINE: 286
+[Mon Sep 28 09:20:54 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Sep 28 09:20:54 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\www\application\modules\main\models\Requests_model.php, LINE: 286
+[Mon Sep 28 09:46:31 2020] [ERROR] [Pds_personal_info->process] -> Invalid input in <b>GSIS Number</b>., FILE: , LINE: 0
+[Mon Sep 28 10:10:42 2020] [ERROR] [Pds_personal_info->process] -> Please enter a valid amount in Height., FILE: , LINE: 0
+[Mon Sep 28 10:39:06 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for Philhealth Number, FILE: , LINE: 0
+[Mon Sep 28 11:33:40 2020] [ERROR] [Pds_personal_info->process] -> <b>GSIS Number</b> is required. If Not Applicable, put <b>NA</b>., FILE: , LINE: 0
+[Mon Sep 28 11:48:01 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Sep 28 11:48:01 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\www\application\modules\main\models\Performance_evaluation_model.php, LINE: 204
+[Mon Sep 28 11:48:01 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Sep 28 11:48:01 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\www\application\modules\main\models\Performance_evaluation_model.php, LINE: 204
+[Mon Sep 28 12:25:15 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for Philhealth Number, FILE: , LINE: 0
+[Mon Sep 28 12:25:18 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for Philhealth Number, FILE: , LINE: 0
+[Mon Sep 28 12:51:12 2020] [ERROR] [Employee_work_schedule->process_work_schedule] -> Effectivity date must be after <b>Sep 01, 2020.</b>, FILE: , LINE: 0
+[Mon Sep 28 12:51:16 2020] [ERROR] [Employee_work_schedule->process_work_schedule] -> Effectivity date must be after <b>Sep 01, 2020.</b>, FILE: , LINE: 0
+[Mon Sep 28 12:51:30 2020] [ERROR] [Employee_work_schedule->process_work_schedule] -> Effectivity date must be after <b>Sep 01, 2020.</b>, FILE: , LINE: 0
+[Mon Sep 28 12:52:06 2020] [ERROR] [Employee_work_schedule->process_work_schedule] -> Effectivity date must be after <b>Sep 01, 2020.</b>, FILE: , LINE: 0
+[Mon Sep 28 13:06:06 2020] [ERROR] [Employee_work_schedule->process_work_schedule] -> Effectivity date must be after <b>Sep 01, 2020.</b>, FILE: , LINE: 0
+[Mon Sep 28 14:56:09 2020] [ERROR] [Employee_work_schedule->process_work_schedule] -> Effectivity date must be after <b>Sep 01, 2020.</b>, FILE: , LINE: 0
+[Mon Sep 28 15:34:30 2020] [ERROR] [Employee_work_schedule->process_work_schedule] -> Effectivity date must be after <b>Sep 01, 2020.</b>, FILE: , LINE: 0
+[Mon Sep 28 16:03:10 2020] [ERROR] [Pds_personal_info->process] -> , FILE: , LINE: 0
+[Mon Sep 28 16:03:31 2020] [ERROR] [Pds_personal_info->process] -> , FILE: , LINE: 0

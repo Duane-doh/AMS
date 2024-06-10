@@ -1,0 +1,259 @@
+[Mon Jan 30 07:56:02 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id, fullname, office_name, D.em' at line 9, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Mon Jan 30 07:56:02 2023] [ERROR] [Compensation->get_employee_list] -> SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id, fullname, office_name, D.em' at line 9 --Line 324., FILE: , LINE: 0
+[Mon Jan 30 07:56:02 2023] [ERROR] [] -> Uncaught exception: [0] 
+#0 [internal function]: Compensation->get_employee_list()
+#1 C:\Apache24\htdocs\system\core\CodeIgniter.php(514): call_user_func_array(Array, Array)
+#2 C:\Apache24\htdocs\index.php(293): require_once('C:\\Apache24\\htd...')
+#3 {main}, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Compensation.php, LINE: 462
+[Mon Jan 30 08:00:35 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Mon Jan 30 08:00:35 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\Apache24\htdocs\application\modules\main\models\Daily_time_record_model.php, LINE: 575
+[Mon Jan 30 08:18:36 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Mon Jan 30 08:18:36 2023] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Mon Jan 30 08:42:21 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jan 30 08:42:21 2023] [ERROR] [Requests->modal_request_changes] -> NULL, FILE: , LINE: 0
+[Mon Jan 30 08:55:19 2023] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon Jan 30 08:57:16 2023] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon Jan 30 08:58:15 2023] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon Jan 30 08:58:58 2023] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon Jan 30 09:05:06 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Mon Jan 30 09:05:06 2023] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Mon Jan 30 09:28:12 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Mon Jan 30 09:28:12 2023] [ERROR] [Pds_record_changes_requests->process_family] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Mon Jan 30 10:53:09 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Mon Jan 30 10:53:09 2023] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Mon Jan 30 10:53:32 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Mon Jan 30 10:53:32 2023] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Mon Jan 30 10:54:04 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Mon Jan 30 10:54:04 2023] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Mon Jan 30 10:54:33 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Mon Jan 30 10:54:33 2023] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Mon Jan 30 10:55:04 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Mon Jan 30 10:55:04 2023] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Mon Jan 30 10:55:43 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Mon Jan 30 10:55:43 2023] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Mon Jan 30 10:57:43 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Mon Jan 30 10:57:43 2023] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Mon Jan 30 10:57:46 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Mon Jan 30 10:57:46 2023] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Mon Jan 30 10:57:53 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Mon Jan 30 10:57:53 2023] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Mon Jan 30 10:58:12 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Mon Jan 30 10:58:12 2023] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Mon Jan 30 11:09:48 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Mon Jan 30 11:09:48 2023] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Mon Jan 30 11:10:20 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Mon Jan 30 11:10:20 2023] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Mon Jan 30 11:21:02 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 872, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jan 30 11:21:02 2023] [ERROR] [Requests->process_task] -> SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 872, FILE: , LINE: 0
+[Mon Jan 30 11:21:29 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 872, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jan 30 11:21:29 2023] [ERROR] [Requests->process_task] -> SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 872, FILE: , LINE: 0
+[Mon Jan 30 11:22:10 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 872, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jan 30 11:22:10 2023] [ERROR] [Requests->process_task] -> SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 872, FILE: , LINE: 0
+[Mon Jan 30 11:22:47 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 872, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jan 30 11:22:47 2023] [ERROR] [Requests->process_task] -> SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 872, FILE: , LINE: 0
+[Mon Jan 30 11:23:14 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 872, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jan 30 11:23:14 2023] [ERROR] [Requests->process_task] -> SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 872, FILE: , LINE: 0
+[Mon Jan 30 11:23:56 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 872, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jan 30 11:23:56 2023] [ERROR] [Requests->process_task] -> SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 872, FILE: , LINE: 0
+[Mon Jan 30 11:24:23 2023] [ERROR] [Base_Model::rlog_error] -> 619: Invalid syntax validation for A.payroll_type_id, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 782
+[Mon Jan 30 11:24:23 2023] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for A.payroll_type_id, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 523
+[Mon Jan 30 11:24:23 2023] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for A.payroll_type_id, FILE: C:\Apache24\htdocs\application\modules\main\models\Reports_payroll_model.php, LINE: 857
+[Mon Jan 30 11:24:47 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 872, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jan 30 11:24:47 2023] [ERROR] [Requests->process_task] -> SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 872, FILE: , LINE: 0
+[Mon Jan 30 11:25:39 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 872, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jan 30 11:25:39 2023] [ERROR] [Requests->process_task] -> SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 872, FILE: , LINE: 0
+[Mon Jan 30 11:26:45 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 872, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jan 30 11:26:45 2023] [ERROR] [Requests->process_task] -> SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 872, FILE: , LINE: 0
+[Mon Jan 30 11:27:11 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 872, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jan 30 11:27:11 2023] [ERROR] [Requests->process_task] -> SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 872, FILE: , LINE: 0
+[Mon Jan 30 11:30:15 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 872, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jan 30 11:30:15 2023] [ERROR] [Requests->process_task] -> SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 872, FILE: , LINE: 0
+[Mon Jan 30 11:31:18 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 872, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jan 30 11:31:18 2023] [ERROR] [Requests->process_task] -> SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 872, FILE: , LINE: 0
+[Mon Jan 30 11:31:37 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 872, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jan 30 11:31:37 2023] [ERROR] [Requests->process_task] -> SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 872, FILE: , LINE: 0
+[Mon Jan 30 11:33:05 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 872, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jan 30 11:33:05 2023] [ERROR] [Requests->process_task] -> SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 872, FILE: , LINE: 0
+[Mon Jan 30 11:33:34 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 872, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jan 30 11:33:34 2023] [ERROR] [Requests->process_task] -> SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 872, FILE: , LINE: 0
+[Mon Jan 30 12:18:03 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 872, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jan 30 12:18:03 2023] [ERROR] [Requests->process_task] -> SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 872, FILE: , LINE: 0
+[Mon Jan 30 12:18:54 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 872, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jan 30 12:18:54 2023] [ERROR] [Requests->process_task] -> SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 872, FILE: , LINE: 0
+[Mon Jan 30 12:22:33 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 872, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jan 30 12:22:33 2023] [ERROR] [Requests->process_task] -> SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 872, FILE: , LINE: 0
+[Mon Jan 30 12:23:22 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 872, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jan 30 12:23:22 2023] [ERROR] [Requests->process_task] -> SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 872, FILE: , LINE: 0
+[Mon Jan 30 12:37:07 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 872, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jan 30 12:37:07 2023] [ERROR] [Requests->process_task] -> SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 872, FILE: , LINE: 0
+[Mon Jan 30 12:37:24 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 872, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jan 30 12:37:24 2023] [ERROR] [Requests->process_task] -> SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 872, FILE: , LINE: 0
+[Mon Jan 30 12:37:37 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 872, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jan 30 12:37:37 2023] [ERROR] [Requests->process_task] -> SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 872, FILE: , LINE: 0
+[Mon Jan 30 13:00:19 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Mon Jan 30 13:00:19 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 311
+[Mon Jan 30 13:00:30 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Mon Jan 30 13:00:30 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 311
+[Mon Jan 30 13:53:47 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Mon Jan 30 13:53:47 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 311
+[Mon Jan 30 13:58:05 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 0, 10' at line 12, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Mon Jan 30 13:58:05 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 0, 10' at line 12, FILE: C:\Apache24\htdocs\application\modules\main\models\Daily_time_record_model.php, LINE: 134
+[Mon Jan 30 13:58:05 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 0, 10' at line 12, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Mon Jan 30 13:58:05 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 0, 10' at line 12, FILE: C:\Apache24\htdocs\application\modules\main\models\Daily_time_record_model.php, LINE: 134
+[Mon Jan 30 13:58:32 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 0, 10' at line 12, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Mon Jan 30 13:58:32 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 0, 10' at line 12, FILE: C:\Apache24\htdocs\application\modules\main\models\Daily_time_record_model.php, LINE: 134
+[Mon Jan 30 13:58:32 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 0, 10' at line 12, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Mon Jan 30 13:58:32 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 0, 10' at line 12, FILE: C:\Apache24\htdocs\application\modules\main\models\Daily_time_record_model.php, LINE: 134
+[Mon Jan 30 14:04:00 2023] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Mon Jan 30 14:04:00 2023] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Mon Jan 30 14:04:00 2023] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 565
+[Mon Jan 30 14:04:03 2023] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Mon Jan 30 14:04:03 2023] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Mon Jan 30 14:04:03 2023] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 565
+[Mon Jan 30 14:13:49 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id, fullname, office_name, D.em' at line 9, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Mon Jan 30 14:13:49 2023] [ERROR] [Compensation->get_employee_list] -> SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id, fullname, office_name, D.em' at line 9 --Line 324., FILE: , LINE: 0
+[Mon Jan 30 14:13:49 2023] [ERROR] [] -> Uncaught exception: [0] 
+#0 [internal function]: Compensation->get_employee_list()
+#1 C:\Apache24\htdocs\system\core\CodeIgniter.php(514): call_user_func_array(Array, Array)
+#2 C:\Apache24\htdocs\index.php(293): require_once('C:\\Apache24\\htd...')
+#3 {main}, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Compensation.php, LINE: 462
+[Mon Jan 30 14:13:53 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id, fullname, office_name, D.em' at line 9, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Mon Jan 30 14:13:53 2023] [ERROR] [Compensation->get_employee_list] -> SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id, fullname, office_name, D.em' at line 9 --Line 324., FILE: , LINE: 0
+[Mon Jan 30 14:13:53 2023] [ERROR] [] -> Uncaught exception: [0] 
+#0 [internal function]: Compensation->get_employee_list()
+#1 C:\Apache24\htdocs\system\core\CodeIgniter.php(514): call_user_func_array(Array, Array)
+#2 C:\Apache24\htdocs\index.php(293): require_once('C:\\Apache24\\htd...')
+#3 {main}, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Compensation.php, LINE: 462
+[Mon Jan 30 14:42:39 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 872, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jan 30 14:42:39 2023] [ERROR] [Requests->process_task] -> SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 872, FILE: , LINE: 0
+[Mon Jan 30 14:43:19 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 872, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jan 30 14:43:19 2023] [ERROR] [Requests->process_task] -> SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 872, FILE: , LINE: 0
+[Mon Jan 30 14:50:48 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Mon Jan 30 14:50:48 2023] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Mon Jan 30 14:51:14 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Mon Jan 30 14:51:14 2023] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Mon Jan 30 14:52:31 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Mon Jan 30 14:52:31 2023] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Mon Jan 30 14:52:42 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Mon Jan 30 14:52:42 2023] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Mon Jan 30 14:54:03 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Mon Jan 30 14:54:03 2023] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Mon Jan 30 14:54:22 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Mon Jan 30 14:54:22 2023] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Mon Jan 30 14:54:28 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Mon Jan 30 14:54:28 2023] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Mon Jan 30 14:54:43 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Mon Jan 30 14:54:43 2023] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Mon Jan 30 14:55:16 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Mon Jan 30 14:55:16 2023] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Mon Jan 30 14:55:20 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Mon Jan 30 14:55:20 2023] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Mon Jan 30 14:55:45 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Mon Jan 30 14:55:45 2023] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Mon Jan 30 15:08:48 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Mon Jan 30 15:08:48 2023] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Mon Jan 30 15:09:16 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Mon Jan 30 15:09:16 2023] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Mon Jan 30 15:10:35 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness_hr' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jan 30 15:30:48 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness_hr' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jan 30 15:37:36 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Mon Jan 30 15:37:36 2023] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Mon Jan 30 15:39:20 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jan 30 15:39:20 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jan 30 15:40:41 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jan 30 15:40:41 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jan 30 15:40:48 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jan 30 15:40:48 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jan 30 15:41:12 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jan 30 15:41:12 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jan 30 15:41:33 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jan 30 15:41:33 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jan 30 15:41:48 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness_hr' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jan 30 15:43:27 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jan 30 15:43:27 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jan 30 15:44:19 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jan 30 15:44:19 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jan 30 15:44:46 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jan 30 15:44:46 2023] [ERROR] [Requests->get_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jan 30 15:45:11 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jan 30 15:45:11 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jan 30 15:46:03 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jan 30 15:46:03 2023] [ERROR] [Requests->get_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jan 30 15:46:04 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jan 30 15:46:04 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jan 30 15:46:57 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jan 30 15:46:57 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jan 30 15:47:27 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jan 30 15:47:27 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jan 30 15:47:49 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jan 30 15:47:49 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jan 30 15:48:33 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jan 30 15:48:33 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jan 30 15:48:39 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jan 30 15:48:39 2023] [ERROR] [Requests->get_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jan 30 16:04:52 2023] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to approve the leave application. Only the assigned <b>Immediate Supervisor</b> is allowed. Please contact the System's Administrator., FILE: , LINE: 0
+[Mon Jan 30 16:05:05 2023] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to approve the leave application. Only the assigned <b>Immediate Supervisor</b> is allowed. Please contact the System's Administrator., FILE: , LINE: 0
+[Mon Jan 30 17:23:32 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Mon Jan 30 17:23:32 2023] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Mon Jan 30 17:37:19 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Mon Jan 30 17:37:19 2023] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: , LINE: 0

@@ -1,0 +1,40 @@
+[Fri Feb 21 13:10:05 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 0, 10' at line 12, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Feb 21 13:10:05 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 0, 10' at line 12, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 99
+[Fri Feb 21 13:10:05 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 0, 10' at line 12, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Feb 21 13:10:05 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 0, 10' at line 12, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 99
+[Fri Feb 21 13:43:15 2020] [ERROR] [Biometric_logs->process_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Fri Feb 21 15:44:40 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[HY000]: General error: 1366 Incorrect decimal value: '' for column 'employ_monthly_salary' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Fri Feb 21 15:44:40 2020] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1366 Incorrect decimal value: '' for column 'employ_monthly_salary' at row 1, FILE: , LINE: 0
+[Fri Feb 21 15:44:43 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[HY000]: General error: 1366 Incorrect decimal value: '' for column 'employ_monthly_salary' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Fri Feb 21 15:44:43 2020] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1366 Incorrect decimal value: '' for column 'employ_monthly_salary' at row 1, FILE: , LINE: 0
+[Fri Feb 21 15:45:44 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[HY000]: General error: 1366 Incorrect decimal value: '' for column 'employ_monthly_salary' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Fri Feb 21 15:45:44 2020] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1366 Incorrect decimal value: '' for column 'employ_monthly_salary' at row 1, FILE: , LINE: 0
+[Fri Feb 21 16:27:28 2020] [ERROR] [Pds_personal_info->process] -> 10 character/s for SSS Number, FILE: , LINE: 0
+[Fri Feb 21 16:27:56 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Fri Feb 21 16:28:17 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Fri Feb 21 16:28:58 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Fri Feb 21 16:28:59 2020] [ERROR] [Pds_work_experience_info->delete_work_experience] -> Parameters were not set in the audit trail., FILE: , LINE: 0
+[Fri Feb 21 16:28:59 2020] [ERROR] [Pds_work_experience_info->delete_work_experience] -> Parameters were not set in the audit trail., FILE: , LINE: 0
+[Fri Feb 21 16:34:46 2020] [ERROR] [Pds_personal_info->process] -> <b>Pag-IBIG Number</b> is required. If Not Applicable, put <b>NA</b>., FILE: , LINE: 0
+[Fri Feb 21 16:34:53 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Fri Feb 21 16:39:46 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_personnel_movement_id' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Fri Feb 21 16:39:46 2020] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_personnel_movement_id' at row 1, FILE: , LINE: 0
+[Fri Feb 21 16:40:02 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_personnel_movement_id' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Fri Feb 21 16:40:02 2020] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_personnel_movement_id' at row 1, FILE: , LINE: 0
+[Fri Feb 21 16:40:28 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[40001]: Serialization failure: 1213 Deadlock found when trying to get lock; try restarting transaction, FILE: C:\www\application\core\Base_Model.php, LINE: 968
+[Fri Feb 21 16:40:28 2020] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[40001]: Serialization failure: 1213 Deadlock found when trying to get lock; try restarting transaction, FILE: , LINE: 0
+[Fri Feb 21 17:03:55 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Fri Feb 21 17:05:05 2020] [ERROR] [Pds_work_experience_info->delete_work_experience] -> Parameters were not set in the audit trail., FILE: , LINE: 0
+[Fri Feb 21 17:05:06 2020] [ERROR] [Pds_work_experience_info->delete_work_experience] -> Parameters were not set in the audit trail., FILE: , LINE: 0

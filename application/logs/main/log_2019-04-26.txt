@@ -1,0 +1,4 @@
+[Fri Apr 26 14:42:53 2019] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '843352' , '843353' , '843354' , '843355'  ))
+' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Apr 26 14:42:53 2019] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '843352' , '843353' , '843354' , '843355'  ))
+' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 503

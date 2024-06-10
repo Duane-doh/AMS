@@ -1,0 +1,33 @@
+[Mon Oct 14 09:48:58 2019] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 54, FILE: C:\www\application\core\Base_Model.php, LINE: 968
+[Mon Oct 14 09:48:58 2019] [ERROR] [Requests->process_task] -> SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 54, FILE: , LINE: 0
+[Mon Oct 14 11:00:59 2019] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Oct 14 11:00:59 2019] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Mon Oct 14 11:16:30 2019] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Oct 14 11:16:30 2019] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Mon Oct 14 11:44:26 2019] [ERROR] [Employee_work_schedule->process_work_schedule] -> Effectivity date must be after <b>Jan 01, 2019.</b>, FILE: , LINE: 0
+[Mon Oct 14 11:54:10 2019] [ERROR] [Employee_work_schedule->process_work_schedule] -> Effectivity date must be after <b>Mar 25, 2019.</b>, FILE: , LINE: 0
+[Mon Oct 14 11:54:18 2019] [ERROR] [Employee_work_schedule->process_work_schedule] -> Effectivity date must be after <b>Mar 25, 2019.</b>, FILE: , LINE: 0
+[Mon Oct 14 11:54:25 2019] [ERROR] [Employee_work_schedule->process_work_schedule] -> Effectivity date must be after <b>Mar 25, 2019.</b>, FILE: , LINE: 0
+[Mon Oct 14 11:54:41 2019] [ERROR] [Employee_work_schedule->process_work_schedule] -> Effectivity date must be after <b>Mar 25, 2019.</b>, FILE: , LINE: 0
+[Mon Oct 14 11:54:52 2019] [ERROR] [Employee_work_schedule->process_work_schedule] -> Effectivity date must be after <b>Mar 25, 2019.</b>, FILE: , LINE: 0
+[Mon Oct 14 12:01:34 2019] [ERROR] [Base_Controller->rlog_error] -> Parameters were not set in the audit trail., FILE: C:\www\application\modules\main\controllers\Employee_work_schedule.php, LINE: 466
+[Mon Oct 14 16:04:53 2019] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Oct 14 16:04:53 2019] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531

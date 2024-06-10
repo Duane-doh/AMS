@@ -1,0 +1,84 @@
+[Mon May 13 07:58:07 2024] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon May 13 08:01:40 2024] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon May 13 08:04:28 2024] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon May 13 08:32:23 2024] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon May 13 08:46:37 2024] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'location_text' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Mon May 13 08:46:37 2024] [ERROR] [Employee_dtr->process_leave_request] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'location_text' at row 1, FILE: , LINE: 0
+[Mon May 13 08:47:24 2024] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'location_text' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Mon May 13 08:47:24 2024] [ERROR] [Employee_dtr->process_leave_request] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'location_text' at row 1, FILE: , LINE: 0
+[Mon May 13 09:21:47 2024] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon May 13 09:21:47 2024] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon May 13 09:23:30 2024] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon May 13 09:23:30 2024] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon May 13 09:24:46 2024] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon May 13 09:24:46 2024] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon May 13 09:25:58 2024] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon May 13 09:25:58 2024] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon May 13 09:27:17 2024] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon May 13 09:27:17 2024] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon May 13 09:28:40 2024] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon May 13 09:28:40 2024] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon May 13 09:33:06 2024] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon May 13 09:33:06 2024] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon May 13 09:33:43 2024] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'attendance_status_id' cannot be null, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon May 13 09:38:07 2024] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'attendance_status_id' cannot be null, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon May 13 11:25:37 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				AND B.employee_id IN (SELECT DISTINCTROW employee_id FROM employee_work_e' at line 11, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Mon May 13 11:25:37 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				AND B.employee_id IN (SELECT DISTINCTROW employee_id FROM employee_work_e' at line 11, FILE: C:\Apache24\htdocs\application\modules\main\models\Daily_time_record_model.php, LINE: 166
+[Mon May 13 11:25:37 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				AND B.employee_id IN (SELECT DISTINCTROW employee_id FROM employee_work_e' at line 11, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Mon May 13 11:25:37 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				AND B.employee_id IN (SELECT DISTINCTROW employee_id FROM employee_work_e' at line 11, FILE: C:\Apache24\htdocs\application\modules\main\models\Daily_time_record_model.php, LINE: 166
+[Mon May 13 11:25:43 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				AND B.employee_id IN (SELECT DISTINCTROW employee_id FROM employee_work_e' at line 11, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Mon May 13 11:25:43 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				AND B.employee_id IN (SELECT DISTINCTROW employee_id FROM employee_work_e' at line 11, FILE: C:\Apache24\htdocs\application\modules\main\models\Daily_time_record_model.php, LINE: 166
+[Mon May 13 11:25:43 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				AND B.employee_id IN (SELECT DISTINCTROW employee_id FROM employee_work_e' at line 11, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Mon May 13 11:25:43 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				AND B.employee_id IN (SELECT DISTINCTROW employee_id FROM employee_work_e' at line 11, FILE: C:\Apache24\htdocs\application\modules\main\models\Daily_time_record_model.php, LINE: 166
+[Mon May 13 11:32:46 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Mon May 13 11:32:46 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 311
+[Mon May 13 13:20:34 2024] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'training_name_old' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Mon May 13 13:20:34 2024] [ERROR] [Pds_record_changes_requests->delete_trainings] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'training_name_old' at row 1, FILE: , LINE: 0
+[Mon May 13 13:21:41 2024] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'training_name_old' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Mon May 13 13:21:41 2024] [ERROR] [Pds_record_changes_requests->delete_trainings] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'training_name_old' at row 1, FILE: , LINE: 0
+[Mon May 13 14:17:02 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					
+					 AND A.date_requested BETWEEN "2024-04-13 00:00:00" AND "2024-05-' at line 27, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Mon May 13 14:17:02 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					
+					 AND A.date_requested BETWEEN "2024-04-13 00:00:00" AND "2024-05-' at line 27, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 311
+[Mon May 13 14:19:04 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					
+					 AND A.date_requested BETWEEN "2024-04-13 00:00:00" AND "2024-05-' at line 27, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Mon May 13 14:19:04 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					
+					 AND A.date_requested BETWEEN "2024-04-13 00:00:00" AND "2024-05-' at line 27, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 311
+[Mon May 13 14:19:15 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					
+					 AND A.date_requested BETWEEN "2024-04-13 00:00:00" AND "2024-05-' at line 27, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Mon May 13 14:19:15 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					
+					 AND A.date_requested BETWEEN "2024-04-13 00:00:00" AND "2024-05-' at line 27, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 311
+[Mon May 13 16:02:02 2024] [ERROR] [Pds_personal_info->process] -> <b>Gender</b> is required.<br>, FILE: , LINE: 0
+[Mon May 13 19:22:58 2024] [ERROR] [Pds_personal_info->process] -> 12 character/s for Pag-ibig Number, FILE: , LINE: 0
+[Mon May 13 19:23:41 2024] [ERROR] [Pds_personal_info->process] -> 12 character/s for Pag-ibig Number, FILE: , LINE: 0
+[Mon May 13 19:23:52 2024] [ERROR] [Pds_personal_info->process] -> 12 character/s for Pag-ibig Number, FILE: , LINE: 0
+[Mon May 13 19:23:57 2024] [ERROR] [Pds_personal_info->process] -> 12 character/s for Pag-ibig Number, FILE: , LINE: 0
+[Mon May 13 19:24:23 2024] [ERROR] [Pds_personal_info->process] -> 12 character/s for Pag-ibig Number, FILE: , LINE: 0
+[Mon May 13 19:24:32 2024] [ERROR] [Pds_personal_info->process] -> 12 character/s for Pag-ibig Number, FILE: , LINE: 0
+[Mon May 13 19:24:38 2024] [ERROR] [Pds_personal_info->process] -> 12 character/s for Pag-ibig Number, FILE: , LINE: 0
+[Mon May 13 19:25:08 2024] [ERROR] [Pds_personal_info->process] -> 12 character/s for Pag-ibig Number, FILE: , LINE: 0
+[Mon May 13 19:25:43 2024] [ERROR] [Pds_personal_info->process] -> 12 character/s for Pag-ibig Number, FILE: , LINE: 0
+[Mon May 13 19:25:46 2024] [ERROR] [Pds_personal_info->process] -> 12 character/s for Pag-ibig Number, FILE: , LINE: 0
+[Mon May 13 19:25:49 2024] [ERROR] [Pds_personal_info->process] -> 12 character/s for Pag-ibig Number, FILE: , LINE: 0

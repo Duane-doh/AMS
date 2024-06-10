@@ -1,0 +1,36 @@
+[Thu Sep 17 07:53:26 2020] [ERROR] [Pds_personal_info->process] -> 8 character/s for GSIS Number, FILE: , LINE: 0
+[Thu Sep 17 07:53:32 2020] [ERROR] [Pds_personal_info->process] -> 8 character/s for GSIS Number, FILE: , LINE: 0
+[Thu Sep 17 07:53:48 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Thu Sep 17 08:03:45 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_personnel_movement_id' at row 846, FILE: C:\www\application\core\Base_Model.php, LINE: 968
+[Thu Sep 17 08:03:45 2020] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_personnel_movement_id' at row 846, FILE: , LINE: 0
+[Thu Sep 17 08:10:55 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Thu Sep 17 08:21:12 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_personnel_movement_id' at row 15140, FILE: C:\www\application\core\Base_Model.php, LINE: 968
+[Thu Sep 17 08:21:12 2020] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_personnel_movement_id' at row 15140, FILE: , LINE: 0
+[Thu Sep 17 08:29:43 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Thu Sep 17 08:47:39 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Thu Sep 17 08:50:44 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_salary_grade' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Thu Sep 17 08:50:44 2020] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_salary_grade' at row 1, FILE: , LINE: 0
+[Thu Sep 17 08:59:43 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for Philhealth Number, FILE: , LINE: 0
+[Thu Sep 17 09:00:07 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for Philhealth Number, FILE: , LINE: 0
+[Thu Sep 17 09:27:20 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for Philhealth Number, FILE: , LINE: 0
+[Thu Sep 17 09:38:43 2020] [ERROR] [Pds_personal_info->process] -> Entered date in Birth Date exceeded the maximum date(2020/09/17), FILE: , LINE: 0
+[Thu Sep 17 09:39:17 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for Philhealth Number, FILE: , LINE: 0
+[Thu Sep 17 09:39:35 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for Philhealth Number, FILE: , LINE: 0
+[Thu Sep 17 09:39:52 2020] [ERROR] [Pds_personal_info->process] -> 10 character/s for SSS Number, FILE: , LINE: 0
+[Thu Sep 17 09:40:34 2020] [ERROR] [Pds_personal_info->process] -> 10 character/s for SSS Number, FILE: , LINE: 0
+[Thu Sep 17 11:44:48 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Thu Sep 17 12:12:43 2020] [ERROR] [Pds_personal_info->process] -> Please enter a valid date in Birth Date., FILE: , LINE: 0
+[Thu Sep 17 12:47:10 2020] [ERROR] [Pds_personal_info->process] -> Please enter a valid date in Birth Date., FILE: , LINE: 0
+[Thu Sep 17 12:47:34 2020] [ERROR] [Pds_personal_info->process] -> Please enter a valid date in Birth Date., FILE: , LINE: 0
+[Thu Sep 17 13:23:07 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Thu Sep 17 14:56:22 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Thu Sep 17 14:56:22 2020] [ERROR] [Pds_personal_info->process] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: , LINE: 0
+[Thu Sep 17 15:14:53 2020] [ERROR] [Pds_personal_info->process] -> <b>SSS Number</b> is required. If Not Applicable, put <b>NA</b>., FILE: , LINE: 0
+[Thu Sep 17 15:50:24 2020] [ERROR] [Pds_personal_info->process] -> <b>GSIS Number</b> is required. If Not Applicable, put <b>NA</b>., FILE: , LINE: 0
+[Thu Sep 17 15:51:29 2020] [ERROR] [Pds_personal_info->process] -> 10 character/s for SSS Number, FILE: , LINE: 0
+[Thu Sep 17 15:51:40 2020] [ERROR] [Pds_personal_info->process] -> 10 character/s for SSS Number, FILE: , LINE: 0
+[Thu Sep 17 16:26:21 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for Philhealth Number, FILE: , LINE: 0
+[Thu Sep 17 16:26:54 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for Philhealth Number, FILE: , LINE: 0
+[Thu Sep 17 16:27:01 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Thu Sep 17 16:50:00 2020] [ERROR] [Pds_personal_info->process] -> <b>GSIS Number</b> is required. If Not Applicable, put <b>NA</b>., FILE: , LINE: 0
+[Thu Sep 17 17:16:23 2020] [ERROR] [Pds_personal_info->process] -> <b>Pag-IBIG Number</b> is required. If Not Applicable, put <b>NA</b>., FILE: , LINE: 0

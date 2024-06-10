@@ -1,0 +1,565 @@
+[Mon Feb 03 08:56:28 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Mon Feb 03 08:56:28 2020] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: , LINE: 0
+[Mon Feb 03 08:58:38 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Mon Feb 03 08:58:38 2020] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: , LINE: 0
+[Mon Feb 03 09:22:18 2020] [ERROR] [Biometric_logs->process_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon Feb 03 09:52:01 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`doh_ptis_core`.`notifications`, CONSTRAINT `notifications_ibfk_1` FOREIGN KEY (`notified_by`) REFERENCES `users` (`user_id`) ON DELETE NO ACTION ON UPDATE NO ACTION), FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Mon Feb 03 09:52:01 2020] [ERROR] [Request_notifications->insert_request_notification] -> SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`doh_ptis_core`.`notifications`, CONSTRAINT `notifications_ibfk_1` FOREIGN KEY (`notified_by`) REFERENCES `users` (`user_id`) ON DELETE NO ACTION ON UPDATE NO ACTION), FILE: C:\www\application\modules\main\controllers\Employee_dtr.php, LINE: 1372
+[Mon Feb 03 09:52:01 2020] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`doh_ptis_core`.`notifications`, CONSTRAINT `notifications_ibfk_1` FOREIGN KEY (`notified_by`) REFERENCES `users` (`user_id`) ON DELETE NO ACTION ON UPDATE NO ACTION), FILE: , LINE: 0
+[Mon Feb 03 09:52:02 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Mon Feb 03 09:52:02 2020] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: , LINE: 0
+[Mon Feb 03 09:52:25 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Mon Feb 03 09:52:27 2020] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: , LINE: 0
+[Mon Feb 03 09:54:21 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Mon Feb 03 09:54:23 2020] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: , LINE: 0
+[Mon Feb 03 09:58:22 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Mon Feb 03 09:58:22 2020] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: , LINE: 0
+[Mon Feb 03 10:02:01 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Mon Feb 03 10:02:01 2020] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: , LINE: 0
+[Mon Feb 03 10:08:50 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 10, 10' at line 9, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Feb 03 10:08:50 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 10, 10' at line 9, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 90
+[Mon Feb 03 10:08:50 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 10, 10' at line 9, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Feb 03 10:08:50 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 10, 10' at line 9, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 90
+[Mon Feb 03 10:13:11 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Feb 03 10:13:11 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Mon Feb 03 10:13:20 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Mon Feb 03 10:13:20 2020] [ERROR] [Pds_work_experience_info->delete_work_experience] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: , LINE: 0
+[Mon Feb 03 10:20:47 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Mon Feb 03 10:20:47 2020] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Mon Feb 03 10:21:54 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Mon Feb 03 10:21:54 2020] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Mon Feb 03 10:22:58 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Mon Feb 03 10:22:58 2020] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: , LINE: 0
+[Mon Feb 03 10:23:23 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 0, 10' at line 9, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Feb 03 10:23:23 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 0, 10' at line 9, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 90
+[Mon Feb 03 10:23:23 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 0, 10' at line 9, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Feb 03 10:23:23 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 0, 10' at line 9, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 90
+[Mon Feb 03 10:23:41 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 0, 10' at line 9, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Feb 03 10:23:41 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 0, 10' at line 9, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 90
+[Mon Feb 03 10:23:41 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 0, 10' at line 9, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Feb 03 10:23:41 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 0, 10' at line 9, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 90
+[Mon Feb 03 10:24:24 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Mon Feb 03 10:24:24 2020] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Mon Feb 03 10:25:08 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Mon Feb 03 10:25:08 2020] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Mon Feb 03 10:25:08 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Mon Feb 03 10:25:08 2020] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: , LINE: 0
+[Mon Feb 03 10:25:09 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 0, 10' at line 9, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Feb 03 10:25:09 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 0, 10' at line 9, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 90
+[Mon Feb 03 10:25:09 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 0, 10' at line 9, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Feb 03 10:25:09 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 0, 10' at line 9, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 90
+[Mon Feb 03 10:25:29 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Mon Feb 03 10:25:29 2020] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Mon Feb 03 10:25:52 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Mon Feb 03 10:25:52 2020] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Mon Feb 03 10:26:35 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Mon Feb 03 10:26:35 2020] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Mon Feb 03 10:26:57 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Mon Feb 03 10:26:57 2020] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Mon Feb 03 10:28:54 2020] [ERROR] [Pds_work_experience_info->delete_work_experience] -> Parameters were not set in the audit trail., FILE: , LINE: 0
+[Mon Feb 03 10:35:17 2020] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+, FILE: C:\www\application\core\Base_Model.php, LINE: 436
+[Mon Feb 03 10:35:17 2020] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+, FILE: C:\www\application\core\Base_Model.php, LINE: 225
+[Mon Feb 03 10:35:17 2020] [ERROR] [Requests->modal_change_details] -> NULL, FILE: , LINE: 0
+[Mon Feb 03 10:35:17 2020] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Feb 03 10:35:17 2020] [ERROR] [Requests->open_request] -> SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+, FILE: , LINE: 0
+[Mon Feb 03 10:35:19 2020] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+, FILE: C:\www\application\core\Base_Model.php, LINE: 436
+[Mon Feb 03 10:35:19 2020] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+, FILE: C:\www\application\core\Base_Model.php, LINE: 225
+[Mon Feb 03 10:35:21 2020] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+, FILE: C:\www\application\core\Base_Model.php, LINE: 135
+[Mon Feb 03 10:35:21 2020] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+, FILE: , LINE: 0
+[Mon Feb 03 10:39:02 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 0, 10' at line 9, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Feb 03 10:39:02 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 0, 10' at line 9, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 90
+[Mon Feb 03 10:39:02 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 0, 10' at line 9, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Feb 03 10:39:02 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 0, 10' at line 9, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 90
+[Mon Feb 03 10:40:54 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 0, 10' at line 9, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Feb 03 10:40:54 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 0, 10' at line 9, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 90
+[Mon Feb 03 10:40:54 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 0, 10' at line 9, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Feb 03 10:40:54 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 0, 10' at line 9, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 90
+[Mon Feb 03 11:17:23 2020] [ERROR] [Pds_work_experience_info->delete_work_experience] -> Parameters were not set in the audit trail., FILE: , LINE: 0
+[Mon Feb 03 11:25:21 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Feb 03 11:25:21 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Mon Feb 03 11:29:49 2020] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+, FILE: C:\www\application\core\Base_Model.php, LINE: 436
+[Mon Feb 03 11:29:49 2020] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+, FILE: C:\www\application\core\Base_Model.php, LINE: 225
+[Mon Feb 03 11:29:49 2020] [ERROR] [Requests->modal_request_changes] -> NULL, FILE: , LINE: 0
+[Mon Feb 03 11:30:13 2020] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Feb 03 11:30:13 2020] [ERROR] [Requests->open_request] -> SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+, FILE: , LINE: 0
+[Mon Feb 03 12:18:40 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Feb 03 12:18:40 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Mon Feb 03 12:38:24 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Feb 03 12:38:24 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Mon Feb 03 12:40:18 2020] [ERROR] [Pds_work_experience_info->delete_work_experience] -> Parameters were not set in the audit trail., FILE: , LINE: 0
+[Mon Feb 03 12:40:35 2020] [ERROR] [Pds_work_experience_info->delete_work_experience] -> Parameters were not set in the audit trail., FILE: , LINE: 0
+[Mon Feb 03 12:45:21 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Feb 03 12:45:21 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Mon Feb 03 13:03:13 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Mon Feb 03 13:03:13 2020] [ERROR] [Pds_record_changes_requests->process_peronal_info] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: , LINE: 0
+[Mon Feb 03 13:05:25 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Mon Feb 03 13:05:25 2020] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: , LINE: 0
+[Mon Feb 03 13:05:34 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Mon Feb 03 13:05:34 2020] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: , LINE: 0
+[Mon Feb 03 13:06:52 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Mon Feb 03 13:06:52 2020] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: , LINE: 0
+[Mon Feb 03 13:09:30 2020] [ERROR] [Pds_work_experience_info->delete_work_experience] -> Parameters were not set in the audit trail., FILE: , LINE: 0
+[Mon Feb 03 13:09:50 2020] [ERROR] [Pds_work_experience_info->delete_work_experience] -> Parameters were not set in the audit trail., FILE: , LINE: 0
+[Mon Feb 03 13:10:33 2020] [ERROR] [Pds_work_experience_info->delete_work_experience] -> Parameters were not set in the audit trail., FILE: , LINE: 0
+[Mon Feb 03 13:11:16 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Mon Feb 03 13:11:16 2020] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: , LINE: 0
+[Mon Feb 03 13:11:25 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Mon Feb 03 13:11:25 2020] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: , LINE: 0
+[Mon Feb 03 13:13:06 2020] [ERROR] [Pds_work_experience_info->delete_work_experience] -> Parameters were not set in the audit trail., FILE: , LINE: 0
+[Mon Feb 03 13:22:30 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id, fullname, office_name, D.em' at line 9, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Feb 03 13:22:30 2020] [ERROR] [Compensation->get_employee_list] -> SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id, fullname, office_name, D.em' at line 9 --Line 324., FILE: , LINE: 0
+[Mon Feb 03 13:22:30 2020] [ERROR] [] -> Uncaught exception: [0] 
+#0 [internal function]: Compensation->get_employee_list()
+#1 C:\www\system\core\CodeIgniter.php(514): call_user_func_array(Array, Array)
+#2 C:\www\index.php(293): require_once('C:\\www\\system\\c...')
+#3 {main}, FILE: C:\www\application\modules\main\controllers\Compensation.php, LINE: 396
+[Mon Feb 03 13:30:15 2020] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+, FILE: C:\www\application\core\Base_Model.php, LINE: 84
+[Mon Feb 03 13:30:15 2020] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Feb 03 13:30:15 2020] [ERROR] [Pds_model->get_employee_info] -> SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+, FILE: C:\www\application\modules\main\controllers\Employee_dtr.php, LINE: 91
+[Mon Feb 03 13:30:15 2020] [ERROR] [Employee_dtr->load_employee_dtr] -> SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+, FILE: C:\www\application\modules\main\controllers\Employee_dtr.php, LINE: 20
+[Mon Feb 03 13:30:16 2020] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+, FILE: C:\www\application\core\Base_Model.php, LINE: 436
+[Mon Feb 03 13:30:16 2020] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+, FILE: C:\www\application\core\Base_Model.php, LINE: 225
+[Mon Feb 03 13:30:17 2020] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+, FILE: C:\www\application\core\Base_Model.php, LINE: 135
+[Mon Feb 03 13:30:17 2020] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+, FILE: , LINE: 0
+[Mon Feb 03 13:30:37 2020] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Feb 03 13:30:37 2020] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+, FILE: C:\www\application\modules\main\models\Deduction_model.php, LINE: 670
+[Mon Feb 03 13:30:39 2020] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Feb 03 13:30:39 2020] [ERROR] [Pds_model->get_employee_info] -> SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+, FILE: C:\www\application\modules\main\controllers\Performance_evaluation.php, LINE: 149
+[Mon Feb 03 13:30:39 2020] [ERROR] [] -> Uncaught exception: [0] SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+
+#0 C:\www\application\modules\main\controllers\Performance_evaluation.php(149): Pds_model->get_employee_info('8100fd77026d4fe...')
+#1 [internal function]: Performance_evaluation->employee_performance_evaluation_list('3', '8100fd77026d4fe...', 'df0a2bc78a43204', '485bf5b4072c0bf', '2')
+#2 C:\www\system\core\CodeIgniter.php(514): call_user_func_array(Array, Array)
+#3 C:\www\index.php(293): require_once('C:\\www\\system\\c...')
+#4 {main}, FILE: C:\www\application\modules\main\models\Pds_model.php, LINE: 2383
+[Mon Feb 03 13:30:40 2020] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Feb 03 13:30:40 2020] [ERROR] [Pds_model->get_employee_info] -> SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+, FILE: C:\www\application\modules\main\controllers\Employee_dtr.php, LINE: 91
+[Mon Feb 03 13:30:40 2020] [ERROR] [Employee_dtr->load_employee_dtr] -> SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+, FILE: C:\www\application\modules\main\controllers\Employee_dtr.php, LINE: 20
+[Mon Feb 03 13:43:16 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Mon Feb 03 13:46:07 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Feb 03 13:46:07 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Mon Feb 03 13:50:48 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Mon Feb 03 13:50:48 2020] [ERROR] [Pds_personal_info->process] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: , LINE: 0
+[Mon Feb 03 13:51:30 2020] [ERROR] [Pds_work_experience_info->delete_work_experience] -> Parameters were not set in the audit trail., FILE: , LINE: 0
+[Mon Feb 03 13:52:13 2020] [ERROR] [Pds_work_experience_info->delete_work_experience] -> Parameters were not set in the audit trail., FILE: , LINE: 0
+[Mon Feb 03 13:57:08 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Mon Feb 03 13:57:08 2020] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Mon Feb 03 13:57:29 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Mon Feb 03 13:57:29 2020] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Mon Feb 03 13:57:50 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Mon Feb 03 13:57:50 2020] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Mon Feb 03 13:58:32 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Mon Feb 03 13:58:32 2020] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Mon Feb 03 13:58:53 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Mon Feb 03 13:58:53 2020] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Mon Feb 03 13:59:57 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Mon Feb 03 13:59:57 2020] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Mon Feb 03 14:00:18 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Mon Feb 03 14:00:18 2020] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Mon Feb 03 14:01:00 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Mon Feb 03 14:01:00 2020] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Mon Feb 03 14:03:28 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Mon Feb 03 14:03:28 2020] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Mon Feb 03 14:04:10 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Mon Feb 03 14:04:10 2020] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Mon Feb 03 14:05:34 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Mon Feb 03 14:05:34 2020] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Mon Feb 03 14:10:09 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Mon Feb 03 14:10:09 2020] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: , LINE: 0
+[Mon Feb 03 14:11:12 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_position_id' at row 13460, FILE: C:\www\application\core\Base_Model.php, LINE: 968
+[Mon Feb 03 14:11:12 2020] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_position_id' at row 13460, FILE: , LINE: 0
+[Mon Feb 03 14:12:58 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 0, 100' at line 9, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Feb 03 14:12:58 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 0, 100' at line 9, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 90
+[Mon Feb 03 14:12:58 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 0, 100' at line 9, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Feb 03 14:12:58 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 0, 100' at line 9, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 90
+[Mon Feb 03 14:22:26 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Feb 03 14:22:26 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Mon Feb 03 14:23:50 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY000]: General error: 1111 Invalid use of group function, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Feb 03 14:23:50 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY000]: General error: 1111 Invalid use of group function, FILE: C:\www\application\modules\main\models\Leaves_model.php, LINE: 229
+[Mon Feb 03 14:23:50 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY000]: General error: 1111 Invalid use of group function, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Feb 03 14:23:50 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY000]: General error: 1111 Invalid use of group function, FILE: C:\www\application\modules\main\models\Leaves_model.php, LINE: 229
+[Mon Feb 03 14:24:11 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY000]: General error: 1111 Invalid use of group function, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Feb 03 14:24:11 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY000]: General error: 1111 Invalid use of group function, FILE: C:\www\application\modules\main\models\Leaves_model.php, LINE: 229
+[Mon Feb 03 14:24:11 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY000]: General error: 1111 Invalid use of group function, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Feb 03 14:24:11 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY000]: General error: 1111 Invalid use of group function, FILE: C:\www\application\modules\main\models\Leaves_model.php, LINE: 229
+[Mon Feb 03 14:24:12 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY000]: General error: 1111 Invalid use of group function, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Feb 03 14:24:12 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY000]: General error: 1111 Invalid use of group function, FILE: C:\www\application\modules\main\models\Leaves_model.php, LINE: 229
+[Mon Feb 03 14:24:12 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY000]: General error: 1111 Invalid use of group function, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Feb 03 14:24:12 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY000]: General error: 1111 Invalid use of group function, FILE: C:\www\application\modules\main\models\Leaves_model.php, LINE: 229
+[Mon Feb 03 14:27:22 2020] [ERROR] [Pds_work_experience_info->delete_work_experience] -> Parameters were not set in the audit trail., FILE: , LINE: 0
+[Mon Feb 03 14:28:25 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Feb 03 14:28:25 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Mon Feb 03 14:32:17 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Feb 03 14:32:17 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Mon Feb 03 14:32:59 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Mon Feb 03 14:32:59 2020] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Mon Feb 03 14:38:58 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Mon Feb 03 14:38:58 2020] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Mon Feb 03 14:38:58 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Mon Feb 03 14:38:58 2020] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: , LINE: 0
+[Mon Feb 03 14:39:02 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Mon Feb 03 14:39:02 2020] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: , LINE: 0
+[Mon Feb 03 14:40:02 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Mon Feb 03 14:40:02 2020] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Mon Feb 03 14:54:06 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Mon Feb 03 14:54:06 2020] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Mon Feb 03 14:56:14 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Mon Feb 03 14:56:14 2020] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: , LINE: 0
+[Mon Feb 03 15:22:15 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Feb 03 15:22:15 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Mon Feb 03 15:24:01 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`doh_ptis_core`.`notifications`, CONSTRAINT `notifications_ibfk_1` FOREIGN KEY (`notified_by`) REFERENCES `users` (`user_id`) ON DELETE NO ACTION ON UPDATE NO ACTION), FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Mon Feb 03 15:24:01 2020] [ERROR] [Request_notifications->insert_request_notification] -> SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`doh_ptis_core`.`notifications`, CONSTRAINT `notifications_ibfk_1` FOREIGN KEY (`notified_by`) REFERENCES `users` (`user_id`) ON DELETE NO ACTION ON UPDATE NO ACTION), FILE: C:\www\application\modules\main\controllers\Employee_dtr.php, LINE: 1372
+[Mon Feb 03 15:24:01 2020] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`doh_ptis_core`.`notifications`, CONSTRAINT `notifications_ibfk_1` FOREIGN KEY (`notified_by`) REFERENCES `users` (`user_id`) ON DELETE NO ACTION ON UPDATE NO ACTION), FILE: , LINE: 0
+[Mon Feb 03 15:26:29 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\core\Base_Model.php, LINE: 436
+[Mon Feb 03 15:26:29 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\core\Base_Model.php, LINE: 225
+[Mon Feb 03 15:26:29 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\modules\main\models\Deduction_model.php, LINE: 547
+[Mon Feb 03 15:27:32 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\core\Base_Model.php, LINE: 436
+[Mon Feb 03 15:27:32 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\core\Base_Model.php, LINE: 225
+[Mon Feb 03 15:27:32 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\modules\main\models\Deduction_model.php, LINE: 547
+[Mon Feb 03 15:34:34 2020] [ERROR] [Pds_work_experience_info->delete_work_experience] -> Parameters were not set in the audit trail., FILE: , LINE: 0
+[Mon Feb 03 15:34:55 2020] [ERROR] [Pds_work_experience_info->delete_work_experience] -> Parameters were not set in the audit trail., FILE: , LINE: 0
+[Mon Feb 03 15:35:38 2020] [ERROR] [Pds_work_experience_info->delete_work_experience] -> Parameters were not set in the audit trail., FILE: , LINE: 0
+[Mon Feb 03 15:36:40 2020] [ERROR] [Pds_work_experience_info->delete_work_experience] -> Parameters were not set in the audit trail., FILE: , LINE: 0
+[Mon Feb 03 15:39:33 2020] [ERROR] [Pds_work_experience_info->delete_work_experience] -> Parameters were not set in the audit trail., FILE: , LINE: 0
+[Mon Feb 03 15:52:56 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Mon Feb 03 15:52:56 2020] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: , LINE: 0
+[Mon Feb 03 15:53:59 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Feb 03 15:53:59 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Mon Feb 03 15:53:59 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Mon Feb 03 15:53:59 2020] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: , LINE: 0
+[Mon Feb 03 16:20:06 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Feb 03 16:20:06 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Mon Feb 03 16:21:52 2020] [ERROR] [Pds_work_experience_info->delete_work_experience] -> Parameters were not set in the audit trail., FILE: , LINE: 0
+[Mon Feb 03 16:23:16 2020] [ERROR] [Pds_personal_info->process] -> Please enter a valid number in Residential Zip Code., FILE: , LINE: 0
+[Mon Feb 03 16:30:03 2020] [ERROR] [Pds_work_experience_info->delete_work_experience] -> Parameters were not set in the audit trail., FILE: , LINE: 0
+[Mon Feb 03 16:30:45 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Feb 03 16:30:45 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Mon Feb 03 16:40:22 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id, fullname, office_name, D.em' at line 9, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Feb 03 16:40:22 2020] [ERROR] [Compensation->get_employee_list] -> SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id, fullname, office_name, D.em' at line 9 --Line 324., FILE: , LINE: 0
+[Mon Feb 03 16:40:22 2020] [ERROR] [] -> Uncaught exception: [0] 
+#0 [internal function]: Compensation->get_employee_list()
+#1 C:\www\system\core\CodeIgniter.php(514): call_user_func_array(Array, Array)
+#2 C:\www\index.php(293): require_once('C:\\www\\system\\c...')
+#3 {main}, FILE: C:\www\application\modules\main\controllers\Compensation.php, LINE: 396
+[Mon Feb 03 16:50:03 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Feb 03 16:50:03 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Mon Feb 03 16:50:13 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Feb 03 16:50:13 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Mon Feb 03 16:51:32 2020] [ERROR] [Biometric_logs->process_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon Feb 03 16:52:10 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Feb 03 16:52:10 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Mon Feb 03 16:53:57 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Feb 03 16:53:57 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Mon Feb 03 16:54:40 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id, fullname, office_name, D.em' at line 9, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Feb 03 16:54:40 2020] [ERROR] [Compensation->get_employee_list] -> SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id, fullname, office_name, D.em' at line 9 --Line 324., FILE: , LINE: 0
+[Mon Feb 03 16:54:40 2020] [ERROR] [] -> Uncaught exception: [0] 
+#0 [internal function]: Compensation->get_employee_list()
+#1 C:\www\system\core\CodeIgniter.php(514): call_user_func_array(Array, Array)
+#2 C:\www\index.php(293): require_once('C:\\www\\system\\c...')
+#3 {main}, FILE: C:\www\application\modules\main\controllers\Compensation.php, LINE: 396
+[Mon Feb 03 17:00:13 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Feb 03 17:00:13 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\www\application\modules\main\models\Performance_evaluation_model.php, LINE: 204
+[Mon Feb 03 17:00:13 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Feb 03 17:00:13 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\www\application\modules\main\models\Performance_evaluation_model.php, LINE: 204
+[Mon Feb 03 17:00:17 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\core\Base_Model.php, LINE: 436
+[Mon Feb 03 17:00:17 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\core\Base_Model.php, LINE: 225
+[Mon Feb 03 17:00:17 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\modules\main\models\Deduction_model.php, LINE: 547
+[Mon Feb 03 17:00:33 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\core\Base_Model.php, LINE: 436
+[Mon Feb 03 17:00:33 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\core\Base_Model.php, LINE: 225
+[Mon Feb 03 17:00:33 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\modules\main\models\Deduction_model.php, LINE: 547
+[Mon Feb 03 17:01:01 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Feb 03 17:01:01 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Mon Feb 03 17:01:42 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Feb 03 17:01:42 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Mon Feb 03 17:17:35 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Mon Feb 03 17:17:35 2020] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: , LINE: 0
+[Mon Feb 03 17:22:39 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Mon Feb 03 17:22:39 2020] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: , LINE: 0
+[Mon Feb 03 17:24:09 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Feb 03 17:24:09 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Mon Feb 03 17:40:01 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Feb 03 17:40:01 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Mon Feb 03 17:58:13 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Feb 03 17:58:13 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Mon Feb 03 18:01:12 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_office_id' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Mon Feb 03 18:01:12 2020] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_office_id' at row 1, FILE: , LINE: 0
+[Mon Feb 03 18:01:32 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_office_id' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Mon Feb 03 18:01:32 2020] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_office_id' at row 1, FILE: , LINE: 0
+[Mon Feb 03 18:02:34 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_office_id' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Mon Feb 03 18:02:34 2020] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_office_id' at row 1, FILE: , LINE: 0
+[Mon Feb 03 18:02:42 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_office_id' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Mon Feb 03 18:02:42 2020] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_office_id' at row 1, FILE: , LINE: 0
+[Mon Feb 03 18:06:51 2020] [ERROR] [Pds_personal_info->process] -> <b>Gender</b> is required.<br>, FILE: , LINE: 0
+[Mon Feb 03 18:08:31 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_office_id' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Mon Feb 03 18:08:31 2020] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_office_id' at row 1, FILE: , LINE: 0
+[Mon Feb 03 18:09:27 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_office_id' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Mon Feb 03 18:09:27 2020] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_office_id' at row 1, FILE: , LINE: 0
+[Mon Feb 03 18:14:28 2020] [ERROR] [Pds_personal_info->process] -> Please enter a valid number in Residential Zip Code., FILE: , LINE: 0
+[Mon Feb 03 18:15:04 2020] [ERROR] [Pds_personal_info->process] -> Please enter a valid number in Residential Zip Code., FILE: , LINE: 0
+[Mon Feb 03 18:21:26 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[40001]: Serialization failure: 1213 Deadlock found when trying to get lock; try restarting transaction, FILE: C:\www\application\core\Base_Model.php, LINE: 968
+[Mon Feb 03 18:21:26 2020] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[40001]: Serialization failure: 1213 Deadlock found when trying to get lock; try restarting transaction, FILE: , LINE: 0
+[Mon Feb 03 18:26:51 2020] [ERROR] [Pds_work_experience_info->delete_work_experience] -> Parameters were not set in the audit trail., FILE: , LINE: 0
+[Mon Feb 03 18:28:30 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_position_id' at row 13185, FILE: C:\www\application\core\Base_Model.php, LINE: 968
+[Mon Feb 03 18:28:30 2020] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_position_id' at row 13185, FILE: , LINE: 0
+[Mon Feb 03 18:34:13 2020] [ERROR] [Pds_personal_info->process] -> <b>Gender</b> is required.<br>, FILE: , LINE: 0
+[Mon Feb 03 18:34:17 2020] [ERROR] [Pds_personal_info->process] -> Please enter a valid amount in Height., FILE: , LINE: 0
+[Mon Feb 03 18:34:25 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Mon Feb 03 18:48:44 2020] [ERROR] [Pds_personal_info->process] -> <b>GSIS Number</b> is required. If Not Applicable, put <b>NA</b>., FILE: , LINE: 0
+[Mon Feb 03 18:48:54 2020] [ERROR] [Pds_personal_info->process] -> <b>Residential Address</b> is required.<br><b>Permanent Address</b> is required.<br><b>Residential Zip Code</b> is required.<br><b>Permanent Zip Code</b> is required.<br>, FILE: , LINE: 0
+[Mon Feb 03 18:49:04 2020] [ERROR] [Pds_personal_info->process] -> <b>Residential Zip Code</b> is required.<br><b>Permanent Zip Code</b> is required.<br>, FILE: , LINE: 0
+[Mon Feb 03 18:54:49 2020] [ERROR] [Pds_personal_info->process] -> Please enter a valid number in Residential Zip Code., FILE: , LINE: 0
+[Mon Feb 03 18:58:00 2020] [ERROR] [Pds_personal_info->process] -> Please enter a valid number in Residential Zip Code., FILE: , LINE: 0
+[Mon Feb 03 19:14:20 2020] [ERROR] [Pds_personal_info->process] -> <b>Height</b> is required.<br><b>Weight</b> is required.<br>, FILE: , LINE: 0

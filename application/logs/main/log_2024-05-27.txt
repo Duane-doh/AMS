@@ -1,0 +1,39 @@
+[Mon May 27 07:57:55 2024] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon May 27 08:01:14 2024] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon May 27 08:04:29 2024] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon May 27 11:05:45 2024] [ERROR] [Requests->open_request] -> Sorry, but your current request is invalid. Missing Module ID, FILE: , LINE: 0
+[Mon May 27 11:05:49 2024] [ERROR] [Requests->open_request] -> Sorry, but your current request is invalid. Missing Module ID, FILE: , LINE: 0
+[Mon May 27 11:06:56 2024] [ERROR] [Requests->open_request] -> Sorry, but your current request is invalid. Missing Module ID, FILE: , LINE: 0
+[Mon May 27 11:06:59 2024] [ERROR] [Requests->open_request] -> Sorry, but your current request is invalid. Missing Module ID, FILE: , LINE: 0
+[Mon May 27 11:07:03 2024] [ERROR] [Requests->open_request] -> Sorry, but your current request is invalid. Missing Module ID, FILE: , LINE: 0
+[Mon May 27 11:18:23 2024] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon May 27 11:18:23 2024] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon May 27 13:13:48 2024] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon May 27 13:18:45 2024] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon May 27 13:41:37 2024] [ERROR] [Pds_record_changes_requests->delete_reference] -> Requested action is prohibited. Previous request for this record is still unprocessed., FILE: , LINE: 0
+[Mon May 27 13:42:07 2024] [ERROR] [Pds_record_changes_requests->delete_reference] -> Requested action is prohibited. Previous request for this record is still unprocessed., FILE: , LINE: 0
+[Mon May 27 13:42:15 2024] [ERROR] [Pds_record_changes_requests->delete_reference] -> Requested action is prohibited. Previous request for this record is still unprocessed., FILE: , LINE: 0
+[Mon May 27 15:26:39 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Mon May 27 15:26:39 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 311
+[Mon May 27 15:26:39 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Mon May 27 15:26:39 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 311
+[Mon May 27 16:31:47 2024] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon May 27 16:31:47 2024] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon May 27 16:33:12 2024] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon May 27 16:33:12 2024] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0

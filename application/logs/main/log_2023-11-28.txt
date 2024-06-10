@@ -1,0 +1,46 @@
+[Tue Nov 28 09:09:58 2023] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Tue Nov 28 09:12:34 2023] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Tue Nov 28 09:14:32 2023] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Tue Nov 28 09:16:25 2023] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Tue Nov 28 09:18:21 2023] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Tue Nov 28 10:11:46 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					
+					 AND A.date_requested BETWEEN "2023-10-28 00:00:00" AND "2023-11-' at line 27, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Nov 28 10:11:46 2023] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					
+					 AND A.date_requested BETWEEN "2023-10-28 00:00:00" AND "2023-11-' at line 27, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 311
+[Tue Nov 28 10:31:33 2023] [ERROR] [Pds->display_pds_info] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Tue Nov 28 10:31:35 2023] [ERROR] [Pds->display_pds_info] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Tue Nov 28 10:43:04 2023] [ERROR] [Pds_record_changes_requests->delete_education] -> Requested action is prohibited. Previous request for this record is still unprocessed., FILE: , LINE: 0
+[Tue Nov 28 11:50:51 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness_hr' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Nov 28 13:05:11 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Nov 28 13:05:11 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Tue Nov 28 13:06:58 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Nov 28 13:06:58 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Tue Nov 28 13:18:06 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'employee_id' cannot be null, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Nov 28 13:18:06 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'employee_id' cannot be null' for column 'request_sub_id' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Nov 28 13:18:06 2023] [ERROR] [Pds_record_changes_requests->process_education] -> SQLSTATE[HY000]: General error: 1366 Incorrect integer value: 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'employee_id' cannot be null' for column 'request_sub_id' at row 1, FILE: , LINE: 0
+[Tue Nov 28 13:18:09 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'employee_id' cannot be null, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Nov 28 13:18:09 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'employee_id' cannot be null' for column 'request_sub_id' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Nov 28 13:18:09 2023] [ERROR] [Pds_record_changes_requests->process_education] -> SQLSTATE[HY000]: General error: 1366 Incorrect integer value: 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'employee_id' cannot be null' for column 'request_sub_id' at row 1, FILE: , LINE: 0
+[Tue Nov 28 13:26:03 2023] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Tue Nov 28 13:27:53 2023] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Tue Nov 28 14:09:34 2023] [ERROR] [Pds_record_changes_requests->delete_government_exam] -> Requested action is prohibited. Previous request for this record is still unprocessed., FILE: , LINE: 0
+[Tue Nov 28 16:49:26 2023] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Tue Nov 28 16:49:30 2023] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Tue Nov 28 16:49:31 2023] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Tue Nov 28 16:50:37 2023] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Tue Nov 28 16:50:42 2023] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Tue Nov 28 16:50:42 2023] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Tue Nov 28 17:02:13 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_salary_grade' at row 25622, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Nov 28 17:02:13 2023] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_salary_grade' at row 25622, FILE: , LINE: 0
+[Tue Nov 28 17:02:15 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_salary_grade' at row 25622, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Nov 28 17:02:15 2023] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_salary_grade' at row 25622, FILE: , LINE: 0
+[Tue Nov 28 17:02:38 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_salary_grade' at row 25622, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Nov 28 17:02:38 2023] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_salary_grade' at row 25622, FILE: , LINE: 0
+[Tue Nov 28 17:33:48 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Nov 28 17:33:48 2023] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: , LINE: 0
+[Tue Nov 28 17:34:06 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Nov 28 17:34:06 2023] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: , LINE: 0
+[Tue Nov 28 17:34:17 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Nov 28 17:34:17 2023] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: , LINE: 0

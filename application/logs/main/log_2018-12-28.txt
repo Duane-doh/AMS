@@ -1,0 +1,33 @@
+[Fri Dec 28 15:50:40 2018] [ERROR] [Base_Model::rlog_error] -> 619: Invalid syntax validation for A.payroll_type_id, FILE: C:\www\application\core\Base_Model.php, LINE: 782
+[Fri Dec 28 15:50:40 2018] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for A.payroll_type_id, FILE: C:\www\application\core\Base_Model.php, LINE: 523
+[Fri Dec 28 15:50:40 2018] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for A.payroll_type_id, FILE: C:\www\application\modules\main\models\Reports_payroll_model.php, LINE: 857
+[Fri Dec 28 15:50:47 2018] [ERROR] [Reports_payroll_model->get_pagibig_contributions_remittance_list] -> QUERY :				SELECT 
+				DATE_FORMAT(E.effective_date, '%Y%m') AS effective_date,
+				C.year_month  as month_covered,
+				SUM(D.amount) amount,
+				SUM(E.employer_amount) employer_amount,
+				G.first_name,
+				G.middle_name,
+				G.last_name,
+				G.ext_name,
+				H.identification_value pagibig,
+				I.identification_value tin,
+				K.other_deduction_detail_value applno
+				FROM remittances C
+				JOIN remittance_details D ON C.remittance_id = D.remittance_id 
+				JOIN payout_details E ON D.payroll_dtl_id = E.payroll_dtl_id
+				JOIN payout_header F ON E.payroll_hdr_id = F.payroll_hdr_id 
+				JOIN employee_personal_info G ON F.employee_id = G.employee_id 
+				LEFT JOIN employee_identifications H ON G.employee_id = H.employee_id AND H.identification_type_id = ?
+				LEFT JOIN employee_identifications I ON G.employee_id = I.employee_id AND I.identification_type_id = ?
+				LEFT JOIN employee_deductions J ON G.employee_id = J.employee_id AND E.deduction_id = J.deduction_id
+				LEFT JOIN employee_deduction_other_details K ON J.employee_deduction_id = K.employee_deduction_id
+				WHERE (E.effective_date BETWEEN ? AND ?)
+				AND E.deduction_id IN (SELECT deduction_id FROM param_remittance_type_deductions
+										WHERE file_name = ?)
+				AND ( C.payroll_type_ids LIKE '%3%')
+
+				
+				GROUP BY F.employee_id
+				ORDER BY G.last_name, FILE: C:\www\application\modules\main\controllers\reports_payroll\Pagibig_deductions_remittance_file_for_uploading.php, LINE: 32
+[Fri Dec 28 15:50:47 2018] [ERROR] [Reports_payroll_model->get_pagibig_contributions_remittance_list] -> VALUE :[4,1,"2018\/08\/01","2018\/08\/31","pagibig_deductions_remittance_file_for_uploading"], FILE: C:\www\application\modules\main\controllers\reports_payroll\Pagibig_deductions_remittance_file_for_uploading.php, LINE: 32

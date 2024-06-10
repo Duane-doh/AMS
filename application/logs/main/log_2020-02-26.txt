@@ -1,0 +1,34 @@
+[Wed Feb 26 09:05:49 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\core\Base_Model.php, LINE: 436
+[Wed Feb 26 09:05:49 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\core\Base_Model.php, LINE: 225
+[Wed Feb 26 09:05:49 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\modules\main\models\Deduction_model.php, LINE: 547
+[Wed Feb 26 09:05:52 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\core\Base_Model.php, LINE: 436
+[Wed Feb 26 09:05:52 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\core\Base_Model.php, LINE: 225
+[Wed Feb 26 09:05:52 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\modules\main\models\Deduction_model.php, LINE: 547
+[Wed Feb 26 09:56:20 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\core\Base_Model.php, LINE: 436
+[Wed Feb 26 09:56:20 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\core\Base_Model.php, LINE: 225
+[Wed Feb 26 09:56:20 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\modules\main\models\Deduction_model.php, LINE: 547
+[Wed Feb 26 09:56:30 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id, fullname, office_name, D.em' at line 9, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Wed Feb 26 09:56:30 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id, fullname, office_name, D.em' at line 9, FILE: C:\www\application\modules\main\models\Deduction_model.php, LINE: 102
+[Wed Feb 26 13:30:36 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'leave_balance' cannot be null, FILE: C:\www\application\core\Base_Model.php, LINE: 968
+[Wed Feb 26 13:30:36 2020] [ERROR] [Requests->process_task] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'leave_balance' cannot be null, FILE: , LINE: 0
+[Wed Feb 26 14:57:37 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id, fullname, office_name, D.em' at line 9, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Wed Feb 26 14:57:37 2020] [ERROR] [Compensation->get_employee_list] -> SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id, fullname, office_name, D.em' at line 9 --Line 324., FILE: , LINE: 0
+[Wed Feb 26 14:57:37 2020] [ERROR] [] -> Uncaught exception: [0] 
+#0 [internal function]: Compensation->get_employee_list()
+#1 C:\www\system\core\CodeIgniter.php(514): call_user_func_array(Array, Array)
+#2 C:\www\index.php(293): require_once('C:\\www\\system\\c...')
+#3 {main}, FILE: C:\www\application\modules\main\controllers\Compensation.php, LINE: 396
+[Wed Feb 26 15:01:05 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id, fullname, office_name, D.em' at line 9, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Wed Feb 26 15:01:05 2020] [ERROR] [Compensation->get_employee_list] -> SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id, fullname, office_name, D.em' at line 9 --Line 324., FILE: , LINE: 0
+[Wed Feb 26 15:01:05 2020] [ERROR] [] -> Uncaught exception: [0] 
+#0 [internal function]: Compensation->get_employee_list()
+#1 C:\www\system\core\CodeIgniter.php(514): call_user_func_array(Array, Array)
+#2 C:\www\index.php(293): require_once('C:\\www\\system\\c...')
+#3 {main}, FILE: C:\www\application\modules\main\controllers\Compensation.php, LINE: 396
+[Wed Feb 26 17:07:24 2020] [ERROR] [Pds_personal_info->process] -> , FILE: , LINE: 0

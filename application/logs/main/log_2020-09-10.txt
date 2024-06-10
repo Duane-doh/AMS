@@ -1,0 +1,9 @@
+[Thu Sep 10 08:32:40 2020] [ERROR] [Pds_personal_info->process] -> 10 character/s for SSS Number, FILE: , LINE: 0
+[Thu Sep 10 09:17:44 2020] [ERROR] [Pds_personal_info->process] -> <b>GSIS Number</b> is required. If Not Applicable, put <b>NA</b>., FILE: , LINE: 0
+[Thu Sep 10 11:29:09 2020] [ERROR] [Pds_personal_info->process] -> 10 character/s for SSS Number, FILE: , LINE: 0
+[Thu Sep 10 15:24:30 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Thu Sep 10 15:47:10 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Thu Sep 10 16:16:25 2020] [ERROR] [Pds_personal_info->process] -> <b>SSS Number</b> is required. If Not Applicable, put <b>NA</b>., FILE: , LINE: 0
+[Thu Sep 10 17:22:57 2020] [ERROR] [Pds_personal_info->process] -> Please enter a valid amount in Height., FILE: , LINE: 0
+[Thu Sep 10 17:28:44 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1366 Incorrect decimal value: '' for column 'employ_monthly_salary' at row 30, FILE: C:\www\application\core\Base_Model.php, LINE: 968
+[Thu Sep 10 17:28:44 2020] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1366 Incorrect decimal value: '' for column 'employ_monthly_salary' at row 30, FILE: , LINE: 0

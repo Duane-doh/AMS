@@ -1,0 +1,30 @@
+[Thu Oct 10 10:18:08 2019] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 49, FILE: C:\www\application\core\Base_Model.php, LINE: 968
+[Thu Oct 10 10:18:08 2019] [ERROR] [Employee_attendance->process_time_logs] -> SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 49, FILE: , LINE: 0
+[Thu Oct 10 14:44:23 2019] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '45081'  ))
+				        
+				GROUP BY attendan' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Thu Oct 10 14:44:23 2019] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '45081'  ))
+				        
+				GROUP BY attendan' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 520
+[Thu Oct 10 15:38:41 2019] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '84320' , '122769'  ))
+				        
+				GROUP ' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Thu Oct 10 15:38:41 2019] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '84320' , '122769'  ))
+				        
+				GROUP ' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 520
+[Thu Oct 10 16:18:51 2019] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Thu Oct 10 16:18:51 2019] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 520
+[Thu Oct 10 16:42:43 2019] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Thu Oct 10 16:42:43 2019] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 520

@@ -1,0 +1,35 @@
+[Thu Dec 13 11:16:49 2018] [ERROR] [Base_Model::rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 782
+[Thu Dec 13 11:16:49 2018] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 523
+[Thu Dec 13 11:16:49 2018] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 442
+[Thu Dec 13 11:16:49 2018] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 231
+[Thu Dec 13 11:16:49 2018] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\modules\sysad\models\Users_model.php, LINE: 135
+[Thu Dec 13 11:16:52 2018] [ERROR] [Base_Model::rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 782
+[Thu Dec 13 11:16:52 2018] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 523
+[Thu Dec 13 11:16:52 2018] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 442
+[Thu Dec 13 11:16:52 2018] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 231
+[Thu Dec 13 11:16:52 2018] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\modules\sysad\models\Users_model.php, LINE: 135
+[Thu Dec 13 11:17:19 2018] [ERROR] [Base_Model::rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 782
+[Thu Dec 13 11:17:19 2018] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 523
+[Thu Dec 13 11:17:19 2018] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 442
+[Thu Dec 13 11:17:19 2018] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 231
+[Thu Dec 13 11:17:19 2018] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\modules\sysad\models\Users_model.php, LINE: 135
+[Thu Dec 13 11:17:28 2018] [ERROR] [Base_Model::rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 782
+[Thu Dec 13 11:17:28 2018] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 523
+[Thu Dec 13 11:17:28 2018] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 442
+[Thu Dec 13 11:17:28 2018] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 231
+[Thu Dec 13 11:17:28 2018] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\modules\sysad\models\Users_model.php, LINE: 135
+[Thu Dec 13 11:19:31 2018] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`doh_ptis_core`.`users`, CONSTRAINT `users_ibfk_2` FOREIGN KEY (`gender`) REFERENCES `param_genders` (`gender_code`) ON UPDATE CASCADE), FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Thu Dec 13 11:19:31 2018] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`doh_ptis_core`.`users`, CONSTRAINT `users_ibfk_2` FOREIGN KEY (`gender`) REFERENCES `param_genders` (`gender_code`) ON UPDATE CASCADE), FILE: C:\www\application\modules\sysad\models\Users_model.php, LINE: 201
+[Thu Dec 13 11:19:31 2018] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Thu Dec 13 11:19:31 2018] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\www\application\modules\sysad\models\Users_model.php, LINE: 687
+[Thu Dec 13 11:19:31 2018] [ERROR] [Base_Controller->rlog_error] -> Parameters were not set in the audit trail., FILE: C:\www\application\modules\sysad\controllers\Users.php, LINE: 264
+[Thu Dec 13 11:19:45 2018] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`doh_ptis_core`.`users`, CONSTRAINT `users_ibfk_2` FOREIGN KEY (`gender`) REFERENCES `param_genders` (`gender_code`) ON UPDATE CASCADE), FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Thu Dec 13 11:19:45 2018] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`doh_ptis_core`.`users`, CONSTRAINT `users_ibfk_2` FOREIGN KEY (`gender`) REFERENCES `param_genders` (`gender_code`) ON UPDATE CASCADE), FILE: C:\www\application\modules\sysad\models\Users_model.php, LINE: 201
+[Thu Dec 13 11:19:45 2018] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Thu Dec 13 11:19:45 2018] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\www\application\modules\sysad\models\Users_model.php, LINE: 687
+[Thu Dec 13 11:19:45 2018] [ERROR] [Base_Controller->rlog_error] -> Parameters were not set in the audit trail., FILE: C:\www\application\modules\sysad\controllers\Users.php, LINE: 264
+[Thu Dec 13 11:20:09 2018] [ERROR] [Base_Model::rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 782
+[Thu Dec 13 11:20:09 2018] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 523
+[Thu Dec 13 11:20:09 2018] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 442
+[Thu Dec 13 11:20:09 2018] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 231
+[Thu Dec 13 11:20:09 2018] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\modules\sysad\models\Users_model.php, LINE: 135

@@ -1,0 +1,559 @@
+[Wed Sep 15 07:07:06 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id, fullname, office_name, D.em' at line 9, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Wed Sep 15 07:07:06 2021] [ERROR] [Compensation->get_employee_list] -> SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id, fullname, office_name, D.em' at line 9 --Line 324., FILE: , LINE: 0
+[Wed Sep 15 07:07:06 2021] [ERROR] [] -> Uncaught exception: [0] 
+#0 [internal function]: Compensation->get_employee_list()
+#1 C:\Apache24\htdocs\system\core\CodeIgniter.php(514): call_user_func_array(Array, Array)
+#2 C:\Apache24\htdocs\index.php(293): require_once('C:\\Apache24\\htd...')
+#3 {main}, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Compensation.php, LINE: 397
+[Wed Sep 15 08:38:18 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Wed Sep 15 08:38:18 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Wed Sep 15 08:38:18 2021] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 08:38:18 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Wed Sep 15 08:38:18 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Wed Sep 15 08:38:18 2021] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 08:38:18 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Wed Sep 15 08:38:18 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Wed Sep 15 08:38:18 2021] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 08:38:18 2021] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 08:38:18 2021] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 08:38:18 2021] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 08:52:44 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Wed Sep 15 08:52:44 2021] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Wed Sep 15 08:52:58 2021] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Wed Sep 15 08:52:58 2021] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Wed Sep 15 08:53:29 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Wed Sep 15 08:53:29 2021] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Wed Sep 15 08:53:46 2021] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Wed Sep 15 08:53:46 2021] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Wed Sep 15 08:53:54 2021] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Wed Sep 15 08:53:54 2021] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Wed Sep 15 08:54:03 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Wed Sep 15 08:54:03 2021] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Wed Sep 15 08:54:28 2021] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Wed Sep 15 08:54:28 2021] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Wed Sep 15 08:54:29 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Wed Sep 15 08:54:29 2021] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Wed Sep 15 10:35:32 2021] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Wed Sep 15 10:41:43 2021] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Wed Sep 15 10:41:43 2021] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Wed Sep 15 10:49:21 2021] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Wed Sep 15 11:08:32 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 560, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Wed Sep 15 11:08:32 2021] [ERROR] [Requests->process_task] -> SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 560, FILE: , LINE: 0
+[Wed Sep 15 11:08:44 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 560, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Wed Sep 15 11:08:44 2021] [ERROR] [Requests->process_task] -> SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 560, FILE: , LINE: 0
+[Wed Sep 15 11:09:06 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 560, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Wed Sep 15 11:09:06 2021] [ERROR] [Requests->process_task] -> SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 560, FILE: , LINE: 0
+[Wed Sep 15 11:46:47 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 11:46:47 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Wed Sep 15 11:46:47 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Wed Sep 15 13:05:36 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Wed Sep 15 13:05:36 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\Apache24\htdocs\application\modules\main\models\Daily_time_record_model.php, LINE: 575
+[Wed Sep 15 15:52:16 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 84
+[Wed Sep 15 15:52:16 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 15:52:16 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Wed Sep 15 15:52:16 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 135
+[Wed Sep 15 15:52:16 2021] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 15:52:35 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Wed Sep 15 15:52:35 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\modules\sysad\models\Permissions_model.php, LINE: 791
+[Wed Sep 15 15:52:35 2021] [ERROR] [Requests->get_request_changes_list] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 15:52:51 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 15:52:51 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Wed Sep 15 15:52:51 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 15:52:51 2021] [ERROR] [Employee_dtr->print_employee_dtr] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 15:52:51 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 15:52:51 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Wed Sep 15 15:52:51 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Wed Sep 15 15:52:51 2021] [ERROR] [Employee_dtr->print_employee_dtr] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 15:52:51 2021] [ERROR] [Employee_dtr->print_employee_dtr] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 15:52:51 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 15:52:51 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Wed Sep 15 15:52:51 2021] [ERROR] [Employee_dtr->print_employee_dtr] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 15:53:14 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Wed Sep 15 15:53:14 2021] [ERROR] [Pds_model->get_employee_info] -> SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Employee_dtr.php, LINE: 91
+[Wed Sep 15 15:53:14 2021] [ERROR] [Employee_dtr->load_employee_dtr] -> SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Employee_dtr.php, LINE: 20
+[Wed Sep 15 15:53:14 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Wed Sep 15 15:53:14 2021] [ERROR] [Pds_model->get_employee_info] -> SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Employee_dtr.php, LINE: 91
+[Wed Sep 15 15:53:14 2021] [ERROR] [Employee_dtr->load_employee_dtr] -> SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Employee_dtr.php, LINE: 20
+[Wed Sep 15 15:53:37 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 15:53:37 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 206
+[Wed Sep 15 15:53:37 2021] [ERROR] [Dashboard->get_dashboard] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 15:53:54 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Wed Sep 15 15:53:54 2021] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 15:54:03 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Wed Sep 15 15:54:03 2021] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 15:54:06 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 15:54:06 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 206
+[Wed Sep 15 15:54:06 2021] [ERROR] [] -> Uncaught exception: [1040] SQLSTATE[08004] [1040] Too many connections
+#0 C:\Apache24\htdocs\system\database\DB.php(203): PDO->__construct('mysql:host=127....', 'ptis', 'ptis2017')
+#1 C:\Apache24\htdocs\application\third_party\MX\Loader.php(107): DB('doh_ptis_module', NULL)
+#2 C:\Apache24\htdocs\application\core\Base_Model.php(62): MX_Loader->database('doh_ptis_module', true)
+#3 C:\Apache24\htdocs\application\core\Base_Model.php(340): Base_Model::get_connection()
+#4 C:\Apache24\htdocs\application\core\Base_Model.php(202): Base_Model->_select_data(Array, Array, Array, Array, Array, NULL, true, NULL, true)
+#5 C:\Apache24\htdocs\application\modules\main\models\Requests_model.php(854): Base_Model->select_all(Array, Array, Array, Array, Array, NULL)
+#6 C:\Apache24\htdocs\application\modules\main\controllers\Requests.php(92): Requests_model->get_general_data(Array, Array, Array)
+#7 [internal function]: Requests->index()
+#8 C:\Apache24\htdocs\system\core\CodeIgniter.php(514): call_user_func_array(Array, Array)
+#9 C:\Apache24\htdocs\index.php(293): require_once('C:\\Apache24\\htd...')
+#10 {main}, FILE: C:\Apache24\htdocs\system\database\DB.php, LINE: 203
+[Wed Sep 15 15:54:30 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 15:54:30 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 206
+[Wed Sep 15 15:54:30 2021] [ERROR] [] -> Uncaught exception: [1040] SQLSTATE[08004] [1040] Too many connections
+#0 C:\Apache24\htdocs\system\database\DB.php(203): PDO->__construct('mysql:host=127....', 'ptis', 'ptis2017')
+#1 C:\Apache24\htdocs\application\third_party\MX\Loader.php(107): DB('doh_ptis_module', NULL)
+#2 C:\Apache24\htdocs\application\core\Base_Model.php(62): MX_Loader->database('doh_ptis_module', true)
+#3 C:\Apache24\htdocs\application\core\Base_Model.php(340): Base_Model::get_connection()
+#4 C:\Apache24\htdocs\application\core\Base_Model.php(202): Base_Model->_select_data(Array, Array, Array, Array, Array, NULL, true, NULL, true)
+#5 C:\Apache24\htdocs\application\modules\main\models\Requests_model.php(854): Base_Model->select_all(Array, Array, Array, Array, Array, NULL)
+#6 C:\Apache24\htdocs\application\modules\main\controllers\Requests.php(72): Requests_model->get_general_data(Array, Array, Array)
+#7 [internal function]: Requests->index()
+#8 C:\Apache24\htdocs\system\core\CodeIgniter.php(514): call_user_func_array(Array, Array)
+#9 C:\Apache24\htdocs\index.php(293): require_once('C:\\Apache24\\htd...')
+#10 {main}, FILE: C:\Apache24\htdocs\system\database\DB.php, LINE: 203
+[Wed Sep 15 15:54:34 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Wed Sep 15 15:54:34 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 15:54:34 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 206
+[Wed Sep 15 15:54:34 2021] [ERROR] [] -> Uncaught exception: [1040] SQLSTATE[08004] [1040] Too many connections
+#0 C:\Apache24\htdocs\system\database\DB.php(203): PDO->__construct('mysql:host=127....', 'ptis', 'ptis2017')
+#1 C:\Apache24\htdocs\application\third_party\MX\Loader.php(107): DB('doh_ptis_module', NULL)
+#2 C:\Apache24\htdocs\application\core\Base_Model.php(62): MX_Loader->database('doh_ptis_module', true)
+#3 C:\Apache24\htdocs\application\core\Base_Model.php(340): Base_Model::get_connection()
+#4 C:\Apache24\htdocs\application\core\Base_Model.php(202): Base_Model->_select_data(Array, Array, Array, Array, Array, NULL, true, NULL, true)
+#5 C:\Apache24\htdocs\application\modules\main\models\Requests_model.php(854): Base_Model->select_all(Array, Array, Array, Array, Array, NULL)
+#6 C:\Apache24\htdocs\application\modules\main\controllers\Requests.php(72): Requests_model->get_general_data(Array, Array, Array)
+#7 [internal function]: Requests->index()
+#8 C:\Apache24\htdocs\system\core\CodeIgniter.php(514): call_user_func_array(Array, Array)
+#9 C:\Apache24\htdocs\index.php(293): require_once('C:\\Apache24\\htd...')
+#10 {main}, FILE: C:\Apache24\htdocs\system\database\DB.php, LINE: 203
+[Wed Sep 15 15:54:34 2021] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 15:54:34 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 15:54:34 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 206
+[Wed Sep 15 15:54:34 2021] [ERROR] [] -> Uncaught exception: [1040] SQLSTATE[08004] [1040] Too many connections
+#0 C:\Apache24\htdocs\system\database\DB.php(203): PDO->__construct('mysql:host=127....', 'ptis', 'ptis2017')
+#1 C:\Apache24\htdocs\application\third_party\MX\Loader.php(107): DB('doh_ptis_module', NULL)
+#2 C:\Apache24\htdocs\application\core\Base_Model.php(62): MX_Loader->database('doh_ptis_module', true)
+#3 C:\Apache24\htdocs\application\core\Base_Model.php(340): Base_Model::get_connection()
+#4 C:\Apache24\htdocs\application\core\Base_Model.php(202): Base_Model->_select_data(Array, Array, Array, Array, Array, NULL, true, NULL, true)
+#5 C:\Apache24\htdocs\application\modules\main\models\Requests_model.php(854): Base_Model->select_all(Array, Array, Array, Array, Array, NULL)
+#6 C:\Apache24\htdocs\application\modules\main\controllers\Requests.php(72): Requests_model->get_general_data(Array, Array, Array)
+#7 [internal function]: Requests->index()
+#8 C:\Apache24\htdocs\system\core\CodeIgniter.php(514): call_user_func_array(Array, Array)
+#9 C:\Apache24\htdocs\index.php(293): require_once('C:\\Apache24\\htd...')
+#10 {main}, FILE: C:\Apache24\htdocs\system\database\DB.php, LINE: 203
+[Wed Sep 15 15:54:35 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 15:54:35 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 206
+[Wed Sep 15 15:54:35 2021] [ERROR] [Dashboard->get_dashboard] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 15:55:05 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 15:55:05 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 206
+[Wed Sep 15 15:55:05 2021] [ERROR] [] -> Uncaught exception: [1040] SQLSTATE[08004] [1040] Too many connections
+#0 C:\Apache24\htdocs\system\database\DB.php(203): PDO->__construct('mysql:host=127....', 'ptis', 'ptis2017')
+#1 C:\Apache24\htdocs\application\third_party\MX\Loader.php(107): DB('doh_ptis_module', NULL)
+#2 C:\Apache24\htdocs\application\core\Base_Model.php(62): MX_Loader->database('doh_ptis_module', true)
+#3 C:\Apache24\htdocs\application\core\Base_Model.php(340): Base_Model::get_connection()
+#4 C:\Apache24\htdocs\application\core\Base_Model.php(202): Base_Model->_select_data(Array, Array, Array, Array, Array, NULL, true, NULL, true)
+#5 C:\Apache24\htdocs\application\modules\main\models\Requests_model.php(854): Base_Model->select_all(Array, Array, Array, Array, Array, NULL)
+#6 C:\Apache24\htdocs\application\modules\main\controllers\Requests.php(92): Requests_model->get_general_data(Array, Array, Array)
+#7 [internal function]: Requests->index()
+#8 C:\Apache24\htdocs\system\core\CodeIgniter.php(514): call_user_func_array(Array, Array)
+#9 C:\Apache24\htdocs\index.php(293): require_once('C:\\Apache24\\htd...')
+#10 {main}, FILE: C:\Apache24\htdocs\system\database\DB.php, LINE: 203
+[Wed Sep 15 15:55:06 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 15:55:06 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Wed Sep 15 15:55:06 2021] [ERROR] [Employee_dtr->print_employee_dtr] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 15:55:07 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 15:55:07 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 206
+[Wed Sep 15 15:55:07 2021] [ERROR] [] -> Uncaught exception: [1040] SQLSTATE[08004] [1040] Too many connections
+#0 C:\Apache24\htdocs\system\database\DB.php(203): PDO->__construct('mysql:host=127....', 'ptis', 'ptis2017')
+#1 C:\Apache24\htdocs\application\third_party\MX\Loader.php(107): DB('doh_ptis_module', NULL)
+#2 C:\Apache24\htdocs\application\core\Base_Model.php(62): MX_Loader->database('doh_ptis_module', true)
+#3 C:\Apache24\htdocs\application\core\Base_Model.php(340): Base_Model::get_connection()
+#4 C:\Apache24\htdocs\application\core\Base_Model.php(202): Base_Model->_select_data(Array, Array, Array, Array, Array, NULL, true, NULL, true)
+#5 C:\Apache24\htdocs\application\modules\main\models\Requests_model.php(854): Base_Model->select_all(Array, Array, Array, Array, Array, NULL)
+#6 C:\Apache24\htdocs\application\modules\main\controllers\Requests.php(92): Requests_model->get_general_data(Array, Array, Array)
+#7 [internal function]: Requests->index()
+#8 C:\Apache24\htdocs\system\core\CodeIgniter.php(514): call_user_func_array(Array, Array)
+#9 C:\Apache24\htdocs\index.php(293): require_once('C:\\Apache24\\htd...')
+#10 {main}, FILE: C:\Apache24\htdocs\system\database\DB.php, LINE: 203
+[Wed Sep 15 15:55:46 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 15:55:46 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 206
+[Wed Sep 15 15:55:46 2021] [ERROR] [] -> Uncaught exception: [1040] SQLSTATE[08004] [1040] Too many connections
+#0 C:\Apache24\htdocs\system\database\DB.php(203): PDO->__construct('mysql:host=127....', 'ptis', 'ptis2017')
+#1 C:\Apache24\htdocs\application\third_party\MX\Loader.php(107): DB('doh_ptis_module', NULL)
+#2 C:\Apache24\htdocs\application\core\Base_Model.php(62): MX_Loader->database('doh_ptis_module', true)
+#3 C:\Apache24\htdocs\application\core\Base_Model.php(340): Base_Model::get_connection()
+#4 C:\Apache24\htdocs\application\core\Base_Model.php(202): Base_Model->_select_data(Array, Array, Array, Array, Array, NULL, true, NULL, true)
+#5 C:\Apache24\htdocs\application\modules\main\models\Requests_model.php(854): Base_Model->select_all(Array, Array, Array, Array, Array, NULL)
+#6 C:\Apache24\htdocs\application\modules\main\controllers\Requests.php(92): Requests_model->get_general_data(Array, Array, Array)
+#7 [internal function]: Requests->index()
+#8 C:\Apache24\htdocs\system\core\CodeIgniter.php(514): call_user_func_array(Array, Array)
+#9 C:\Apache24\htdocs\index.php(293): require_once('C:\\Apache24\\htd...')
+#10 {main}, FILE: C:\Apache24\htdocs\system\database\DB.php, LINE: 203
+[Wed Sep 15 15:55:47 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 15:55:47 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 206
+[Wed Sep 15 15:55:47 2021] [ERROR] [] -> Uncaught exception: [1040] SQLSTATE[08004] [1040] Too many connections
+#0 C:\Apache24\htdocs\system\database\DB.php(203): PDO->__construct('mysql:host=127....', 'ptis', 'ptis2017')
+#1 C:\Apache24\htdocs\application\third_party\MX\Loader.php(107): DB('doh_ptis_module', NULL)
+#2 C:\Apache24\htdocs\application\core\Base_Model.php(62): MX_Loader->database('doh_ptis_module', true)
+#3 C:\Apache24\htdocs\application\core\Base_Model.php(340): Base_Model::get_connection()
+#4 C:\Apache24\htdocs\application\core\Base_Model.php(202): Base_Model->_select_data(Array, Array, Array, Array, Array, NULL, true, NULL, true)
+#5 C:\Apache24\htdocs\application\modules\main\models\Requests_model.php(854): Base_Model->select_all(Array, Array, Array, Array, Array, NULL)
+#6 C:\Apache24\htdocs\application\modules\main\controllers\Requests.php(72): Requests_model->get_general_data(Array, Array, Array)
+#7 [internal function]: Requests->index()
+#8 C:\Apache24\htdocs\system\core\CodeIgniter.php(514): call_user_func_array(Array, Array)
+#9 C:\Apache24\htdocs\index.php(293): require_once('C:\\Apache24\\htd...')
+#10 {main}, FILE: C:\Apache24\htdocs\system\database\DB.php, LINE: 203
+[Wed Sep 15 15:55:47 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 15:55:47 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 206
+[Wed Sep 15 15:55:47 2021] [ERROR] [] -> Uncaught exception: [1040] SQLSTATE[08004] [1040] Too many connections
+#0 C:\Apache24\htdocs\system\database\DB.php(203): PDO->__construct('mysql:host=127....', 'ptis', 'ptis2017')
+#1 C:\Apache24\htdocs\application\third_party\MX\Loader.php(107): DB('doh_ptis_module', NULL)
+#2 C:\Apache24\htdocs\application\core\Base_Model.php(62): MX_Loader->database('doh_ptis_module', true)
+#3 C:\Apache24\htdocs\application\core\Base_Model.php(340): Base_Model::get_connection()
+#4 C:\Apache24\htdocs\application\core\Base_Model.php(202): Base_Model->_select_data(Array, Array, Array, Array, Array, NULL, true, NULL, true)
+#5 C:\Apache24\htdocs\application\modules\main\models\Requests_model.php(854): Base_Model->select_all(Array, Array, Array, Array, Array, NULL)
+#6 C:\Apache24\htdocs\application\modules\main\controllers\Requests.php(92): Requests_model->get_general_data(Array, Array, Array)
+#7 [internal function]: Requests->index()
+#8 C:\Apache24\htdocs\system\core\CodeIgniter.php(514): call_user_func_array(Array, Array)
+#9 C:\Apache24\htdocs\index.php(293): require_once('C:\\Apache24\\htd...')
+#10 {main}, FILE: C:\Apache24\htdocs\system\database\DB.php, LINE: 203
+[Wed Sep 15 15:57:00 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 15:57:00 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 206
+[Wed Sep 15 15:57:00 2021] [ERROR] [Dashboard->get_dashboard] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 15:57:41 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Wed Sep 15 15:57:41 2021] [ERROR] [Pds_model->get_employee_info] -> SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Employee_dtr.php, LINE: 91
+[Wed Sep 15 15:57:41 2021] [ERROR] [Employee_dtr->load_employee_dtr] -> SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Employee_dtr.php, LINE: 20
+[Wed Sep 15 15:58:15 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 15:58:15 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 206
+[Wed Sep 15 15:58:15 2021] [ERROR] [Dashboard->get_dashboard] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 15:58:16 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 15:58:16 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 206
+[Wed Sep 15 15:58:16 2021] [ERROR] [Dashboard->get_dashboard] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 15:58:19 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 15:58:19 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 206
+[Wed Sep 15 15:58:19 2021] [ERROR] [Dashboard->get_dashboard] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 15:58:28 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 15:58:28 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 206
+[Wed Sep 15 15:58:28 2021] [ERROR] [Dashboard->get_dashboard] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 15:59:25 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Wed Sep 15 15:59:25 2021] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 16:01:18 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Wed Sep 15 16:01:18 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\modules\sysad\models\Permissions_model.php, LINE: 791
+[Wed Sep 15 16:01:18 2021] [ERROR] [Daily_time_record->get_employee_list] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 16:03:06 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 84
+[Wed Sep 15 16:03:06 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 16:03:06 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Wed Sep 15 16:03:06 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 135
+[Wed Sep 15 16:03:06 2021] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 16:03:29 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Wed Sep 15 16:03:29 2021] [ERROR] [Requests->get_request_tasks] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 16:03:47 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Wed Sep 15 16:03:47 2021] [ERROR] [Pds_model->get_employee_info] -> SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Employee_dtr.php, LINE: 91
+[Wed Sep 15 16:03:47 2021] [ERROR] [Employee_dtr->load_employee_dtr] -> SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Employee_dtr.php, LINE: 20
+[Wed Sep 15 16:03:50 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Wed Sep 15 16:03:50 2021] [ERROR] [Pds_model->get_employee_info] -> SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Employee_dtr.php, LINE: 91
+[Wed Sep 15 16:03:50 2021] [ERROR] [Employee_dtr->load_employee_dtr] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 16:04:02 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 16:04:02 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 206
+[Wed Sep 15 16:04:02 2021] [ERROR] [Dashboard->get_dashboard] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 16:09:10 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 84
+[Wed Sep 15 16:09:10 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 16:09:10 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Wed Sep 15 16:09:10 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 135
+[Wed Sep 15 16:09:10 2021] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 16:10:19 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 84
+[Wed Sep 15 16:10:19 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 16:10:19 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Wed Sep 15 16:10:19 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 135
+[Wed Sep 15 16:10:19 2021] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 16:10:33 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 16:10:33 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 206
+[Wed Sep 15 16:10:33 2021] [ERROR] [Pds_model->get_general_data] -> SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Pds.php, LINE: 96
+[Wed Sep 15 16:10:33 2021] [ERROR] [] -> Uncaught exception: [0] SQLSTATE[08004] [1040] Too many connections
+#0 C:\Apache24\htdocs\application\modules\main\controllers\Pds.php(96): Pds_model->get_general_data(Array, Array, Array)
+#1 [internal function]: Pds->index()
+#2 C:\Apache24\htdocs\system\core\CodeIgniter.php(514): call_user_func_array(Array, Array)
+#3 C:\Apache24\htdocs\index.php(293): require_once('C:\\Apache24\\htd...')
+#4 {main}, FILE: C:\Apache24\htdocs\application\modules\main\models\Pds_model.php, LINE: 1880
+[Wed Sep 15 16:10:35 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 16:10:35 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 206
+[Wed Sep 15 16:10:35 2021] [ERROR] [] -> Uncaught exception: [1040] SQLSTATE[08004] [1040] Too many connections
+#0 C:\Apache24\htdocs\system\database\DB.php(203): PDO->__construct('mysql:host=127....', 'ptis', 'ptis2017')
+#1 C:\Apache24\htdocs\application\third_party\MX\Loader.php(107): DB('doh_ptis_module', NULL)
+#2 C:\Apache24\htdocs\application\core\Base_Model.php(62): MX_Loader->database('doh_ptis_module', true)
+#3 C:\Apache24\htdocs\application\core\Base_Model.php(340): Base_Model::get_connection()
+#4 C:\Apache24\htdocs\application\core\Base_Model.php(202): Base_Model->_select_data(Array, Array, Array, Array, Array, NULL, true, NULL, true)
+#5 C:\Apache24\htdocs\application\modules\main\models\Requests_model.php(854): Base_Model->select_all(Array, Array, Array, Array, Array, NULL)
+#6 C:\Apache24\htdocs\application\modules\main\controllers\Requests.php(72): Requests_model->get_general_data(Array, Array, Array)
+#7 [internal function]: Requests->index()
+#8 C:\Apache24\htdocs\system\core\CodeIgniter.php(514): call_user_func_array(Array, Array)
+#9 C:\Apache24\htdocs\index.php(293): require_once('C:\\Apache24\\htd...')
+#10 {main}, FILE: C:\Apache24\htdocs\system\database\DB.php, LINE: 203
+[Wed Sep 15 16:11:39 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Wed Sep 15 16:11:39 2021] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 16:13:51 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 16:13:51 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 206
+[Wed Sep 15 16:13:51 2021] [ERROR] [Dashboard->get_dashboard] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 16:13:53 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 16:13:53 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 206
+[Wed Sep 15 16:13:53 2021] [ERROR] [Dashboard->get_dashboard] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 16:13:55 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 16:13:55 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 206
+[Wed Sep 15 16:13:55 2021] [ERROR] [Dashboard->get_dashboard] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 16:13:55 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 16:13:55 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 206
+[Wed Sep 15 16:13:55 2021] [ERROR] [Dashboard->get_dashboard] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 16:14:43 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Wed Sep 15 16:14:43 2021] [ERROR] [Pds_model->get_employee_info] -> SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Employee_dtr.php, LINE: 91
+[Wed Sep 15 16:14:43 2021] [ERROR] [Employee_dtr->load_employee_dtr] -> SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Employee_dtr.php, LINE: 20
+[Wed Sep 15 16:15:06 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 16:15:06 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 206
+[Wed Sep 15 16:15:06 2021] [ERROR] [Dashboard->get_dashboard] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 16:16:00 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 16:16:00 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 206
+[Wed Sep 15 16:16:00 2021] [ERROR] [Pds_model->get_general_data] -> SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Pds.php, LINE: 96
+[Wed Sep 15 16:16:00 2021] [ERROR] [] -> Uncaught exception: [0] SQLSTATE[08004] [1040] Too many connections
+#0 C:\Apache24\htdocs\application\modules\main\controllers\Pds.php(96): Pds_model->get_general_data(Array, Array, Array)
+#1 [internal function]: Pds->index()
+#2 C:\Apache24\htdocs\system\core\CodeIgniter.php(514): call_user_func_array(Array, Array)
+#3 C:\Apache24\htdocs\index.php(293): require_once('C:\\Apache24\\htd...')
+#4 {main}, FILE: C:\Apache24\htdocs\application\modules\main\models\Pds_model.php, LINE: 1880
+[Wed Sep 15 16:16:53 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 84
+[Wed Sep 15 16:16:53 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 16:16:53 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Wed Sep 15 16:16:53 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 135
+[Wed Sep 15 16:16:53 2021] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 16:16:57 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 84
+[Wed Sep 15 16:16:57 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 16:16:57 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Wed Sep 15 16:16:57 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 135
+[Wed Sep 15 16:16:57 2021] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 16:17:26 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 16:17:26 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 206
+[Wed Sep 15 16:17:26 2021] [ERROR] [Dashboard->get_dashboard] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 16:17:59 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Wed Sep 15 16:17:59 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\modules\sysad\models\Permissions_model.php, LINE: 791
+[Wed Sep 15 16:17:59 2021] [ERROR] [Employee_requests->get_employee_requests] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 16:18:37 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Wed Sep 15 16:18:37 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\modules\sysad\models\Permissions_model.php, LINE: 791
+[Wed Sep 15 16:18:37 2021] [ERROR] [Employee_requests->get_employee_requests] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 16:18:48 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 16:18:48 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 206
+[Wed Sep 15 16:18:48 2021] [ERROR] [Dashboard->get_dashboard] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 16:19:05 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 16:19:05 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 206
+[Wed Sep 15 16:19:05 2021] [ERROR] [Pds_model->get_general_data] -> SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Daily_time_record.php, LINE: 136
+[Wed Sep 15 16:19:05 2021] [ERROR] [Daily_time_record->index] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 16:19:37 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Wed Sep 15 16:19:37 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\modules\sysad\models\Permissions_model.php, LINE: 791
+[Wed Sep 15 16:19:37 2021] [ERROR] [Requests->get_requests] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 16:20:45 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Wed Sep 15 16:20:45 2021] [ERROR] [Requests->get_task] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 16:21:20 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Wed Sep 15 16:21:20 2021] [ERROR] [Requests->modal_process_task] -> NULL, FILE: , LINE: 0
+[Wed Sep 15 16:21:33 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 16:21:33 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 206
+[Wed Sep 15 16:21:33 2021] [ERROR] [Dashboard->get_dashboard] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 16:21:36 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Wed Sep 15 16:21:36 2021] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 16:21:49 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 84
+[Wed Sep 15 16:21:49 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 16:21:49 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Wed Sep 15 16:21:49 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 135
+[Wed Sep 15 16:21:49 2021] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 16:21:50 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Wed Sep 15 16:21:50 2021] [ERROR] [Pds_model->get_employee_info] -> SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Employee_attendance.php, LINE: 866
+[Wed Sep 15 16:21:50 2021] [ERROR] [Employee_attendance->modal_add_employee_attendance] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 16:21:55 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 84
+[Wed Sep 15 16:21:55 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 16:21:55 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Wed Sep 15 16:21:55 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 135
+[Wed Sep 15 16:21:55 2021] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 16:22:05 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 16:22:05 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Wed Sep 15 16:22:05 2021] [ERROR] [Employee_dtr->print_employee_dtr] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 16:22:07 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 84
+[Wed Sep 15 16:22:07 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 16:22:07 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Wed Sep 15 16:22:07 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 135
+[Wed Sep 15 16:22:07 2021] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 16:23:40 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Wed Sep 15 16:23:40 2021] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 16:23:45 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Wed Sep 15 16:23:45 2021] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 16:23:53 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 16:23:53 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 206
+[Wed Sep 15 16:23:53 2021] [ERROR] [Pds_model->get_general_data] -> SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Pds.php, LINE: 96
+[Wed Sep 15 16:23:53 2021] [ERROR] [] -> Uncaught exception: [0] SQLSTATE[08004] [1040] Too many connections
+#0 C:\Apache24\htdocs\application\modules\main\controllers\Pds.php(96): Pds_model->get_general_data(Array, Array, Array)
+#1 [internal function]: Pds->index()
+#2 C:\Apache24\htdocs\system\core\CodeIgniter.php(514): call_user_func_array(Array, Array)
+#3 C:\Apache24\htdocs\index.php(293): require_once('C:\\Apache24\\htd...')
+#4 {main}, FILE: C:\Apache24\htdocs\application\modules\main\models\Pds_model.php, LINE: 1880
+[Wed Sep 15 16:24:07 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Wed Sep 15 16:24:07 2021] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 16:25:12 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Wed Sep 15 16:25:12 2021] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 16:25:13 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Wed Sep 15 16:25:13 2021] [ERROR] [Pds_model->get_employee_info] -> SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Employee_dtr.php, LINE: 91
+[Wed Sep 15 16:25:13 2021] [ERROR] [Employee_dtr->load_employee_dtr] -> SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Employee_dtr.php, LINE: 20
+[Wed Sep 15 16:25:22 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Wed Sep 15 16:25:22 2021] [ERROR] [Pds_model->get_employee_info] -> SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Employee_dtr.php, LINE: 91
+[Wed Sep 15 16:25:22 2021] [ERROR] [Employee_dtr->load_employee_dtr] -> SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Employee_dtr.php, LINE: 20
+[Wed Sep 15 16:25:24 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Wed Sep 15 16:25:24 2021] [ERROR] [Pds_model->get_employee_info] -> SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Employee_dtr.php, LINE: 91
+[Wed Sep 15 16:25:24 2021] [ERROR] [Employee_dtr->load_employee_dtr] -> SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Employee_dtr.php, LINE: 20
+[Wed Sep 15 16:25:25 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Wed Sep 15 16:25:25 2021] [ERROR] [Pds_model->get_employee_info] -> SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Employee_dtr.php, LINE: 91
+[Wed Sep 15 16:25:25 2021] [ERROR] [Employee_dtr->load_employee_dtr] -> SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Employee_dtr.php, LINE: 20
+[Wed Sep 15 16:25:28 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Wed Sep 15 16:25:28 2021] [ERROR] [Pds_model->get_employee_info] -> SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Employee_dtr.php, LINE: 91
+[Wed Sep 15 16:25:28 2021] [ERROR] [Employee_dtr->load_employee_dtr] -> SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Employee_dtr.php, LINE: 20
+[Wed Sep 15 16:25:54 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Wed Sep 15 16:25:54 2021] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 16:26:23 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Wed Sep 15 16:26:23 2021] [ERROR] [Pds_model->get_employee_info] -> SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Employee_dtr.php, LINE: 91
+[Wed Sep 15 16:26:23 2021] [ERROR] [Employee_dtr->load_employee_dtr] -> SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Employee_dtr.php, LINE: 20
+[Wed Sep 15 16:26:25 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 16:26:25 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 206
+[Wed Sep 15 16:26:25 2021] [ERROR] [Dashboard->get_dashboard] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 16:26:26 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 16:26:26 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 206
+[Wed Sep 15 16:26:26 2021] [ERROR] [Dashboard->get_dashboard] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 16:26:26 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Wed Sep 15 16:26:26 2021] [ERROR] [Pds_model->get_employee_info] -> SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Employee_dtr.php, LINE: 91
+[Wed Sep 15 16:26:26 2021] [ERROR] [Employee_dtr->load_employee_dtr] -> SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Employee_dtr.php, LINE: 20
+[Wed Sep 15 16:26:27 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 16:26:27 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 206
+[Wed Sep 15 16:26:27 2021] [ERROR] [Dashboard->get_dashboard] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 16:26:29 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 16:26:29 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 206
+[Wed Sep 15 16:26:29 2021] [ERROR] [Dashboard->get_dashboard] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 16:26:32 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 16:26:32 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 206
+[Wed Sep 15 16:26:32 2021] [ERROR] [Dashboard->get_dashboard] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 16:27:12 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Wed Sep 15 16:27:12 2021] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 16:27:18 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 84
+[Wed Sep 15 16:27:18 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 16:27:18 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Wed Sep 15 16:27:18 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 135
+[Wed Sep 15 16:27:18 2021] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 16:27:49 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 16:27:49 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 206
+[Wed Sep 15 16:27:49 2021] [ERROR] [Dashboard->get_dashboard] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 16:32:54 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Wed Sep 15 16:32:54 2021] [ERROR] [Pds_model->get_employee_info] -> SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Employee_attendance.php, LINE: 866
+[Wed Sep 15 16:32:54 2021] [ERROR] [Employee_attendance->modal_add_employee_attendance] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 16:33:04 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Wed Sep 15 16:33:04 2021] [ERROR] [Pds_model->get_employee_info] -> SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Employee_attendance.php, LINE: 866
+[Wed Sep 15 16:33:04 2021] [ERROR] [Employee_attendance->modal_add_employee_attendance] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 16:33:31 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 16:33:31 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 206
+[Wed Sep 15 16:33:31 2021] [ERROR] [Dashboard->get_dashboard] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 16:50:17 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 16:50:17 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 206
+[Wed Sep 15 16:50:17 2021] [ERROR] [Dashboard->get_dashboard] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 16:50:18 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 16:50:18 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 206
+[Wed Sep 15 16:50:18 2021] [ERROR] [Dashboard->get_dashboard] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 16:50:22 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 16:50:22 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 206
+[Wed Sep 15 16:50:22 2021] [ERROR] [Dashboard->get_dashboard] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 16:50:22 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 16:50:22 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 206
+[Wed Sep 15 16:50:22 2021] [ERROR] [Dashboard->get_dashboard] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 16:50:38 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Wed Sep 15 16:50:38 2021] [ERROR] [Pds_model->get_employee_info] -> SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Employee_dtr.php, LINE: 91
+[Wed Sep 15 16:50:38 2021] [ERROR] [Employee_dtr->load_employee_dtr] -> SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Employee_dtr.php, LINE: 20
+[Wed Sep 15 16:58:39 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Wed Sep 15 16:58:39 2021] [ERROR] [Pds_model->get_employee_info] -> SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Employee_dtr.php, LINE: 91
+[Wed Sep 15 16:58:39 2021] [ERROR] [Employee_dtr->load_employee_dtr] -> SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Employee_dtr.php, LINE: 20
+[Wed Sep 15 17:01:28 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 17:01:28 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 206
+[Wed Sep 15 17:01:28 2021] [ERROR] [Dashboard->get_dashboard] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 17:01:28 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 17:01:28 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 206
+[Wed Sep 15 17:01:28 2021] [ERROR] [Dashboard->get_dashboard] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 17:01:38 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 17:01:38 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 206
+[Wed Sep 15 17:01:38 2021] [ERROR] [Dashboard->get_dashboard] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 17:23:16 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Wed Sep 15 17:23:16 2021] [ERROR] [Pds_model->get_employee_info] -> SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Employee_dtr.php, LINE: 91
+[Wed Sep 15 17:23:16 2021] [ERROR] [Employee_dtr->load_employee_dtr] -> SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Employee_dtr.php, LINE: 20
+[Wed Sep 15 17:41:39 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 17:41:39 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Wed Sep 15 17:41:39 2021] [ERROR] [Employee_dtr->print_employee_dtr] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 17:41:39 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 17:41:39 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Wed Sep 15 17:41:39 2021] [ERROR] [Employee_dtr->print_employee_dtr] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 17:41:39 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 17:41:39 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Wed Sep 15 17:41:39 2021] [ERROR] [Employee_dtr->print_employee_dtr] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 17:41:39 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 17:41:39 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 17:41:39 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Wed Sep 15 17:41:39 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Wed Sep 15 17:41:39 2021] [ERROR] [Employee_dtr->print_employee_dtr] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 17:41:39 2021] [ERROR] [Employee_dtr->print_employee_dtr] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 17:41:56 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Wed Sep 15 17:41:56 2021] [ERROR] [Pds_model->get_employee_info] -> SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Employee_dtr.php, LINE: 91
+[Wed Sep 15 17:41:56 2021] [ERROR] [Employee_dtr->load_employee_dtr] -> SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Employee_dtr.php, LINE: 20
+[Wed Sep 15 17:42:06 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 84
+[Wed Sep 15 17:42:06 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 17:42:06 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Wed Sep 15 17:42:06 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 135
+[Wed Sep 15 17:42:06 2021] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 17:42:09 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 84
+[Wed Sep 15 17:42:09 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 17:42:09 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Wed Sep 15 17:42:09 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 135
+[Wed Sep 15 17:42:09 2021] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 17:42:09 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Wed Sep 15 17:42:09 2021] [ERROR] [Pds_model->get_employee_info] -> SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Employee_dtr.php, LINE: 91
+[Wed Sep 15 17:42:09 2021] [ERROR] [Employee_dtr->load_employee_dtr] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 17:42:19 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 17:42:19 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 206
+[Wed Sep 15 17:42:19 2021] [ERROR] [Dashboard->get_dashboard] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 17:42:20 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 84
+[Wed Sep 15 17:42:20 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 17:42:20 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Wed Sep 15 17:42:20 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 135
+[Wed Sep 15 17:42:20 2021] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 17:42:28 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 84
+[Wed Sep 15 17:42:28 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 17:42:28 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Wed Sep 15 17:42:28 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 135
+[Wed Sep 15 17:42:28 2021] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 17:42:52 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Wed Sep 15 17:42:52 2021] [ERROR] [Pds_model->get_employee_info] -> SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Employee_dtr.php, LINE: 91
+[Wed Sep 15 17:42:52 2021] [ERROR] [Employee_dtr->load_employee_dtr] -> SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Employee_dtr.php, LINE: 20
+[Wed Sep 15 17:42:57 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Wed Sep 15 17:42:57 2021] [ERROR] [Pds_model->get_employee_info] -> SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Employee_dtr.php, LINE: 91
+[Wed Sep 15 17:42:57 2021] [ERROR] [Employee_dtr->load_employee_dtr] -> SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Employee_dtr.php, LINE: 20
+[Wed Sep 15 17:42:59 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 17:42:59 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 206
+[Wed Sep 15 17:42:59 2021] [ERROR] [Dashboard->get_dashboard] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 17:42:59 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 17:42:59 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 206
+[Wed Sep 15 17:42:59 2021] [ERROR] [Dashboard->get_dashboard] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 17:43:00 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 17:43:00 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 206
+[Wed Sep 15 17:43:00 2021] [ERROR] [Dashboard->get_dashboard] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 17:43:30 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Wed Sep 15 17:43:30 2021] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[08004] [1040] Too many connections, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 206
+[Wed Sep 15 17:43:30 2021] [ERROR] [Reports_ta->index] -> SQLSTATE[08004] [1040] Too many connections, FILE: , LINE: 0
+[Wed Sep 15 18:56:46 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Wed Sep 15 18:56:46 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\Apache24\htdocs\application\modules\main\models\Daily_time_record_model.php, LINE: 575

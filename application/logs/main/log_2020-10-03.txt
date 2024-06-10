@@ -1,0 +1,65 @@
+[Sat Oct 03 00:24:46 2020] [ERROR] [Pds_personal_info->process] -> <b>Gender</b> is required.<br>, FILE: , LINE: 0
+[Sat Oct 03 08:43:53 2020] [ERROR] [Pds_personal_info->process] -> <b>SSS Number</b> is required. If Not Applicable, put <b>NA</b>., FILE: , LINE: 0
+[Sat Oct 03 08:47:59 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_salary_grade' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Sat Oct 03 08:47:59 2020] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_salary_grade' at row 1, FILE: , LINE: 0
+[Sat Oct 03 08:54:24 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for Philhealth Number, FILE: , LINE: 0
+[Sat Oct 03 10:25:36 2020] [ERROR] [Pds_personal_info->process] -> <b>Philhealth Number</b> is required. If Not Applicable, put <b>NA</b>., FILE: , LINE: 0
+[Sat Oct 03 11:13:37 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Sat Oct 03 11:13:37 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 575
+[Sat Oct 03 11:31:54 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 98, FILE: C:\www\application\core\Base_Model.php, LINE: 968
+[Sat Oct 03 11:31:54 2020] [ERROR] [Requests->process_task] -> SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 98, FILE: , LINE: 0
+[Sat Oct 03 13:06:30 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_salary_grade' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Sat Oct 03 13:06:30 2020] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_salary_grade' at row 1, FILE: , LINE: 0
+[Sat Oct 03 13:06:33 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_salary_grade' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Sat Oct 03 13:06:33 2020] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_salary_grade' at row 1, FILE: , LINE: 0
+[Sat Oct 03 13:06:37 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_salary_grade' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Sat Oct 03 13:06:37 2020] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_salary_grade' at row 1, FILE: , LINE: 0
+[Sat Oct 03 13:06:52 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_salary_grade' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Sat Oct 03 13:06:52 2020] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_salary_grade' at row 1, FILE: , LINE: 0
+[Sat Oct 03 13:51:52 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_salary_grade' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Sat Oct 03 13:51:52 2020] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_salary_grade' at row 1, FILE: , LINE: 0
+[Sat Oct 03 13:59:14 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Sat Oct 03 13:59:14 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 575
+[Sat Oct 03 13:59:45 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Sat Oct 03 13:59:45 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 575
+[Sat Oct 03 14:00:27 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Sat Oct 03 14:00:27 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 575
+[Sat Oct 03 14:01:07 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_salary_grade' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Sat Oct 03 14:01:07 2020] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_salary_grade' at row 1, FILE: , LINE: 0
+[Sat Oct 03 14:10:24 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Sat Oct 03 14:10:24 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 575
+[Sat Oct 03 15:47:58 2020] [ERROR] [Pds_personal_info->process] -> Please enter a valid number in Residential Zip Code., FILE: , LINE: 0
+[Sat Oct 03 15:48:10 2020] [ERROR] [Pds_personal_info->process] -> Please enter a valid amount in Height., FILE: , LINE: 0
+[Sat Oct 03 15:48:15 2020] [ERROR] [Pds_personal_info->process] -> <b>Height</b> is required.<br><b>Weight</b> is required.<br>, FILE: , LINE: 0
+[Sat Oct 03 15:56:52 2020] [ERROR] [Pds_personal_info->process] -> <b>SSS Number</b> is required. If Not Applicable, put <b>NA</b>., FILE: , LINE: 0
+[Sat Oct 03 16:49:21 2020] [ERROR] [Pds_personal_info->process] -> <b>SSS Number</b> is required. If Not Applicable, put <b>NA</b>., FILE: , LINE: 0

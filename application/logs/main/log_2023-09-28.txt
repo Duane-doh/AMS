@@ -1,0 +1,32 @@
+[Thu Sep 28 07:25:16 2023] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Thu Sep 28 07:25:16 2023] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: , LINE: 0
+[Thu Sep 28 07:56:20 2023] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to approve the leave application. Only the assigned <b>Immediate Supervisor</b> is allowed. Please contact the System's Administrator., FILE: , LINE: 0
+[Thu Sep 28 08:46:59 2023] [ERROR] [Pds_personal_info->process] -> Please enter a valid number in Residential Zip Code., FILE: , LINE: 0
+[Thu Sep 28 08:47:15 2023] [ERROR] [Pds_personal_info->process] -> Please enter a valid number in Residential Zip Code., FILE: , LINE: 0
+[Thu Sep 28 08:47:32 2023] [ERROR] [Pds_personal_info->process] -> Please enter a valid number in Residential Zip Code., FILE: , LINE: 0
+[Thu Sep 28 08:59:46 2023] [ERROR] [Pds_personal_info->process] -> Please enter a valid number in Residential Zip Code., FILE: , LINE: 0
+[Thu Sep 28 09:03:00 2023] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Thu Sep 28 09:06:36 2023] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Thu Sep 28 09:16:26 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 1107, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Thu Sep 28 09:16:26 2023] [ERROR] [Requests->process_task] -> SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 1107, FILE: , LINE: 0
+[Thu Sep 28 09:26:45 2023] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Thu Sep 28 09:26:52 2023] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Thu Sep 28 09:28:19 2023] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Thu Sep 28 09:28:30 2023] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Thu Sep 28 09:29:20 2023] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Thu Sep 28 09:29:32 2023] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Thu Sep 28 09:29:39 2023] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Thu Sep 28 09:29:39 2023] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Thu Sep 28 09:30:31 2023] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Thu Sep 28 09:30:38 2023] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Thu Sep 28 09:35:11 2023] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Thu Sep 28 09:35:21 2023] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Thu Sep 28 10:33:52 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'tardiness_hr' at row 3480772, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Thu Sep 28 10:33:52 2023] [ERROR] [Attendance_mra->process_employee_daily_mra] -> SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'tardiness_hr' at row 3480772, FILE: , LINE: 0
+[Thu Sep 28 10:34:13 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'tardiness_hr' at row 3480772, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Thu Sep 28 10:34:13 2023] [ERROR] [Attendance_mra->process_employee_daily_mra] -> SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'tardiness_hr' at row 3480772, FILE: , LINE: 0
+[Thu Sep 28 14:05:07 2023] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to approve the leave application. Only the assigned <b>Immediate Supervisor</b> is allowed. Please contact the System's Administrator., FILE: , LINE: 0
+[Thu Sep 28 14:58:40 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Thu Sep 28 14:58:40 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Thu Sep 28 15:06:08 2023] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Thu Sep 28 15:06:08 2023] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0

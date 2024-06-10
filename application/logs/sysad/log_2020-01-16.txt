@@ -1,0 +1,61 @@
+[Thu Jan 16 09:16:18 2020] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+, FILE: C:\www\application\core\Base_Model.php, LINE: 436
+[Thu Jan 16 09:16:18 2020] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+, FILE: C:\www\application\core\Base_Model.php, LINE: 225
+[Thu Jan 16 09:16:18 2020] [ERROR] [] -> Uncaught exception: [0] SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+
+#0 C:\www\application\modules\main\controllers\Employee_attendance.php(84): Template->load('employee_attend...', Array, Array)
+#1 [internal function]: Employee_attendance->display_attendance('3', '5a9d3226e8c5613...', '5f88367f049c4d6', '4aa7f8ddc77c7d6', '51')
+#2 C:\www\system\core\CodeIgniter.php(514): call_user_func_array(Array, Array)
+#3 C:\www\index.php(293): require_once('C:\\www\\system\\c...')
+#4 {main}, FILE: C:\www\application\libraries\Template.php, LINE: 31
+[Thu Jan 16 15:11:32 2020] [ERROR] [Base_Model::rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 782
+[Thu Jan 16 15:11:32 2020] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 523
+[Thu Jan 16 15:11:32 2020] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 442
+[Thu Jan 16 15:11:32 2020] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 231
+[Thu Jan 16 15:11:32 2020] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\modules\sysad\models\Users_model.php, LINE: 135
+[Thu Jan 16 15:16:17 2020] [ERROR] [Base_Model::rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 782
+[Thu Jan 16 15:16:17 2020] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 523
+[Thu Jan 16 15:16:17 2020] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 442
+[Thu Jan 16 15:16:17 2020] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 231
+[Thu Jan 16 15:16:17 2020] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\modules\sysad\models\Users_model.php, LINE: 135
+[Thu Jan 16 15:16:39 2020] [ERROR] [Base_Model::rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 782
+[Thu Jan 16 15:16:39 2020] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 523
+[Thu Jan 16 15:16:39 2020] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 442
+[Thu Jan 16 15:16:39 2020] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 231
+[Thu Jan 16 15:16:39 2020] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\modules\sysad\models\Users_model.php, LINE: 135
+[Thu Jan 16 15:25:54 2020] [ERROR] [Base_Model::rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 782
+[Thu Jan 16 15:25:54 2020] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 523
+[Thu Jan 16 15:25:54 2020] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 442
+[Thu Jan 16 15:25:54 2020] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 231
+[Thu Jan 16 15:25:54 2020] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\modules\sysad\models\Users_model.php, LINE: 135
+[Thu Jan 16 15:29:30 2020] [ERROR] [Base_Model::rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 782
+[Thu Jan 16 15:29:30 2020] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 523
+[Thu Jan 16 15:29:30 2020] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 442
+[Thu Jan 16 15:29:30 2020] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 231
+[Thu Jan 16 15:29:30 2020] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\modules\sysad\models\Users_model.php, LINE: 135
+[Thu Jan 16 15:29:51 2020] [ERROR] [Base_Model::rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 782
+[Thu Jan 16 15:29:51 2020] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 523
+[Thu Jan 16 15:29:51 2020] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 442
+[Thu Jan 16 15:29:51 2020] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 231
+[Thu Jan 16 15:29:51 2020] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\modules\sysad\models\Users_model.php, LINE: 135
+[Thu Jan 16 15:32:42 2020] [ERROR] [Base_Model::rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 782
+[Thu Jan 16 15:32:42 2020] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 523
+[Thu Jan 16 15:32:42 2020] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 442
+[Thu Jan 16 15:32:42 2020] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 231
+[Thu Jan 16 15:32:42 2020] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\modules\sysad\models\Users_model.php, LINE: 135
+[Thu Jan 16 15:40:34 2020] [ERROR] [Base_Model::rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 782
+[Thu Jan 16 15:40:34 2020] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 523
+[Thu Jan 16 15:40:34 2020] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 442
+[Thu Jan 16 15:40:34 2020] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 231
+[Thu Jan 16 15:40:34 2020] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\modules\sysad\models\Users_model.php, LINE: 135
+[Thu Jan 16 15:40:55 2020] [ERROR] [Base_Model::rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 782
+[Thu Jan 16 15:40:55 2020] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 523
+[Thu Jan 16 15:40:55 2020] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 442
+[Thu Jan 16 15:40:55 2020] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 231
+[Thu Jan 16 15:40:55 2020] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\modules\sysad\models\Users_model.php, LINE: 135
+[Thu Jan 16 15:45:32 2020] [ERROR] [Base_Model::rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 782
+[Thu Jan 16 15:45:32 2020] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 523
+[Thu Jan 16 15:45:32 2020] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 442
+[Thu Jan 16 15:45:32 2020] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 231
+[Thu Jan 16 15:45:32 2020] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\modules\sysad\models\Users_model.php, LINE: 135

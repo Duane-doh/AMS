@@ -1,0 +1,1552 @@
+[Thu Feb 10 08:24:08 2022] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Thu Feb 10 08:35:32 2022] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Thu Feb 10 08:35:32 2022] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Thu Feb 10 08:36:24 2022] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Thu Feb 10 08:36:24 2022] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Thu Feb 10 08:37:15 2022] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Thu Feb 10 08:37:15 2022] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Thu Feb 10 08:38:20 2022] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Thu Feb 10 08:38:20 2022] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Thu Feb 10 08:39:29 2022] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Thu Feb 10 08:39:29 2022] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Thu Feb 10 09:23:23 2022] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Thu Feb 10 09:31:03 2022] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Thu Feb 10 09:45:54 2022] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Thu Feb 10 09:57:46 2022] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Thu Feb 10 10:13:25 2022] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Thu Feb 10 10:28:01 2022] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Thu Feb 10 10:42:54 2022] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Thu Feb 10 11:17:51 2022] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Thu Feb 10 11:28:14 2022] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Thu Feb 10 13:11:53 2022] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Thu Feb 10 13:19:40 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Thu Feb 10 13:19:40 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\modules\main\models\Performance_evaluation_model.php, LINE: 204
+[Thu Feb 10 13:19:40 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Thu Feb 10 13:19:40 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\modules\main\models\Performance_evaluation_model.php, LINE: 204
+[Thu Feb 10 13:21:17 2022] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Thu Feb 10 13:31:32 2022] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Thu Feb 10 13:44:25 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Thu Feb 10 13:44:25 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 286
+[Thu Feb 10 13:44:25 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Thu Feb 10 13:44:25 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 286
+[Thu Feb 10 13:44:28 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Thu Feb 10 13:44:28 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 286
+[Thu Feb 10 13:44:28 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Thu Feb 10 13:44:28 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 286
+[Thu Feb 10 13:44:34 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Thu Feb 10 13:44:34 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 286
+[Thu Feb 10 13:44:34 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Thu Feb 10 13:44:34 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 286
+[Thu Feb 10 13:45:23 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Thu Feb 10 13:45:23 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 286
+[Thu Feb 10 13:45:23 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Thu Feb 10 13:45:23 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 286
+[Thu Feb 10 13:45:26 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Thu Feb 10 13:45:26 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 286
+[Thu Feb 10 13:45:26 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Thu Feb 10 13:45:26 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 286
+[Thu Feb 10 14:07:15 2022] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Thu Feb 10 14:19:28 2022] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Thu Feb 10 14:26:17 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Thu Feb 10 14:26:17 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 286
+[Thu Feb 10 14:26:17 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Thu Feb 10 14:26:17 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 286
+[Thu Feb 10 14:37:00 2022] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Thu Feb 10 14:47:48 2022] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Thu Feb 10 15:01:20 2022] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Thu Feb 10 15:01:20 2022] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Thu Feb 10 15:01:23 2022] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Thu Feb 10 15:01:23 2022] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Thu Feb 10 15:20:11 2022] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Thu Feb 10 15:27:48 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[40001]: Serialization failure: 1213 Deadlock found when trying to get lock; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Thu Feb 10 15:27:48 2022] [ERROR] [Pds_model->update_pds_date_accomplished] -> SQLSTATE[40001]: Serialization failure: 1213 Deadlock found when trying to get lock; try restarting transaction, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Pds_work_experience_info.php, LINE: 2001
+[Thu Feb 10 15:27:59 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[40001]: Serialization failure: 1213 Deadlock found when trying to get lock; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Thu Feb 10 15:27:59 2022] [ERROR] [Pds_model->update_pds_date_accomplished] -> SQLSTATE[40001]: Serialization failure: 1213 Deadlock found when trying to get lock; try restarting transaction, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Pds_work_experience_info.php, LINE: 2001
+[Thu Feb 10 15:28:34 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[40001]: Serialization failure: 1213 Deadlock found when trying to get lock; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Thu Feb 10 15:28:34 2022] [ERROR] [Pds_model->update_pds_date_accomplished] -> SQLSTATE[40001]: Serialization failure: 1213 Deadlock found when trying to get lock; try restarting transaction, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Pds_work_experience_info.php, LINE: 2001
+[Thu Feb 10 15:30:10 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[40001]: Serialization failure: 1213 Deadlock found when trying to get lock; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Thu Feb 10 15:30:10 2022] [ERROR] [Pds_model->update_pds_date_accomplished] -> SQLSTATE[40001]: Serialization failure: 1213 Deadlock found when trying to get lock; try restarting transaction, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Pds_work_experience_info.php, LINE: 2001
+[Thu Feb 10 15:31:16 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Thu Feb 10 15:31:16 2022] [ERROR] [Pds_model->update_pds_date_accomplished] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Pds_work_experience_info.php, LINE: 2384
+[Thu Feb 10 15:31:16 2022] [ERROR] [Pds_work_experience_info->delete_work_experience] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Thu Feb 10 15:41:55 2022] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Thu Feb 10 15:51:58 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Thu Feb 10 15:51:58 2022] [ERROR] [Pds_model->update_pds_date_accomplished] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Pds_work_experience_info.php, LINE: 2001
+[Thu Feb 10 15:53:45 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Thu Feb 10 15:53:45 2022] [ERROR] [Pds_model->update_pds_date_accomplished] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Pds_work_experience_info.php, LINE: 2001
+[Thu Feb 10 16:26:26 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Thu Feb 10 16:26:26 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 286
+[Thu Feb 10 16:26:26 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Thu Feb 10 16:26:26 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 286
+[Thu Feb 10 16:40:21 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Thu Feb 10 16:40:21 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Thu Feb 10 16:40:21 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Thu Feb 10 16:42:01 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Thu Feb 10 16:42:01 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Thu Feb 10 16:42:01 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Thu Feb 10 16:42:26 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Thu Feb 10 16:42:26 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Thu Feb 10 16:42:26 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Thu Feb 10 16:44:41 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:44:41 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377339',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1598.80952',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:44:41 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:44:42 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:44:42 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377340',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:44:42 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:44:42 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:44:42 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377341',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:44:42 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:44:45 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:44:45 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377321',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:44:45 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:45:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:45:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377323',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:45:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:45:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:45:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377324',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1598.80952',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:45:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:45:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:45:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377333',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1137.00000',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:45:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:45:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:45:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377338',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '933.00000',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:45:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:45:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:45:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377334',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:45:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:45:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:45:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377337',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:45:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:45:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:45:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377325',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1137.00000',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:45:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:45:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:45:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377335',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1598.80952',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:45:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:45:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:45:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377336',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1598.80952',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:45:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:45:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:45:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377328',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1346.47619',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:45:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:45:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:45:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377329',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1009.76190',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:45:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:45:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:45:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377322',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:45:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:45:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:45:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377332',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:45:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:45:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:45:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377330',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1346.47619',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:45:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:45:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:45:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377331',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1137.00000',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:45:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:45:04 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:45:04 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377326',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1009.76190',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:45:04 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:45:04 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:45:04 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377327',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1598.80952',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:45:04 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:45:54 2022] [ERROR] [Payroll_process->_check_split_deductions] -> PAYOUT NUM for Deduction: [4]System Parameter is not properly defined., FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_process.php, LINE: 422
+[Thu Feb 10 16:45:54 2022] [ERROR] [Payroll_process->process_payroll] -> PAYOUT NUM for Deduction: [4]System Parameter is not properly defined., FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll.php, LINE: 214
+[Thu Feb 10 16:47:27 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Thu Feb 10 16:47:27 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Thu Feb 10 16:47:27 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Thu Feb 10 16:48:10 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Thu Feb 10 16:48:10 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Thu Feb 10 16:48:10 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Thu Feb 10 16:53:30 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Thu Feb 10 16:53:30 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Thu Feb 10 16:53:30 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Thu Feb 10 16:54:13 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Thu Feb 10 16:54:13 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Thu Feb 10 16:54:13 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Thu Feb 10 16:54:30 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Thu Feb 10 16:54:30 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Thu Feb 10 16:54:30 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Thu Feb 10 16:54:30 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Thu Feb 10 16:54:30 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Thu Feb 10 16:54:30 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Thu Feb 10 16:54:30 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Thu Feb 10 16:54:30 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Thu Feb 10 16:54:30 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Thu Feb 10 16:54:35 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Thu Feb 10 16:54:35 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Thu Feb 10 16:54:35 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Thu Feb 10 16:54:44 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Thu Feb 10 16:54:44 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Thu Feb 10 16:54:44 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Thu Feb 10 16:54:51 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Thu Feb 10 16:54:51 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Thu Feb 10 16:54:51 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Thu Feb 10 16:54:54 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Thu Feb 10 16:54:54 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Thu Feb 10 16:54:54 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Thu Feb 10 16:55:42 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:55:42 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377339',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1598.80952',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:55:42 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:55:43 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:55:43 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377340',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:55:43 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:55:43 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:55:43 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377341',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:55:43 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:55:46 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:55:46 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377321',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:55:46 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:56:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:56:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377323',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:56:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:56:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:56:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377324',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1598.80952',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:56:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:56:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:56:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377333',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1137.00000',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:56:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:56:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:56:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377338',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '933.00000',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:56:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:56:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:56:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377334',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:56:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:56:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:56:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377337',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:56:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:56:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:56:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377325',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1137.00000',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:56:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:56:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:56:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377335',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1598.80952',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:56:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:56:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:56:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377336',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1598.80952',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:56:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:56:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:56:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377328',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1346.47619',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:56:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:56:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:56:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377329',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1009.76190',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:56:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:56:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:56:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377322',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:56:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:56:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:56:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377332',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:56:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:56:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:56:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377330',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1346.47619',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:56:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:56:04 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:56:04 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377331',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1137.00000',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:56:04 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:56:04 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:56:04 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377326',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1009.76190',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:56:04 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:56:04 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:56:04 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377327',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1598.80952',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:56:04 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 16:56:53 2022] [ERROR] [Payroll_process->_check_split_deductions] -> PAYOUT NUM for Deduction: [4]System Parameter is not properly defined., FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_process.php, LINE: 422
+[Thu Feb 10 16:56:54 2022] [ERROR] [Payroll_process->process_payroll] -> PAYOUT NUM for Deduction: [4]System Parameter is not properly defined., FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll.php, LINE: 214
+[Thu Feb 10 17:02:56 2022] [ERROR] [Compensation->process_employee_benefit] -> VALID_DATA :{"compensation_id":"1","start_date":"2021-09-16 00:00:00","end_date":""}, FILE: , LINE: 0
+[Thu Feb 10 17:02:56 2022] [ERROR] [Compensation->process_employee_benefit] -> VALID_DATA :{"compensation_id":"2","start_date":"2021-09-16 00:00:00","end_date":"2021-09-16 00:00:00"}, FILE: , LINE: 0
+[Thu Feb 10 17:02:56 2022] [ERROR] [Compensation->process_employee_benefit] -> VALID_DATA :{"compensation_id":"160","start_date":"2021-09-16 00:00:00","end_date":"2021-09-16 00:00:00"}, FILE: , LINE: 0
+[Thu Feb 10 17:02:56 2022] [ERROR] [Compensation->process_employee_benefit] -> VALID_DATA :{"compensation_id":"162","start_date":"2021-09-16 00:00:00","end_date":"2021-09-16 00:00:00"}, FILE: , LINE: 0
+[Thu Feb 10 17:02:56 2022] [ERROR] [Compensation->process_employee_benefit] -> FIELDS :[{"end_date":null,"compensation_id":"1","employee_id":"351","start_date":"2021-09-16 00:00:00"},{"end_date":"2021-09-16 00:00:00","compensation_id":"2","employee_id":"351","start_date":"2021-09-16 00:00:00"},{"end_date":"2021-09-16 00:00:00","compensation_id":"160","employee_id":"351","start_date":"2021-09-16 00:00:00"},{"end_date":"2021-09-16 00:00:00","compensation_id":"162","employee_id":"351","start_date":"2021-09-16 00:00:00"}], FILE: , LINE: 0
+[Thu Feb 10 17:05:36 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:05:36 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377339',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1598.80952',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:05:36 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:05:37 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:05:37 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377340',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:05:37 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:05:37 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:05:37 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377341',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:05:37 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:05:39 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:05:39 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377321',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:05:39 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:05:56 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:05:56 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377323',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:05:56 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:05:56 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:05:56 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377324',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1598.80952',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:05:56 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:05:56 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:05:56 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377333',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1137.00000',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:05:56 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:05:56 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:05:56 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377338',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '933.00000',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:05:56 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:05:56 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:05:56 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377334',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:05:56 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:05:56 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:05:56 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377337',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:05:56 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:05:56 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:05:56 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377325',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1137.00000',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:05:56 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:05:56 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:05:56 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377335',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1598.80952',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:05:56 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:05:56 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:05:56 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377336',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1598.80952',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:05:56 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:05:56 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:05:56 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377328',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1346.47619',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:05:56 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:05:56 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:05:56 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377329',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1009.76190',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:05:56 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:05:56 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:05:56 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377322',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:05:56 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:05:56 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:05:56 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377332',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:05:56 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:05:56 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:05:56 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377330',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1346.47619',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:05:56 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:05:56 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:05:56 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377331',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1137.00000',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:05:56 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:05:56 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:05:56 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377326',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1009.76190',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:05:56 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:05:56 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:05:56 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377327',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1598.80952',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:05:56 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:06:44 2022] [ERROR] [Payroll_process->_check_split_deductions] -> PAYOUT NUM for Deduction: [4]System Parameter is not properly defined., FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_process.php, LINE: 422
+[Thu Feb 10 17:06:44 2022] [ERROR] [Payroll_process->process_payroll] -> PAYOUT NUM for Deduction: [4]System Parameter is not properly defined., FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll.php, LINE: 214
+[Thu Feb 10 17:10:52 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:10:52 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377339',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1598.80952',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:10:52 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:10:53 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:10:53 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377340',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:10:53 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:10:53 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:10:53 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377341',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:10:53 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:10:56 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:10:56 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377321',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:10:56 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:11:13 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:11:13 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377323',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:11:13 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:11:13 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:11:13 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377324',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1598.80952',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:11:13 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:11:13 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:11:13 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377333',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1137.00000',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:11:13 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:11:13 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:11:13 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377338',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '933.00000',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:11:13 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:11:13 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:11:13 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377334',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:11:13 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:11:13 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:11:13 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377337',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:11:13 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:11:13 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:11:13 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377325',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1137.00000',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:11:13 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:11:13 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:11:13 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377335',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1598.80952',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:11:13 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:11:13 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:11:13 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377336',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1598.80952',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:11:13 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:11:13 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:11:13 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377328',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1346.47619',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:11:13 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:11:13 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:11:13 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377329',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1009.76190',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:11:13 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:11:13 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:11:13 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377322',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:11:13 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:11:13 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:11:13 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377332',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:11:13 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:11:13 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:11:13 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377330',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1346.47619',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:11:13 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:11:13 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:11:13 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377331',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1137.00000',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:11:13 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:11:14 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:11:14 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377326',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1009.76190',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:11:14 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:11:14 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:11:14 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377327',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1598.80952',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:11:14 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:12:04 2022] [ERROR] [Payroll_process->_check_split_deductions] -> PAYOUT NUM for Deduction: [4]System Parameter is not properly defined., FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_process.php, LINE: 422
+[Thu Feb 10 17:12:04 2022] [ERROR] [Payroll_process->process_payroll] -> PAYOUT NUM for Deduction: [4]System Parameter is not properly defined., FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll.php, LINE: 214
+[Thu Feb 10 17:14:16 2022] [ERROR] [Payroll_process->_check_split_deductions] -> PAYOUT NUM for Deduction: [4]System Parameter is not properly defined., FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_process.php, LINE: 422
+[Thu Feb 10 17:14:16 2022] [ERROR] [Payroll_process->process_payroll] -> PAYOUT NUM for Deduction: [4]System Parameter is not properly defined., FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll.php, LINE: 214
+[Thu Feb 10 17:14:29 2022] [ERROR] [Payroll_process->_check_split_deductions] -> PAYOUT NUM for Deduction: [4]System Parameter is not properly defined., FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_process.php, LINE: 422
+[Thu Feb 10 17:14:29 2022] [ERROR] [Payroll_process->process_payroll] -> PAYOUT NUM for Deduction: [4]System Parameter is not properly defined., FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll.php, LINE: 861
+[Thu Feb 10 17:15:42 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:15:42 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377339',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1598.80952',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:15:42 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:15:43 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:15:43 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377340',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:15:43 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:15:43 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:15:43 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377341',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:15:43 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:15:46 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:15:46 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377321',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:15:46 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:16:02 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:16:02 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377323',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:16:02 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:16:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:16:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377324',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1598.80952',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:16:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:16:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:16:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377333',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1137.00000',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:16:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:16:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:16:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377338',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '933.00000',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:16:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:16:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:16:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377334',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:16:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:16:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:16:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377337',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:16:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:16:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:16:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377325',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1137.00000',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:16:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:16:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:16:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377335',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1598.80952',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:16:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:16:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:16:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377336',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1598.80952',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:16:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:16:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:16:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377328',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1346.47619',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:16:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:16:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:16:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377329',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1009.76190',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:16:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:16:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:16:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377322',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:16:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:16:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:16:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377332',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:16:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:16:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:16:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377330',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1346.47619',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:16:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:16:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:16:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377331',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1137.00000',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:16:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:16:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:16:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377326',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1009.76190',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:16:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:16:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:16:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377327',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1598.80952',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:16:03 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:16:52 2022] [ERROR] [Payroll_process->_check_split_deductions] -> PAYOUT NUM for Deduction: [4]System Parameter is not properly defined., FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_process.php, LINE: 422
+[Thu Feb 10 17:16:52 2022] [ERROR] [Payroll_process->process_payroll] -> PAYOUT NUM for Deduction: [4]System Parameter is not properly defined., FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll.php, LINE: 214
+[Thu Feb 10 17:18:22 2022] [ERROR] [Payroll_process->_check_split_deductions] -> PAYOUT NUM for Deduction: [4]System Parameter is not properly defined., FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_process.php, LINE: 422
+[Thu Feb 10 17:18:22 2022] [ERROR] [Payroll_process->process_payroll] -> PAYOUT NUM for Deduction: [4]System Parameter is not properly defined., FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll.php, LINE: 214
+[Thu Feb 10 17:22:24 2022] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Thu Feb 10 17:22:24 2022] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Thu Feb 10 17:23:18 2022] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Thu Feb 10 17:23:18 2022] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Thu Feb 10 17:24:50 2022] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Thu Feb 10 17:24:50 2022] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Thu Feb 10 17:29:51 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:29:51 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377323',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:29:51 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:29:51 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:29:51 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377324',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1598.80952',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:29:51 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:29:51 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:29:51 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377333',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1137.00000',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:29:51 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:29:51 2022] [ERROR] [Payroll_process->_check_split_deductions] -> PAYOUT NUM for Deduction: [4]System Parameter is not properly defined., FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_process.php, LINE: 422
+[Thu Feb 10 17:29:51 2022] [ERROR] [Payroll_process->process_payroll] -> PAYOUT NUM for Deduction: [4]System Parameter is not properly defined., FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll.php, LINE: 214
+[Thu Feb 10 17:30:23 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:30:23 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377323',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:30:23 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:30:23 2022] [ERROR] [Payroll_process->_check_split_deductions] -> PAYOUT NUM for Deduction: [4]System Parameter is not properly defined., FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_process.php, LINE: 422
+[Thu Feb 10 17:30:23 2022] [ERROR] [Payroll_process->process_payroll] -> PAYOUT NUM for Deduction: [4]System Parameter is not properly defined., FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll.php, LINE: 214
+[Thu Feb 10 17:30:39 2022] [ERROR] [Payroll_process->_check_split_deductions] -> PAYOUT NUM for Deduction: [4]System Parameter is not properly defined., FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_process.php, LINE: 422
+[Thu Feb 10 17:30:39 2022] [ERROR] [Payroll_process->process_payroll] -> PAYOUT NUM for Deduction: [4]System Parameter is not properly defined., FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll.php, LINE: 214
+[Thu Feb 10 17:30:53 2022] [ERROR] [Payroll_process->_check_split_deductions] -> PAYOUT NUM for Deduction: [4]System Parameter is not properly defined., FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_process.php, LINE: 422
+[Thu Feb 10 17:30:53 2022] [ERROR] [Payroll_process->process_payroll] -> PAYOUT NUM for Deduction: [4]System Parameter is not properly defined., FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll.php, LINE: 861
+[Thu Feb 10 17:31:22 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Thu Feb 10 17:31:22 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Thu Feb 10 17:31:22 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Thu Feb 10 17:31:38 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Thu Feb 10 17:31:38 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Thu Feb 10 17:31:38 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Thu Feb 10 17:31:38 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Thu Feb 10 17:31:38 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Thu Feb 10 17:31:38 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Thu Feb 10 17:31:39 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Thu Feb 10 17:31:39 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Thu Feb 10 17:31:39 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Thu Feb 10 17:31:40 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Thu Feb 10 17:31:40 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Thu Feb 10 17:31:40 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Thu Feb 10 17:32:24 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Thu Feb 10 17:32:24 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Thu Feb 10 17:32:24 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Thu Feb 10 17:32:25 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Thu Feb 10 17:32:25 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Thu Feb 10 17:32:25 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Thu Feb 10 17:32:26 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Thu Feb 10 17:32:26 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Thu Feb 10 17:32:26 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Thu Feb 10 17:32:27 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Thu Feb 10 17:32:27 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Thu Feb 10 17:32:27 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Thu Feb 10 17:32:27 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Thu Feb 10 17:32:27 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Thu Feb 10 17:32:27 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Thu Feb 10 17:32:28 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Thu Feb 10 17:32:28 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Thu Feb 10 17:32:28 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Thu Feb 10 17:32:29 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Thu Feb 10 17:32:29 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Thu Feb 10 17:32:29 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Thu Feb 10 17:32:30 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Thu Feb 10 17:32:30 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Thu Feb 10 17:32:30 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Thu Feb 10 17:33:46 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:33:46 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377323',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:33:46 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:33:46 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:33:46 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377324',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1598.80952',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:33:46 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:33:46 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:33:46 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377333',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1137.00000',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:33:46 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:33:46 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:33:46 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377338',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '933.00000',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:33:46 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:34:04 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:34:04 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377323',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:34:04 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:34:04 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:34:04 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377324',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1598.80952',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:34:04 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:34:04 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:34:04 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377333',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1137.00000',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:34:04 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:34:04 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:34:04 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377334',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:34:04 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:34:04 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:34:04 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377338',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '933.00000',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:34:04 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:34:05 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:34:05 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377341',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:34:05 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:34:27 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:34:27 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377323',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:34:27 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:34:28 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:34:28 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377324',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1598.80952',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:34:28 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:34:28 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:34:28 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377333',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1137.00000',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:34:28 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:34:28 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:34:28 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377334',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:34:28 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:34:28 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:34:28 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377338',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '933.00000',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:34:28 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:34:28 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:34:28 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377341',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:34:28 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:34:28 2022] [ERROR] [Payroll_process->_check_split_deductions] -> PAYOUT NUM for Deduction: [4]System Parameter is not properly defined., FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_process.php, LINE: 422
+[Thu Feb 10 17:34:28 2022] [ERROR] [Payroll_process->process_payroll] -> PAYOUT NUM for Deduction: [4]System Parameter is not properly defined., FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll.php, LINE: 214
+[Thu Feb 10 17:34:49 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:34:49 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377323',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:34:49 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:34:49 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:34:49 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377324',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1598.80952',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:34:49 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:34:49 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:34:49 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377333',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1137.00000',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:34:49 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:34:49 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:34:49 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377334',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:34:49 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:34:49 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:34:49 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377338',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '933.00000',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:34:49 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:34:49 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:34:49 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377341',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:34:49 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:35:41 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:35:41 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377323',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:35:41 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:35:42 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:35:42 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377324',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1598.80952',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:35:42 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:35:42 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:35:42 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377333',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1137.00000',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:35:42 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:35:42 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:35:42 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377334',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:35:42 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:35:42 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:35:42 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377338',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '933.00000',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:35:42 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:35:42 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:35:42 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377341',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:35:42 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:38:22 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Thu Feb 10 17:38:22 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Thu Feb 10 17:38:22 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Thu Feb 10 17:40:35 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:40:35 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377323',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:40:35 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:40:35 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:40:35 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377324',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1598.80952',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:40:35 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:40:35 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:40:35 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377333',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1137.00000',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:40:35 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:40:35 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:40:35 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377334',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:40:35 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:40:35 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:40:35 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377338',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '933.00000',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:40:35 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:40:35 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:40:35 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377341',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:40:35 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 17:40:35 2022] [ERROR] [Payroll_process->_check_split_deductions] -> PAYOUT NUM for Deduction: [4]System Parameter is not properly defined., FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_process.php, LINE: 422
+[Thu Feb 10 17:40:35 2022] [ERROR] [Payroll_process->process_payroll] -> PAYOUT NUM for Deduction: [4]System Parameter is not properly defined., FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll.php, LINE: 214
+[Thu Feb 10 20:57:48 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Thu Feb 10 20:57:48 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Thu Feb 10 20:57:48 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Thu Feb 10 20:57:58 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Thu Feb 10 20:57:58 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Thu Feb 10 20:57:58 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Thu Feb 10 21:00:08 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Thu Feb 10 21:00:08 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Thu Feb 10 21:00:08 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Thu Feb 10 21:17:40 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 21:17:40 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377323',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 21:17:40 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 21:17:40 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 21:17:40 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377324',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1598.80952',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 21:17:40 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 21:17:40 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 21:17:40 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377333',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1137.00000',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 21:17:40 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 21:17:40 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 21:17:40 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377334',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 21:17:40 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 21:17:40 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 21:17:40 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377338',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '933.00000',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 21:17:40 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 21:17:40 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 21:17:40 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377341',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 21:17:40 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Thu Feb 10 21:17:40 2022] [ERROR] [Payroll_process->_check_split_deductions] -> PAYOUT NUM for Deduction: [4]System Parameter is not properly defined., FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_process.php, LINE: 422
+[Thu Feb 10 21:17:40 2022] [ERROR] [Payroll_process->process_payroll] -> PAYOUT NUM for Deduction: [4]System Parameter is not properly defined., FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll.php, LINE: 214
+[Thu Feb 10 21:20:44 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Thu Feb 10 21:20:44 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Thu Feb 10 21:20:44 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Thu Feb 10 21:21:38 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Thu Feb 10 21:21:38 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Thu Feb 10 21:21:38 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Thu Feb 10 21:22:00 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Thu Feb 10 21:22:00 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Thu Feb 10 21:22:00 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Thu Feb 10 21:22:55 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Thu Feb 10 21:22:55 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Thu Feb 10 21:22:55 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Thu Feb 10 21:23:32 2022] [ERROR] [Payroll_process->_check_split_deductions] -> PAYOUT NUM for Deduction: [4]System Parameter is not properly defined., FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_process.php, LINE: 422
+[Thu Feb 10 21:23:32 2022] [ERROR] [Payroll_process->process_payroll] -> PAYOUT NUM for Deduction: [4]System Parameter is not properly defined., FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll.php, LINE: 861
+[Thu Feb 10 21:24:54 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Thu Feb 10 21:24:54 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Thu Feb 10 21:24:54 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Thu Feb 10 21:25:12 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Thu Feb 10 21:25:12 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Thu Feb 10 21:25:12 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Thu Feb 10 21:25:33 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Thu Feb 10 21:25:33 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Thu Feb 10 21:25:33 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Thu Feb 10 21:26:11 2022] [ERROR] [Payroll_process->_check_split_deductions] -> PAYOUT NUM for Deduction: [4]System Parameter is not properly defined., FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_process.php, LINE: 422
+[Thu Feb 10 21:26:11 2022] [ERROR] [Payroll_process->process_payroll] -> PAYOUT NUM for Deduction: [4]System Parameter is not properly defined., FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll.php, LINE: 861
+[Thu Feb 10 21:33:34 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Thu Feb 10 21:33:34 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Thu Feb 10 21:33:34 2022] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Thu Feb 10 21:33:55 2022] [ERROR] [Payroll_process->_check_split_deductions] -> PAYOUT NUM for Deduction: [4]System Parameter is not properly defined., FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_process.php, LINE: 422
+[Thu Feb 10 21:33:55 2022] [ERROR] [Payroll_process->process_payroll] -> PAYOUT NUM for Deduction: [4]System Parameter is not properly defined., FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll.php, LINE: 861

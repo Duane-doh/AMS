@@ -1,0 +1,21 @@
+[Fri May 17 07:51:54 2024] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Fri May 17 07:54:47 2024] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Fri May 17 07:54:47 2024] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Fri May 17 09:47:08 2024] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Fri May 17 09:58:48 2024] [ERROR] [Pds_personal_info->process] -> , FILE: , LINE: 0
+[Fri May 17 11:50:26 2024] [ERROR] [Base_Model::rlog_error] -> 619: Invalid syntax validation for A.payroll_type_id, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 782
+[Fri May 17 11:50:26 2024] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for A.payroll_type_id, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 523
+[Fri May 17 11:50:26 2024] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for A.payroll_type_id, FILE: C:\Apache24\htdocs\application\modules\main\models\Reports_payroll_model.php, LINE: 723
+[Fri May 17 12:11:01 2024] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Fri May 17 12:11:01 2024] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Fri May 17 12:12:05 2024] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Fri May 17 12:12:05 2024] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Fri May 17 12:14:06 2024] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Fri May 17 12:14:06 2024] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Fri May 17 12:17:12 2024] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness_hr' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Fri May 17 14:15:49 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'asc
+			LIMIT 0, 100' at line 12, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Fri May 17 14:15:49 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'asc
+			LIMIT 0, 100' at line 12, FILE: C:\Apache24\htdocs\application\modules\main\models\Employee_dtr_model.php, LINE: 282
+[Fri May 17 17:11:53 2024] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness_hr' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Fri May 17 17:18:15 2024] [ERROR] [Requests->open_request] -> Sorry, but your current request is invalid. Missing Module ID, FILE: , LINE: 0

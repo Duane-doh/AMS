@@ -1,0 +1,381 @@
+[Wed Sep 26 14:02:22 2018] [ERROR] [Biometric_logs->process_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Wed Sep 26 14:19:20 2018] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Wed Sep 26 14:19:20 2018] [ERROR] [Employee_attendance->process_add_attendance] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Wed Sep 26 14:20:26 2018] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Wed Sep 26 14:20:26 2018] [ERROR] [Employee_attendance->process_add_attendance] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Wed Sep 26 14:21:48 2018] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '663513' , '663514' , '663515'  ))
+				       ' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Wed Sep 26 14:21:48 2018] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '663513' , '663514' , '663515'  ))
+				       ' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 503
+[Wed Sep 26 14:22:21 2018] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Wed Sep 26 14:22:21 2018] [ERROR] [Employee_attendance->process_add_attendance] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Wed Sep 26 14:25:26 2018] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\www\application\core\Base_Model.php, LINE: 968
+[Wed Sep 26 14:25:26 2018] [ERROR] [Employee_attendance->process_time_logs] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Wed Sep 26 14:28:07 2018] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\www\application\core\Base_Model.php, LINE: 968
+[Wed Sep 26 14:28:07 2018] [ERROR] [Employee_attendance->process_time_logs] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Wed Sep 26 14:30:56 2018] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '663538' , '663539' , '663548' , '663551' , '6' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Wed Sep 26 14:30:56 2018] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '663538' , '663539' , '663548' , '663551' , '6' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 503
+[Wed Sep 26 14:44:37 2018] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Wed Sep 26 14:44:37 2018] [ERROR] [Employee_attendance->process_add_attendance] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Wed Sep 26 14:46:22 2018] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Wed Sep 26 14:46:22 2018] [ERROR] [Employee_attendance->process_add_attendance] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Wed Sep 26 14:53:34 2018] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Wed Sep 26 14:53:34 2018] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 503
+[Wed Sep 26 14:55:07 2018] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Wed Sep 26 14:55:07 2018] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 503
+[Wed Sep 26 14:56:48 2018] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Wed Sep 26 14:56:48 2018] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 503
+[Wed Sep 26 15:12:48 2018] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '669852'  ))
+				        
+				GROUP BY attenda' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Wed Sep 26 15:12:48 2018] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '669852'  ))
+				        
+				GROUP BY attenda' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 503
+[Wed Sep 26 15:13:28 2018] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Wed Sep 26 15:13:28 2018] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 503
+[Wed Sep 26 15:14:01 2018] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Wed Sep 26 15:14:01 2018] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 503
+[Wed Sep 26 15:14:48 2018] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Wed Sep 26 15:14:48 2018] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 503
+[Wed Sep 26 15:17:46 2018] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Wed Sep 26 15:17:46 2018] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 503
+[Wed Sep 26 15:24:15 2018] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '628926' , '628930' , '628927' , '628931' , '6' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Wed Sep 26 15:24:15 2018] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '628926' , '628930' , '628927' , '628931' , '6' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 503
+[Wed Sep 26 15:30:30 2018] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Wed Sep 26 15:30:30 2018] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 503
+[Wed Sep 26 15:33:00 2018] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '663264' , '663265' , '663266'  ))
+				       ' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Wed Sep 26 15:33:00 2018] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '663264' , '663265' , '663266'  ))
+				       ' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 503
+[Wed Sep 26 15:34:20 2018] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '663259'  ))
+				        
+				GROUP BY attenda' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Wed Sep 26 15:34:20 2018] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '663259'  ))
+				        
+				GROUP BY attenda' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 503
+[Wed Sep 26 15:38:19 2018] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Wed Sep 26 15:38:19 2018] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 503
+[Wed Sep 26 15:42:01 2018] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Wed Sep 26 15:42:01 2018] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 503
+[Wed Sep 26 16:19:16 2018] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '626619'  ))
+				        
+				GROUP BY attenda' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Wed Sep 26 16:19:16 2018] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '626619'  ))
+				        
+				GROUP BY attenda' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 503
+[Wed Sep 26 16:28:33 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:28:33 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '67354',
+  'month_work_days' => '0',
+  'worked_days' => '0',
+  'daily_rate' => '0.00000',
+), FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:28:33 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [0] [717.91304] [0] [] [], FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:28:33 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:28:33 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '67354',
+  'month_work_days' => '0',
+  'worked_days' => '0',
+  'daily_rate' => '0.00000',
+), FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:28:33 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [0] [717.91304] [0] [] [], FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:28:33 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:28:33 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '67354',
+  'month_work_days' => '0',
+  'worked_days' => '0',
+  'daily_rate' => '0.00000',
+), FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:28:33 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [0] [717.91304] [0] [] [], FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:28:33 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:28:33 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '67354',
+  'month_work_days' => '0',
+  'worked_days' => '0',
+  'daily_rate' => '0.00000',
+), FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:28:33 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [0] [717.91304] [0] [] [], FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:28:36 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:28:36 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '67147',
+  'month_work_days' => '23',
+  'worked_days' => '10',
+  'daily_rate' => '717.91304',
+), FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:28:36 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:28:36 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:28:36 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '67147',
+  'month_work_days' => '23',
+  'worked_days' => '10',
+  'daily_rate' => '717.91304',
+), FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:28:36 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:28:36 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:28:36 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '67147',
+  'month_work_days' => '23',
+  'worked_days' => '10',
+  'daily_rate' => '717.91304',
+), FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:28:36 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:28:36 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:28:36 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '67147',
+  'month_work_days' => '23',
+  'worked_days' => '10',
+  'daily_rate' => '717.91304',
+), FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:28:36 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:34:59 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:34:59 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '67865',
+  'month_work_days' => '0',
+  'worked_days' => '0',
+  'daily_rate' => '0.00000',
+), FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:34:59 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [0] [717.91304] [0] [] [], FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:34:59 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:34:59 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '67865',
+  'month_work_days' => '0',
+  'worked_days' => '0',
+  'daily_rate' => '0.00000',
+), FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:34:59 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [0] [717.91304] [0] [] [], FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:34:59 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:34:59 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '67865',
+  'month_work_days' => '0',
+  'worked_days' => '0',
+  'daily_rate' => '0.00000',
+), FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:34:59 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [0] [717.91304] [0] [] [], FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:34:59 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:34:59 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '67865',
+  'month_work_days' => '0',
+  'worked_days' => '0',
+  'daily_rate' => '0.00000',
+), FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:34:59 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [0] [717.91304] [0] [] [], FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:35:01 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:35:01 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '67658',
+  'month_work_days' => '23',
+  'worked_days' => '10',
+  'daily_rate' => '717.91304',
+), FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:35:01 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:35:01 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:35:01 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '67658',
+  'month_work_days' => '23',
+  'worked_days' => '10',
+  'daily_rate' => '717.91304',
+), FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:35:01 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:35:01 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:35:01 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '67658',
+  'month_work_days' => '23',
+  'worked_days' => '10',
+  'daily_rate' => '717.91304',
+), FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:35:01 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:35:01 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:35:01 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '67658',
+  'month_work_days' => '23',
+  'worked_days' => '10',
+  'daily_rate' => '717.91304',
+), FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:35:01 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:35:21 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:35:21 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '68376',
+  'month_work_days' => '0',
+  'worked_days' => '0',
+  'daily_rate' => '0.00000',
+), FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:35:21 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [0] [717.91304] [0] [] [], FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:35:21 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:35:21 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '68376',
+  'month_work_days' => '0',
+  'worked_days' => '0',
+  'daily_rate' => '0.00000',
+), FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:35:21 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [0] [717.91304] [0] [] [], FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:35:21 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:35:21 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '68376',
+  'month_work_days' => '0',
+  'worked_days' => '0',
+  'daily_rate' => '0.00000',
+), FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:35:21 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [0] [717.91304] [0] [] [], FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:35:21 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:35:21 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '68376',
+  'month_work_days' => '0',
+  'worked_days' => '0',
+  'daily_rate' => '0.00000',
+), FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:35:21 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [0] [717.91304] [0] [] [], FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:35:22 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:35:22 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '68169',
+  'month_work_days' => '23',
+  'worked_days' => '10',
+  'daily_rate' => '717.91304',
+), FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:35:22 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:35:22 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:35:22 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '68169',
+  'month_work_days' => '23',
+  'worked_days' => '10',
+  'daily_rate' => '717.91304',
+), FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:35:22 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:35:22 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:35:22 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '68169',
+  'month_work_days' => '23',
+  'worked_days' => '10',
+  'daily_rate' => '717.91304',
+), FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:35:22 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:35:22 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:35:22 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '68169',
+  'month_work_days' => '23',
+  'worked_days' => '10',
+  'daily_rate' => '717.91304',
+), FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:35:22 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:42:08 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:42:08 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '68887',
+  'month_work_days' => '0',
+  'worked_days' => '0',
+  'daily_rate' => '0.00000',
+), FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:42:08 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [0] [717.91304] [0] [] [], FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:42:08 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:42:08 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '68887',
+  'month_work_days' => '0',
+  'worked_days' => '0',
+  'daily_rate' => '0.00000',
+), FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:42:08 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [0] [717.91304] [0] [] [], FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:42:08 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:42:08 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '68887',
+  'month_work_days' => '0',
+  'worked_days' => '0',
+  'daily_rate' => '0.00000',
+), FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:42:08 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [0] [717.91304] [0] [] [], FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:42:08 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:42:08 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '68887',
+  'month_work_days' => '0',
+  'worked_days' => '0',
+  'daily_rate' => '0.00000',
+), FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:42:08 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [0] [717.91304] [0] [] [], FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:42:10 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:42:10 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '68680',
+  'month_work_days' => '23',
+  'worked_days' => '10',
+  'daily_rate' => '717.91304',
+), FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:42:10 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:42:10 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:42:10 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '68680',
+  'month_work_days' => '23',
+  'worked_days' => '10',
+  'daily_rate' => '717.91304',
+), FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:42:10 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:42:10 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:42:10 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '68680',
+  'month_work_days' => '23',
+  'worked_days' => '10',
+  'daily_rate' => '717.91304',
+), FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:42:10 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:42:10 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:42:10 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '68680',
+  'month_work_days' => '23',
+  'worked_days' => '10',
+  'daily_rate' => '717.91304',
+), FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Wed Sep 26 16:42:10 2018] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\www\application\modules\main\controllers\Payroll_common.php, LINE: 69

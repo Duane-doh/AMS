@@ -1,0 +1,100 @@
+<script>
+	var $base_url = $("#base_url").val();
+	var $user_id = $("#user_id").val();
+	// var $org_code = $("#org_code").val();
+	var $user_roles = $("#user_roles").val();
+	var $host = $("#nodejs_server").val();
+	var address = $host + 'alerts';
+	var details = {
+	    resource: 'socket.io'
+	};
+	
+	var alerts = io.connect(address, details);
+	
+	alerts.on('notifications', function (data) {
+		var notificationsList = "";
+		var notifications_cnt = 0;
+		var roles = $user_roles.split(',');
+
+		if(data.notificationsArray.length !== 0){
+			$.each(data.notificationsArray, function(index, notification){
+				var add_notification = false;
+				var notify_users = (notification.notify_users)? notification.notify_users.split(',') : [];
+					notify_orgs = (notification.notify_orgs)? notification.notify_orgs.split(',') : [];
+					notify_roles = (notification.notify_roles)? notification.notify_roles.split(',') : [];
+					read_by = (notification.read_by)? notification.read_by.split(',') : [];
+				
+				var $avatar = (notification.photo == '' || notification.photo == null ? 'static/images/avatar.jpg' : 'uploads/users/' + notification.photo);
+				var image = $base_url + $avatar;
+				var message = "<li class='collection-item avatar p-t-n'>" + 
+									"<a href='javascript:;' onclick='update_read_date("+ notification.notification_id +",\""+notification.record_link+"\")'>" +
+									"<img class='circle m-t-md' alt='' src='"+image+"'>" +
+									"<span class='title'>" + notification.title + "</span>" + 
+									"<p class='request-type'>" + notification.source + "</p>" + 
+									"<span class='timestamp'>" + moment(notification.notification_date).fromNow() + "</span>" +
+									"<p class='mute truncate'>" + notification.notification + "</p>" +
+									"</a>" +
+								"</li>";
+
+				if(read_by.length > 0  && $.inArray($user_id,read_by) === -1) add_notification = true;
+
+				if(read_by.length == 0) add_notification = true;
+
+				if(add_notification) {
+					// NOTIFICATION BY USER_ID
+					if(notify_users.length !== 0){
+						if($.inArray($user_id,notify_users) === 0) {
+							notifications_cnt++;
+							notificationsList += message;
+						}
+					}
+					// NOTIFICATION BY ROLE_CODE	
+					if(notify_roles.length !== 0){
+						var included = false;
+						$.each(notify_roles, function(i, v){
+
+							if(($.inArray(v, roles) !== -1 && $user_id != notification.notified_by) && !included){
+								
+								// NOTIFICATION BY ORGS
+								if(notify_orgs.length !== 0) {
+									var orgs_val = $('#org_code'+notification.module_id).val();
+									var orgs = (orgs_val) ? orgs_val.split(',') : [];
+									
+									// CHECK IF THE CURRENT USER'S ORGS IS IN THE LIST 
+									$.each(notify_orgs, function(i, v){
+
+										if(($.inArray(v, orgs) !== -1 && $user_id != notification.notified_by) && !included){
+											included = true;
+											notificationsList += message;
+											notifications_cnt++;
+										}
+									});
+								}	
+								else {
+									included = true;
+									notificationsList += message;
+									notifications_cnt++;
+								}
+								
+							}
+						});
+					}
+				}
+				
+	        });
+		}	
+		$("#notif_cnt_" + $user_id).val(notifications_cnt);
+		
+		if($("#notif_cnt_" + $user_id).val() > 0){
+			$('#notif_cnt').show();
+			$('#notif_cnt').html(notifications_cnt);
+		} else {
+			notificationsList = "<li><p class='center-align'>No new notification...</p></li>";
+			$('#notif_cnt').hide();
+		}	
+		
+		$('#notification-content').html(notificationsList);
+			 
+	});
+
+</script>

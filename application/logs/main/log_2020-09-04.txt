@@ -1,0 +1,53 @@
+[Fri Sep 04 07:58:25 2020] [ERROR] [Pds_personal_info->process] -> Please enter a valid number in Residential Zip Code., FILE: , LINE: 0
+[Fri Sep 04 09:00:15 2020] [ERROR] [Pds_personal_info->process] -> Entered date in Birth Date exceeded the maximum date(2020/09/04), FILE: , LINE: 0
+[Fri Sep 04 09:00:49 2020] [ERROR] [Pds_personal_info->process] -> Entered date in Birth Date exceeded the maximum date(2020/09/04), FILE: , LINE: 0
+[Fri Sep 04 09:01:21 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Fri Sep 04 09:15:06 2020] [ERROR] [Pds_personal_info->process] -> Please enter a valid number in Residential Zip Code., FILE: , LINE: 0
+[Fri Sep 04 09:15:16 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Fri Sep 04 09:40:51 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 70, FILE: C:\www\application\core\Base_Model.php, LINE: 968
+[Fri Sep 04 09:40:51 2020] [ERROR] [Requests->process_task] -> SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 70, FILE: , LINE: 0
+[Fri Sep 04 09:41:00 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 70, FILE: C:\www\application\core\Base_Model.php, LINE: 968
+[Fri Sep 04 09:41:00 2020] [ERROR] [Requests->process_task] -> SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 70, FILE: , LINE: 0
+[Fri Sep 04 09:41:28 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 70, FILE: C:\www\application\core\Base_Model.php, LINE: 968
+[Fri Sep 04 09:41:28 2020] [ERROR] [Requests->process_task] -> SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 70, FILE: , LINE: 0
+[Fri Sep 04 09:41:44 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 70, FILE: C:\www\application\core\Base_Model.php, LINE: 968
+[Fri Sep 04 09:41:44 2020] [ERROR] [Requests->process_task] -> SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 70, FILE: , LINE: 0
+[Fri Sep 04 09:42:10 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 70, FILE: C:\www\application\core\Base_Model.php, LINE: 968
+[Fri Sep 04 09:42:10 2020] [ERROR] [Requests->process_task] -> SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 70, FILE: , LINE: 0
+[Fri Sep 04 09:59:26 2020] [ERROR] [Pds_personal_info->process] -> Please enter a valid amount in Height., FILE: , LINE: 0
+[Fri Sep 04 10:14:03 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 70, FILE: C:\www\application\core\Base_Model.php, LINE: 968
+[Fri Sep 04 10:14:03 2020] [ERROR] [Requests->process_task] -> SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 70, FILE: , LINE: 0
+[Fri Sep 04 10:14:15 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 70, FILE: C:\www\application\core\Base_Model.php, LINE: 968
+[Fri Sep 04 10:14:15 2020] [ERROR] [Requests->process_task] -> SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 70, FILE: , LINE: 0
+[Fri Sep 04 10:22:38 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 70, FILE: C:\www\application\core\Base_Model.php, LINE: 968
+[Fri Sep 04 10:22:38 2020] [ERROR] [Requests->process_task] -> SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 70, FILE: , LINE: 0
+[Fri Sep 04 10:30:28 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Sep 04 10:30:28 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 575
+[Fri Sep 04 10:36:16 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 70, FILE: C:\www\application\core\Base_Model.php, LINE: 968
+[Fri Sep 04 10:36:16 2020] [ERROR] [Requests->process_task] -> SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 70, FILE: , LINE: 0
+[Fri Sep 04 10:37:43 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 70, FILE: C:\www\application\core\Base_Model.php, LINE: 968
+[Fri Sep 04 10:37:43 2020] [ERROR] [Requests->process_task] -> SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 70, FILE: , LINE: 0
+[Fri Sep 04 10:41:00 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 70, FILE: C:\www\application\core\Base_Model.php, LINE: 968
+[Fri Sep 04 10:41:00 2020] [ERROR] [Requests->process_task] -> SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 70, FILE: , LINE: 0
+[Fri Sep 04 10:41:27 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 70, FILE: C:\www\application\core\Base_Model.php, LINE: 968
+[Fri Sep 04 10:41:27 2020] [ERROR] [Requests->process_task] -> SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 70, FILE: , LINE: 0
+[Fri Sep 04 10:42:02 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 70, FILE: C:\www\application\core\Base_Model.php, LINE: 968
+[Fri Sep 04 10:42:02 2020] [ERROR] [Requests->process_task] -> SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 70, FILE: , LINE: 0
+[Fri Sep 04 11:36:18 2020] [ERROR] [Pds_personal_info->process] -> Please enter a valid amount in Height., FILE: , LINE: 0
+[Fri Sep 04 12:37:45 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Fri Sep 04 12:54:44 2020] [ERROR] [Pds_personal_info->process] -> Please enter a valid amount in Height., FILE: , LINE: 0
+[Fri Sep 04 12:54:53 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'height' at row 797, FILE: C:\www\application\core\Base_Model.php, LINE: 968
+[Fri Sep 04 12:54:53 2020] [ERROR] [Pds_personal_info->process] -> SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'height' at row 797, FILE: , LINE: 0
+[Fri Sep 04 14:18:00 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Fri Sep 04 14:54:10 2020] [ERROR] [Pds_personal_info->process] -> <b>Gender</b> is required.<br>, FILE: , LINE: 0
+[Fri Sep 04 15:11:33 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for Pag-ibig Number, FILE: , LINE: 0
+[Fri Sep 04 15:24:27 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for Pag-ibig Number, FILE: , LINE: 0
+[Fri Sep 04 15:24:44 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for Pag-ibig Number, FILE: , LINE: 0
+[Fri Sep 04 15:25:02 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for Pag-ibig Number, FILE: , LINE: 0
+[Fri Sep 04 15:25:19 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for Pag-ibig Number, FILE: , LINE: 0

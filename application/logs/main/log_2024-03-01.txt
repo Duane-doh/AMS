@@ -1,0 +1,58 @@
+[Fri Mar 01 07:22:58 2024] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Fri Mar 01 08:12:33 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'asc
+			LIMIT 0, 10' at line 12, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Fri Mar 01 08:12:33 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'asc
+			LIMIT 0, 10' at line 12, FILE: C:\Apache24\htdocs\application\modules\main\models\Employee_dtr_model.php, LINE: 282
+[Fri Mar 01 10:03:18 2024] [ERROR] [Requests->open_request] -> Sorry, but your current request is invalid. Missing Module ID, FILE: , LINE: 0
+[Fri Mar 01 10:12:10 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (utf8mb4_general_ci,COERCIBLE) and (latin1_swedish_ci,NUMERIC) for operation '>', FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Fri Mar 01 10:12:10 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (utf8mb4_general_ci,COERCIBLE) and (latin1_swedish_ci,NUMERIC) for operation '>', FILE: C:\Apache24\htdocs\application\modules\main\models\Employee_dtr_model.php, LINE: 412
+[Fri Mar 01 10:12:10 2024] [ERROR] [Employee_dtr->print_employee_dtr] -> SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (utf8mb4_general_ci,COERCIBLE) and (latin1_swedish_ci,NUMERIC) for operation '>', FILE: , LINE: 0
+[Fri Mar 01 10:17:06 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (utf8mb4_general_ci,COERCIBLE) and (latin1_swedish_ci,NUMERIC) for operation '>', FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Fri Mar 01 10:17:06 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (utf8mb4_general_ci,COERCIBLE) and (latin1_swedish_ci,NUMERIC) for operation '>', FILE: C:\Apache24\htdocs\application\modules\main\models\Employee_dtr_model.php, LINE: 412
+[Fri Mar 01 10:17:06 2024] [ERROR] [Employee_dtr->print_employee_dtr] -> SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (utf8mb4_general_ci,COERCIBLE) and (latin1_swedish_ci,NUMERIC) for operation '>', FILE: , LINE: 0
+[Fri Mar 01 10:30:09 2024] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Fri Mar 01 10:38:17 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Fri Mar 01 10:38:17 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\modules\main\models\Performance_evaluation_model.php, LINE: 204
+[Fri Mar 01 10:38:17 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Fri Mar 01 10:38:17 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\modules\main\models\Performance_evaluation_model.php, LINE: 204
+[Fri Mar 01 11:10:31 2024] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to approve the leave application. Only the assigned <b>Immediate Supervisor</b> is allowed. Please contact the System's Administrator., FILE: , LINE: 0
+[Fri Mar 01 11:50:29 2024] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Fri Mar 01 13:05:37 2024] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Fri Mar 01 13:10:21 2024] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Fri Mar 01 13:24:24 2024] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Fri Mar 01 13:24:24 2024] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: , LINE: 0
+[Fri Mar 01 13:24:28 2024] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Fri Mar 01 13:24:28 2024] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: , LINE: 0
+[Fri Mar 01 13:27:11 2024] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Fri Mar 01 13:37:59 2024] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Fri Mar 01 13:46:54 2024] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Fri Mar 01 13:57:29 2024] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Fri Mar 01 13:57:29 2024] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: , LINE: 0
+[Fri Mar 01 13:57:37 2024] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Fri Mar 01 13:57:37 2024] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: , LINE: 0
+[Fri Mar 01 14:43:33 2024] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Fri Mar 01 14:45:23 2024] [ERROR] [Print_raw_bio_logs->print_employee_dtr] -> Sorry, but your current action is invalid. </br> An error occurred while processing your request. Kindly log-in your account., FILE: , LINE: 0
+[Fri Mar 01 14:57:26 2024] [ERROR] [Pds_personal_info->process] -> <b>Cellphone Number</b> is required. If Not Applicable, put <b>NA</b>., FILE: , LINE: 0
+[Fri Mar 01 14:57:32 2024] [ERROR] [Pds_personal_info->process] -> Middle Name Must Not Contain Special Characters. Please Put NA If Middle Name is Not Applicable., FILE: , LINE: 0
+[Fri Mar 01 14:57:36 2024] [ERROR] [Pds_personal_info->process] -> Middle Name Must Not Contain Special Characters. Please Put NA If Middle Name is Not Applicable., FILE: , LINE: 0
+[Fri Mar 01 16:03:19 2024] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'leave_balance' cannot be null, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Fri Mar 01 16:03:19 2024] [ERROR] [Requests->process_task] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'leave_balance' cannot be null, FILE: , LINE: 0
+[Fri Mar 01 16:03:30 2024] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'leave_balance' cannot be null, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Fri Mar 01 16:03:30 2024] [ERROR] [Requests->process_task] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'leave_balance' cannot be null, FILE: , LINE: 0
+[Fri Mar 01 16:11:42 2024] [ERROR] [Requests->open_request] -> Sorry, but your current request is invalid. Missing Module ID, FILE: , LINE: 0
+[Fri Mar 01 16:33:02 2024] [ERROR] [Pds_personal_info->process] -> 8 character/s for GSIS Number, FILE: , LINE: 0
+[Fri Mar 01 16:53:42 2024] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Fri Mar 01 16:53:47 2024] [ERROR] [Pds_personal_info->process] -> <b>Gender</b> is required.<br>, FILE: , LINE: 0
+[Fri Mar 01 17:02:38 2024] [ERROR] [Pds_personal_info->process] -> <b>Pag-IBIG Number</b> is required. If Not Applicable, put <b>NA</b>., FILE: , LINE: 0
+[Fri Mar 01 17:49:47 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'asc
+			LIMIT 0, 10' at line 12, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Fri Mar 01 17:49:47 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'asc
+			LIMIT 0, 10' at line 12, FILE: C:\Apache24\htdocs\application\modules\main\models\Employee_dtr_model.php, LINE: 282
+[Fri Mar 01 17:49:55 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'asc
+			LIMIT 0, 10' at line 12, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Fri Mar 01 17:49:55 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'asc
+			LIMIT 0, 10' at line 12, FILE: C:\Apache24\htdocs\application\modules\main\models\Employee_dtr_model.php, LINE: 282

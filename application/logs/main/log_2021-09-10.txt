@@ -1,0 +1,107 @@
+[Fri Sep 10 00:47:43 2021] [ERROR] [Base_Model::rlog_error] -> 619: Invalid syntax validation for A.payroll_type_id, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 782
+[Fri Sep 10 00:47:43 2021] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for A.payroll_type_id, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 523
+[Fri Sep 10 00:47:43 2021] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for A.payroll_type_id, FILE: C:\Apache24\htdocs\application\modules\main\models\Reports_payroll_model.php, LINE: 857
+[Fri Sep 10 00:47:44 2021] [ERROR] [Base_Model::rlog_error] -> 619: Invalid syntax validation for A.payroll_type_id, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 782
+[Fri Sep 10 00:47:44 2021] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for A.payroll_type_id, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 523
+[Fri Sep 10 00:47:44 2021] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for A.payroll_type_id, FILE: C:\Apache24\htdocs\application\modules\main\models\Reports_payroll_model.php, LINE: 857
+[Fri Sep 10 00:47:45 2021] [ERROR] [Base_Model::rlog_error] -> 619: Invalid syntax validation for A.payroll_type_id, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 782
+[Fri Sep 10 00:47:45 2021] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for A.payroll_type_id, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 523
+[Fri Sep 10 00:47:45 2021] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for A.payroll_type_id, FILE: C:\Apache24\htdocs\application\modules\main\models\Reports_payroll_model.php, LINE: 857
+[Fri Sep 10 00:47:50 2021] [ERROR] [Reports_payroll_model->get_pagibig_contributions_remittance_list] -> QUERY :				SELECT 
+				DATE_FORMAT(E.effective_date, '%Y%m') AS effective_date,
+				C.year_month  as month_covered,
+				SUM(D.amount) amount,
+				SUM(E.employer_amount) employer_amount,
+				G.first_name,
+				G.middle_name,
+				G.last_name,
+				G.ext_name,
+				H.identification_value pagibig,
+				I.identification_value tin,
+				K.other_deduction_detail_value applno
+				FROM remittances C
+				JOIN remittance_details D ON C.remittance_id = D.remittance_id 
+				JOIN payout_details E ON D.payroll_dtl_id = E.payroll_dtl_id
+				JOIN payout_header F ON E.payroll_hdr_id = F.payroll_hdr_id 
+				JOIN employee_personal_info G ON F.employee_id = G.employee_id 
+				LEFT JOIN employee_identifications H ON G.employee_id = H.employee_id AND H.identification_type_id = ?
+				LEFT JOIN employee_identifications I ON G.employee_id = I.employee_id AND I.identification_type_id = ?
+				LEFT JOIN employee_deductions J ON G.employee_id = J.employee_id AND E.deduction_id = J.deduction_id
+				LEFT JOIN employee_deduction_other_details K ON J.employee_deduction_id = K.employee_deduction_id
+				WHERE (E.effective_date BETWEEN ? AND ?)
+				AND E.deduction_id IN (SELECT deduction_id FROM param_remittance_type_deductions
+										WHERE file_name = ?)
+				AND ( C.payroll_type_ids LIKE '%1%')
+
+				 AND F.office_id IN ( ?, ?, ?)
+				GROUP BY F.employee_id
+				ORDER BY G.last_name, FILE: C:\Apache24\htdocs\application\modules\main\controllers\reports_payroll\Pagibig_contributions_remittance_file_for_uploading.php, LINE: 44
+[Fri Sep 10 00:47:50 2021] [ERROR] [Reports_payroll_model->get_pagibig_contributions_remittance_list] -> VALUE :[4,1,"2021\/08\/01","2021\/08\/31","pagibig_contributions_remittance_file_for_uploading","377","420","426"], FILE: C:\Apache24\htdocs\application\modules\main\controllers\reports_payroll\Pagibig_contributions_remittance_file_for_uploading.php, LINE: 44
+[Fri Sep 10 00:48:23 2021] [ERROR] [Reports_payroll_model->get_pagibig_contributions_remittance_list] -> QUERY :				SELECT 
+				DATE_FORMAT(E.effective_date, '%Y%m') AS effective_date,
+				C.year_month  as month_covered,
+				SUM(D.amount) amount,
+				SUM(E.employer_amount) employer_amount,
+				G.first_name,
+				G.middle_name,
+				G.last_name,
+				G.ext_name,
+				H.identification_value pagibig,
+				I.identification_value tin,
+				K.other_deduction_detail_value applno
+				FROM remittances C
+				JOIN remittance_details D ON C.remittance_id = D.remittance_id 
+				JOIN payout_details E ON D.payroll_dtl_id = E.payroll_dtl_id
+				JOIN payout_header F ON E.payroll_hdr_id = F.payroll_hdr_id 
+				JOIN employee_personal_info G ON F.employee_id = G.employee_id 
+				LEFT JOIN employee_identifications H ON G.employee_id = H.employee_id AND H.identification_type_id = ?
+				LEFT JOIN employee_identifications I ON G.employee_id = I.employee_id AND I.identification_type_id = ?
+				LEFT JOIN employee_deductions J ON G.employee_id = J.employee_id AND E.deduction_id = J.deduction_id
+				LEFT JOIN employee_deduction_other_details K ON J.employee_deduction_id = K.employee_deduction_id
+				WHERE (E.effective_date BETWEEN ? AND ?)
+				AND E.deduction_id IN (SELECT deduction_id FROM param_remittance_type_deductions
+										WHERE file_name = ?)
+				AND ( C.payroll_type_ids LIKE '%1%')
+
+				
+				GROUP BY F.employee_id
+				ORDER BY G.last_name, FILE: C:\Apache24\htdocs\application\modules\main\controllers\reports_payroll\Pagibig_deductions_remittance_file_for_uploading.php, LINE: 32
+[Fri Sep 10 00:48:23 2021] [ERROR] [Reports_payroll_model->get_pagibig_contributions_remittance_list] -> VALUE :[4,1,"2021\/08\/01","2021\/08\/31","pagibig_deductions_remittance_file_for_uploading"], FILE: C:\Apache24\htdocs\application\modules\main\controllers\reports_payroll\Pagibig_deductions_remittance_file_for_uploading.php, LINE: 32
+[Fri Sep 10 00:54:33 2021] [EMERGENCY] [] -> Call to undefined function dbase_create(), FILE: C:\Apache24\htdocs\application\modules\main\controllers\reports_payroll\Atm_alpha_list2.php, LINE: 238
+[Fri Sep 10 00:54:33 2021] [EMERGENCY] [] -> Call to undefined function dbase_create(), FILE: C:\Apache24\htdocs\application\modules\main\controllers\reports_payroll\Atm_alpha_list2.php, LINE: 238
+[Fri Sep 10 00:54:33 2021] [EMERGENCY] [] -> Call to undefined function dbase_create(), FILE: C:\Apache24\htdocs\application\modules\main\controllers\reports_payroll\Atm_alpha_list2.php, LINE: 238
+[Fri Sep 10 00:54:33 2021] [EMERGENCY] [] -> Call to undefined function dbase_create(), FILE: C:\Apache24\htdocs\application\modules\main\controllers\reports_payroll\Atm_alpha_list2.php, LINE: 238
+[Fri Sep 10 00:54:33 2021] [EMERGENCY] [] -> Call to undefined function dbase_create(), FILE: C:\Apache24\htdocs\application\modules\main\controllers\reports_payroll\Atm_alpha_list2.php, LINE: 238
+[Fri Sep 10 00:54:33 2021] [EMERGENCY] [] -> Call to undefined function dbase_create(), FILE: C:\Apache24\htdocs\application\modules\main\controllers\reports_payroll\Atm_alpha_list2.php, LINE: 238
+[Fri Sep 10 00:54:33 2021] [EMERGENCY] [] -> Call to undefined function dbase_create(), FILE: C:\Apache24\htdocs\application\modules\main\controllers\reports_payroll\Atm_alpha_list2.php, LINE: 238
+[Fri Sep 10 09:27:48 2021] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'leave_balance' cannot be null, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Fri Sep 10 09:27:48 2021] [ERROR] [Requests->process_task] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'leave_balance' cannot be null, FILE: , LINE: 0
+[Fri Sep 10 10:04:06 2021] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Fri Sep 10 10:12:20 2021] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Fri Sep 10 10:13:18 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id, fullname, office_name, D.em' at line 9, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Fri Sep 10 10:13:18 2021] [ERROR] [Compensation->get_employee_list] -> SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id, fullname, office_name, D.em' at line 9 --Line 324., FILE: , LINE: 0
+[Fri Sep 10 10:13:18 2021] [ERROR] [] -> Uncaught exception: [0] 
+#0 [internal function]: Compensation->get_employee_list()
+#1 C:\Apache24\htdocs\system\core\CodeIgniter.php(514): call_user_func_array(Array, Array)
+#2 C:\Apache24\htdocs\index.php(293): require_once('C:\\Apache24\\htd...')
+#3 {main}, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Compensation.php, LINE: 397
+[Fri Sep 10 10:22:12 2021] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Fri Sep 10 10:31:04 2021] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Fri Sep 10 11:05:04 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Fri Sep 10 11:05:04 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\Apache24\htdocs\application\modules\main\models\Daily_time_record_model.php, LINE: 575
+[Fri Sep 10 17:55:57 2021] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Fri Sep 10 17:55:57 2021] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Fri Sep 10 18:10:35 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Fri Sep 10 18:10:35 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Fri Sep 10 18:10:35 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Fri Sep 10 18:10:39 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Fri Sep 10 18:10:39 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Fri Sep 10 18:10:39 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547

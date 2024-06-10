@@ -1,0 +1,50 @@
+[Thu Mar 12 08:32:02 2020] [ERROR] [Biometric_logs->process_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Thu Mar 12 10:43:40 2020] [ERROR] [Base_Controller->rlog_error] -> Parameters were not set in the audit trail., FILE: C:\www\application\modules\main\controllers\Employee_work_schedule.php, LINE: 466
+[Thu Mar 12 10:43:40 2020] [ERROR] [Base_Controller->rlog_error] -> Parameters were not set in the audit trail., FILE: C:\www\application\modules\main\controllers\Employee_work_schedule.php, LINE: 466
+[Thu Mar 12 10:57:05 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc' at line 27, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Thu Mar 12 10:57:05 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc' at line 27, FILE: C:\www\application\modules\main\models\Requests_model.php, LINE: 286
+[Thu Mar 12 10:57:05 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc' at line 27, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Thu Mar 12 10:57:05 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc' at line 27, FILE: C:\www\application\modules\main\models\Requests_model.php, LINE: 286
+[Thu Mar 12 11:01:03 2020] [ERROR] [Biometric_logs->process_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Thu Mar 12 11:27:27 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '208415' , '208416'  ))
+				        
+				GROUP' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Thu Mar 12 11:27:27 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '208415' , '208416'  ))
+				        
+				GROUP' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 575
+[Thu Mar 12 11:28:05 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Thu Mar 12 11:28:05 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 575
+[Thu Mar 12 12:01:56 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Thu Mar 12 12:01:56 2020] [ERROR] [Employee_dtr->process_leave_request] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Thu Mar 12 13:41:49 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '209281' , '247455' , '269850' , '209282' , '2' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Thu Mar 12 13:41:49 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '209281' , '247455' , '269850' , '209282' , '2' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 575
+[Thu Mar 12 13:47:32 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Thu Mar 12 13:47:32 2020] [ERROR] [Requests->get_task] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: , LINE: 0
+[Thu Mar 12 16:15:07 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '209278' , '209279'  ))
+				        
+				GROUP' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Thu Mar 12 16:15:07 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '209278' , '209279'  ))
+				        
+				GROUP' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 575

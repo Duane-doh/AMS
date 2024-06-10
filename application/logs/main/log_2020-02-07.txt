@@ -1,0 +1,489 @@
+[Fri Feb 07 07:57:08 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '169625' , '169626' , '169637'  ))
+				       ' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Feb 07 07:57:08 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '169625' , '169626' , '169637'  ))
+				       ' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Fri Feb 07 08:36:37 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\core\Base_Model.php, LINE: 436
+[Fri Feb 07 08:36:37 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\core\Base_Model.php, LINE: 225
+[Fri Feb 07 08:36:37 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\modules\main\models\Deduction_model.php, LINE: 547
+[Fri Feb 07 08:36:39 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\core\Base_Model.php, LINE: 436
+[Fri Feb 07 08:36:39 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\core\Base_Model.php, LINE: 225
+[Fri Feb 07 08:36:39 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\modules\main\models\Deduction_model.php, LINE: 547
+[Fri Feb 07 08:38:58 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id, fullname, office_name, D.em' at line 9, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Feb 07 08:38:58 2020] [ERROR] [Compensation->get_employee_list] -> SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id, fullname, office_name, D.em' at line 9 --Line 324., FILE: , LINE: 0
+[Fri Feb 07 08:38:58 2020] [ERROR] [] -> Uncaught exception: [0] 
+#0 [internal function]: Compensation->get_employee_list()
+#1 C:\www\system\core\CodeIgniter.php(514): call_user_func_array(Array, Array)
+#2 C:\www\index.php(293): require_once('C:\\www\\system\\c...')
+#3 {main}, FILE: C:\www\application\modules\main\controllers\Compensation.php, LINE: 396
+[Fri Feb 07 08:39:28 2020] [ERROR] [Employee_work_schedule->process_work_schedule] -> Effectivity date must be after <b>Jan 01, 2020.</b>, FILE: , LINE: 0
+[Fri Feb 07 08:49:02 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\core\Base_Model.php, LINE: 436
+[Fri Feb 07 08:49:02 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\core\Base_Model.php, LINE: 225
+[Fri Feb 07 08:49:02 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\modules\main\models\Deduction_model.php, LINE: 547
+[Fri Feb 07 08:49:04 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\core\Base_Model.php, LINE: 436
+[Fri Feb 07 08:49:04 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\core\Base_Model.php, LINE: 225
+[Fri Feb 07 08:49:04 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\modules\main\models\Deduction_model.php, LINE: 547
+[Fri Feb 07 09:18:35 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Feb 07 09:18:35 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Fri Feb 07 09:28:15 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Feb 07 09:28:15 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Fri Feb 07 09:41:26 2020] [ERROR] [Employee_work_schedule->process_work_schedule] -> Effectivity date must be after <b>Jan 01, 2020.</b>, FILE: , LINE: 0
+[Fri Feb 07 09:41:30 2020] [ERROR] [Employee_work_schedule->process_work_schedule] -> Effectivity date must be after <b>Jan 01, 2020.</b>, FILE: , LINE: 0
+[Fri Feb 07 09:41:52 2020] [ERROR] [Employee_work_schedule->process_work_schedule] -> Effectivity date must be after <b>Jan 01, 2020.</b>, FILE: , LINE: 0
+[Fri Feb 07 09:42:06 2020] [ERROR] [Employee_work_schedule->process_work_schedule] -> Effectivity date must be after <b>Jan 01, 2020.</b>, FILE: , LINE: 0
+[Fri Feb 07 09:42:20 2020] [ERROR] [Employee_work_schedule->process_work_schedule] -> Effectivity date must be after <b>Jan 01, 2020.</b>, FILE: , LINE: 0
+[Fri Feb 07 09:54:49 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[40001]: Serialization failure: 1213 Deadlock found when trying to get lock; try restarting transaction, FILE: C:\www\application\core\Base_Model.php, LINE: 968
+[Fri Feb 07 09:54:49 2020] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[40001]: Serialization failure: 1213 Deadlock found when trying to get lock; try restarting transaction, FILE: , LINE: 0
+[Fri Feb 07 10:03:18 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Feb 07 10:03:18 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Fri Feb 07 10:05:41 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Fri Feb 07 10:29:47 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Feb 07 10:29:47 2020] [ERROR] [Requests->get_request_tasks] -> SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens, FILE: , LINE: 0
+[Fri Feb 07 10:29:48 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Feb 07 10:29:48 2020] [ERROR] [Requests->get_request_tasks] -> SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens, FILE: , LINE: 0
+[Fri Feb 07 10:29:48 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Feb 07 10:29:48 2020] [ERROR] [Requests->get_request_tasks] -> SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens, FILE: , LINE: 0
+[Fri Feb 07 10:29:48 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Feb 07 10:29:48 2020] [ERROR] [Requests->get_request_tasks] -> SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens, FILE: , LINE: 0
+[Fri Feb 07 10:29:48 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Feb 07 10:29:48 2020] [ERROR] [Requests->get_request_tasks] -> SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens, FILE: , LINE: 0
+[Fri Feb 07 10:29:48 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Feb 07 10:29:48 2020] [ERROR] [Requests->get_request_tasks] -> SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens, FILE: , LINE: 0
+[Fri Feb 07 10:29:48 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Feb 07 10:29:48 2020] [ERROR] [Requests->get_request_tasks] -> SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens, FILE: , LINE: 0
+[Fri Feb 07 10:29:48 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Feb 07 10:29:48 2020] [ERROR] [Requests->get_request_tasks] -> SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens, FILE: , LINE: 0
+[Fri Feb 07 10:30:31 2020] [ERROR] [Work_schedule->process] -> <b>Break Hours</b> is required.<br>, FILE: , LINE: 0
+[Fri Feb 07 10:52:43 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Feb 07 10:52:43 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Fri Feb 07 10:59:26 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '146941' , '146942' , '146946'  ))
+				       ' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Feb 07 10:59:26 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '146941' , '146942' , '146946'  ))
+				       ' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Fri Feb 07 11:02:23 2020] [ERROR] [Employee_work_schedule->process_work_schedule] -> Effectivity date must be after <b>Jan 01, 2020.</b>, FILE: , LINE: 0
+[Fri Feb 07 11:10:06 2020] [ERROR] [Employee_work_schedule->process_work_schedule] -> Effectivity date must be after <b>Jan 01, 2020.</b>, FILE: , LINE: 0
+[Fri Feb 07 11:13:48 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '136187' , '136209'  ))
+				        
+				GROUP' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Feb 07 11:13:48 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '136187' , '136209'  ))
+				        
+				GROUP' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Fri Feb 07 11:21:33 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '203694' , '203689'  ))
+				        
+				GROUP' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Feb 07 11:21:33 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '203694' , '203689'  ))
+				        
+				GROUP' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Fri Feb 07 11:22:35 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Feb 07 11:22:35 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Fri Feb 07 11:22:43 2020] [ERROR] [Employee_work_schedule->process_work_schedule] -> Effectivity date must be after <b>Jan 01, 2020.</b>, FILE: , LINE: 0
+[Fri Feb 07 11:29:14 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '196630' , '173747' , '173748'  ))
+				       ' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Feb 07 11:29:14 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '196630' , '173747' , '173748'  ))
+				       ' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Fri Feb 07 11:34:12 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Feb 07 11:34:12 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Fri Feb 07 11:46:43 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'leave_balance' cannot be null, FILE: C:\www\application\core\Base_Model.php, LINE: 968
+[Fri Feb 07 11:46:43 2020] [ERROR] [Requests->process_task] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'leave_balance' cannot be null, FILE: , LINE: 0
+[Fri Feb 07 11:46:56 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'leave_balance' cannot be null, FILE: C:\www\application\core\Base_Model.php, LINE: 968
+[Fri Feb 07 11:46:56 2020] [ERROR] [Requests->process_task] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'leave_balance' cannot be null, FILE: , LINE: 0
+[Fri Feb 07 11:47:24 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'leave_balance' cannot be null, FILE: C:\www\application\core\Base_Model.php, LINE: 968
+[Fri Feb 07 11:47:24 2020] [ERROR] [Requests->process_task] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'leave_balance' cannot be null, FILE: , LINE: 0
+[Fri Feb 07 11:48:20 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'leave_balance' cannot be null, FILE: C:\www\application\core\Base_Model.php, LINE: 968
+[Fri Feb 07 11:48:20 2020] [ERROR] [Requests->process_task] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'leave_balance' cannot be null, FILE: , LINE: 0
+[Fri Feb 07 11:49:45 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'leave_balance' cannot be null, FILE: C:\www\application\core\Base_Model.php, LINE: 968
+[Fri Feb 07 11:49:45 2020] [ERROR] [Requests->process_task] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'leave_balance' cannot be null, FILE: , LINE: 0
+[Fri Feb 07 11:51:34 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'leave_balance' cannot be null, FILE: C:\www\application\core\Base_Model.php, LINE: 968
+[Fri Feb 07 11:51:34 2020] [ERROR] [Requests->process_task] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'leave_balance' cannot be null, FILE: , LINE: 0
+[Fri Feb 07 11:51:44 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'leave_balance' cannot be null, FILE: C:\www\application\core\Base_Model.php, LINE: 968
+[Fri Feb 07 11:51:44 2020] [ERROR] [Requests->process_task] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'leave_balance' cannot be null, FILE: , LINE: 0
+[Fri Feb 07 11:57:39 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'leave_balance' cannot be null, FILE: C:\www\application\core\Base_Model.php, LINE: 968
+[Fri Feb 07 11:57:39 2020] [ERROR] [Requests->process_task] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'leave_balance' cannot be null, FILE: , LINE: 0
+[Fri Feb 07 12:00:23 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Feb 07 12:00:23 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Fri Feb 07 12:04:12 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'leave_balance' cannot be null, FILE: C:\www\application\core\Base_Model.php, LINE: 968
+[Fri Feb 07 12:04:12 2020] [ERROR] [Requests->process_task] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'leave_balance' cannot be null, FILE: , LINE: 0
+[Fri Feb 07 12:53:16 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Feb 07 12:53:16 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Fri Feb 07 13:01:08 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id, fullname, office_name, D.em' at line 9, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Feb 07 13:01:08 2020] [ERROR] [Compensation->get_employee_list] -> SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id, fullname, office_name, D.em' at line 9 --Line 324., FILE: , LINE: 0
+[Fri Feb 07 13:01:08 2020] [ERROR] [] -> Uncaught exception: [0] 
+#0 [internal function]: Compensation->get_employee_list()
+#1 C:\www\system\core\CodeIgniter.php(514): call_user_func_array(Array, Array)
+#2 C:\www\index.php(293): require_once('C:\\www\\system\\c...')
+#3 {main}, FILE: C:\www\application\modules\main\controllers\Compensation.php, LINE: 396
+[Fri Feb 07 13:01:13 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id, fullname, office_name, D.em' at line 9, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Feb 07 13:01:13 2020] [ERROR] [Compensation->get_employee_list] -> SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id, fullname, office_name, D.em' at line 9 --Line 324., FILE: , LINE: 0
+[Fri Feb 07 13:01:13 2020] [ERROR] [] -> Uncaught exception: [0] 
+#0 [internal function]: Compensation->get_employee_list()
+#1 C:\www\system\core\CodeIgniter.php(514): call_user_func_array(Array, Array)
+#2 C:\www\index.php(293): require_once('C:\\www\\system\\c...')
+#3 {main}, FILE: C:\www\application\modules\main\controllers\Compensation.php, LINE: 396
+[Fri Feb 07 13:03:12 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Feb 07 13:03:12 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Fri Feb 07 13:27:55 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'employee_id' cannot be null, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Fri Feb 07 13:27:55 2020] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'employee_id' cannot be null, FILE: , LINE: 0
+[Fri Feb 07 13:27:59 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'employee_id' cannot be null, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Fri Feb 07 13:27:59 2020] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'employee_id' cannot be null, FILE: , LINE: 0
+[Fri Feb 07 13:46:59 2020] [ERROR] [Employee_work_schedule->process_work_schedule] -> Effectivity date must be after <b>Jan 01, 2020.</b>, FILE: , LINE: 0
+[Fri Feb 07 13:49:22 2020] [ERROR] [Employee_work_schedule->process_work_schedule] -> Effectivity date must be after <b>Jan 01, 2020.</b>, FILE: , LINE: 0
+[Fri Feb 07 13:50:33 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Feb 07 13:50:33 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Fri Feb 07 13:55:25 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_salary_step' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Fri Feb 07 13:55:25 2020] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_salary_step' at row 1, FILE: , LINE: 0
+[Fri Feb 07 13:55:28 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_salary_step' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Fri Feb 07 13:55:28 2020] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_salary_step' at row 1, FILE: , LINE: 0
+[Fri Feb 07 13:56:24 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_salary_step' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Fri Feb 07 13:56:24 2020] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_salary_step' at row 1, FILE: , LINE: 0
+[Fri Feb 07 13:59:07 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '192904'  ))
+				        
+				GROUP BY attenda' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Feb 07 13:59:07 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '192904'  ))
+				        
+				GROUP BY attenda' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Fri Feb 07 14:00:17 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '196174' , '196175'  ))
+				        
+				GROUP' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Feb 07 14:00:17 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '196174' , '196175'  ))
+				        
+				GROUP' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Fri Feb 07 14:00:23 2020] [ERROR] [Employee_work_schedule->process_work_schedule] -> Effectivity date must be after <b>Jan 01, 2020.</b>, FILE: , LINE: 0
+[Fri Feb 07 14:02:26 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Feb 07 14:02:26 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Fri Feb 07 14:08:56 2020] [ERROR] [Pds_work_experience_info->delete_work_experience] -> Parameters were not set in the audit trail., FILE: , LINE: 0
+[Fri Feb 07 14:15:49 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Feb 07 14:15:49 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Fri Feb 07 14:16:18 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Feb 07 14:16:18 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Fri Feb 07 14:47:51 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Fri Feb 07 14:47:51 2020] [ERROR] [Employee_dtr->process_leave_request] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Fri Feb 07 14:51:09 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id, fullname, office_name, D.em' at line 9, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Feb 07 14:51:09 2020] [ERROR] [Compensation->get_employee_list] -> SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id, fullname, office_name, D.em' at line 9 --Line 324., FILE: , LINE: 0
+[Fri Feb 07 14:51:09 2020] [ERROR] [] -> Uncaught exception: [0] 
+#0 [internal function]: Compensation->get_employee_list()
+#1 C:\www\system\core\CodeIgniter.php(514): call_user_func_array(Array, Array)
+#2 C:\www\index.php(293): require_once('C:\\www\\system\\c...')
+#3 {main}, FILE: C:\www\application\modules\main\controllers\Compensation.php, LINE: 396
+[Fri Feb 07 14:53:45 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Feb 07 14:53:45 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Fri Feb 07 14:55:56 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Feb 07 14:55:56 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Fri Feb 07 14:57:11 2020] [ERROR] [Employee_work_schedule->process_work_schedule] -> Effectivity date must be after <b>Jan 01, 2020.</b>, FILE: , LINE: 0
+[Fri Feb 07 15:01:51 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\core\Base_Model.php, LINE: 436
+[Fri Feb 07 15:01:51 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\core\Base_Model.php, LINE: 225
+[Fri Feb 07 15:01:51 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\modules\main\models\Deduction_model.php, LINE: 547
+[Fri Feb 07 15:01:55 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\core\Base_Model.php, LINE: 436
+[Fri Feb 07 15:01:55 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\core\Base_Model.php, LINE: 225
+[Fri Feb 07 15:01:55 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\modules\main\models\Deduction_model.php, LINE: 547
+[Fri Feb 07 15:03:04 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\core\Base_Model.php, LINE: 436
+[Fri Feb 07 15:03:04 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\core\Base_Model.php, LINE: 225
+[Fri Feb 07 15:03:04 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\modules\main\models\Deduction_model.php, LINE: 547
+[Fri Feb 07 15:03:42 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\core\Base_Model.php, LINE: 436
+[Fri Feb 07 15:03:42 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\core\Base_Model.php, LINE: 225
+[Fri Feb 07 15:03:42 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\modules\main\models\Deduction_model.php, LINE: 547
+[Fri Feb 07 15:20:17 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Feb 07 15:20:17 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Fri Feb 07 15:22:00 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\core\Base_Model.php, LINE: 436
+[Fri Feb 07 15:22:00 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\core\Base_Model.php, LINE: 225
+[Fri Feb 07 15:22:00 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\modules\main\models\Deduction_model.php, LINE: 547
+[Fri Feb 07 15:23:04 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Feb 07 15:23:04 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Fri Feb 07 15:27:59 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '144488' , '144506'  ))
+				        
+				GROUP' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Feb 07 15:27:59 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '144488' , '144506'  ))
+				        
+				GROUP' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Fri Feb 07 15:54:46 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Feb 07 15:54:46 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Fri Feb 07 15:56:28 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Feb 07 15:56:28 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Fri Feb 07 15:59:49 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Feb 07 15:59:49 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Fri Feb 07 16:00:32 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Feb 07 16:00:32 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Fri Feb 07 16:08:56 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Feb 07 16:08:56 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Fri Feb 07 16:09:44 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Feb 07 16:09:44 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Fri Feb 07 16:18:14 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Fri Feb 07 16:18:14 2020] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Fri Feb 07 16:18:32 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Fri Feb 07 16:18:33 2020] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Fri Feb 07 16:29:07 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Feb 07 16:29:07 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Fri Feb 07 16:33:44 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Feb 07 16:33:44 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Fri Feb 07 16:35:01 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Feb 07 16:35:01 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Fri Feb 07 16:39:58 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Fri Feb 07 16:39:58 2020] [ERROR] [Pds_work_experience_info->delete_work_experience] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: , LINE: 0
+[Fri Feb 07 16:42:38 2020] [ERROR] [Employee_work_schedule->process_work_schedule] -> Effectivity date must be after <b>Jan 01, 2020.</b>, FILE: , LINE: 0
+[Fri Feb 07 16:46:23 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Feb 07 16:46:23 2020] [ERROR] [Requests->get_request_tasks] -> SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens, FILE: , LINE: 0
+[Fri Feb 07 16:46:23 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Feb 07 16:46:23 2020] [ERROR] [Requests->get_request_tasks] -> SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens, FILE: , LINE: 0
+[Fri Feb 07 16:46:23 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Feb 07 16:46:23 2020] [ERROR] [Requests->get_request_tasks] -> SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens, FILE: , LINE: 0
+[Fri Feb 07 16:46:23 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Feb 07 16:46:23 2020] [ERROR] [Requests->get_request_tasks] -> SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens, FILE: , LINE: 0
+[Fri Feb 07 16:46:27 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Feb 07 16:46:27 2020] [ERROR] [Requests->get_request_tasks] -> SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens, FILE: , LINE: 0
+[Fri Feb 07 16:47:43 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Feb 07 16:47:43 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Fri Feb 07 16:48:12 2020] [ERROR] [Employee_work_schedule->process_work_schedule] -> Effectivity date must be after <b>Jan 01, 2020.</b>, FILE: , LINE: 0
+[Fri Feb 07 16:48:44 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Feb 07 16:48:44 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Fri Feb 07 16:48:47 2020] [ERROR] [Employee_work_schedule->process_work_schedule] -> Effectivity date must be after <b>Jan 01, 2020.</b>, FILE: , LINE: 0
+[Fri Feb 07 16:51:06 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Feb 07 16:51:06 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Fri Feb 07 16:51:54 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Feb 07 16:51:54 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Fri Feb 07 16:52:31 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Feb 07 16:52:31 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Fri Feb 07 16:57:22 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[HY000]: General error: 1366 Incorrect decimal value: '' for column 'employ_monthly_salary' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Fri Feb 07 16:57:22 2020] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1366 Incorrect decimal value: '' for column 'employ_monthly_salary' at row 1, FILE: , LINE: 0
+[Fri Feb 07 17:06:34 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '629-8' for key 'PRIMARY', FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Fri Feb 07 17:06:34 2020] [ERROR] [Leaves->process_add_personnel] -> SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '629-8' for key 'PRIMARY', FILE: , LINE: 0
+[Fri Feb 07 17:10:14 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '159270' , '159271' , '159272'  ))
+				       ' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Feb 07 17:10:14 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '159270' , '159271' , '159272'  ))
+				       ' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Fri Feb 07 17:11:42 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '159276'  ))
+				        
+				GROUP BY attenda' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Feb 07 17:11:42 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '159276'  ))
+				        
+				GROUP BY attenda' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Fri Feb 07 17:12:27 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Feb 07 17:12:27 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Fri Feb 07 17:19:29 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[HY000]: General error: 1366 Incorrect decimal value: '' for column 'employ_monthly_salary' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Fri Feb 07 17:19:29 2020] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1366 Incorrect decimal value: '' for column 'employ_monthly_salary' at row 1, FILE: , LINE: 0
+[Fri Feb 07 17:24:27 2020] [ERROR] [Work_schedule->process] -> <b>Break Hours</b> is required.<br>, FILE: , LINE: 0
+[Fri Feb 07 17:36:17 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Feb 07 17:36:17 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Fri Feb 07 17:37:01 2020] [ERROR] [Employee_work_schedule->process_work_schedule] -> Effectivity date must be after <b>Jan 01, 2020.</b>, FILE: , LINE: 0
+[Fri Feb 07 17:37:09 2020] [ERROR] [Employee_work_schedule->process_work_schedule] -> Effectivity date must be after <b>Jan 01, 2020.</b>, FILE: , LINE: 0
+[Fri Feb 07 17:37:13 2020] [ERROR] [Employee_work_schedule->process_work_schedule] -> Effectivity date must be after <b>Jan 01, 2020.</b>, FILE: , LINE: 0
+[Fri Feb 07 17:38:52 2020] [ERROR] [Employee_work_schedule->process_work_schedule] -> Effectivity date must be after <b>Jan 01, 2020.</b>, FILE: , LINE: 0
+[Fri Feb 07 18:12:58 2020] [ERROR] [Employee_work_schedule->process_work_schedule] -> Effectivity date must be after <b>Jan 01, 2020.</b>, FILE: , LINE: 0
+[Fri Feb 07 18:13:47 2020] [ERROR] [Employee_work_schedule->process_work_schedule] -> Effectivity date must be after <b>Jan 01, 2020.</b>, FILE: , LINE: 0
+[Fri Feb 07 18:16:38 2020] [ERROR] [Employee_work_schedule->process_work_schedule] -> Effectivity date must be after <b>Jan 01, 2020.</b>, FILE: , LINE: 0
+[Fri Feb 07 18:19:21 2020] [ERROR] [Employee_work_schedule->process_work_schedule] -> Effectivity date must be after <b>Jan 01, 2020.</b>, FILE: , LINE: 0
+[Fri Feb 07 18:27:31 2020] [ERROR] [Employee_work_schedule->process_work_schedule] -> Effectivity date must be after <b>Jan 01, 2020.</b>, FILE: , LINE: 0
+[Fri Feb 07 18:29:47 2020] [ERROR] [Pds_work_experience_info->delete_work_experience] -> Parameters were not set in the audit trail., FILE: , LINE: 0
+[Fri Feb 07 18:41:39 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Fri Feb 07 19:43:04 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Feb 07 19:43:04 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Fri Feb 07 19:59:38 2020] [ERROR] [Employee_work_schedule->process_work_schedule] -> Effectivity date must be after <b>Jan 01, 2020.</b>, FILE: , LINE: 0

@@ -1,0 +1,43 @@
+[Tue Jan 26 10:31:36 2021] [ERROR] [Base_Model::rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 782
+[Tue Jan 26 10:31:36 2021] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 523
+[Tue Jan 26 10:31:36 2021] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 442
+[Tue Jan 26 10:31:36 2021] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 231
+[Tue Jan 26 10:31:36 2021] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\Apache24\htdocs\application\modules\sysad\models\Users_model.php, LINE: 135
+[Tue Jan 26 10:32:58 2021] [ERROR] [Base_Model::rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 782
+[Tue Jan 26 10:32:58 2021] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 523
+[Tue Jan 26 10:32:58 2021] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 442
+[Tue Jan 26 10:32:58 2021] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 231
+[Tue Jan 26 10:32:58 2021] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\Apache24\htdocs\application\modules\sysad\models\Users_model.php, LINE: 135
+[Tue Jan 26 10:35:17 2021] [ERROR] [Base_Model::rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 782
+[Tue Jan 26 10:35:17 2021] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 523
+[Tue Jan 26 10:35:17 2021] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 442
+[Tue Jan 26 10:35:17 2021] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 231
+[Tue Jan 26 10:35:17 2021] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\Apache24\htdocs\application\modules\sysad\models\Users_model.php, LINE: 135
+[Tue Jan 26 10:35:34 2021] [ERROR] [Base_Model::rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 782
+[Tue Jan 26 10:35:34 2021] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 523
+[Tue Jan 26 10:35:34 2021] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 442
+[Tue Jan 26 10:35:34 2021] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 231
+[Tue Jan 26 10:35:34 2021] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\Apache24\htdocs\application\modules\sysad\models\Users_model.php, LINE: 135
+[Tue Jan 26 14:29:06 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'doh_ptis_core.module_actions' doesn't exist, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 26 14:29:06 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'doh_ptis_core.module_actions' doesn't exist, FILE: C:\Apache24\htdocs\application\modules\sysad\models\Permissions_model.php, LINE: 791
+[Tue Jan 26 14:29:06 2021] [ERROR] [] -> Uncaught exception: [0] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'doh_ptis_core.module_actions' doesn't exist
+#0 C:\Apache24\htdocs\application\modules\main\controllers\Employee_requests.php(55): Template->load('employee_reques...', Array, Array)
+#1 [internal function]: Employee_requests->index()
+#2 C:\Apache24\htdocs\system\core\CodeIgniter.php(514): call_user_func_array(Array, Array)
+#3 C:\Apache24\htdocs\index.php(293): require_once('C:\\Apache24\\htd...')
+#4 {main}, FILE: C:\Apache24\htdocs\application\libraries\Template.php, LINE: 31
+[Tue Jan 26 17:48:13 2021] [ERROR] [Base_Model::rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 782
+[Tue Jan 26 17:48:13 2021] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 523
+[Tue Jan 26 17:48:13 2021] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 442
+[Tue Jan 26 17:48:13 2021] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 231
+[Tue Jan 26 17:48:13 2021] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\Apache24\htdocs\application\modules\sysad\models\Users_model.php, LINE: 135
+[Tue Jan 26 17:48:15 2021] [ERROR] [Base_Model::rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 782
+[Tue Jan 26 17:48:15 2021] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 523
+[Tue Jan 26 17:48:15 2021] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 442
+[Tue Jan 26 17:48:15 2021] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 231
+[Tue Jan 26 17:48:15 2021] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\Apache24\htdocs\application\modules\sysad\models\Users_model.php, LINE: 135
+[Tue Jan 26 17:48:27 2021] [ERROR] [Base_Model::rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 782
+[Tue Jan 26 17:48:27 2021] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 523
+[Tue Jan 26 17:48:27 2021] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 442
+[Tue Jan 26 17:48:27 2021] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 231
+[Tue Jan 26 17:48:27 2021] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\Apache24\htdocs\application\modules\sysad\models\Users_model.php, LINE: 135

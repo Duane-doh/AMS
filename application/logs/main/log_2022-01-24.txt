@@ -1,0 +1,1012 @@
+[Mon Jan 24 09:02:02 2022] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon Jan 24 09:13:07 2022] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon Jan 24 09:25:28 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Mon Jan 24 09:25:28 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\Apache24\htdocs\application\modules\main\models\Daily_time_record_model.php, LINE: 575
+[Mon Jan 24 09:29:45 2022] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon Jan 24 09:43:45 2022] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon Jan 24 09:58:13 2022] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Mon Jan 24 09:58:13 2022] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: , LINE: 0
+[Mon Jan 24 09:58:20 2022] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Mon Jan 24 09:58:20 2022] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: , LINE: 0
+[Mon Jan 24 10:45:14 2022] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_office_id' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Mon Jan 24 10:45:14 2022] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_office_id' at row 1, FILE: , LINE: 0
+[Mon Jan 24 11:25:29 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Mon Jan 24 11:25:29 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\modules\main\models\Performance_evaluation_model.php, LINE: 204
+[Mon Jan 24 11:25:29 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Mon Jan 24 11:25:29 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\modules\main\models\Performance_evaluation_model.php, LINE: 204
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350690',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '2080.04762',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '351077',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350698',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '3662.23810',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350970',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '933.00000',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350998',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '1137.00000',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350973',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '933.00000',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350975',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '933.00000',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350974',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '933.00000',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350976',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '2080.04762',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '351411',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '1904.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350988',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '2080.04762',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350992',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '1466.61905',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '351009',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '2080.04762',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '351011',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '1598.80952',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350978',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '1904.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '351278',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '933.00000',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '351003',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '2300.61905',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350980',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '1904.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350701',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1904.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350683',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '3257.85714',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350981',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '3257.85714',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '351010',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '1598.80952',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350996',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '1466.61905',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:19 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '351002',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '771.42857',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350987',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '818.04762',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '351000',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '2080.04762',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '351007',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '1346.47619',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '351006',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '1744.19048',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '351849',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '933.00000',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350985',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '2080.04762',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350655',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '2080.04762',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350991',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '2080.04762',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '351005',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '2080.04762',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350983',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '933.00000',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350986',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1904.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350990',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '933.00000',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350994',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '933.00000',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350999',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '933.00000',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '351056',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '933.00000',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350685',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '2080.04762',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '351357',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1598.80952',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '351358',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '2080.04762',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '351356',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '818.04762',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '351835',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '1598.80952',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350809',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '3257.85714',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350915',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '2080.04762',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350997',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1137.00000',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350995',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '3257.85714',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350989',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '2080.04762',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:20 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '351004',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '2300.61905',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '351001',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '2080.04762',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350982',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '933.00000',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350977',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350979',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '1598.80952',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350972',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '933.00000',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '351018',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '2080.04762',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '351012',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '933.00000',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '351016',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '2080.04762',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350971',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '933.00000',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '351841',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '3257.85714',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '351053',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '1904.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '351834',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '1598.80952',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '351045',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '2900.04762',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350703',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '3257.85714',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350663',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '2080.04762',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '351187',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '1598.80952',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350808',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '1240.57143',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350626',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '2900.04762',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '351555',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '2080.04762',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350634',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '2900.04762',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350637',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1744.19048',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350641',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '3662.23810',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350642',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '3257.85714',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350643',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '2900.04762',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350648',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '2900.04762',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:21 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350652',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '3257.85714',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350653',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '2080.04762',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350656',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '1598.80952',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350657',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '1598.80952',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350658',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '1598.80952',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350659',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '1598.80952',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350677',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '3662.23810',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350678',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '3662.23810',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350679',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '2900.04762',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350680',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '2900.04762',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350681',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '2900.04762',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350682',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '2900.04762',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350684',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '2080.04762',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350686',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '1598.80952',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350687',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '1598.80952',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350688',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '1598.80952',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350689',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '1598.80952',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350702',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '2900.04762',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350704',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '1598.80952',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350810',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '3257.85714',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350813',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '3257.85714',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350814',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '3662.23810',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350819',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '1598.80952',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350820',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '1598.80952',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350821',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '3257.85714',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350822',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '1598.80952',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350824',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '2900.04762',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:22 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:23 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:23 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350863',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '1598.80952',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:23 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:23 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:23 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350878',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '771.42857',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:23 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:23 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:23 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350927',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '3257.85714',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:23 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:23 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:23 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '350928',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '2300.61905',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:23 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:23 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:23 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '351042',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '3662.23810',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:23 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:23 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:23 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '351052',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '3662.23810',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:23 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:23 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:23 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '351068',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '1598.80952',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:23 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:23 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:23 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '351069',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '1598.80952',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:23 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:23 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:23 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '351070',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '1598.80952',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:23 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:23 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:23 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '351071',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '1598.80952',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:23 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:23 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:23 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '351072',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '1598.80952',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:23 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:23 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:23 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '351073',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '2300.61905',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:23 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:23 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:23 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '351074',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '2300.61905',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:23 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:23 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:23 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '351080',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '2080.04762',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:23 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:23 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:23 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '351081',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '2300.61905',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:23 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:23 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:23 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '351148',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '933.00000',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:23 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:23 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:23 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '351277',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '3257.85714',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:23 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:23 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:23 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '351279',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '771.42857',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:23 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:23 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:23 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '351683',
+  'month_work_days' => '21',
+  'worked_days' => '11',
+  'daily_rate' => '3257.85714',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 11:46:23 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [11] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Mon Jan 24 13:13:49 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Mon Jan 24 13:13:49 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\Apache24\htdocs\application\modules\main\models\Daily_time_record_model.php, LINE: 575
+[Mon Jan 24 15:29:54 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Mon Jan 24 15:29:54 2022] [ERROR] [Requests->get_request_tasks] -> SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens, FILE: , LINE: 0
+[Mon Jan 24 15:29:54 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Mon Jan 24 15:29:54 2022] [ERROR] [Requests->get_request_tasks] -> SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens, FILE: , LINE: 0
+[Mon Jan 24 15:29:55 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Mon Jan 24 15:29:55 2022] [ERROR] [Requests->get_request_tasks] -> SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens, FILE: , LINE: 0
+[Mon Jan 24 15:29:58 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Mon Jan 24 15:29:58 2022] [ERROR] [Requests->get_request_tasks] -> SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens, FILE: , LINE: 0
+[Mon Jan 24 15:30:00 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Mon Jan 24 15:30:00 2022] [ERROR] [Requests->get_request_tasks] -> SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens, FILE: , LINE: 0

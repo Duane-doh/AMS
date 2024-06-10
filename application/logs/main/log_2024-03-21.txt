@@ -1,0 +1,20 @@
+[Thu Mar 21 08:19:53 2024] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Thu Mar 21 10:21:26 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (utf8mb4_general_ci,COERCIBLE) and (latin1_swedish_ci,NUMERIC) for operation '>', FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Thu Mar 21 10:21:26 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (utf8mb4_general_ci,COERCIBLE) and (latin1_swedish_ci,NUMERIC) for operation '>', FILE: C:\Apache24\htdocs\application\modules\main\models\Employee_dtr_model.php, LINE: 412
+[Thu Mar 21 10:21:26 2024] [ERROR] [Employee_dtr->print_employee_dtr] -> SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (utf8mb4_general_ci,COERCIBLE) and (latin1_swedish_ci,NUMERIC) for operation '>', FILE: , LINE: 0
+[Thu Mar 21 13:21:53 2024] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Thu Mar 21 13:21:53 2024] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Thu Mar 21 13:28:41 2024] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Thu Mar 21 13:28:41 2024] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Thu Mar 21 13:29:58 2024] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Thu Mar 21 13:29:58 2024] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Thu Mar 21 15:57:53 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Thu Mar 21 15:57:53 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 311

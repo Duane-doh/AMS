@@ -1,0 +1,70 @@
+[Wed Mar 20 08:44:32 2024] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Wed Mar 20 09:40:26 2024] [ERROR] [Work_schedule->process] -> <b>Break Hours</b> is required.<br>, FILE: , LINE: 0
+[Wed Mar 20 09:51:16 2024] [ERROR] [Employee_work_schedule->process_work_schedule] -> Effectivity date must be after <b>Jan 02, 2024.</b>, FILE: , LINE: 0
+[Wed Mar 20 09:51:19 2024] [ERROR] [Employee_work_schedule->process_work_schedule] -> Effectivity date must be after <b>Jan 02, 2024.</b>, FILE: , LINE: 0
+[Wed Mar 20 10:09:19 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Wed Mar 20 10:09:19 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 311
+[Wed Mar 20 10:13:22 2024] [ERROR] [Pds_personal_info->process] -> 100 character/s for Residential Address, FILE: , LINE: 0
+[Wed Mar 20 10:13:38 2024] [ERROR] [Pds_personal_info->process] -> 100 character/s for Residential Address, FILE: , LINE: 0
+[Wed Mar 20 10:13:44 2024] [ERROR] [Pds_personal_info->process] -> 100 character/s for Residential Address, FILE: , LINE: 0
+[Wed Mar 20 10:13:58 2024] [ERROR] [Pds_personal_info->process] -> 100 character/s for Residential Address, FILE: , LINE: 0
+[Wed Mar 20 10:14:11 2024] [ERROR] [Pds_personal_info->process] -> 100 character/s for Residential Address, FILE: , LINE: 0
+[Wed Mar 20 10:14:21 2024] [ERROR] [Pds_personal_info->process] -> 100 character/s for Residential Address, FILE: , LINE: 0
+[Wed Mar 20 11:31:12 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					
+					 AND A.date_requested BETWEEN "2024-03-06 00:00:00" AND "2024-03-' at line 27, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Wed Mar 20 11:31:12 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					
+					 AND A.date_requested BETWEEN "2024-03-06 00:00:00" AND "2024-03-' at line 27, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 311
+[Wed Mar 20 11:46:52 2024] [ERROR] [Pds_personal_info->process] -> <b>Height</b> is required.<br><b>Weight</b> is required.<br>, FILE: , LINE: 0
+[Wed Mar 20 11:46:58 2024] [ERROR] [Pds_personal_info->process] -> Please enter a valid number in Residential Zip Code., FILE: , LINE: 0
+[Wed Mar 20 13:15:26 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Wed Mar 20 13:15:26 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\modules\main\models\Performance_evaluation_model.php, LINE: 204
+[Wed Mar 20 13:15:26 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Wed Mar 20 13:15:26 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\modules\main\models\Performance_evaluation_model.php, LINE: 204
+[Wed Mar 20 13:26:36 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				AND B.employee_id IN (SELECT DISTINCTROW employee_id FROM employee_work_e' at line 11, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Wed Mar 20 13:26:36 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				AND B.employee_id IN (SELECT DISTINCTROW employee_id FROM employee_work_e' at line 11, FILE: C:\Apache24\htdocs\application\modules\main\models\Daily_time_record_model.php, LINE: 166
+[Wed Mar 20 13:26:36 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				AND B.employee_id IN (SELECT DISTINCTROW employee_id FROM employee_work_e' at line 11, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Wed Mar 20 13:26:36 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				AND B.employee_id IN (SELECT DISTINCTROW employee_id FROM employee_work_e' at line 11, FILE: C:\Apache24\htdocs\application\modules\main\models\Daily_time_record_model.php, LINE: 166
+[Wed Mar 20 14:01:27 2024] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Wed Mar 20 14:01:27 2024] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Wed Mar 20 14:04:39 2024] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Wed Mar 20 14:04:39 2024] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Wed Mar 20 14:07:04 2024] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Wed Mar 20 14:07:04 2024] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Wed Mar 20 14:08:14 2024] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Wed Mar 20 14:08:14 2024] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Wed Mar 20 14:36:43 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Wed Mar 20 14:36:43 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 311
+[Wed Mar 20 14:58:26 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					
+					 AND A.date_requested BETWEEN "2024-02-20 00:00:00" AND "2024-03-' at line 27, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Wed Mar 20 14:58:26 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					
+					 AND A.date_requested BETWEEN "2024-02-20 00:00:00" AND "2024-03-' at line 27, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 311
+[Wed Mar 20 15:25:10 2024] [ERROR] [Pds_personal_info->process] -> Middle Name Must Not Contain Special Characters. Please Put NA If Middle Name is Not Applicable., FILE: , LINE: 0
+[Wed Mar 20 15:55:22 2024] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0

@@ -1102,7 +1102,7 @@ define('DOCUMENT_ROOT', dirname($_SERVER['SCRIPT_FILENAME']).DS);
 	| should contain the project or company name and avoid long values
 	| with spaces.
 	*/
-	define('PROJECT_NAME', 'AMS');
+	define('PROJECT_NAME', 'PTIS');
 	define('PROJECT_CODE', 'doh_ptis');
 
 	/*

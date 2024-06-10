@@ -1,0 +1,70 @@
+[Wed Sep 09 08:32:01 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Wed Sep 09 09:17:44 2020] [ERROR] [Pds_work_experience_info->delete_work_experience] -> Parameters were not set in the audit trail., FILE: , LINE: 0
+[Wed Sep 09 09:17:45 2020] [ERROR] [Pds_work_experience_info->delete_work_experience] -> Parameters were not set in the audit trail., FILE: , LINE: 0
+[Wed Sep 09 09:31:25 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for Philhealth Number, FILE: , LINE: 0
+[Wed Sep 09 09:39:53 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc' at line 27, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Wed Sep 09 09:39:53 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc' at line 27, FILE: C:\www\application\modules\main\models\Requests_model.php, LINE: 286
+[Wed Sep 09 09:39:53 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc' at line 27, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Wed Sep 09 09:39:53 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc' at line 27, FILE: C:\www\application\modules\main\models\Requests_model.php, LINE: 286
+[Wed Sep 09 09:44:25 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for Philhealth Number, FILE: , LINE: 0
+[Wed Sep 09 09:55:26 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_salary_grade' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Wed Sep 09 09:55:26 2020] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_salary_grade' at row 1, FILE: , LINE: 0
+[Wed Sep 09 09:59:33 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Wed Sep 09 10:09:06 2020] [ERROR] [Pds_personal_info->process] -> <b>SSS Number</b> is required. If Not Applicable, put <b>NA</b>., FILE: , LINE: 0
+[Wed Sep 09 10:29:43 2020] [ERROR] [Pds_personal_info->process] -> Please enter a valid number in Residential Zip Code., FILE: , LINE: 0
+[Wed Sep 09 10:33:35 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[40001]: Serialization failure: 1213 Deadlock found when trying to get lock; try restarting transaction, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Wed Sep 09 10:33:35 2020] [ERROR] [Pds_model->update_pds_date_accomplished] -> SQLSTATE[40001]: Serialization failure: 1213 Deadlock found when trying to get lock; try restarting transaction, FILE: C:\www\application\modules\main\controllers\Pds_personal_info.php, LINE: 687
+[Wed Sep 09 10:33:35 2020] [ERROR] [Pds_personal_info->process] -> SQLSTATE[40001]: Serialization failure: 1213 Deadlock found when trying to get lock; try restarting transaction, FILE: , LINE: 0
+[Wed Sep 09 11:09:13 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_salary_grade' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Wed Sep 09 11:09:13 2020] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_salary_grade' at row 1, FILE: , LINE: 0
+[Wed Sep 09 11:13:27 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Wed Sep 09 11:20:33 2020] [ERROR] [Pds_personal_info->process] -> 10 character/s for SSS Number, FILE: , LINE: 0
+[Wed Sep 09 11:30:05 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Wed Sep 09 11:48:17 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Wed Sep 09 11:50:48 2020] [ERROR] [Pds_personal_info->process] -> Invalid input in <b>Pag-IBIG Number</b>., FILE: , LINE: 0
+[Wed Sep 09 11:59:11 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Wed Sep 09 13:34:21 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_salary_grade' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Wed Sep 09 13:34:21 2020] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_salary_grade' at row 1, FILE: , LINE: 0
+[Wed Sep 09 13:43:48 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'contact_value' cannot be null, FILE: C:\www\application\core\Base_Model.php, LINE: 968
+[Wed Sep 09 13:43:48 2020] [ERROR] [Requests->process_task] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'contact_value' cannot be null, FILE: , LINE: 0
+[Wed Sep 09 13:43:54 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'contact_value' cannot be null, FILE: C:\www\application\core\Base_Model.php, LINE: 968
+[Wed Sep 09 13:43:54 2020] [ERROR] [Requests->process_task] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'contact_value' cannot be null, FILE: , LINE: 0
+[Wed Sep 09 13:45:48 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'contact_value' cannot be null, FILE: C:\www\application\core\Base_Model.php, LINE: 968
+[Wed Sep 09 13:45:48 2020] [ERROR] [Requests->process_task] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'contact_value' cannot be null, FILE: , LINE: 0
+[Wed Sep 09 13:46:00 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'contact_value' cannot be null, FILE: C:\www\application\core\Base_Model.php, LINE: 968
+[Wed Sep 09 13:46:00 2020] [ERROR] [Requests->process_task] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'contact_value' cannot be null, FILE: , LINE: 0
+[Wed Sep 09 13:46:20 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'contact_value' cannot be null, FILE: C:\www\application\core\Base_Model.php, LINE: 968
+[Wed Sep 09 13:46:20 2020] [ERROR] [Requests->process_task] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'contact_value' cannot be null, FILE: , LINE: 0
+[Wed Sep 09 13:46:42 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'contact_value' cannot be null, FILE: C:\www\application\core\Base_Model.php, LINE: 968
+[Wed Sep 09 13:46:42 2020] [ERROR] [Requests->process_task] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'contact_value' cannot be null, FILE: , LINE: 0
+[Wed Sep 09 13:47:19 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'contact_value' cannot be null, FILE: C:\www\application\core\Base_Model.php, LINE: 968
+[Wed Sep 09 13:47:19 2020] [ERROR] [Requests->process_task] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'contact_value' cannot be null, FILE: , LINE: 0
+[Wed Sep 09 13:47:43 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'contact_value' cannot be null, FILE: C:\www\application\core\Base_Model.php, LINE: 968
+[Wed Sep 09 13:47:43 2020] [ERROR] [Requests->process_task] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'contact_value' cannot be null, FILE: , LINE: 0
+[Wed Sep 09 13:48:55 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'contact_value' cannot be null, FILE: C:\www\application\core\Base_Model.php, LINE: 968
+[Wed Sep 09 13:48:55 2020] [ERROR] [Requests->process_task] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'contact_value' cannot be null, FILE: , LINE: 0
+[Wed Sep 09 14:55:11 2020] [ERROR] [Pds_personal_info->process] -> <b>SSS Number</b> is required. If Not Applicable, put <b>NA</b>., FILE: , LINE: 0
+[Wed Sep 09 15:31:33 2020] [ERROR] [Pds_personal_info->process] -> <b>Gender</b> is required.<br>, FILE: , LINE: 0
+[Wed Sep 09 16:11:02 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[HY000]: General error: 1366 Incorrect decimal value: '' for column 'employ_monthly_salary' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Wed Sep 09 16:11:02 2020] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1366 Incorrect decimal value: '' for column 'employ_monthly_salary' at row 1, FILE: , LINE: 0
+[Wed Sep 09 16:14:58 2020] [ERROR] [Pds_personal_info->process] -> 8 character/s for GSIS Number, FILE: , LINE: 0
+[Wed Sep 09 16:23:26 2020] [ERROR] [Pds_personal_info->process] -> 100 character/s for Residential Address, FILE: , LINE: 0
+[Wed Sep 09 16:23:54 2020] [ERROR] [Pds_personal_info->process] -> 100 character/s for Residential Address, FILE: , LINE: 0
+[Wed Sep 09 16:24:51 2020] [ERROR] [Pds_personal_info->process] -> 100 character/s for Residential Address, FILE: , LINE: 0
+[Wed Sep 09 16:27:36 2020] [ERROR] [Pds_personal_info->process] -> 100 character/s for Residential Address, FILE: , LINE: 0

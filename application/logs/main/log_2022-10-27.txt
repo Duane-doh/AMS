@@ -1,0 +1,149 @@
+[Thu Oct 27 08:22:25 2022] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to approve the leave application. Only the assigned <b>Immediate Supervisor</b> is allowed. Please contact the System's Administrator., FILE: , LINE: 0
+[Thu Oct 27 08:24:16 2022] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to approve the leave application. Only the assigned <b>Immediate Supervisor</b> is allowed. Please contact the System's Administrator., FILE: , LINE: 0
+[Thu Oct 27 10:09:28 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Thu Oct 27 10:09:28 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 302
+[Thu Oct 27 12:40:40 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Thu Oct 27 12:40:40 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\modules\main\models\Performance_evaluation_model.php, LINE: 204
+[Thu Oct 27 12:40:40 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Thu Oct 27 12:40:40 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\modules\main\models\Performance_evaluation_model.php, LINE: 204
+[Thu Oct 27 14:29:30 2022] [ERROR] [Base_Model::rlog_error] -> 619: Invalid syntax validation for A.payroll_type_id, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 782
+[Thu Oct 27 14:29:30 2022] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for A.payroll_type_id, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 523
+[Thu Oct 27 14:29:30 2022] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for A.payroll_type_id, FILE: C:\Apache24\htdocs\application\modules\main\models\Reports_payroll_model.php, LINE: 857
+[Thu Oct 27 14:29:30 2022] [ERROR] [Base_Model::rlog_error] -> 619: Invalid syntax validation for A.payroll_type_id, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 782
+[Thu Oct 27 14:29:30 2022] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for A.payroll_type_id, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 523
+[Thu Oct 27 14:29:30 2022] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for A.payroll_type_id, FILE: C:\Apache24\htdocs\application\modules\main\models\Reports_payroll_model.php, LINE: 857
+[Thu Oct 27 14:29:32 2022] [ERROR] [Base_Model::rlog_error] -> 619: Invalid syntax validation for A.payroll_type_id, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 782
+[Thu Oct 27 14:29:32 2022] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for A.payroll_type_id, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 523
+[Thu Oct 27 14:29:32 2022] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for A.payroll_type_id, FILE: C:\Apache24\htdocs\application\modules\main\models\Reports_payroll_model.php, LINE: 857
+[Thu Oct 27 14:29:35 2022] [ERROR] [Reports_payroll_model->get_pagibig_contributions_remittance_list] -> QUERY :				SELECT 
+				DATE_FORMAT(E.effective_date, '%Y%m') AS effective_date,
+				C.year_month  as month_covered,
+				SUM(D.amount) amount,
+				SUM(E.employer_amount) employer_amount,
+				G.first_name,
+				G.middle_name,
+				G.last_name,
+				G.ext_name,
+				H.identification_value pagibig,
+				I.identification_value tin,
+				K.other_deduction_detail_value applno
+				FROM remittances C
+				JOIN remittance_details D ON C.remittance_id = D.remittance_id 
+				JOIN payout_details E ON D.payroll_dtl_id = E.payroll_dtl_id
+				JOIN payout_header F ON E.payroll_hdr_id = F.payroll_hdr_id 
+				JOIN employee_personal_info G ON F.employee_id = G.employee_id 
+				LEFT JOIN employee_identifications H ON G.employee_id = H.employee_id AND H.identification_type_id = ?
+				LEFT JOIN employee_identifications I ON G.employee_id = I.employee_id AND I.identification_type_id = ?
+				LEFT JOIN employee_deductions J ON G.employee_id = J.employee_id AND E.deduction_id = J.deduction_id
+				LEFT JOIN employee_deduction_other_details K ON J.employee_deduction_id = K.employee_deduction_id
+				WHERE (E.effective_date BETWEEN ? AND ?)
+				AND E.deduction_id IN (SELECT deduction_id FROM param_remittance_type_deductions
+										WHERE file_name = ?)
+				AND ( C.payroll_type_ids LIKE '%3%')
+
+				 AND F.office_id IN ( ?, ?, ?, ?, ?)
+				GROUP BY F.employee_id
+				ORDER BY G.last_name, FILE: C:\Apache24\htdocs\application\modules\main\controllers\reports_payroll\Pagibig_contributions_remittance_file_for_uploading.php, LINE: 44
+[Thu Oct 27 14:29:35 2022] [ERROR] [Reports_payroll_model->get_pagibig_contributions_remittance_list] -> VALUE :[4,1,"2022\/08\/01","2022\/10\/15","pagibig_contributions_remittance_file_for_uploading","365","400","445","419","425"], FILE: C:\Apache24\htdocs\application\modules\main\controllers\reports_payroll\Pagibig_contributions_remittance_file_for_uploading.php, LINE: 44
+[Thu Oct 27 14:30:29 2022] [ERROR] [Reports_payroll_model->get_pagibig_contributions_remittance_list] -> QUERY :				SELECT 
+				DATE_FORMAT(E.effective_date, '%Y%m') AS effective_date,
+				C.year_month  as month_covered,
+				SUM(D.amount) amount,
+				SUM(E.employer_amount) employer_amount,
+				G.first_name,
+				G.middle_name,
+				G.last_name,
+				G.ext_name,
+				H.identification_value pagibig,
+				I.identification_value tin,
+				K.other_deduction_detail_value applno
+				FROM remittances C
+				JOIN remittance_details D ON C.remittance_id = D.remittance_id 
+				JOIN payout_details E ON D.payroll_dtl_id = E.payroll_dtl_id
+				JOIN payout_header F ON E.payroll_hdr_id = F.payroll_hdr_id 
+				JOIN employee_personal_info G ON F.employee_id = G.employee_id 
+				LEFT JOIN employee_identifications H ON G.employee_id = H.employee_id AND H.identification_type_id = ?
+				LEFT JOIN employee_identifications I ON G.employee_id = I.employee_id AND I.identification_type_id = ?
+				LEFT JOIN employee_deductions J ON G.employee_id = J.employee_id AND E.deduction_id = J.deduction_id
+				LEFT JOIN employee_deduction_other_details K ON J.employee_deduction_id = K.employee_deduction_id
+				WHERE (E.effective_date BETWEEN ? AND ?)
+				AND E.deduction_id IN (SELECT deduction_id FROM param_remittance_type_deductions
+										WHERE file_name = ?)
+				AND ( C.payroll_type_ids LIKE '%3%')
+
+				
+				GROUP BY F.employee_id
+				ORDER BY G.last_name, FILE: C:\Apache24\htdocs\application\modules\main\controllers\reports_payroll\Pagibig_deductions_remittance_file_for_uploading.php, LINE: 32
+[Thu Oct 27 14:30:29 2022] [ERROR] [Reports_payroll_model->get_pagibig_contributions_remittance_list] -> VALUE :[4,1,"2022\/08\/01","2022\/08\/15","pagibig_deductions_remittance_file_for_uploading"], FILE: C:\Apache24\htdocs\application\modules\main\controllers\reports_payroll\Pagibig_deductions_remittance_file_for_uploading.php, LINE: 32
+[Thu Oct 27 15:13:51 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Thu Oct 27 15:13:51 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 302
+[Thu Oct 27 15:13:51 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Thu Oct 27 15:13:51 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 302
+[Thu Oct 27 15:38:33 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Thu Oct 27 15:38:33 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 302
+[Thu Oct 27 16:57:19 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Thu Oct 27 16:57:19 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 302
+[Thu Oct 27 16:57:20 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Thu Oct 27 16:57:20 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 302
+[Thu Oct 27 16:57:23 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Thu Oct 27 16:57:23 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 302

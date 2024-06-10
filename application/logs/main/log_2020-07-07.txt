@@ -1,0 +1,9 @@
+[Tue Jul 07 14:32:40 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id, fullname, office_name, D.em' at line 9, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Tue Jul 07 14:32:40 2020] [ERROR] [Compensation->get_employee_list] -> SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id, fullname, office_name, D.em' at line 9 --Line 324., FILE: , LINE: 0
+[Tue Jul 07 14:32:40 2020] [ERROR] [] -> Uncaught exception: [0] 
+#0 [internal function]: Compensation->get_employee_list()
+#1 C:\www\system\core\CodeIgniter.php(514): call_user_func_array(Array, Array)
+#2 C:\www\index.php(293): require_once('C:\\www\\system\\c...')
+#3 {main}, FILE: C:\www\application\modules\main\controllers\Compensation.php, LINE: 396

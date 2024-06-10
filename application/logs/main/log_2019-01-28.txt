@@ -1,0 +1,25 @@
+[Mon Jan 28 11:47:18 2019] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Mon Jan 28 15:22:22 2019] [ERROR] [Pds_personal_info->process] -> Entered date in Birth Date exceeded the maximum date(2019/01/28), FILE: , LINE: 0
+[Mon Jan 28 15:22:46 2019] [ERROR] [Pds_personal_info->process] -> Please enter a valid number in Residential Zip Code., FILE: , LINE: 0
+[Mon Jan 28 15:23:22 2019] [ERROR] [Pds_personal_info->process] -> Please enter a valid number in Residential Zip Code., FILE: , LINE: 0
+[Mon Jan 28 15:23:47 2019] [ERROR] [Pds_personal_info->process] -> Please enter a valid number in Residential Zip Code., FILE: , LINE: 0
+[Mon Jan 28 15:24:06 2019] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Mon Jan 28 15:24:21 2019] [ERROR] [Pds_personal_info->process] -> <b>Agency Employee ID</b> already exists. Try checking the box to generate new ID., FILE: , LINE: 0
+[Mon Jan 28 16:11:13 2019] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'elig AS  SELECT employee_personal_info.agency_employee_id AS employee_personal_i' at line 1, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Jan 28 16:11:13 2019] [ERROR] [Adhoc_reports->process] -> SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'elig AS  SELECT employee_personal_info.agency_employee_id AS employee_personal_i' at line 1, FILE: , LINE: 0
+[Mon Jan 28 16:11:23 2019] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ON employee_personal_info.employee_id = employee_work_experiences.employee_id' at line 1, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Jan 28 16:11:23 2019] [ERROR] [Adhoc_reports->process] -> SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ON employee_personal_info.employee_id = employee_work_experiences.employee_id' at line 1, FILE: , LINE: 0
+[Mon Jan 28 16:11:47 2019] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ON employee_personal_info.employee_id = employee_work_experiences.employee_id' at line 1, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Jan 28 16:11:47 2019] [ERROR] [Adhoc_reports->process] -> SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ON employee_personal_info.employee_id = employee_work_experiences.employee_id' at line 1, FILE: , LINE: 0
+[Mon Jan 28 16:35:22 2019] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'table_name' cannot be null, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Mon Jan 28 16:35:23 2019] [ERROR] [Adhoc_reports->process] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'table_name' cannot be null, FILE: , LINE: 0
+[Mon Jan 28 16:35:29 2019] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'table_name' cannot be null, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Mon Jan 28 16:35:29 2019] [ERROR] [Adhoc_reports->process] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'table_name' cannot be null, FILE: , LINE: 0
+[Mon Jan 28 16:35:39 2019] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				VALUES
+				)' at line 2, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Mon Jan 28 16:35:39 2019] [ERROR] [Adhoc_reports->process] -> SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				VALUES
+				)' at line 2, FILE: , LINE: 0
+[Mon Jan 28 16:35:44 2019] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'table_name' cannot be null, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Mon Jan 28 16:35:44 2019] [ERROR] [Adhoc_reports->process] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'table_name' cannot be null, FILE: , LINE: 0

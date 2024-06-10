@@ -1,0 +1,324 @@
+[Fri Feb 11 07:27:51 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Fri Feb 11 07:27:51 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 286
+[Fri Feb 11 07:27:51 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Fri Feb 11 07:27:51 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 286
+[Fri Feb 11 07:27:56 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc' at line 27, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Fri Feb 11 07:27:56 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc' at line 27, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 286
+[Fri Feb 11 07:27:56 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc' at line 27, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Fri Feb 11 07:27:56 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc' at line 27, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 286
+[Fri Feb 11 09:21:32 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Fri Feb 11 09:21:32 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\modules\main\models\Performance_evaluation_model.php, LINE: 204
+[Fri Feb 11 09:21:32 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Fri Feb 11 09:21:32 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\modules\main\models\Performance_evaluation_model.php, LINE: 204
+[Fri Feb 11 09:37:06 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Fri Feb 11 09:37:06 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377339',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1598.80952',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Fri Feb 11 09:37:06 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Fri Feb 11 09:37:07 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Fri Feb 11 09:37:07 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377340',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Fri Feb 11 09:37:07 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Fri Feb 11 09:37:07 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Fri Feb 11 09:37:07 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377341',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Fri Feb 11 09:37:07 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Fri Feb 11 09:37:10 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Fri Feb 11 09:37:10 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377321',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Fri Feb 11 09:37:10 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Fri Feb 11 09:37:26 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Fri Feb 11 09:37:26 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377323',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Fri Feb 11 09:37:26 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Fri Feb 11 09:37:26 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Fri Feb 11 09:37:26 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377324',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1598.80952',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Fri Feb 11 09:37:26 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Fri Feb 11 09:37:26 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Fri Feb 11 09:37:26 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377333',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1137.00000',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Fri Feb 11 09:37:26 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Fri Feb 11 09:37:26 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Fri Feb 11 09:37:26 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377338',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '933.00000',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Fri Feb 11 09:37:26 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Fri Feb 11 09:37:26 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Fri Feb 11 09:37:26 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377334',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Fri Feb 11 09:37:26 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Fri Feb 11 09:37:27 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Fri Feb 11 09:37:27 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377337',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Fri Feb 11 09:37:27 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Fri Feb 11 09:37:27 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Fri Feb 11 09:37:27 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377325',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1137.00000',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Fri Feb 11 09:37:27 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Fri Feb 11 09:37:27 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Fri Feb 11 09:37:27 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377335',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1598.80952',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Fri Feb 11 09:37:27 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Fri Feb 11 09:37:27 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Fri Feb 11 09:37:27 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377336',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1598.80952',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Fri Feb 11 09:37:27 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Fri Feb 11 09:37:27 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Fri Feb 11 09:37:27 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377328',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1346.47619',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Fri Feb 11 09:37:27 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Fri Feb 11 09:37:27 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Fri Feb 11 09:37:27 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377329',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1009.76190',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Fri Feb 11 09:37:27 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Fri Feb 11 09:37:27 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Fri Feb 11 09:37:27 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377322',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Fri Feb 11 09:37:27 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Fri Feb 11 09:37:27 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Fri Feb 11 09:37:27 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377332',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '869.09524',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Fri Feb 11 09:37:27 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Fri Feb 11 09:37:27 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Fri Feb 11 09:37:27 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377330',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1346.47619',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Fri Feb 11 09:37:27 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Fri Feb 11 09:37:27 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Fri Feb 11 09:37:27 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377331',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1137.00000',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Fri Feb 11 09:37:27 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Fri Feb 11 09:37:27 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Fri Feb 11 09:37:27 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377326',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1009.76190',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Fri Feb 11 09:37:27 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Fri Feb 11 09:37:27 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> prev_payroll_work_day_param NOT EMPTY, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Fri Feb 11 09:37:27 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> array (
+  'payroll_hdr_id' => '377327',
+  'month_work_days' => '21',
+  'worked_days' => '10',
+  'daily_rate' => '1598.80952',
+), FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Fri Feb 11 09:37:27 2022] [ERROR] [Payroll_common->_get_basic_salary_daily] -> bs_adj_per_day: [10] [0] [0] [] [], FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_common.php, LINE: 69
+[Fri Feb 11 09:38:14 2022] [ERROR] [Payroll_process->_check_split_deductions] -> PAYOUT NUM for Deduction: [4]System Parameter is not properly defined., FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_process.php, LINE: 422
+[Fri Feb 11 09:38:15 2022] [ERROR] [Payroll_process->process_payroll] -> PAYOUT NUM for Deduction: [4]System Parameter is not properly defined., FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll.php, LINE: 214
+[Fri Feb 11 09:48:06 2022] [ERROR] [Payroll_process->_check_split_deductions] -> PAYOUT NUM for Deduction: [4]System Parameter is not properly defined., FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_process.php, LINE: 422
+[Fri Feb 11 09:48:06 2022] [ERROR] [Payroll_process->process_payroll] -> PAYOUT NUM for Deduction: [4]System Parameter is not properly defined., FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll.php, LINE: 214
+[Fri Feb 11 09:50:35 2022] [ERROR] [Payroll_process->_check_split_deductions] -> PAYOUT NUM for Deduction: [4]System Parameter is not properly defined., FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_process.php, LINE: 422
+[Fri Feb 11 09:50:35 2022] [ERROR] [Payroll_process->process_payroll] -> PAYOUT NUM for Deduction: [4]System Parameter is not properly defined., FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll.php, LINE: 214
+[Fri Feb 11 10:11:31 2022] [ERROR] [Payroll_process->_check_split_deductions] -> PAYOUT NUM for Deduction: [4]System Parameter is not properly defined., FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_process.php, LINE: 422
+[Fri Feb 11 10:11:31 2022] [ERROR] [Payroll_process->process_payroll] -> PAYOUT NUM for Deduction: [4]System Parameter is not properly defined., FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll.php, LINE: 214
+[Fri Feb 11 10:21:20 2022] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Fri Feb 11 10:29:09 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[40001]: Serialization failure: 1213 Deadlock found when trying to get lock; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Fri Feb 11 10:29:09 2022] [ERROR] [Pds_model->update_pds_date_accomplished] -> SQLSTATE[40001]: Serialization failure: 1213 Deadlock found when trying to get lock; try restarting transaction, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Pds_work_experience_info.php, LINE: 2001
+[Fri Feb 11 10:31:02 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Fri Feb 11 10:31:02 2022] [ERROR] [Pds_model->update_pds_date_accomplished] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Pds_work_experience_info.php, LINE: 2001
+[Fri Feb 11 10:33:05 2022] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Fri Feb 11 10:42:11 2022] [ERROR] [Payroll_process->_check_split_deductions] -> PAYOUT NUM for Deduction: [4]System Parameter is not properly defined., FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_process.php, LINE: 422
+[Fri Feb 11 10:42:11 2022] [ERROR] [Payroll_process->process_payroll] -> PAYOUT NUM for Deduction: [4]System Parameter is not properly defined., FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll.php, LINE: 214
+[Fri Feb 11 11:06:37 2022] [ERROR] [Payroll_process->_check_split_deductions] -> PAYOUT NUM for Deduction: [4]System Parameter is not properly defined., FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_process.php, LINE: 422
+[Fri Feb 11 11:06:38 2022] [ERROR] [Payroll_process->process_payroll] -> PAYOUT NUM for Deduction: [4]System Parameter is not properly defined., FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll.php, LINE: 214
+[Fri Feb 11 11:08:37 2022] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Fri Feb 11 11:08:37 2022] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Fri Feb 11 11:08:38 2022] [ERROR] [Payroll_process->_check_split_deductions] -> PAYOUT NUM for Deduction: [4]System Parameter is not properly defined., FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_process.php, LINE: 422
+[Fri Feb 11 11:08:38 2022] [ERROR] [Payroll_process->process_payroll] -> PAYOUT NUM for Deduction: [4]System Parameter is not properly defined., FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll.php, LINE: 214
+[Fri Feb 11 11:40:52 2022] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Fri Feb 11 11:40:52 2022] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Fri Feb 11 11:44:21 2022] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Fri Feb 11 11:44:21 2022] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Fri Feb 11 11:45:36 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Fri Feb 11 11:45:36 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\modules\main\models\Performance_evaluation_model.php, LINE: 204
+[Fri Feb 11 11:45:36 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Fri Feb 11 11:45:36 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\modules\main\models\Performance_evaluation_model.php, LINE: 204
+[Fri Feb 11 11:45:43 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Fri Feb 11 11:45:43 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\modules\main\models\Performance_evaluation_model.php, LINE: 204
+[Fri Feb 11 11:45:43 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Fri Feb 11 11:45:43 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\modules\main\models\Performance_evaluation_model.php, LINE: 204
+[Fri Feb 11 11:45:50 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Fri Feb 11 11:45:50 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\modules\main\models\Performance_evaluation_model.php, LINE: 204
+[Fri Feb 11 11:45:50 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Fri Feb 11 11:45:50 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\modules\main\models\Performance_evaluation_model.php, LINE: 204
+[Fri Feb 11 11:45:55 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Fri Feb 11 11:45:55 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\modules\main\models\Performance_evaluation_model.php, LINE: 204
+[Fri Feb 11 11:45:55 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Fri Feb 11 11:45:55 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\modules\main\models\Performance_evaluation_model.php, LINE: 204
+[Fri Feb 11 11:46:06 2022] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Fri Feb 11 11:46:06 2022] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Fri Feb 11 11:53:04 2022] [ERROR] [Payroll_process->_check_split_deductions] -> PAYOUT NUM for Deduction: [4]System Parameter is not properly defined., FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll_process.php, LINE: 422
+[Fri Feb 11 11:53:04 2022] [ERROR] [Payroll_process->process_payroll] -> PAYOUT NUM for Deduction: [4]System Parameter is not properly defined., FILE: C:\Apache24\htdocs\application\modules\main\controllers\Payroll.php, LINE: 214
+[Fri Feb 11 11:54:59 2022] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Fri Feb 11 11:54:59 2022] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Fri Feb 11 11:57:45 2022] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Fri Feb 11 11:57:45 2022] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Fri Feb 11 11:59:52 2022] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Fri Feb 11 11:59:52 2022] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Fri Feb 11 12:03:17 2022] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Fri Feb 11 12:03:17 2022] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Fri Feb 11 12:04:16 2022] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Fri Feb 11 12:04:16 2022] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Fri Feb 11 12:05:33 2022] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Fri Feb 11 12:05:33 2022] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Fri Feb 11 12:07:31 2022] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Fri Feb 11 12:07:31 2022] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Fri Feb 11 12:08:47 2022] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Fri Feb 11 12:08:47 2022] [ERROR] [Pds_work_experience_info->delete_work_experience] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Fri Feb 11 12:10:45 2022] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Fri Feb 11 12:10:45 2022] [ERROR] [Pds_work_experience_info->delete_work_experience] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Fri Feb 11 13:02:14 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Fri Feb 11 13:02:14 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\modules\main\models\Performance_evaluation_model.php, LINE: 204
+[Fri Feb 11 13:02:14 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Fri Feb 11 13:02:14 2022] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\modules\main\models\Performance_evaluation_model.php, LINE: 204
+[Fri Feb 11 13:34:22 2022] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Fri Feb 11 13:34:22 2022] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Fri Feb 11 13:35:13 2022] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Fri Feb 11 13:35:13 2022] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Fri Feb 11 13:43:24 2022] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Fri Feb 11 13:43:24 2022] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Fri Feb 11 13:43:40 2022] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Fri Feb 11 13:43:40 2022] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Fri Feb 11 13:44:53 2022] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Fri Feb 11 13:44:53 2022] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Fri Feb 11 13:44:53 2022] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Fri Feb 11 13:44:53 2022] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Fri Feb 11 13:45:41 2022] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Fri Feb 11 13:45:41 2022] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Fri Feb 11 13:45:45 2022] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Fri Feb 11 13:45:45 2022] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Fri Feb 11 17:38:59 2022] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_personnel_movement_id' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Fri Feb 11 17:38:59 2022] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_personnel_movement_id' at row 1, FILE: , LINE: 0
+[Fri Feb 11 18:11:35 2022] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_personnel_movement_id' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Fri Feb 11 18:11:35 2022] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_personnel_movement_id' at row 1, FILE: , LINE: 0

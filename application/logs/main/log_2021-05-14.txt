@@ -1,0 +1,97 @@
+[Fri May 14 07:29:42 2021] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Fri May 14 07:45:48 2021] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Fri May 14 07:54:20 2021] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Fri May 14 08:01:50 2021] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Fri May 14 08:13:30 2021] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Fri May 14 08:25:47 2021] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Fri May 14 08:25:47 2021] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'user_agent' at row 1, FILE: , LINE: 0
+[Fri May 14 09:16:55 2021] [ERROR] [Compensation->employee_tabs] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Fri May 14 09:16:55 2021] [ERROR] [] -> Uncaught exception: [0] Sorry, you don't have permission to access the page. Please contact the system's administrator.
+#0 [internal function]: Compensation->employee_tabs('3', 'c62f5ad5b1a485a...', '3123fe57b71652d', 'images', 'calendar.png')
+#1 C:\Apache24\htdocs\system\core\CodeIgniter.php(514): call_user_func_array(Array, Array)
+#2 C:\Apache24\htdocs\index.php(293): require_once('C:\\Apache24\\htd...')
+#3 {main}, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Compensation.php, LINE: 1162
+[Fri May 14 09:17:09 2021] [ERROR] [Compensation->employee_tabs] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Fri May 14 09:17:09 2021] [ERROR] [] -> Uncaught exception: [0] Sorry, you don't have permission to access the page. Please contact the system's administrator.
+#0 [internal function]: Compensation->employee_tabs('3', 'c62f5ad5b1a485a...', '3123fe57b71652d', 'images', 'sort_both.png')
+#1 C:\Apache24\htdocs\system\core\CodeIgniter.php(514): call_user_func_array(Array, Array)
+#2 C:\Apache24\htdocs\index.php(293): require_once('C:\\Apache24\\htd...')
+#3 {main}, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Compensation.php, LINE: 1162
+[Fri May 14 09:21:18 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'asc
+	        	LIMIT 0, 10' at line 11, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Fri May 14 09:21:18 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'asc
+	        	LIMIT 0, 10' at line 11, FILE: C:\Apache24\htdocs\application\modules\main\models\Employee_requests_model.php, LINE: 269
+[Fri May 14 09:21:18 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'asc
+	        	LIMIT 0, 10' at line 11, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Fri May 14 09:21:18 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'asc
+	        	LIMIT 0, 10' at line 11, FILE: C:\Apache24\htdocs\application\modules\main\models\Employee_requests_model.php, LINE: 269
+[Fri May 14 09:21:18 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'asc
+	        	LIMIT 0, 10' at line 11, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Fri May 14 09:21:18 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'asc
+	        	LIMIT 0, 10' at line 11, FILE: C:\Apache24\htdocs\application\modules\main\models\Employee_requests_model.php, LINE: 269
+[Fri May 14 10:06:04 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Fri May 14 10:06:04 2021] [ERROR] [Requests->get_request_tasks] -> SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens, FILE: , LINE: 0
+[Fri May 14 10:06:05 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Fri May 14 10:06:05 2021] [ERROR] [Requests->get_request_tasks] -> SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens, FILE: , LINE: 0
+[Fri May 14 10:16:03 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Fri May 14 10:16:03 2021] [ERROR] [Requests->get_request_tasks] -> SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens, FILE: , LINE: 0
+[Fri May 14 10:16:05 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Fri May 14 10:16:05 2021] [ERROR] [Requests->get_request_tasks] -> SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens, FILE: , LINE: 0
+[Fri May 14 10:26:40 2021] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Fri May 14 10:36:13 2021] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Fri May 14 10:40:37 2021] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Fri May 14 11:41:50 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Fri May 14 11:41:50 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Fri May 14 11:41:50 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Fri May 14 12:53:47 2021] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Fri May 14 12:53:52 2021] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Fri May 14 12:53:52 2021] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Fri May 14 12:54:12 2021] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Fri May 14 12:54:16 2021] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Fri May 14 12:54:16 2021] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Fri May 14 12:54:29 2021] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Fri May 14 13:00:12 2021] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Fri May 14 13:00:12 2021] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: , LINE: 0
+[Fri May 14 13:00:34 2021] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Fri May 14 13:00:34 2021] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: , LINE: 0
+[Fri May 14 13:08:07 2021] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Fri May 14 13:08:07 2021] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: , LINE: 0
+[Fri May 14 13:10:03 2021] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Fri May 14 13:13:43 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Fri May 14 13:13:43 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 286
+[Fri May 14 13:13:43 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Fri May 14 13:13:43 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 286
+[Fri May 14 14:11:44 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Fri May 14 14:11:44 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Fri May 14 14:11:44 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Fri May 14 14:11:47 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Fri May 14 14:11:47 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Fri May 14 14:11:47 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Fri May 14 14:13:08 2021] [ERROR] [Pds->display_pds_info] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Fri May 14 14:14:04 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY000]: General error: 1111 Invalid use of group function, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Fri May 14 14:14:04 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY000]: General error: 1111 Invalid use of group function, FILE: C:\Apache24\htdocs\application\modules\main\models\Leaves_model.php, LINE: 505
+[Fri May 14 14:14:04 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY000]: General error: 1111 Invalid use of group function, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Fri May 14 14:14:04 2021] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY000]: General error: 1111 Invalid use of group function, FILE: C:\Apache24\htdocs\application\modules\main\models\Leaves_model.php, LINE: 505
+[Fri May 14 16:02:11 2021] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Fri May 14 17:33:23 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Fri May 14 17:33:23 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Fri May 14 17:33:23 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Fri May 14 17:33:24 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Fri May 14 17:33:24 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Fri May 14 17:33:24 2021] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547

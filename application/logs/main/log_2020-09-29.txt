@@ -1,0 +1,131 @@
+[Tue Sep 29 09:03:18 2020] [ERROR] [Employee_work_schedule->process_work_schedule] -> Effectivity date must be after <b>Jan 01, 2020.</b>, FILE: , LINE: 0
+[Tue Sep 29 09:23:43 2020] [ERROR] [Pds_personal_info->process] -> <b>GSIS Number</b> is required. If Not Applicable, put <b>NA</b>., FILE: , LINE: 0
+[Tue Sep 29 09:23:51 2020] [ERROR] [Pds_personal_info->process] -> <b>Pag-IBIG Number</b> is required. If Not Applicable, put <b>NA</b>., FILE: , LINE: 0
+[Tue Sep 29 09:26:20 2020] [ERROR] [Pds_personal_info->process] -> Please enter a valid number in Residential Zip Code., FILE: , LINE: 0
+[Tue Sep 29 09:26:23 2020] [ERROR] [Pds_personal_info->process] -> Please enter a valid number in Residential Zip Code., FILE: , LINE: 0
+[Tue Sep 29 09:48:17 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Tue Sep 29 10:10:57 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Tue Sep 29 10:13:14 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_salary_grade' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Tue Sep 29 10:13:14 2020] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_salary_grade' at row 1, FILE: , LINE: 0
+[Tue Sep 29 10:17:54 2020] [ERROR] [Pds_personal_info->process] -> <b>Pag-IBIG Number</b> is required. If Not Applicable, put <b>NA</b>., FILE: , LINE: 0
+[Tue Sep 29 10:17:59 2020] [ERROR] [Pds_personal_info->process] -> Invalid input in <b>GSIS Number</b>., FILE: , LINE: 0
+[Tue Sep 29 10:18:08 2020] [ERROR] [Pds_personal_info->process] -> Invalid input in <b>GSIS Number</b>., FILE: , LINE: 0
+[Tue Sep 29 10:26:52 2020] [ERROR] [Pds_personal_info->process] -> <b>SSS Number</b> is required. If Not Applicable, put <b>NA</b>., FILE: , LINE: 0
+[Tue Sep 29 10:28:42 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Tue Sep 29 10:36:44 2020] [ERROR] [Pds_personal_info->process] -> Please enter a valid number in Residential Zip Code., FILE: , LINE: 0
+[Tue Sep 29 10:38:31 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Tue Sep 29 10:38:31 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\www\application\modules\main\models\Requests_model.php, LINE: 286
+[Tue Sep 29 10:38:32 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Tue Sep 29 10:38:32 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\www\application\modules\main\models\Requests_model.php, LINE: 286
+[Tue Sep 29 10:41:44 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Tue Sep 29 10:41:44 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\www\application\modules\main\models\Requests_model.php, LINE: 286
+[Tue Sep 29 10:41:44 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Tue Sep 29 10:41:44 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\www\application\modules\main\models\Requests_model.php, LINE: 286
+[Tue Sep 29 11:25:39 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc' at line 27, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Tue Sep 29 11:25:39 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc' at line 27, FILE: C:\www\application\modules\main\models\Requests_model.php, LINE: 286
+[Tue Sep 29 11:25:39 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc' at line 27, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Tue Sep 29 11:25:39 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc' at line 27, FILE: C:\www\application\modules\main\models\Requests_model.php, LINE: 286
+[Tue Sep 29 13:14:29 2020] [ERROR] [Pds_personal_info->process] -> <b>Gender</b> is required.<br>, FILE: , LINE: 0
+[Tue Sep 29 14:10:32 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1366 Incorrect decimal value: '' for column 'employ_monthly_salary' at row 15349, FILE: C:\www\application\core\Base_Model.php, LINE: 968
+[Tue Sep 29 14:10:32 2020] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1366 Incorrect decimal value: '' for column 'employ_monthly_salary' at row 15349, FILE: , LINE: 0
+[Tue Sep 29 14:24:33 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 0, 10' at line 12, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Tue Sep 29 14:24:33 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 0, 10' at line 12, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 134
+[Tue Sep 29 14:24:33 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 0, 10' at line 12, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Tue Sep 29 14:24:33 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 0, 10' at line 12, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 134
+[Tue Sep 29 14:31:41 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\core\Base_Model.php, LINE: 436
+[Tue Sep 29 14:31:41 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\core\Base_Model.php, LINE: 225
+[Tue Sep 29 14:31:41 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\modules\main\models\Deduction_model.php, LINE: 547
+[Tue Sep 29 14:31:48 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\core\Base_Model.php, LINE: 436
+[Tue Sep 29 14:31:48 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\core\Base_Model.php, LINE: 225
+[Tue Sep 29 14:31:48 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\modules\main\models\Deduction_model.php, LINE: 547
+[Tue Sep 29 15:52:47 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for Pag-ibig Number, FILE: , LINE: 0
+[Tue Sep 29 15:54:05 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_salary_grade' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Tue Sep 29 15:54:05 2020] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_salary_grade' at row 1, FILE: , LINE: 0
+[Tue Sep 29 16:06:02 2020] [ERROR] [Employee_work_schedule->process_work_schedule] -> Effectivity date must be after <b>Sep 16, 2020.</b>, FILE: , LINE: 0
+[Tue Sep 29 16:06:06 2020] [ERROR] [Employee_work_schedule->process_work_schedule] -> Effectivity date must be after <b>Sep 16, 2020.</b>, FILE: , LINE: 0
+[Tue Sep 29 16:14:11 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Tue Sep 29 16:14:11 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\www\application\modules\main\models\Performance_evaluation_model.php, LINE: 204
+[Tue Sep 29 16:14:11 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Tue Sep 29 16:14:11 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\www\application\modules\main\models\Performance_evaluation_model.php, LINE: 204
+[Tue Sep 29 16:15:24 2020] [ERROR] [Work_schedule->process] -> <b>Break Hours</b> is required.<br>, FILE: , LINE: 0
+[Tue Sep 29 16:15:43 2020] [ERROR] [Work_schedule->process] -> <b>Break Hours</b> is required.<br>, FILE: , LINE: 0
+[Tue Sep 29 16:25:20 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Tue Sep 29 16:25:20 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\www\application\modules\main\models\Performance_evaluation_model.php, LINE: 204
+[Tue Sep 29 16:25:20 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Tue Sep 29 16:25:20 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\www\application\modules\main\models\Performance_evaluation_model.php, LINE: 204
+[Tue Sep 29 16:49:10 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'height' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Tue Sep 29 16:49:10 2020] [ERROR] [Pds_personal_info->process] -> SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'height' at row 1, FILE: , LINE: 0
+[Tue Sep 29 16:49:16 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'height' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Tue Sep 29 16:49:16 2020] [ERROR] [Pds_personal_info->process] -> SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'height' at row 1, FILE: , LINE: 0
+[Tue Sep 29 17:03:05 2020] [ERROR] [Pds_personal_info->process] -> <b>Philhealth Number</b> is required. If Not Applicable, put <b>NA</b>., FILE: , LINE: 0
+[Tue Sep 29 17:32:13 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Tue Sep 29 17:53:15 2020] [ERROR] [Employee_work_schedule->process_work_schedule] -> Effectivity date must be after <b>Sep 16, 2020.</b>, FILE: , LINE: 0
+[Tue Sep 29 17:53:19 2020] [ERROR] [Employee_work_schedule->process_work_schedule] -> Effectivity date must be after <b>Sep 16, 2020.</b>, FILE: , LINE: 0

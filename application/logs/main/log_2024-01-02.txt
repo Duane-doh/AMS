@@ -1,0 +1,325 @@
+[Tue Jan 02 07:31:09 2024] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Tue Jan 02 07:33:20 2024] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Tue Jan 02 07:35:44 2024] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Tue Jan 02 08:43:06 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 02 08:43:06 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 311
+[Tue Jan 02 08:53:34 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 02 08:53:34 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 311
+[Tue Jan 02 09:16:49 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'asc
+			LIMIT 0, 10' at line 12, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 02 09:16:49 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'asc
+			LIMIT 0, 10' at line 12, FILE: C:\Apache24\htdocs\application\modules\main\models\Employee_dtr_model.php, LINE: 282
+[Tue Jan 02 09:17:20 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 02 09:17:20 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 311
+[Tue Jan 02 09:18:17 2024] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Jan 02 09:18:17 2024] [ERROR] [Requests->get_task] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Requests.php, LINE: 544
+[Tue Jan 02 09:52:00 2024] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Jan 02 09:52:00 2024] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: , LINE: 0
+[Tue Jan 02 09:52:49 2024] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Jan 02 09:52:49 2024] [ERROR] [Requests->get_task] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Requests.php, LINE: 544
+[Tue Jan 02 09:52:55 2024] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Jan 02 09:52:55 2024] [ERROR] [Requests->get_task] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Requests.php, LINE: 544
+[Tue Jan 02 10:16:20 2024] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Jan 02 10:16:20 2024] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: , LINE: 0
+[Tue Jan 02 10:46:13 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 02 10:46:13 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 311
+[Tue Jan 02 10:48:31 2024] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Jan 02 10:48:31 2024] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: , LINE: 0
+[Tue Jan 02 10:49:20 2024] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Tue Jan 02 10:49:20 2024] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Tue Jan 02 10:49:20 2024] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Tue Jan 02 10:49:20 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 02 10:49:20 2024] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Tue Jan 02 10:49:20 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 02 10:49:20 2024] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Tue Jan 02 10:49:20 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 02 10:49:20 2024] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Tue Jan 02 10:49:20 2024] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Tue Jan 02 10:49:20 2024] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Tue Jan 02 10:49:20 2024] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 206
+[Tue Jan 02 10:49:20 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted, FILE: C:\Apache24\htdocs\application\modules\main\models\Employee_dtr_model.php, LINE: 372
+[Tue Jan 02 10:49:20 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 02 10:49:20 2024] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 206
+[Tue Jan 02 10:49:20 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted, FILE: C:\Apache24\htdocs\application\modules\main\models\Employee_dtr_model.php, LINE: 372
+[Tue Jan 02 10:49:20 2024] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Tue Jan 02 10:49:20 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted, FILE: C:\Apache24\htdocs\application\modules\main\models\Employee_dtr_model.php, LINE: 372
+[Tue Jan 02 10:49:20 2024] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Tue Jan 02 10:49:20 2024] [ERROR] [Ta_daily_time_record->generate_report_data] -> SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Employee_dtr.php, LINE: 2036
+[Tue Jan 02 10:49:20 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted, FILE: C:\Apache24\htdocs\application\modules\main\models\Employee_dtr_model.php, LINE: 372
+[Tue Jan 02 10:49:20 2024] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted, FILE: , LINE: 0
+[Tue Jan 02 10:49:20 2024] [ERROR] [Ta_daily_time_record->generate_report_data] -> SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Employee_dtr.php, LINE: 2036
+[Tue Jan 02 10:49:20 2024] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted, FILE: , LINE: 0
+[Tue Jan 02 10:49:20 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 02 10:49:20 2024] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted, FILE: , LINE: 0
+[Tue Jan 02 10:49:20 2024] [ERROR] [Ta_daily_time_record->generate_report_data] -> SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Employee_dtr.php, LINE: 2036
+[Tue Jan 02 10:49:20 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 02 10:49:20 2024] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted, FILE: , LINE: 0
+[Tue Jan 02 10:49:20 2024] [ERROR] [Ta_daily_time_record->generate_report_data] -> SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Employee_dtr.php, LINE: 2036
+[Tue Jan 02 10:49:20 2024] [ERROR] [Employee_dtr->process_add_attendance] -> SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted, FILE: , LINE: 0
+application\core\Base_Model.php, LINE: 185
+[Tue Jan 02 10:49:20 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 02 10:49:20 2024] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Tue Jan 02 10:49:20 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 02 10:49:20 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted, FILE: C:\Apache24\htdocs\application\modules\main\models\Employee_dtr_model.php, LINE: 372
+[Tue Jan 02 10:49:20 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 02 10:49:20 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 02 10:49:20 2024] [ERROR] [Requests->open_request] -> SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted, FILE: , LINE: 0
+docs\application\modules\main\models\Employee_dtr_model.php, LINE: 412
+[Tue Jan 02 10:49:20 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 02 10:49:20 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted, FILE: C:\Apache24\htdocs\application\modules\main\models\Employee_dtr_model.php, LINE: 372
+[Tue Jan 02 10:49:20 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted, FILE: C:\Apache24\htdocs\application\modules\main\models\Employee_dtr_model.php, LINE: 372
+[Tue Jan 02 10:49:20 2024] [ERROR] [Requests->open_request] -> SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted, FILE: , LINE: 0
+pache24\htdocs\application\modules\main\controllers\Employee_attendance.php, LINE: 1029
+[Tue Jan 02 10:49:20 2024] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Tue Jan 02 10:49:20 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 02 10:49:20 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away, FILE: C:\Apache24\htdocs\application\modules\main\models\Employee_dtr_model.php, LINE: 412
+[Tue Jan 02 10:49:20 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 02 10:49:20 2024] [ERROR] [Employee_attendance->modal_add_employee_attendance] -> SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted, FILE: , LINE: 0
+[Tue Jan 02 10:49:20 2024] [ERROR] [Ta_daily_time_record->generate_report_data] -> SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted, FILE: C:\Apache24\htdocs\application\modules[Tue Jan 02 10:49:20 2024] [ERROR] [Base_Model-[Tue Jan 02 10:49:20 2024] [ERROR] [Ta_daily_time_record->generate_report_data] -> SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Employee_dtr.php, LINE: 2036
+[Tue Jan 02 10:49:20 2024] [ERROR] [Employee_dtr->print_employee_dtr] -> SQLSTATE[HY000]: General error: 2006 MySQL server has gone away, FILE: , LINE: 0
+ocs\application\modules\main\models\Employee_dtr_model.php, LINE: 412
+[Tue Jan 02 10:49:20 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted, FILE: C:\Apache24\htdocs\application\modules\main\models\Employee_dtr_model.php, LINE: 197
+[Tue Jan 02 10:49:20 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 02 10:49:20 2024] [ERROR] [Employee_dtr->print_employee_dtr] -> SQLSTATE[HY000]: General error: 2006 MySQL server has gone away, FILE: , LINE: 0
+[Tue Jan 02 10:49:20 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 02 10:49:20 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away, FILE: C:\Apache24\htdocs\application\modules\main\models\Employee_dtr_model.php, LINE: 412
+[Tue Jan 02 10:49:20 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted, FILE: C:\Apache24\htdocs\application\modules\main\models\Employee_dtr_model.php, LINE: 372
+[Tue Jan 02 10:49:20 2024] [ERROR] [Employee_dtr->load_employee_dtr] -> SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Employee_dtr.php, LINE: 20
+[Tue Jan 02 10:49:20 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 02 10:49:20 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+r_model.php, LINE: 412
+[Tue Jan 02 10:49:20 2024] [ERROR] [Employee_dtr->print_employee_dtr] -> SQLSTATE[HY000]: General error: 2006 MySQL server has gone away, FILE: , LINE: 0
+[Tue Jan 02 10:49:20 2024] [ERROR] [Ta_daily_time_record->generate_report_data] -> SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Employee_dtr.php, LINE: 2036
+[Tue Jan 02 10:49:20 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away, FILE: C:\Apache24\htdocs\application\modules\main\models\Employee_dtr_model.php, LINE: 412
+[Tue Jan 02 10:49:20 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away, FILE: C:\Apache24\htdocs\application\modules\main\models\Employee_dtr_model.php, LINE: 412
+yee_dtr.php, LINE: 2036
+[Tue Jan 02 10:49:20 2024] [ERROR] [Employee_dtr->print_employee_dtr] -> SQLSTATE[HY000]: General error: 2006 MySQL server has gone away, FILE: , LINE: 0
+[Tue Jan 02 10:49:20 2024] [ERROR] [Employee_dtr->print_employee_dtr] -> SQLSTATE[HY000]: General error: 2006 MySQL server has gone away, FILE: , LINE: 0
+[Tue Jan 02 10:49:20 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 02 10:49:20 2024] [ERROR] [Employee_dtr->print_employee_dtr] -> SQLSTATE[HY000]: General error: 2006 MySQL server has gone away, FILE: , LINE: 0
+[Tue Jan 02 10:49:20 2024] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Tue Jan 02 10:49:20 2024] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 206
+[Tue Jan 02 10:49:20 2024] [ERROR] [Employee_dtr->load_employee_dtr] -> SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Employee_dtr.php, LINE: 20
+[Tue Jan 02 10:49:20 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 02 10:49:20 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away, FILE: C:\Apache24\htdocs\application\modules\main\models\Employee_dtr_model.php, LINE: 412
+[Tue Jan 02 10:49:20 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away, FILE: C:\Apache24\htdocs\application\modules\main\models\Employee_dtr_model.php, LINE: 412
+[Tue Jan 02 10:49:20 2024] [ERROR] [Employee_dtr->print_employee_dtr] -> SQLSTATE[HY000]: General error: 2006 MySQL server has gone away, FILE: , LINE: 0
+[Tue Jan 02 10:49:20 2024] [ERROR] [Employee_dtr->print_employee_dtr] -> SQLSTATE[HY000]: General error: 2006 MySQL server has gone away, FILE: , LINE: 0
+[Tue Jan 02 10:49:20 2024] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Tue Jan 02 10:49:20 2024] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Tue Jan 02 10:49:20 2024] [ERROR] [Ta_daily_time_record->generate_report_data] -> SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Employee_dtr.php, LINE: 2036
+[Tue Jan 02 10:49:20 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 02 10:49:20 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away, FILE: C:\Apache24\htdocs\application\modules\main\models\Employee_dtr_model.php, LINE: 412
+[Tue Jan 02 10:49:20 2024] [ERROR] [Employee_dtr->print_employee_dtr] -> SQLSTATE[HY000]: General error: 2006 MySQL server has gone away, FILE: , LINE: 0
+[Tue Jan 02 10:49:20 2024] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Tue Jan 02 10:49:20 2024] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Tue Jan 02 10:49:20 2024] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Tue Jan 02 10:49:20 2024] [ERROR] [Ta_daily_time_record->generate_report_data] -> SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Employee_dtr.php, LINE: 2036
+[Tue Jan 02 10:49:20 2024] [ERROR] [Requests->process_task] -> SQLSTATE[70100]: <<Unknown error>>: 1317 Query execution was interrupted, FILE: , LINE: 0
+[Tue Jan 02 10:49:20 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 02 10:49:20 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away, FILE: C:\Apache24\htdocs\application\modules\main\models\Employee_dtr_model.php, LINE: 412
+[Tue Jan 02 10:49:20 2024] [ERROR] [Employee_dtr->print_employee_dtr] -> SQLSTATE[HY000]: General error: 2006 MySQL server has gone away, FILE: , LINE: 0
+[Tue Jan 02 10:49:21 2024] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 02 10:49:21 2024] [ERROR] [Requests->open_request] -> SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+, FILE: , LINE: 0
+[Tue Jan 02 10:49:21 2024] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Tue Jan 02 10:49:21 2024] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Tue Jan 02 10:49:21 2024] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Tue Jan 02 10:49:21 2024] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 206
+[Tue Jan 02 10:49:21 2024] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 206
+[Tue Jan 02 10:49:21 2024] [ERROR] [Dashboard->get_dashboard] -> SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+, FILE: , LINE: 0
+[Tue Jan 02 10:49:21 2024] [ERROR] [Employee_dtr->load_employee_dtr] -> SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Employee_dtr.php, LINE: 20
+[Tue Jan 02 10:49:21 2024] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 206
+[Tue Jan 02 10:49:21 2024] [ERROR] [Employee_dtr->load_employee_dtr] -> SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+, FILE: , LINE: 0
+[Tue Jan 02 10:49:22 2024] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 02 10:49:22 2024] [ERROR] [Requests->open_request] -> SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+, FILE: , LINE: 0
+[Tue Jan 02 10:49:23 2024] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 02 10:49:23 2024] [ERROR] [Requests->open_request] -> SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+, FILE: , LINE: 0
+[Tue Jan 02 10:49:24 2024] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 02 10:49:24 2024] [ERROR] [Requests->open_request] -> SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+, FILE: , LINE: 0
+[Tue Jan 02 10:49:25 2024] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 02 10:49:25 2024] [ERROR] [Requests->open_request] -> SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+, FILE: , LINE: 0
+[Tue Jan 02 10:49:26 2024] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 02 10:49:26 2024] [ERROR] [Requests->open_request] -> SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+, FILE: , LINE: 0
+[Tue Jan 02 10:49:27 2024] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 02 10:49:27 2024] [ERROR] [Requests->open_request] -> SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+, FILE: , LINE: 0
+[Tue Jan 02 10:49:28 2024] [ERROR] [Base_Model->rlog_error] -> 203: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 02 10:49:28 2024] [ERROR] [Requests->open_request] -> SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+, FILE: , LINE: 0
+[Tue Jan 02 10:55:08 2024] [ERROR] [Pds->display_pds_info] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Tue Jan 02 11:11:36 2024] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to approve the leave application. Only the assigned <b>Immediate Supervisor</b> is allowed. Please contact the System's Administrator., FILE: , LINE: 0
+[Tue Jan 02 11:11:49 2024] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to approve the leave application. Only the assigned <b>Immediate Supervisor</b> is allowed. Please contact the System's Administrator., FILE: , LINE: 0
+[Tue Jan 02 11:22:09 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'asc
+			LIMIT 0, 10' at line 12, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 02 11:22:09 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'asc
+			LIMIT 0, 10' at line 12, FILE: C:\Apache24\htdocs\application\modules\main\models\Employee_dtr_model.php, LINE: 282
+[Tue Jan 02 11:35:34 2024] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Tue Jan 02 11:39:37 2024] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Tue Jan 02 11:41:36 2024] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Tue Jan 02 11:45:11 2024] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Tue Jan 02 11:50:14 2024] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Tue Jan 02 12:12:39 2024] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Tue Jan 02 12:12:46 2024] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Tue Jan 02 12:12:46 2024] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Tue Jan 02 12:13:12 2024] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Tue Jan 02 12:13:16 2024] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Tue Jan 02 12:13:16 2024] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Tue Jan 02 12:13:46 2024] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Tue Jan 02 12:13:47 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'asc
+			LIMIT 0, 10' at line 12, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 02 12:13:47 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'asc
+			LIMIT 0, 10' at line 12, FILE: C:\Apache24\htdocs\application\modules\main\models\Employee_dtr_model.php, LINE: 282
+[Tue Jan 02 12:13:47 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc
+			LIMIT 0, 10' at line 12, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 02 12:13:47 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc
+			LIMIT 0, 10' at line 12, FILE: C:\Apache24\htdocs\application\modules\main\models\Employee_dtr_model.php, LINE: 282
+[Tue Jan 02 12:13:48 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'asc
+			LIMIT 0, 10' at line 12, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 02 12:13:48 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'asc
+			LIMIT 0, 10' at line 12, FILE: C:\Apache24\htdocs\application\modules\main\models\Employee_dtr_model.php, LINE: 282
+[Tue Jan 02 12:13:48 2024] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Tue Jan 02 12:13:48 2024] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Tue Jan 02 12:13:49 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc
+			LIMIT 0, 10' at line 12, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 02 12:13:49 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc
+			LIMIT 0, 10' at line 12, FILE: C:\Apache24\htdocs\application\modules\main\models\Employee_dtr_model.php, LINE: 282
+[Tue Jan 02 12:24:51 2024] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to approve the leave application. Only the assigned <b>Immediate Supervisor</b> is allowed. Please contact the System's Administrator., FILE: , LINE: 0
+[Tue Jan 02 12:26:35 2024] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to approve the leave application. Only the assigned <b>Immediate Supervisor</b> is allowed. Please contact the System's Administrator., FILE: , LINE: 0
+[Tue Jan 02 12:28:02 2024] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to approve the leave application. Only the assigned <b>Immediate Supervisor</b> is allowed. Please contact the System's Administrator., FILE: , LINE: 0
+[Tue Jan 02 12:40:18 2024] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Jan 02 12:40:18 2024] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: , LINE: 0
+[Tue Jan 02 12:40:29 2024] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Tue Jan 02 12:40:29 2024] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: , LINE: 0
+[Tue Jan 02 12:54:35 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 02 12:54:35 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 311
+[Tue Jan 02 13:04:12 2024] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Tue Jan 02 13:04:18 2024] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Tue Jan 02 13:04:18 2024] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Tue Jan 02 13:11:54 2024] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Tue Jan 02 13:11:58 2024] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Tue Jan 02 13:11:58 2024] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Tue Jan 02 13:12:19 2024] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Tue Jan 02 13:12:19 2024] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Tue Jan 02 13:12:22 2024] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Tue Jan 02 13:12:22 2024] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Tue Jan 02 13:35:09 2024] [ERROR] [Pds->display_pds_info] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Tue Jan 02 13:35:13 2024] [ERROR] [Pds->display_pds_info] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Tue Jan 02 13:37:40 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '4569583' , '4575829' , '4572294' , '4579969' ' at line 13, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 02 13:37:40 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '4569583' , '4575829' , '4572294' , '4579969' ' at line 13, FILE: C:\Apache24\htdocs\application\modules\main\models\Daily_time_record_model.php, LINE: 691
+[Tue Jan 02 14:27:28 2024] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to approve the leave application. Only the assigned <b>Immediate Supervisor</b> is allowed. Please contact the System's Administrator., FILE: , LINE: 0
+[Tue Jan 02 14:36:31 2024] [ERROR] [Requests->open_request] -> Sorry, you don't have permission to approve the leave application. Only the assigned <b>Immediate Supervisor</b> is allowed. Please contact the System's Administrator., FILE: , LINE: 0
+[Tue Jan 02 14:41:05 2024] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Tue Jan 02 14:43:45 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					
+					 AND A.date_requested BETWEEN "2023-12-02 00:00:00" AND "2024-01-' at line 27, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 02 14:43:45 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					
+					 AND A.date_requested BETWEEN "2023-12-02 00:00:00" AND "2024-01-' at line 27, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 311
+[Tue Jan 02 15:12:29 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '4586253' , '4586228'  ))
+				        
+				G' at line 13, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 02 15:12:29 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '4586253' , '4586228'  ))
+				        
+				G' at line 13, FILE: C:\Apache24\htdocs\application\modules\main\models\Daily_time_record_model.php, LINE: 691
+[Tue Jan 02 15:18:03 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '4586346'  ))
+				        
+				GROUP BY atte' at line 13, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 02 15:18:03 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '4586346'  ))
+				        
+				GROUP BY atte' at line 13, FILE: C:\Apache24\htdocs\application\modules\main\models\Daily_time_record_model.php, LINE: 691
+[Tue Jan 02 15:20:52 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '4586421' , '4586322'  ))
+				        
+				G' at line 13, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 02 15:20:52 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '4586421' , '4586322'  ))
+				        
+				G' at line 13, FILE: C:\Apache24\htdocs\application\modules\main\models\Daily_time_record_model.php, LINE: 691
+[Tue Jan 02 15:30:43 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '4586650'  ))
+				        
+				GROUP BY atte' at line 13, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 02 15:30:43 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '4586650'  ))
+				        
+				GROUP BY atte' at line 13, FILE: C:\Apache24\htdocs\application\modules\main\models\Daily_time_record_model.php, LINE: 691
+[Tue Jan 02 15:32:46 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_' at line 13, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 02 15:32:46 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_' at line 13, FILE: C:\Apache24\htdocs\application\modules\main\models\Daily_time_record_model.php, LINE: 691
+[Tue Jan 02 16:31:37 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '4587156'  ))
+				        
+				GROUP BY atte' at line 13, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 02 16:31:37 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '4587156'  ))
+				        
+				GROUP BY atte' at line 13, FILE: C:\Apache24\htdocs\application\modules\main\models\Daily_time_record_model.php, LINE: 691
+[Tue Jan 02 16:32:12 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '4587146'  ))
+				        
+				GROUP BY atte' at line 13, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Tue Jan 02 16:32:12 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '4587146'  ))
+				        
+				GROUP BY atte' at line 13, FILE: C:\Apache24\htdocs\application\modules\main\models\Daily_time_record_model.php, LINE: 691
+[Tue Jan 02 16:36:59 2024] [ERROR] [Work_schedule->process] -> <b>Break Hours</b> is required.<br>, FILE: , LINE: 0

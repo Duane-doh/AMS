@@ -1,0 +1,311 @@
+[Fri Dec 04 07:32:00 2020] [ERROR] [Sss->delete] -> Exception::__set_state(array(
+   'message' => 'Parameters were not set in the audit trail.',
+   'string' => '',
+   'code' => 0,
+   'file' => 'C:\\Apache24\\htdocs\\application\\libraries\\Audit_trail.php',
+   'line' => 128,
+   'trace' => 
+  array (
+    0 => 
+    array (
+      'file' => 'C:\\Apache24\\htdocs\\application\\modules\\main\\controllers\\code_library_payroll\\Sss.php',
+      'line' => 440,
+      'function' => 'log_audit_trail',
+      'class' => 'Audit_trail',
+      'type' => '->',
+      'args' => 
+      array (
+        0 => ' has been deleted',
+        1 => 1002,
+        2 => 
+        array (
+          0 => 
+          array (
+          ),
+          1 => 
+          array (
+            0 => 
+            array (
+              0 => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        3 => 
+        array (
+        ),
+        4 => 
+        array (
+          0 => 'DELETE',
+        ),
+        5 => 
+        array (
+          0 => 'param_sss',
+        ),
+        6 => 
+        array (
+          0 => 'doh_ptis_module',
+        ),
+      ),
+    ),
+    1 => 
+    array (
+      'function' => 'delete',
+      'class' => 'Sss',
+      'type' => '->',
+      'args' => 
+      array (
+      ),
+    ),
+    2 => 
+    array (
+      'file' => 'C:\\Apache24\\htdocs\\system\\core\\CodeIgniter.php',
+      'line' => 514,
+      'function' => 'call_user_func_array',
+      'args' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          Sss::__set_state(array(
+             'module' => 1002,
+             'per_view' => true,
+             'per_edit' => true,
+             'per_delete' => true,
+             'user_permissions' => 
+            array (
+            ),
+             'scope' => 
+            array (
+            ),
+             'hash_code' => '%$',
+             'organization' => 
+            array (
+            ),
+             'user_id' => 0,
+             'user_roles' => 
+            array (
+            ),
+             'autoload' => 
+            array (
+            ),
+             'tbl_sss' => 'param_sss',
+             'code_lib_js' => 'sss',
+          )),
+          1 => 'delete',
+        ),
+        1 => 
+        array (
+        ),
+      ),
+    ),
+    3 => 
+    array (
+      'file' => 'C:\\Apache24\\htdocs\\index.php',
+      'line' => 293,
+      'args' => 
+      array (
+        0 => 'C:\\Apache24\\htdocs\\system\\core\\CodeIgniter.php',
+      ),
+      'function' => 'require_once',
+    ),
+  ),
+   'previous' => NULL,
+)), FILE: , LINE: 0
+[Fri Dec 04 07:34:02 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'salary_range_from' cannot be null, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Fri Dec 04 07:34:02 2020] [ERROR] [Sss->process] -> NULL, FILE: , LINE: 0
+[Fri Dec 04 07:34:05 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'salary_range_from' cannot be null, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Fri Dec 04 07:34:05 2020] [ERROR] [Sss->process] -> NULL, FILE: , LINE: 0
+[Fri Dec 04 07:34:10 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'salary_range_from' cannot be null, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Fri Dec 04 07:34:10 2020] [ERROR] [Sss->process] -> NULL, FILE: , LINE: 0
+[Fri Dec 04 07:34:28 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'salary_range_from' cannot be null, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Fri Dec 04 07:34:28 2020] [ERROR] [Sss->process] -> NULL, FILE: , LINE: 0
+[Fri Dec 04 07:34:46 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'salary_range_from' cannot be null, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Fri Dec 04 07:34:46 2020] [ERROR] [Sss->process] -> NULL, FILE: , LINE: 0
+[Fri Dec 04 07:36:25 2020] [ERROR] [Sss->delete] -> Exception::__set_state(array(
+   'message' => 'Parameters were not set in the audit trail.',
+   'string' => '',
+   'code' => 0,
+   'file' => 'C:\\Apache24\\htdocs\\application\\libraries\\Audit_trail.php',
+   'line' => 128,
+   'trace' => 
+  array (
+    0 => 
+    array (
+      'file' => 'C:\\Apache24\\htdocs\\application\\modules\\main\\controllers\\code_library_payroll\\Sss.php',
+      'line' => 440,
+      'function' => 'log_audit_trail',
+      'class' => 'Audit_trail',
+      'type' => '->',
+      'args' => 
+      array (
+        0 => ' has been deleted',
+        1 => 1002,
+        2 => 
+        array (
+          0 => 
+          array (
+          ),
+          1 => 
+          array (
+            0 => 
+            array (
+              0 => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        3 => 
+        array (
+        ),
+        4 => 
+        array (
+          0 => 'DELETE',
+        ),
+        5 => 
+        array (
+          0 => 'param_sss',
+        ),
+        6 => 
+        array (
+          0 => 'doh_ptis_module',
+        ),
+      ),
+    ),
+    1 => 
+    array (
+      'function' => 'delete',
+      'class' => 'Sss',
+      'type' => '->',
+      'args' => 
+      array (
+      ),
+    ),
+    2 => 
+    array (
+      'file' => 'C:\\Apache24\\htdocs\\system\\core\\CodeIgniter.php',
+      'line' => 514,
+      'function' => 'call_user_func_array',
+      'args' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          Sss::__set_state(array(
+             'module' => 1002,
+             'per_view' => true,
+             'per_edit' => true,
+             'per_delete' => true,
+             'user_permissions' => 
+            array (
+            ),
+             'scope' => 
+            array (
+            ),
+             'hash_code' => '%$',
+             'organization' => 
+            array (
+            ),
+             'user_id' => 0,
+             'user_roles' => 
+            array (
+            ),
+             'autoload' => 
+            array (
+            ),
+             'tbl_sss' => 'param_sss',
+             'code_lib_js' => 'sss',
+          )),
+          1 => 'delete',
+        ),
+        1 => 
+        array (
+        ),
+      ),
+    ),
+    3 => 
+    array (
+      'file' => 'C:\\Apache24\\htdocs\\index.php',
+      'line' => 293,
+      'args' => 
+      array (
+        0 => 'C:\\Apache24\\htdocs\\system\\core\\CodeIgniter.php',
+      ),
+      'function' => 'require_once',
+    ),
+  ),
+   'previous' => NULL,
+)), FILE: , LINE: 0
+[Fri Dec 04 09:06:14 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1366 Incorrect decimal value: '' for column 'employ_monthly_salary' at row 14732, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Fri Dec 04 09:06:14 2020] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1366 Incorrect decimal value: '' for column 'employ_monthly_salary' at row 14732, FILE: , LINE: 0
+[Fri Dec 04 09:07:32 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1366 Incorrect decimal value: '' for column 'employ_monthly_salary' at row 10208, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Fri Dec 04 09:07:32 2020] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1366 Incorrect decimal value: '' for column 'employ_monthly_salary' at row 10208, FILE: , LINE: 0
+[Fri Dec 04 09:44:55 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_personnel_movement_id' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Fri Dec 04 09:44:55 2020] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_personnel_movement_id' at row 1, FILE: , LINE: 0
+[Fri Dec 04 10:58:55 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Fri Dec 04 10:58:55 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\Apache24\htdocs\application\modules\main\models\Daily_time_record_model.php, LINE: 575
+[Fri Dec 04 12:11:39 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1366 Incorrect decimal value: '' for column 'employ_monthly_salary' at row 14665, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Fri Dec 04 12:11:39 2020] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1366 Incorrect decimal value: '' for column 'employ_monthly_salary' at row 14665, FILE: , LINE: 0
+[Fri Dec 04 12:35:52 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Fri Dec 04 12:35:52 2020] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Fri Dec 04 13:30:53 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 103, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Fri Dec 04 13:30:53 2020] [ERROR] [Requests->process_task] -> SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 103, FILE: , LINE: 0
+[Fri Dec 04 13:30:58 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 103, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Fri Dec 04 13:30:58 2020] [ERROR] [Requests->process_task] -> SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 103, FILE: , LINE: 0
+[Fri Dec 04 13:31:24 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 103, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Fri Dec 04 13:31:24 2020] [ERROR] [Requests->process_task] -> SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 103, FILE: , LINE: 0
+[Fri Dec 04 13:31:59 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 103, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Fri Dec 04 13:31:59 2020] [ERROR] [Requests->process_task] -> SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 103, FILE: , LINE: 0
+[Fri Dec 04 13:34:32 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 103, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Fri Dec 04 13:34:32 2020] [ERROR] [Requests->process_task] -> SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 103, FILE: , LINE: 0
+[Fri Dec 04 13:35:20 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 103, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Fri Dec 04 13:35:20 2020] [ERROR] [Requests->process_task] -> SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 103, FILE: , LINE: 0
+[Fri Dec 04 13:50:21 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 103, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Fri Dec 04 13:50:21 2020] [ERROR] [Requests->process_task] -> SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 103, FILE: , LINE: 0
+[Fri Dec 04 14:07:18 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Fri Dec 04 14:07:18 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\Apache24\htdocs\application\modules\main\models\Daily_time_record_model.php, LINE: 575
+[Fri Dec 04 15:13:50 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Fri Dec 04 15:13:50 2020] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Fri Dec 04 15:14:13 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Fri Dec 04 15:14:13 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\modules\main\models\Attendance_period_model.php, LINE: 521
+[Fri Dec 04 15:14:13 2020] [ERROR] [Attendance_period->process_attendance_period] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Fri Dec 04 15:18:59 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Fri Dec 04 15:18:59 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\modules\main\models\Attendance_period_model.php, LINE: 521
+[Fri Dec 04 15:18:59 2020] [ERROR] [Attendance_period->process_attendance_period] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Fri Dec 04 15:19:06 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Fri Dec 04 15:19:06 2020] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Fri Dec 04 15:19:12 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Fri Dec 04 15:19:12 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\modules\main\models\Attendance_period_model.php, LINE: 521
+[Fri Dec 04 15:19:12 2020] [ERROR] [Attendance_period->process_attendance_period] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Fri Dec 04 15:41:09 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness_hr' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Fri Dec 04 15:46:09 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness_hr' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Fri Dec 04 15:55:43 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Fri Dec 04 15:55:43 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Fri Dec 04 15:55:43 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Fri Dec 04 15:55:46 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Fri Dec 04 15:55:46 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Fri Dec 04 15:55:46 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547
+[Fri Dec 04 16:07:20 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Fri Dec 04 16:07:20 2020] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Fri Dec 04 16:34:02 2020] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Fri Dec 04 16:38:17 2020] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Fri Dec 04 16:40:56 2020] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Fri Dec 04 17:08:03 2020] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Fri Dec 04 17:12:18 2020] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Fri Dec 04 17:29:05 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Fri Dec 04 17:29:05 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Fri Dec 04 17:29:05 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\Apache24\htdocs\application\modules\main\models\Deduction_model.php, LINE: 547

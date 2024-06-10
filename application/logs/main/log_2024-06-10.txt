@@ -1,0 +1,12 @@
+[Mon Jun 10 08:10:33 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'doh_ptis_module.requests' doesn't exist, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Mon Jun 10 08:11:37 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'doh_ptis_module.requests' doesn't exist, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Mon Jun 10 08:13:36 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'doh_ptis_module.param_positions' doesn't exist, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Mon Jun 10 08:13:36 2024] [ERROR] [Pds_model->get_employee_info] -> SQLSTATE[42S02]: Base table or view not found: 1146 Table 'doh_ptis_module.param_positions' doesn't exist, FILE: C:\Apache24\htdocs\application\modules\main\controllers\Pds.php, LINE: 315
+[Mon Jun 10 08:13:36 2024] [ERROR] [Pds->display_pds_info] -> SQLSTATE[42S02]: Base table or view not found: 1146 Table 'doh_ptis_module.param_positions' doesn't exist, FILE: , LINE: 0
+[Mon Jun 10 08:47:56 2024] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon Jun 10 08:48:09 2024] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon Jun 10 09:05:05 2024] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon Jun 10 09:09:17 2024] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon Jun 10 09:10:24 2024] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon Jun 10 09:11:40 2024] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon Jun 10 09:26:03 2024] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0

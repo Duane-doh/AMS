@@ -1,0 +1,59 @@
+[Mon Jan 20 09:18:29 2020] [ERROR] [Base_Model::rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 782
+[Mon Jan 20 09:18:29 2020] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 523
+[Mon Jan 20 09:18:29 2020] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 442
+[Mon Jan 20 09:18:29 2020] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 231
+[Mon Jan 20 09:18:29 2020] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\modules\sysad\models\Users_model.php, LINE: 135
+[Mon Jan 20 09:41:15 2020] [ERROR] [Base_Model::rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 782
+[Mon Jan 20 09:41:15 2020] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 523
+[Mon Jan 20 09:41:15 2020] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 442
+[Mon Jan 20 09:41:15 2020] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 231
+[Mon Jan 20 09:41:15 2020] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\modules\sysad\models\Users_model.php, LINE: 135
+[Mon Jan 20 09:45:07 2020] [ERROR] [Base_Model::rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 782
+[Mon Jan 20 09:45:07 2020] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 523
+[Mon Jan 20 09:45:07 2020] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 442
+[Mon Jan 20 09:45:07 2020] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 231
+[Mon Jan 20 09:45:07 2020] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\modules\sysad\models\Users_model.php, LINE: 135
+[Mon Jan 20 10:52:48 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'doh_ptis_core.user_roles' doesn't exist, FILE: C:\www\application\core\Base_Model.php, LINE: 436
+[Mon Jan 20 10:52:48 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'doh_ptis_core.user_roles' doesn't exist, FILE: C:\www\application\core\Base_Model.php, LINE: 206
+[Mon Jan 20 10:52:48 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'doh_ptis_core.user_roles' doesn't exist, FILE: C:\www\application\modules\sysad\models\Roles_model.php, LINE: 111
+[Mon Jan 20 10:52:48 2020] [ERROR] [] -> Uncaught exception: [42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'doh_ptis_core.user_roles' doesn't exist
+#0 C:\www\application\core\Base_Model.php(413): PDOStatement->execute(Array)
+#1 C:\www\application\core\Base_Model.php(202): Base_Model->_select_data(Array, 'user_roles', Array, Array, Array, '', true, NULL, true)
+#2 C:\www\application\modules\sysad\models\Roles_model.php(107): Base_Model->select_all(Array, 'user_roles', Array, Array)
+#3 C:\www\application\core\Base_Controller.php(110): Roles_model->get_user_roles('1583ee91e240832...')
+#4 C:\www\application\core\Base_Controller.php(37): Base_Controller->_get_log_user_roles()
+#5 C:\www\application\controllers\Auth.php(7): Base_Controller->__construct()
+#6 C:\www\system\core\CodeIgniter.php(500): Auth->__construct()
+#7 C:\www\index.php(293): require_once('C:\\www\\system\\c...')
+#8 {main}, FILE: C:\www\application\core\Base_Model.php, LINE: 413
+[Mon Jan 20 10:52:51 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'doh_ptis_core.user_roles' doesn't exist, FILE: C:\www\application\core\Base_Model.php, LINE: 436
+[Mon Jan 20 10:52:51 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'doh_ptis_core.user_roles' doesn't exist, FILE: C:\www\application\core\Base_Model.php, LINE: 206
+[Mon Jan 20 10:52:51 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'doh_ptis_core.user_roles' doesn't exist, FILE: C:\www\application\modules\sysad\models\Roles_model.php, LINE: 111
+[Mon Jan 20 10:52:51 2020] [ERROR] [] -> Uncaught exception: [42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'doh_ptis_core.user_roles' doesn't exist
+#0 C:\www\application\core\Base_Model.php(413): PDOStatement->execute(Array)
+#1 C:\www\application\core\Base_Model.php(202): Base_Model->_select_data(Array, 'user_roles', Array, Array, Array, '', true, NULL, true)
+#2 C:\www\application\modules\sysad\models\Roles_model.php(107): Base_Model->select_all(Array, 'user_roles', Array, Array)
+#3 C:\www\application\core\Base_Controller.php(110): Roles_model->get_user_roles('1583ee91e240832...')
+#4 C:\www\application\core\Base_Controller.php(37): Base_Controller->_get_log_user_roles()
+#5 C:\www\application\controllers\Auth.php(7): Base_Controller->__construct()
+#6 C:\www\system\core\CodeIgniter.php(500): Auth->__construct()
+#7 C:\www\index.php(293): require_once('C:\\www\\system\\c...')
+#8 {main}, FILE: C:\www\application\core\Base_Model.php, LINE: 413
+[Mon Jan 20 10:59:06 2020] [ERROR] [Base_Model::rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 782
+[Mon Jan 20 10:59:06 2020] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 523
+[Mon Jan 20 10:59:06 2020] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 442
+[Mon Jan 20 10:59:06 2020] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 231
+[Mon Jan 20 10:59:06 2020] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\modules\sysad\models\Users_model.php, LINE: 135
+[Mon Jan 20 10:59:27 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Mon Jan 20 10:59:27 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away, FILE: C:\www\application\modules\sysad\models\Permissions_model.php, LINE: 791
+[Mon Jan 20 10:59:27 2020] [ERROR] [] -> Uncaught exception: [0] SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+#0 C:\www\application\modules\sysad\controllers\Users.php(81): Permission->check_permission(119, 3)
+#1 [internal function]: Users->get_user_list()
+#2 C:\www\system\core\CodeIgniter.php(514): call_user_func_array(Array, Array)
+#3 C:\www\index.php(293): require_once('C:\\www\\system\\c...')
+#4 {main}, FILE: C:\www\application\libraries\Permission.php, LINE: 57
+[Mon Jan 20 11:18:16 2020] [ERROR] [Base_Model::rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 782
+[Mon Jan 20 11:18:16 2020] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 523
+[Mon Jan 20 11:18:16 2020] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 442
+[Mon Jan 20 11:18:16 2020] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\core\Base_Model.php, LINE: 231
+[Mon Jan 20 11:18:16 2020] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for status_id, FILE: C:\www\application\modules\sysad\models\Users_model.php, LINE: 135

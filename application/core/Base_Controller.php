@@ -387,7 +387,7 @@ class Base_Controller extends MX_Controller
 	{
 				
 		$short_name		= $this->organization['short_name'];
-		$short_name		= "DOH - AMS";
+		$short_name		= "DOH - PTIS";
 		
 		$footer = '<hr style="margin_bottom:-5px;">';
 		$footer .= '<table width="100%">';

@@ -1,0 +1,50 @@
+[Tue Jan 28 08:54:30 2020] [ERROR] [Pds_personal_info->process] -> <b>GSIS Number</b> is required. If Not Applicable, put <b>NA</b>., FILE: , LINE: 0
+[Tue Jan 28 08:54:38 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Tue Jan 28 09:15:21 2020] [ERROR] [Biometric_logs->process_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Tue Jan 28 09:16:04 2020] [ERROR] [Biometric_logs->process_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Tue Jan 28 09:42:38 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\core\Base_Model.php, LINE: 436
+[Tue Jan 28 09:42:38 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\core\Base_Model.php, LINE: 225
+[Tue Jan 28 09:42:38 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\modules\main\models\Deduction_model.php, LINE: 547
+[Tue Jan 28 09:47:18 2020] [ERROR] [Pds_personal_info->process] -> Please enter a valid amount in Weight., FILE: , LINE: 0
+[Tue Jan 28 10:14:41 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Tue Jan 28 11:22:59 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Tue Jan 28 12:04:24 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Tue Jan 28 12:04:24 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Tue Jan 28 15:12:08 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Tue Jan 28 15:15:32 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Tue Jan 28 15:15:32 2020] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null, FILE: , LINE: 0
+[Tue Jan 28 15:18:04 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1366 Incorrect decimal value: '' for column 'employ_monthly_salary' at row 561, FILE: C:\www\application\core\Base_Model.php, LINE: 968
+[Tue Jan 28 15:18:04 2020] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1366 Incorrect decimal value: '' for column 'employ_monthly_salary' at row 561, FILE: , LINE: 0
+[Tue Jan 28 15:24:21 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Tue Jan 28 15:55:46 2020] [ERROR] [Base_Model->rlog_error] -> 1007: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`doh_ptis_module`.`employee_educations`, CONSTRAINT `fk_empeducations_3` FOREIGN KEY (`school_id`) REFERENCES `param_schools` (`school_id`) ON DELETE NO ACTION ON UPDATE NO ACTION), FILE: C:\www\application\core\Base_Model.php, LINE: 1012
+[Tue Jan 28 15:55:46 2020] [ERROR] [Base_Controller->rlog_error] -> 1007: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`doh_ptis_module`.`employee_educations`, CONSTRAINT `fk_empeducations_3` FOREIGN KEY (`school_id`) REFERENCES `param_schools` (`school_id`) ON DELETE NO ACTION ON UPDATE NO ACTION), FILE: C:\www\application\core\Base_Controller.php, LINE: 1164
+[Tue Jan 28 16:07:35 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\core\Base_Model.php, LINE: 436
+[Tue Jan 28 16:07:35 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\core\Base_Model.php, LINE: 225
+[Tue Jan 28 16:07:35 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\modules\main\models\Deduction_model.php, LINE: 547
+[Tue Jan 28 16:07:54 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\core\Base_Model.php, LINE: 436
+[Tue Jan 28 16:07:54 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\core\Base_Model.php, LINE: 225
+[Tue Jan 28 16:07:54 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\modules\main\models\Deduction_model.php, LINE: 547
+[Tue Jan 28 16:26:22 2020] [ERROR] [Employee_work_schedule->process_work_schedule] -> Effectivity date must be after <b>Jan 01, 2020.</b>, FILE: , LINE: 0
+[Tue Jan 28 16:32:50 2020] [ERROR] [Employee_work_schedule->process_work_schedule] -> Effectivity date must be after <b>Jan 01, 2020.</b>, FILE: , LINE: 0
+[Tue Jan 28 16:33:02 2020] [ERROR] [Employee_work_schedule->process_work_schedule] -> Effectivity date must be after <b>Jan 01, 2020.</b>, FILE: , LINE: 0
+[Tue Jan 28 16:55:06 2020] [ERROR] [Employee_work_schedule->process_work_schedule] -> Effectivity date must be after <b>Jan 01, 2020.</b>, FILE: , LINE: 0
+[Tue Jan 28 16:57:02 2020] [ERROR] [Work_schedule->process] -> 50 character/s for Work Schedule Name, FILE: , LINE: 0
+[Tue Jan 28 17:16:51 2020] [ERROR] [Pds_personal_info->process] -> <b>SSS Number</b> is required. If Not Applicable, put <b>NA</b>., FILE: , LINE: 0
+[Tue Jan 28 17:17:08 2020] [ERROR] [Pds_personal_info->process] -> 8 character/s for GSIS Number, FILE: , LINE: 0
+[Tue Jan 28 17:30:27 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_office_id' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Tue Jan 28 17:30:27 2020] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_office_id' at row 1, FILE: , LINE: 0
+[Tue Jan 28 17:41:00 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_office_id' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Tue Jan 28 17:41:00 2020] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_office_id' at row 1, FILE: , LINE: 0
+[Tue Jan 28 17:53:18 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for Pag-ibig Number, FILE: , LINE: 0
+[Tue Jan 28 17:54:09 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for Pag-ibig Number, FILE: , LINE: 0
+[Tue Jan 28 17:55:09 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Tue Jan 28 17:55:48 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for Pag-ibig Number, FILE: , LINE: 0
+[Tue Jan 28 17:57:23 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for Pag-ibig Number, FILE: , LINE: 0
+[Tue Jan 28 17:59:53 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for Pag-ibig Number, FILE: , LINE: 0
+[Tue Jan 28 18:16:39 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for Pag-ibig Number, FILE: , LINE: 0

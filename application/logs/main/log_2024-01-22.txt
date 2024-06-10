@@ -1,0 +1,52 @@
+[Mon Jan 22 08:31:53 2024] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon Jan 22 08:34:44 2024] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon Jan 22 08:37:37 2024] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Mon Jan 22 08:57:29 2024] [ERROR] [Requests->open_request] -> Sorry, but your current request is invalid. Missing Module ID, FILE: , LINE: 0
+[Mon Jan 22 09:15:56 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Mon Jan 22 09:15:56 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\modules\main\models\Performance_evaluation_model.php, LINE: 204
+[Mon Jan 22 09:15:56 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Mon Jan 22 09:15:56 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\Apache24\htdocs\application\modules\main\models\Performance_evaluation_model.php, LINE: 204
+[Mon Jan 22 10:04:18 2024] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jan 22 10:04:18 2024] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jan 22 10:05:14 2024] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jan 22 10:05:14 2024] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jan 22 10:06:55 2024] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jan 22 10:06:55 2024] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jan 22 10:07:57 2024] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jan 22 10:07:57 2024] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jan 22 10:10:44 2024] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jan 22 10:10:44 2024] [ERROR] [Requests->process_task] -> SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction, FILE: , LINE: 0
+[Mon Jan 22 10:13:24 2024] [ERROR] [Pds_personal_info->process] -> 12 character/s for Pag-ibig Number, FILE: , LINE: 0
+[Mon Jan 22 10:48:41 2024] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 1237, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jan 22 10:48:41 2024] [ERROR] [Requests->process_task] -> SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 1237, FILE: , LINE: 0
+[Mon Jan 22 10:48:54 2024] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 1237, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 968
+[Mon Jan 22 10:48:54 2024] [ERROR] [Requests->process_task] -> SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'tardiness' at row 1237, FILE: , LINE: 0
+[Mon Jan 22 15:42:56 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 185
+[Mon Jan 22 15:42:56 2024] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\Apache24\htdocs\application\modules\main\models\Requests_model.php, LINE: 311
+[Mon Jan 22 17:44:19 2024] [ERROR] [Pds_personal_info->process] -> Invalid input in <b>TIN Number</b>., FILE: , LINE: 0
+[Mon Jan 22 17:44:23 2024] [ERROR] [Pds_personal_info->process] -> Invalid input in <b>TIN Number</b>., FILE: , LINE: 0
+[Mon Jan 22 09:59:58 2024] [EMERGENCY] [] -> Maximum execution time of 7200 seconds exceeded, FILE: C:\Apache24\htdocs\application\core\RLog.php, LINE: 169
+[Mon Jan 22 09:59:58 2024] [EMERGENCY] [] -> Maximum execution time of 7200 seconds exceeded, FILE: C:\Apache24\htdocs\application\core\RLog.php, LINE: 169
+[Mon Jan 22 09:59:58 2024] [EMERGENCY] [] -> Maximum execution time of 7200 seconds exceeded, FILE: C:\Apache24\htdocs\application\core\RLog.php, LINE: 169
+[Mon Jan 22 09:59:58 2024] [EMERGENCY] [] -> Maximum execution time of 7200 seconds exceeded, FILE: C:\Apache24\htdocs\application\core\RLog.php, LINE: 169
+[Mon Jan 22 09:59:58 2024] [EMERGENCY] [] -> Maximum execution time of 7200 seconds exceeded, FILE: C:\Apache24\htdocs\application\core\RLog.php, LINE: 169
+[Mon Jan 22 09:59:58 2024] [EMERGENCY] [] -> Maximum execution time of 7200 seconds exceeded, FILE: C:\Apache24\htdocs\application\core\RLog.php, LINE: 169
+[Mon Jan 22 09:59:58 2024] [EMERGENCY] [] -> Maximum execution time of 7200 seconds exceeded, FILE: C:\Apache24\htdocs\application\core\RLog.php, LINE: 169
+[Mon Jan 22 09:59:58 2024] [EMERGENCY] [] -> Maximum execution time of 7200 seconds exceeded, FILE: C:\Apache24\htdocs\application\core\RLog.php, LINE: 169
+[Mon Jan 22 09:59:58 2024] [EMERGENCY] [] -> Maximum execution time of 7200 seconds exceeded, FILE: C:\Apache24\htdocs\application\core\RLog.php, LINE: 169
+[Mon Jan 22 09:59:58 2024] [EMERGENCY] [] -> Maximum execution time of 7200 seconds exceeded, FILE: C:\Apache24\htdocs\application\core\RLog.php, LINE: 169
+[Mon Jan 22 09:59:58 2024] [EMERGENCY] [] -> Maximum execution time of 7200 seconds exceeded, FILE: C:\Apache24\htdocs\application\core\RLog.php, LINE: 169
+[Mon Jan 22 09:59:58 2024] [EMERGENCY] [] -> Maximum execution time of 7200 seconds exceeded, FILE: C:\Apache24\htdocs\application\core\RLog.php, LINE: 169
+[Mon Jan 22 09:59:58 2024] [EMERGENCY] [] -> Maximum execution time of 7200 seconds exceeded, FILE: C:\Apache24\htdocs\application\core\RLog.php, LINE: 169

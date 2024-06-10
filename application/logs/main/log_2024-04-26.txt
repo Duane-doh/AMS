@@ -1,0 +1,16 @@
+[Fri Apr 26 07:37:41 2024] [ERROR] [Pds_personal_info->process] -> <b>Cellphone Number</b> is required. If Not Applicable, put <b>NA</b>., FILE: , LINE: 0
+[Fri Apr 26 08:14:51 2024] [ERROR] [Biometric_logs->process_csv_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Fri Apr 26 09:34:36 2024] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[HY000]: General error: 1366 Incorrect decimal value: 'NA' for column 'rating' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Fri Apr 26 09:34:36 2024] [ERROR] [Pds_record_changes_requests->process_government_exam] -> SQLSTATE[HY000]: General error: 1366 Incorrect decimal value: 'NA' for column 'rating' at row 1, FILE: , LINE: 0
+[Fri Apr 26 09:34:52 2024] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[HY000]: General error: 1366 Incorrect decimal value: 'NA' for column 'rating' at row 1, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 886
+[Fri Apr 26 09:34:52 2024] [ERROR] [Pds_record_changes_requests->process_government_exam] -> SQLSTATE[HY000]: General error: 1366 Incorrect decimal value: 'NA' for column 'rating' at row 1, FILE: , LINE: 0
+[Fri Apr 26 10:50:12 2024] [ERROR] [Pds_personal_info->process] -> Invalid input in <b>Philhealth Number</b>., FILE: , LINE: 0
+[Fri Apr 26 13:04:19 2024] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')  AND  C.attendance_period_hdr_id = '4811'
+				
+				ORDER BY B.compensation_i' at line 4, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 436
+[Fri Apr 26 13:04:19 2024] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')  AND  C.attendance_period_hdr_id = '4811'
+				
+				ORDER BY B.compensation_i' at line 4, FILE: C:\Apache24\htdocs\application\core\Base_Model.php, LINE: 225
+[Fri Apr 26 13:04:19 2024] [ERROR] [General_payroll_alpha_list_for_jo->generate_report_data] -> SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')  AND  C.attendance_period_hdr_id = '4811'
+				
+				ORDER BY B.compensation_i' at line 4, FILE: C:\Apache24\htdocs\application\modules\main\controllers\reports_payroll\Reports_payroll.php, LINE: 748

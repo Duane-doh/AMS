@@ -1,0 +1,76 @@
+[Thu Jan 30 08:41:30 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Thu Jan 30 08:41:30 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))
+				        
+				GROUP BY attendance_date,remarks
+				ORDER BY attendance_dat' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Thu Jan 30 08:50:37 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`doh_ptis_core`.`notifications`, CONSTRAINT `notifications_ibfk_1` FOREIGN KEY (`notified_by`) REFERENCES `users` (`user_id`) ON DELETE NO ACTION ON UPDATE NO ACTION), FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Thu Jan 30 08:50:37 2020] [ERROR] [Request_notifications->insert_request_notification] -> SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`doh_ptis_core`.`notifications`, CONSTRAINT `notifications_ibfk_1` FOREIGN KEY (`notified_by`) REFERENCES `users` (`user_id`) ON DELETE NO ACTION ON UPDATE NO ACTION), FILE: C:\www\application\modules\main\controllers\Employee_dtr.php, LINE: 1372
+[Thu Jan 30 08:50:37 2020] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`doh_ptis_core`.`notifications`, CONSTRAINT `notifications_ibfk_1` FOREIGN KEY (`notified_by`) REFERENCES `users` (`user_id`) ON DELETE NO ACTION ON UPDATE NO ACTION), FILE: , LINE: 0
+[Thu Jan 30 09:19:15 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 0, 10' at line 9, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Thu Jan 30 09:19:15 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 0, 10' at line 9, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 90
+[Thu Jan 30 09:19:15 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 0, 10' at line 9, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Thu Jan 30 09:19:15 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+	        	ORDER BY  A.agency_employee_id
+					asc
+	        	LIMIT 0, 10' at line 9, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 90
+[Thu Jan 30 09:28:52 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`doh_ptis_core`.`notifications`, CONSTRAINT `notifications_ibfk_1` FOREIGN KEY (`notified_by`) REFERENCES `users` (`user_id`) ON DELETE NO ACTION ON UPDATE NO ACTION), FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Thu Jan 30 09:28:52 2020] [ERROR] [Request_notifications->insert_request_notification] -> SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`doh_ptis_core`.`notifications`, CONSTRAINT `notifications_ibfk_1` FOREIGN KEY (`notified_by`) REFERENCES `users` (`user_id`) ON DELETE NO ACTION ON UPDATE NO ACTION), FILE: C:\www\application\modules\main\controllers\Employee_dtr.php, LINE: 1372
+[Thu Jan 30 09:28:52 2020] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`doh_ptis_core`.`notifications`, CONSTRAINT `notifications_ibfk_1` FOREIGN KEY (`notified_by`) REFERENCES `users` (`user_id`) ON DELETE NO ACTION ON UPDATE NO ACTION), FILE: , LINE: 0
+[Thu Jan 30 10:33:32 2020] [ERROR] [Pds_personal_info->process] -> <b>GSIS Number</b> is required. If Not Applicable, put <b>NA</b>., FILE: , LINE: 0
+[Thu Jan 30 10:33:41 2020] [ERROR] [Pds_personal_info->process] -> <b>Pag-IBIG Number</b> is required. If Not Applicable, put <b>NA</b>., FILE: , LINE: 0
+[Thu Jan 30 10:54:54 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[40001]: Serialization failure: 1213 Deadlock found when trying to get lock; try restarting transaction, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Thu Jan 30 10:54:54 2020] [ERROR] [Pds_model->update_pds_date_accomplished] -> SQLSTATE[40001]: Serialization failure: 1213 Deadlock found when trying to get lock; try restarting transaction, FILE: C:\www\application\modules\main\controllers\Pds_education_info.php, LINE: 399
+[Thu Jan 30 11:22:33 2020] [ERROR] [Pds->display_pds_info] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Thu Jan 30 11:22:34 2020] [ERROR] [Pds->display_pds_info] -> Sorry, you don't have permission to access the page. Please contact the system's administrator., FILE: , LINE: 0
+[Thu Jan 30 11:29:04 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '164325' , '164326'  ))
+				        
+				GROUP' at line 13, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Thu Jan 30 11:29:04 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') OR  employee_attendance_id IN ( '164325' , '164326'  ))
+				        
+				GROUP' at line 13, FILE: C:\www\application\modules\main\models\Daily_time_record_model.php, LINE: 531
+[Thu Jan 30 12:02:06 2020] [ERROR] [Pds_personal_info->process] -> <b>GSIS Number</b> is required. If Not Applicable, put <b>NA</b>., FILE: , LINE: 0
+[Thu Jan 30 13:01:21 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Thu Jan 30 13:34:48 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`doh_ptis_core`.`notifications`, CONSTRAINT `notifications_ibfk_1` FOREIGN KEY (`notified_by`) REFERENCES `users` (`user_id`) ON DELETE NO ACTION ON UPDATE NO ACTION), FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Thu Jan 30 13:34:48 2020] [ERROR] [Request_notifications->insert_request_notification] -> SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`doh_ptis_core`.`notifications`, CONSTRAINT `notifications_ibfk_1` FOREIGN KEY (`notified_by`) REFERENCES `users` (`user_id`) ON DELETE NO ACTION ON UPDATE NO ACTION), FILE: C:\www\application\modules\main\controllers\Employee_dtr.php, LINE: 1372
+[Thu Jan 30 13:34:48 2020] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`doh_ptis_core`.`notifications`, CONSTRAINT `notifications_ibfk_1` FOREIGN KEY (`notified_by`) REFERENCES `users` (`user_id`) ON DELETE NO ACTION ON UPDATE NO ACTION), FILE: , LINE: 0
+[Thu Jan 30 13:36:22 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`doh_ptis_core`.`notifications`, CONSTRAINT `notifications_ibfk_1` FOREIGN KEY (`notified_by`) REFERENCES `users` (`user_id`) ON DELETE NO ACTION ON UPDATE NO ACTION), FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Thu Jan 30 13:36:22 2020] [ERROR] [Request_notifications->insert_request_notification] -> SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`doh_ptis_core`.`notifications`, CONSTRAINT `notifications_ibfk_1` FOREIGN KEY (`notified_by`) REFERENCES `users` (`user_id`) ON DELETE NO ACTION ON UPDATE NO ACTION), FILE: C:\www\application\modules\main\controllers\Employee_dtr.php, LINE: 1372
+[Thu Jan 30 13:36:22 2020] [ERROR] [Employee_dtr->process_manual_adjustment] -> SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`doh_ptis_core`.`notifications`, CONSTRAINT `notifications_ibfk_1` FOREIGN KEY (`notified_by`) REFERENCES `users` (`user_id`) ON DELETE NO ACTION ON UPDATE NO ACTION), FILE: , LINE: 0
+[Thu Jan 30 14:30:41 2020] [ERROR] [Biometric_logs->process_upload] -> PROCESS CHECK!!, FILE: , LINE: 0
+[Thu Jan 30 14:31:08 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[40001]: Serialization failure: 1213 Deadlock found when trying to get lock; try restarting transaction, FILE: C:\www\application\core\Base_Model.php, LINE: 968
+[Thu Jan 30 14:31:08 2020] [ERROR] [Pds_personal_info->process] -> SQLSTATE[40001]: Serialization failure: 1213 Deadlock found when trying to get lock; try restarting transaction, FILE: , LINE: 0
+[Thu Jan 30 14:31:16 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[40001]: Serialization failure: 1213 Deadlock found when trying to get lock; try restarting transaction, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Thu Jan 30 14:31:16 2020] [ERROR] [Pds_model->update_pds_date_accomplished] -> SQLSTATE[40001]: Serialization failure: 1213 Deadlock found when trying to get lock; try restarting transaction, FILE: C:\www\application\modules\main\controllers\Pds_contact_info.php, LINE: 763
+[Thu Jan 30 14:31:46 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[40001]: Serialization failure: 1213 Deadlock found when trying to get lock; try restarting transaction, FILE: C:\www\application\core\Base_Model.php, LINE: 968
+[Thu Jan 30 14:31:46 2020] [ERROR] [Pds_personal_info->process] -> SQLSTATE[40001]: Serialization failure: 1213 Deadlock found when trying to get lock; try restarting transaction, FILE: , LINE: 0
+[Thu Jan 30 14:31:50 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[40001]: Serialization failure: 1213 Deadlock found when trying to get lock; try restarting transaction, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Thu Jan 30 14:31:50 2020] [ERROR] [Pds_model->update_pds_date_accomplished] -> SQLSTATE[40001]: Serialization failure: 1213 Deadlock found when trying to get lock; try restarting transaction, FILE: C:\www\application\modules\main\controllers\Pds_contact_info.php, LINE: 763
+[Thu Jan 30 15:33:22 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\core\Base_Model.php, LINE: 436
+[Thu Jan 30 15:33:22 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\core\Base_Model.php, LINE: 225
+[Thu Jan 30 15:33:22 2020] [ERROR] [Base_Model->rlog_error] -> 413: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2, FILE: C:\www\application\modules\main\models\Deduction_model.php, LINE: 547
+[Thu Jan 30 15:40:14 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Thu Jan 30 17:13:03 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Thu Jan 30 17:30:48 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Thu Jan 30 17:49:11 2020] [ERROR] [Pds_personal_info->process] -> <b>SSS Number</b> is required. If Not Applicable, put <b>NA</b>., FILE: , LINE: 0
+[Thu Jan 30 18:24:38 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Thu Jan 30 18:31:09 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Thu Jan 30 18:36:01 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Thu Jan 30 18:37:48 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Thu Jan 30 18:48:49 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Thu Jan 30 19:10:28 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for Philhealth Number, FILE: , LINE: 0
+[Thu Jan 30 19:10:38 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for Philhealth Number, FILE: , LINE: 0
+[Thu Jan 30 19:11:21 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for Philhealth Number, FILE: , LINE: 0
+[Thu Jan 30 19:12:07 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for Philhealth Number, FILE: , LINE: 0
+[Thu Jan 30 19:12:14 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for Philhealth Number, FILE: , LINE: 0

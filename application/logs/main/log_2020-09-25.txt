@@ -1,0 +1,89 @@
+[Fri Sep 25 07:23:52 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Sep 25 07:23:52 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\www\application\modules\main\models\Performance_evaluation_model.php, LINE: 204
+[Fri Sep 25 07:23:52 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Sep 25 07:23:52 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\www\application\modules\main\models\Performance_evaluation_model.php, LINE: 204
+[Fri Sep 25 09:47:07 2020] [ERROR] [Leave_type->process] -> 50 character/s for Leave Type Name, FILE: , LINE: 0
+[Fri Sep 25 09:47:32 2020] [ERROR] [Leave_type->process] -> 50 character/s for Leave Type Name, FILE: , LINE: 0
+[Fri Sep 25 10:38:48 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Fri Sep 25 11:42:55 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Fri Sep 25 11:48:20 2020] [ERROR] [Pds_personal_info->process] -> <b>Gender</b> is required.<br>, FILE: , LINE: 0
+[Fri Sep 25 11:48:28 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Fri Sep 25 13:15:25 2020] [ERROR] [Pds_personal_info->process] -> Please enter a valid amount in Height., FILE: , LINE: 0
+[Fri Sep 25 13:28:03 2020] [ERROR] [Pds_personal_info->process] -> <b>GSIS Number</b> is required. If Not Applicable, put <b>NA</b>., FILE: , LINE: 0
+[Fri Sep 25 13:42:57 2020] [ERROR] [Pds_personal_info->process] -> <b>GSIS Number</b> is required. If Not Applicable, put <b>NA</b>., FILE: , LINE: 0
+[Fri Sep 25 13:53:21 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_salary_grade' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Fri Sep 25 13:53:21 2020] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_salary_grade' at row 1, FILE: , LINE: 0
+[Fri Sep 25 14:10:13 2020] [ERROR] [Pds_personal_info->process] -> 10 character/s for SSS Number, FILE: , LINE: 0
+[Fri Sep 25 14:18:54 2020] [ERROR] [Pds_personal_info->process] -> <b>Pag-IBIG Number</b> is required. If Not Applicable, put <b>NA</b>., FILE: , LINE: 0
+[Fri Sep 25 15:30:22 2020] [ERROR] [Pds_personal_info->process] -> 10 character/s for SSS Number, FILE: , LINE: 0
+[Fri Sep 25 15:46:50 2020] [ERROR] [Pds_personal_info->process] -> <b>Gender</b> is required.<br>, FILE: , LINE: 0
+[Fri Sep 25 15:48:48 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Fri Sep 25 16:01:14 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for Philhealth Number, FILE: , LINE: 0
+[Fri Sep 25 16:01:18 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Fri Sep 25 16:01:22 2020] [ERROR] [Pds_personal_info->process] -> , FILE: , LINE: 0
+[Fri Sep 25 16:05:49 2020] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[40001]: Serialization failure: 1213 Deadlock found when trying to get lock; try restarting transaction, FILE: C:\www\application\core\Base_Model.php, LINE: 968
+[Fri Sep 25 16:05:49 2020] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[40001]: Serialization failure: 1213 Deadlock found when trying to get lock; try restarting transaction, FILE: , LINE: 0
+[Fri Sep 25 16:06:06 2020] [ERROR] [Pds_personal_info->process] -> <b>GSIS Number</b> is required. If Not Applicable, put <b>NA</b>., FILE: , LINE: 0
+[Fri Sep 25 16:10:52 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Fri Sep 25 16:25:26 2020] [ERROR] [Pds_personal_info->process] -> <b>SSS Number</b> is required. If Not Applicable, put <b>NA</b>., FILE: , LINE: 0
+[Fri Sep 25 16:54:05 2020] [ERROR] [Pds_personal_info->process] -> <b>Pag-IBIG Number</b> is required. If Not Applicable, put <b>NA</b>., FILE: , LINE: 0
+[Fri Sep 25 16:55:38 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Fri Sep 25 17:30:11 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for Philhealth Number, FILE: , LINE: 0
+[Fri Sep 25 17:30:35 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Fri Sep 25 17:41:59 2020] [ERROR] [Pds_personal_info->process] -> , FILE: , LINE: 0
+[Fri Sep 25 17:49:28 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for Pag-ibig Number, FILE: , LINE: 0
+[Fri Sep 25 17:49:52 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Fri Sep 25 17:58:06 2020] [ERROR] [Pds_personal_info->process] -> <b>Pag-IBIG Number</b> is required. If Not Applicable, put <b>NA</b>., FILE: , LINE: 0
+[Fri Sep 25 17:58:12 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for Philhealth Number, FILE: , LINE: 0
+[Fri Sep 25 18:17:55 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Fri Sep 25 18:54:31 2020] [ERROR] [Pds_personal_info->process] -> <b>Agency Employee ID</b> already exists. Try checking the box to generate new ID., FILE: , LINE: 0
+[Fri Sep 25 18:54:39 2020] [ERROR] [Pds_personal_info->process] -> <b>Agency Employee ID</b> already exists. Try checking the box to generate new ID., FILE: , LINE: 0
+[Fri Sep 25 18:55:05 2020] [ERROR] [Pds_personal_info->process] -> <b>Agency Employee ID</b> already exists. Try checking the box to generate new ID., FILE: , LINE: 0
+[Fri Sep 25 18:55:07 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Sep 25 18:55:07 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\www\application\modules\main\models\Performance_evaluation_model.php, LINE: 204
+[Fri Sep 25 18:55:07 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Sep 25 18:55:07 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\www\application\modules\main\models\Performance_evaluation_model.php, LINE: 204
+[Fri Sep 25 18:55:11 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Sep 25 18:55:11 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\www\application\modules\main\models\Performance_evaluation_model.php, LINE: 204
+[Fri Sep 25 18:55:11 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Sep 25 18:55:11 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\www\application\modules\main\models\Performance_evaluation_model.php, LINE: 204
+[Fri Sep 25 18:55:15 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Sep 25 18:55:15 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\www\application\modules\main\models\Performance_evaluation_model.php, LINE: 204
+[Fri Sep 25 18:55:15 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Fri Sep 25 18:55:15 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+				GROUP BY A.employee_id, A.agency_employee_id,fullname, E.name, D.employmen' at line 9, FILE: C:\www\application\modules\main\models\Performance_evaluation_model.php, LINE: 204
+[Fri Sep 25 18:55:17 2020] [ERROR] [Pds_personal_info->process] -> <b>Agency Employee ID</b> already exists. Try checking the box to generate new ID., FILE: , LINE: 0
+[Fri Sep 25 18:56:24 2020] [ERROR] [Pds_personal_info->process] -> <b>Agency Employee ID</b> already exists. Try checking the box to generate new ID., FILE: , LINE: 0
+[Fri Sep 25 19:05:44 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Fri Sep 25 19:17:26 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for Philhealth Number, FILE: , LINE: 0
+[Fri Sep 25 19:17:31 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for Philhealth Number, FILE: , LINE: 0
+[Fri Sep 25 19:31:40 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Fri Sep 25 19:36:51 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Fri Sep 25 19:39:02 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Fri Sep 25 19:39:32 2020] [ERROR] [Pds_personal_info->process] -> 10 character/s for SSS Number, FILE: , LINE: 0
+[Fri Sep 25 19:40:32 2020] [ERROR] [Pds_personal_info->process] -> 100 character/s for Residential Address, FILE: , LINE: 0
+[Fri Sep 25 19:40:37 2020] [ERROR] [Pds_personal_info->process] -> 100 character/s for Residential Address, FILE: , LINE: 0
+[Fri Sep 25 19:41:19 2020] [ERROR] [Pds_personal_info->process] -> 100 character/s for Permanent Address, FILE: , LINE: 0
+[Fri Sep 25 19:42:40 2020] [ERROR] [Pds_personal_info->process] -> <b>Agency Employee ID</b> already exists. Try checking the box to generate new ID., FILE: , LINE: 0
+[Fri Sep 25 19:42:52 2020] [ERROR] [Pds_personal_info->process] -> <b>Agency Employee ID</b> already exists. Try checking the box to generate new ID., FILE: , LINE: 0
+[Fri Sep 25 19:43:55 2020] [ERROR] [Pds_personal_info->process] -> , FILE: , LINE: 0
+[Fri Sep 25 19:54:48 2020] [ERROR] [Pds_personal_info->process] -> Invalid input in <b>SSS Number</b>., FILE: , LINE: 0
+[Fri Sep 25 19:54:57 2020] [ERROR] [Pds_personal_info->process] -> Invalid input in <b>SSS Number</b>., FILE: , LINE: 0
+[Fri Sep 25 19:57:12 2020] [ERROR] [Pds_personal_info->process] -> 10 character/s for SSS Number, FILE: , LINE: 0
+[Fri Sep 25 19:57:26 2020] [ERROR] [Pds_personal_info->process] -> 10 character/s for SSS Number, FILE: , LINE: 0
+[Fri Sep 25 20:56:18 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for Pag-ibig Number, FILE: , LINE: 0

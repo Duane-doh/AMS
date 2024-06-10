@@ -21,7 +21,7 @@ $pass_data['initial']   = TRUE;
 <!DOCTYPE html>
 <html>
 <head>
-  <title>PTIS<?php //echo get_setting(GENERAL, "system_title") ?></title>
+  <title>AMS<?php //echo get_setting(GENERAL, "system_title") ?></title>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -100,7 +100,7 @@ $pass_data['initial']   = TRUE;
                             <!--<img src="<?php //echo base_url().PATH_IMAGES ?>template_doh_images/header_flag.png" class="flag"/>-->
                             <h6 id="header-text1">Republic of the Philippines</h6>
                             <h6 id="header-text2">DEPARTMENT OF HEALTH</h6>
-                            <h6 id="header-text3">ATTENDANCE MANAGEMENT SYSTEM</h6>
+                            <h6 id="header-text3">ATTENDANCE MONITORING SYSTEM</h6>
                           </a>
                         </li>
                       </ul>

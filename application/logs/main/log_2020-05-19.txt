@@ -1,0 +1,25 @@
+[Tue May 19 08:15:47 2020] [ERROR] [Pds_personal_info->process] -> 12 character/s for TIN Number, FILE: , LINE: 0
+[Tue May 19 08:45:59 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'employ_type_flag' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Tue May 19 08:45:59 2020] [ERROR] [Salary_schedule->process] -> SQLSTATE[01000]: Warning: 1265 Data truncated for column 'employ_type_flag' at row 1, FILE: , LINE: 0
+[Tue May 19 08:47:52 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Tue May 19 08:47:52 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\www\application\modules\main\models\Requests_model.php, LINE: 286
+[Tue May 19 08:47:52 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\www\application\core\Base_Model.php, LINE: 185
+[Tue May 19 08:47:52 2020] [ERROR] [Base_Model->rlog_error] -> 172: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+					GROUP BY A.request_id
+					ORDER BY  A.date_requested
+					desc
+					' at line 10, FILE: C:\www\application\modules\main\models\Requests_model.php, LINE: 286
+[Tue May 19 09:05:05 2020] [ERROR] [Base_Model->rlog_error] -> 873: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'employ_type_flag' at row 1, FILE: C:\www\application\core\Base_Model.php, LINE: 886
+[Tue May 19 09:05:05 2020] [ERROR] [Salary_schedule->process] -> SQLSTATE[01000]: Warning: 1265 Data truncated for column 'employ_type_flag' at row 1, FILE: , LINE: 0

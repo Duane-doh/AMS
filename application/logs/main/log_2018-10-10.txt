@@ -1,0 +1,10 @@
+[Wed Oct 10 09:23:50 2018] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_position_id' at row 27399, FILE: C:\www\application\core\Base_Model.php, LINE: 968
+[Wed Oct 10 09:23:50 2018] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_position_id' at row 27399, FILE: , LINE: 0
+[Wed Oct 10 09:24:30 2018] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_position_id' at row 27399, FILE: C:\www\application\core\Base_Model.php, LINE: 968
+[Wed Oct 10 09:24:30 2018] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_position_id' at row 27399, FILE: , LINE: 0
+[Wed Oct 10 09:25:03 2018] [ERROR] [Base_Model->rlog_error] -> 963: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_salary_step' at row 27399, FILE: C:\www\application\core\Base_Model.php, LINE: 968
+[Wed Oct 10 09:25:03 2018] [ERROR] [Pds_work_experience_info->process_work_experience_doh] -> SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'employ_salary_step' at row 27399, FILE: , LINE: 0
+[Wed Oct 10 16:38:47 2018] [ERROR] [Base_Model::rlog_error] -> 619: Invalid syntax validation for A.payroll_type_id, FILE: C:\www\application\core\Base_Model.php, LINE: 782
+[Wed Oct 10 16:38:47 2018] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for A.payroll_type_id, FILE: C:\www\application\core\Base_Model.php, LINE: 523
+[Wed Oct 10 16:38:47 2018] [ERROR] [Base_Model->rlog_error] -> 619: Invalid syntax validation for A.payroll_type_id, FILE: C:\www\application\modules\main\models\Reports_payroll_model.php, LINE: 857
+[Wed Oct 10 16:40:49 2018] [ERROR] [Payroll_remittance->process_remittance] -> No record to process. Please contact the system administrator., FILE: , LINE: 0
