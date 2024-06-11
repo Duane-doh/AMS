@@ -59,6 +59,10 @@ EOS;
 				  ON A.status_id = B.status_id
 				JOIN $this->user_roles_table C
 				  ON A.user_id = C.user_id
+				  AND C.user_id NOT IN (					
+					SELECT user_id FROM user_roles WHERE 
+				  role_code IN ('SUPER_USER', 'SUPER_ADMIN')
+					AND user_id IN (SELECT user_id FROM user_roles WHERE user_id = C.user_id HAVING COUNT(*) = 2) )
 				WHERE A.status_id NOT IN (?,?,?,?)
 				AND A.user_id != ?
 				$filter_str
@@ -68,7 +72,7 @@ EOS;
 EOS;
 			// ====================== jendaigo : start : include user_role_table in the query ============= //
 			$val = array_merge($val,$filter_params);
-
+			//  echo"<pre>";print_r($query);print_r($val);die();
 			$stmt = $this->query($query, $val, TRUE);
 			return $stmt;
 

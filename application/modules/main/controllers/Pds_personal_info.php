@@ -309,7 +309,7 @@ class Pds_personal_info extends Main_Controller {
 				$where['UPPER(last_name)']  = strtoupper($params['last_name']);
 				$where['UPPER(first_name)'] = strtoupper($params['first_name']);
 				$where['UPPER(middle_name)']= strtoupper($params['middle_name']); // ncocampo
-				$where['birth_date']        = format_date($params['birth_date'],'Y-m-d');
+				// $where['birth_date']        = format_date($params['birth_date'],'Y-m-d');
 				$duplicate_record           = $this->pds->get_general_data($field, $table, $where);
 
 				// NCOCAMPO : CHECKS IF WITH DUPLICATE EID OR LNAME, FNAME & MNAME : START
@@ -340,69 +340,69 @@ class Pds_personal_info extends Main_Controller {
 			$fields['first_name']         	= $valid_data["first_name"];
 			$fields['last_name']          	= $valid_data["last_name"];
 			$fields['middle_name']        	= $valid_data["middle_name"];
-			$fields['ext_name']           	= $valid_data["ext_name"];
-			$fields['birth_date']         	= $valid_data["birth_date"];
-			$fields['birth_place']        	= $valid_data["birth_place"];
-			$fields['gender_code']        	= $valid_data["gender"];
-			$fields['civil_status_id']    	= $valid_data["civil_status"];
-			$fields['citizenship_id']     	= $valid_data["citizenships"];
-			$fields['citizenship_basis_id'] = $valid_data["citizenship_basis"];
-			$fields['height']             	= $valid_data["height"];
-			$fields['weight']             	= $valid_data["weight"];
-			$fields['blood_type_id']      	= $valid_data["blood_type"];				
+			// $fields['ext_name']           	= $valid_data["ext_name"];
+			// $fields['birth_date']         	= $valid_data["birth_date"];
+			// $fields['birth_place']        	= $valid_data["birth_place"];
+			// $fields['gender_code']        	= $valid_data["gender"];
+			// $fields['civil_status_id']    	= $valid_data["civil_status"];
+			// $fields['citizenship_id']     	= $valid_data["citizenships"];
+			// $fields['citizenship_basis_id'] = $valid_data["citizenship_basis"];
+			// $fields['height']             	= $valid_data["height"];
+			// $fields['weight']             	= $valid_data["weight"];
+			// $fields['blood_type_id']      	= $valid_data["blood_type"];				
 			
-			$fields_identification   = array();
-			$fields_identification[0]['identification_value']   = $valid_data['tin_value'];
-			$fields_identification[1]['identification_value']   = !EMPTY($valid_data['sss_value']) ? $valid_data['sss_value'] : '';
-			$fields_identification[2]['identification_value']   = $valid_data['gsis_value'];
-			$fields_identification[3]['identification_value']   = $valid_data['pagibig_value'];
-			$fields_identification[4]['identification_value']   = $valid_data['philhealth_value'];
+			// $fields_identification   = array();
+			// $fields_identification[0]['identification_value']   = $valid_data['tin_value'];
+			// $fields_identification[1]['identification_value']   = !EMPTY($valid_data['sss_value']) ? $valid_data['sss_value'] : '';
+			// $fields_identification[2]['identification_value']   = $valid_data['gsis_value'];
+			// $fields_identification[3]['identification_value']   = $valid_data['pagibig_value'];
+			// $fields_identification[4]['identification_value']   = $valid_data['philhealth_value'];
 			
-			//IDENTIFICATION ID
-			$fields_identification[0]['identification_type_id'] = TIN_TYPE_ID;
-			$fields_identification[1]['identification_type_id'] = SSS_TYPE_ID;
-			$fields_identification[2]['identification_type_id'] = GSIS_TYPE_ID;
-			$fields_identification[3]['identification_type_id'] = PAGIBIG_TYPE_ID;
-			$fields_identification[4]['identification_type_id'] = PHILHEALTH_TYPE_ID;
+			// //IDENTIFICATION ID
+			// $fields_identification[0]['identification_type_id'] = TIN_TYPE_ID;
+			// $fields_identification[1]['identification_type_id'] = SSS_TYPE_ID;
+			// $fields_identification[2]['identification_type_id'] = GSIS_TYPE_ID;
+			// $fields_identification[3]['identification_type_id'] = PAGIBIG_TYPE_ID;
+			// $fields_identification[4]['identification_type_id'] = PHILHEALTH_TYPE_ID;
 			
 			//CONTACT INFORMATION
 			$fields_contact = array();
 
-			$fields_contact[0]['contact_value']   = str_replace(CONTACT_SEPARATOR, '', $valid_data["telephone_residential_value"]);
-			$fields_contact[1]['contact_value']   = $valid_data["email_value"];
-			$fields_contact[2]['contact_value']   = str_replace(CONTACT_SEPARATOR, '', $valid_data["telephone_permanent_value"]);
-			$fields_contact[3]['contact_value']   = str_replace(CONTACT_SEPARATOR, '', $valid_data["cellphone_value"]);
+			// $fields_contact[0]['contact_value']   = str_replace(CONTACT_SEPARATOR, '', $valid_data["telephone_residential_value"]);
+			// $fields_contact[1]['contact_value']   = $valid_data["email_value"];
+			// $fields_contact[2]['contact_value']   = str_replace(CONTACT_SEPARATOR, '', $valid_data["telephone_permanent_value"]);
+			// $fields_contact[3]['contact_value']   = str_replace(CONTACT_SEPARATOR, '', $valid_data["cellphone_value"]);
 			
-			$fields_contact[0]['contact_type_id'] = PERMANENT_NUMBER;
-			$fields_contact[1]['contact_type_id'] = EMAIL;
-			$fields_contact[2]['contact_type_id'] = RESIDENTIAL_NUMBER;
-			$fields_contact[3]['contact_type_id'] = MOBILE_NUMBER;
+			// $fields_contact[0]['contact_type_id'] = PERMANENT_NUMBER;
+			// $fields_contact[1]['contact_type_id'] = EMAIL;
+			// $fields_contact[2]['contact_type_id'] = RESIDENTIAL_NUMBER;
+			// $fields_contact[3]['contact_type_id'] = MOBILE_NUMBER;
 			
-			//ADDRESS INFORMATION 
-			$fields_address    = array();
+			// //ADDRESS INFORMATION 
+			// $fields_address    = array();
 			
-			$str_residential   = $params["municipality_residential"];
-			$codes_residential = explode(' ',$str_residential);
+			// $str_residential   = $params["municipality_residential"];
+			// $codes_residential = explode(' ',$str_residential);
 
-			$fields_address[0]['barangay_code'] = $params['barangay_residential'];
-			$fields_address[0]['municity_code'] = $params['municipalities_residential'];
-			$fields_address[0]['province_code'] = $params['province_residential'];
-			$fields_address[0]['region_code']   = $params['region_residential'];
-			$fields_address[0]['address_value'] = $params["residential_house_num"]."|".$params["residential_street_name"]."|".$params["residential_subdivision_name"];	
-			$fields_address[0]['postal_number'] = $valid_data["residential_zip_code"];
+			// $fields_address[0]['barangay_code'] = $params['barangay_residential'];
+			// $fields_address[0]['municity_code'] = $params['municipalities_residential'];
+			// $fields_address[0]['province_code'] = $params['province_residential'];
+			// $fields_address[0]['region_code']   = $params['region_residential'];
+			// $fields_address[0]['address_value'] = $params["residential_house_num"]."|".$params["residential_street_name"]."|".$params["residential_subdivision_name"];	
+			// $fields_address[0]['postal_number'] = $valid_data["residential_zip_code"];
 
-			$str_permanent   = $params["municipality_permanent"];
-			$codes_permanent = explode(' ',$str_permanent);
+			// $str_permanent   = $params["municipality_permanent"];
+			// $codes_permanent = explode(' ',$str_permanent);
 
-			$fields_address[1]['barangay_code'] = $params['barangay_permanent'];
-			$fields_address[1]['municity_code'] = $params['municipalities_permanent'];
-			$fields_address[1]['province_code'] = $params['province_permanent'];
-			$fields_address[1]['region_code']   = $params['region_permanent'];
-			$fields_address[1]['address_value'] = $params["permanent_house_num"]."|".$params["permanent_street_name"]."|".$params["permanent_subdivision_name"];	
-			$fields_address[1]['postal_number'] = $valid_data["permanent_zip_code"];
+			// $fields_address[1]['barangay_code'] = $params['barangay_permanent'];
+			// $fields_address[1]['municity_code'] = $params['municipalities_permanent'];
+			// $fields_address[1]['province_code'] = $params['province_permanent'];
+			// $fields_address[1]['region_code']   = $params['region_permanent'];
+			// $fields_address[1]['address_value'] = $params["permanent_house_num"]."|".$params["permanent_street_name"]."|".$params["permanent_subdivision_name"];	
+			// $fields_address[1]['postal_number'] = $valid_data["permanent_zip_code"];
 
-			$fields_address[0]['address_type_id'] = RESIDENTIAL_ADDRESS;
-			$fields_address[1]['address_type_id'] = PERMANENT_ADDRESS;
+			// $fields_address[0]['address_type_id'] = RESIDENTIAL_ADDRESS;
+			// $fields_address[1]['address_type_id'] = PERMANENT_ADDRESS;
 
 			Main_Model::beginTransaction();
 
@@ -829,67 +829,67 @@ class Pds_personal_info extends Main_Controller {
 		{
 			$fields 							   = array();
 			$fields['agency_employee_id']          = "Employee Number";
-			$fields['biometric_pin']               = "Biometric Pin";
+			// $fields['biometric_pin']               = "Biometric Pin";
 			$fields['first_name']                  = "First Name";
 			$fields['last_name']                   = "Last Name";
 			$fields['middle_name']                 = "Middle Name";
-			$fields['birth_date']                  = "Birth Date";
-			$fields['birth_place']                 = "Birth Place";
-			$fields['gender']                      = "Gender";
-			$fields['civil_status']                = "Civil Status";
-			$fields['citizenships']                = "Citizenship";
-			if ($params['citizenships'] != CITIZENSHIP_FILIPINO )
-				$fields['citizenship_basis']       = "Basis of Citizenship";
-			$fields['height']                      = "Height";
-			$fields['weight']                      = "Weight";
-			$fields['blood_type']                  = "Blood Type";
-			$fields['email_value']                 = "Email";
-			$fields['province_residential']        = "Residential Province";
-			$fields['municipalities_residential']  = "Residential Municipality";
-			$fields['barangay_residential']        = "Residential Barangay";
-			$fields['residential_house_num']       = "Residential House/ Block/ Lot Number";
-			$fields['residential_street_name']     = "Residential Street";
-			$fields['residential_subdivision_name']= "Residential Subdivision/ Village";
-			$fields['residential_zip_code']        = "Residential Zip Code";
-			$fields['province_permanent']          = "Permanent Province";
-			$fields['municipalities_permanent']    = "Permanent Municipality";
-			$fields['barangay_permanent']          = "Permanent Barangay";
-			$fields['permanent_house_num']         = "Permanent House/ Block/ Lot Number";
-			$fields['permanent_street_name']       = "Permanent Street";
-			$fields['permanent_subdivision_name']  = "Permanent Subdivision/ Village";
-			$fields['permanent_zip_code']          = "Permanent Zip Code";
+			// $fields['birth_date']                  = "Birth Date";
+			// $fields['birth_place']                 = "Birth Place";
+			// $fields['gender']                      = "Gender";
+			// $fields['civil_status']                = "Civil Status";
+			// $fields['citizenships']                = "Citizenship";
+			// if ($params['citizenships'] != CITIZENSHIP_FILIPINO )
+				// $fields['citizenship_basis']       = "Basis of Citizenship";
+			// $fields['height']                      = "Height";
+			// $fields['weight']                      = "Weight";
+			// $fields['blood_type']                  = "Blood Type";
+			// $fields['email_value']                 = "Email";
+			// $fields['province_residential']        = "Residential Province";
+			// $fields['municipalities_residential']  = "Residential Municipality";
+			// $fields['barangay_residential']        = "Residential Barangay";
+			// $fields['residential_house_num']       = "Residential House/ Block/ Lot Number";
+			// $fields['residential_street_name']     = "Residential Street";
+			// $fields['residential_subdivision_name']= "Residential Subdivision/ Village";
+			// $fields['residential_zip_code']        = "Residential Zip Code";
+			// $fields['province_permanent']          = "Permanent Province";
+			// $fields['municipalities_permanent']    = "Permanent Municipality";
+			// $fields['barangay_permanent']          = "Permanent Barangay";
+			// $fields['permanent_house_num']         = "Permanent House/ Block/ Lot Number";
+			// $fields['permanent_street_name']       = "Permanent Street";
+			// $fields['permanent_subdivision_name']  = "Permanent Subdivision/ Village";
+			// $fields['permanent_zip_code']          = "Permanent Zip Code";
 
 			// $fields['residential_address_value']   = "Residential Address";
 			// $fields['permanent_address_value']     = "Permanent Address";
 			// $param['municipality_residential']     = "Residential Municipality";
 			// $param['municipality_permanent']       = "Permanent Municipality";
 
-			if(EMPTY($params['gsis_value']))
-			{
-				throw new Exception('<b>GSIS Number</b>' . $this->lang->line('not_applicable'));
-			}
-			if(EMPTY($params['pagibig_value']))
-			{
-				throw new Exception('<b>Pag-IBIG Number</b>' . $this->lang->line('not_applicable'));
-			}
-			if(EMPTY($params['philhealth_value']))
-			{
-				throw new Exception('<b>Philhealth Number</b>' . $this->lang->line('not_applicable'));
-			}
-			if(EMPTY($params['sss_value']))
-			{
-				throw new Exception('<b>SSS Number</b>' . $this->lang->line('not_applicable'));
-			}
-			if(EMPTY($params['tin_value']))
-			{
-				throw new Exception('<b>TIN Number</b>' . $this->lang->line('not_applicable'));
-			}
+			// if(EMPTY($params['gsis_value']))
+			// {
+			// 	throw new Exception('<b>GSIS Number</b>' . $this->lang->line('not_applicable'));
+			// }
+			// if(EMPTY($params['pagibig_value']))
+			// {
+			// 	throw new Exception('<b>Pag-IBIG Number</b>' . $this->lang->line('not_applicable'));
+			// }
+			// if(EMPTY($params['philhealth_value']))
+			// {
+			// 	throw new Exception('<b>Philhealth Number</b>' . $this->lang->line('not_applicable'));
+			// }
+			// if(EMPTY($params['sss_value']))
+			// {
+			// 	throw new Exception('<b>SSS Number</b>' . $this->lang->line('not_applicable'));
+			// }
+			// if(EMPTY($params['tin_value']))
+			// {
+			// 	throw new Exception('<b>TIN Number</b>' . $this->lang->line('not_applicable'));
+			// }
 
 			//NCOCAMPO: NOTIFICATION ADDED :START
-			if(EMPTY($params['cellphone_value']))
-			{
-				throw new Exception('<b>Cellphone Number</b>' . $this->lang->line('not_applicable'));
-			}
+			// if(EMPTY($params['cellphone_value']))
+			// {
+			// 	throw new Exception('<b>Cellphone Number</b>' . $this->lang->line('not_applicable'));
+			// }
 			//NCOCAMPO: NOTIFICATION ADDED :END
 
 			/*if(EMPTY($params['telephone_residential_value']))
@@ -915,49 +915,49 @@ class Pds_personal_info extends Main_Controller {
 	{
 		try
 		{
-			// CHECK "NA" OR "N/A" FOR IDENTIFICATION NUMBERS
-			$gsis_str 		= str_replace("-", "", $params['gsis_value']);
-			$gsis_valid 	= $this->check_na($gsis_str);
-			if(!$gsis_valid)
-			{
-				throw new Exception('Invalid input in <b>GSIS Number</b>.');
-			}
+			// // CHECK "NA" OR "N/A" FOR IDENTIFICATION NUMBERS
+			// $gsis_str 		= str_replace("-", "", $params['gsis_value']);
+			// $gsis_valid 	= $this->check_na($gsis_str);
+			// if(!$gsis_valid)
+			// {
+			// 	throw new Exception('Invalid input in <b>GSIS Number</b>.');
+			// }
 			
-			$sss_str 		= str_replace("-", "", $params['sss_value']);
-			$sss_valid		= $this->check_na($sss_str);
-			if(!$sss_valid)
-			{
-				throw new Exception('Invalid input in <b>SSS Number</b>.');
-			}
+			// $sss_str 		= str_replace("-", "", $params['sss_value']);
+			// $sss_valid		= $this->check_na($sss_str);
+			// if(!$sss_valid)
+			// {
+			// 	throw new Exception('Invalid input in <b>SSS Number</b>.');
+			// }
 
-			$tin_str 		= str_replace("-", "", $params['tin_value']);
-			$tin_valid		= $this->check_na($tin_str);
-			if(!$tin_valid)
-			{
-				throw new Exception('Invalid input in <b>TIN Number</b>.');
-			}
+			// $tin_str 		= str_replace("-", "", $params['tin_value']);
+			// $tin_valid		= $this->check_na($tin_str);
+			// if(!$tin_valid)
+			// {
+			// 	throw new Exception('Invalid input in <b>TIN Number</b>.');
+			// }
 
-			$phil_str 		= str_replace("-", "", $params['philhealth_value']);
-			$phil_valid		= $this->check_na($phil_str);
-			if(!$phil_valid)
-			{
-				throw new Exception('Invalid input in <b>Philhealth Number</b>.');
-			}
+			// $phil_str 		= str_replace("-", "", $params['philhealth_value']);
+			// $phil_valid		= $this->check_na($phil_str);
+			// if(!$phil_valid)
+			// {
+			// 	throw new Exception('Invalid input in <b>Philhealth Number</b>.');
+			// }
 
-			$pagibig_str 		= str_replace("-", "", $params['pagibig_value']);
-			$pagibig_valid		= $this->check_na($pagibig_str);
-			if(!$pagibig_valid)
-			{
-				throw new Exception('Invalid input in <b>Pag-IBIG Number</b>.');
-			}
+			// $pagibig_str 		= str_replace("-", "", $params['pagibig_value']);
+			// $pagibig_valid		= $this->check_na($pagibig_str);
+			// if(!$pagibig_valid)
+			// {
+			// 	throw new Exception('Invalid input in <b>Pag-IBIG Number</b>.');
+			// }
 
-			//NCOCAMPO:CHECK "NA" OR "N/A" FOR CONTACT NUMBERS :START
-			$cellphone_number_str 		= str_replace("-", "", $params['cellphone_value']);
-			$cellphone_number_valid		= $this->check_na($cellphone_number_str);
-			if(!$cellphone_number_valid)
-			{
-				throw new Exception('Invalid input in <b>Cellphone Number</b>.');
-			}
+			// //NCOCAMPO:CHECK "NA" OR "N/A" FOR CONTACT NUMBERS :START
+			// $cellphone_number_str 		= str_replace("-", "", $params['cellphone_value']);
+			// $cellphone_number_valid		= $this->check_na($cellphone_number_str);
+			// if(!$cellphone_number_valid)
+			// {
+			// 	throw new Exception('Invalid input in <b>Cellphone Number</b>.');
+			// }
 			//NCOCAMPO:CHECK "NA" OR "N/A" FOR CONTACT NUMBERS :END	
 
 			// $perm_tel_str 		= str_replace("-", "", $params['telephone_permanent_value']);
