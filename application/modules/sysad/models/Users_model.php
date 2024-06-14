@@ -101,7 +101,7 @@ EOS;
 
 //=================NCOCAMPO:IF DEPARTMENT/AGENCY = NULL: GET THE ACTIVE WORK EXPERIENCE OFFICE :START 11/15/2023=================
 $query = <<<EOS
-				SELECT A.*, GROUP_CONCAT(B.role_code SEPARATOR ',') roles, F.employ_office_name org_name, G.org_code, H.contact_value email
+				SELECT A.*, GROUP_CONCAT(B.role_code SEPARATOR ',') roles, F.employ_office_name org_name, A.org_code, H.contact_value email
 
 				FROM $this->user_table A
 				JOIN $this->user_roles_table B ON  A.user_id = B.user_id
