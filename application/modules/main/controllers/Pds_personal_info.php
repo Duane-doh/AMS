@@ -340,7 +340,7 @@ class Pds_personal_info extends Main_Controller {
 			$fields['first_name']         	= $valid_data["first_name"];
 			$fields['last_name']          	= $valid_data["last_name"];
 			$fields['middle_name']        	= $valid_data["middle_name"];
-			// $fields['ext_name']           	= $valid_data["ext_name"];
+			$fields['ext_name']           	= $valid_data["ext_name"];
 			// $fields['birth_date']         	= $valid_data["birth_date"];
 			// $fields['birth_place']        	= $valid_data["birth_place"];
 			// $fields['gender_code']        	= $valid_data["gender"];
